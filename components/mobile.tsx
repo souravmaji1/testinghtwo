@@ -121,11 +121,8 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.rectangleDiv} />
         <GenericMobileNavbar />
-        <div style={fourthFont.style} className={styles.unveilingANew1}>
-          {" "}
-          {t("firsthead")}{" "}
-        </div>
-        <div style={myFont.style} className={styles.discoverTheRwfa}>
+        
+        <div style={myFont.style} className={`${styles.discoverTheRwfa} text-4xl`}>
           {" "}
           {t("secondhead")}{" "}
         </div>

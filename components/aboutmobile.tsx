@@ -59,6 +59,7 @@ import Pl from "../public/P&L.png";
 import Networth from "../public/Net-worth.png";
 import Copyright from "../public/Copy Right 2023 - CMax. All Rights Reserved.png";
 import LanguageSelector from "./mobilelang";
+import GenericMobileNavbar from "./mobileGenericNavbar";
 
 const ProfileIPadPro1294: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
@@ -89,11 +90,8 @@ const ProfileIPadPro1294: NextPage = () => {
     <>
       <div className={styles.profileIpadPro1294}>
         <div className={styles.profileIpadPro1294Child} />
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
 
-        <div className={styles.languageone}>
-          <LanguageSelector />
-        </div>
+        
 
         <div className={styles.rectangleParent}>
           <div className={styles.groupChild} />
@@ -131,9 +129,7 @@ const ProfileIPadPro1294: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.aboutParent} onClick={openMenuIPadPro1291}>
-          <Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
-        </div>
+        
         <div className={styles.hiSebastianMathewContainer}>
           <p style={myFont.style} className={styles.hi}>
             Hi,
@@ -385,6 +381,7 @@ const ProfileIPadPro1294: NextPage = () => {
           <MenuIPadPro1291 />
         </PortalPopup>
       )}
+      <GenericMobileNavbar />
     </>
   );
 };
