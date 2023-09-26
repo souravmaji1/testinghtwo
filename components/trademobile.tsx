@@ -167,9 +167,7 @@ const TradeIPadPro1292:NextPage = () => {
       			</div>
       			</Link>
       			<div className={styles.tradeGroup} onClick={openMenuIPadPro1291}>
-        				<div style={secondFont.style} className={styles.div}>
-							<Image src={Trads} alt='' />
-						</div>
+        				
         				<Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
       			</div>
       			<div className={styles.rectangleContainer} onClick={onGroupContainer7Click}>

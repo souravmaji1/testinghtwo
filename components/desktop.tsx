@@ -10,6 +10,8 @@ import ItalianFlag from "../public/italian.png";
 import RussanFlag from "../public/russain.png";
 import ArbaianFlag from "../public/arabian.png";
 
+import GenericNavbar from "./GenericNavBar";
+
 const myFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
 });

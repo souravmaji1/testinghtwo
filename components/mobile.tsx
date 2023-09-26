@@ -106,6 +106,7 @@ const HomeIPadPro1291:NextPage = () => {
   	
   	return (<>
     		<div className={styles.homeIpadPro1291}>
+				
       			<Image className={styles.homeIpadPro1291Child} alt="" src={Flower} />
       			<Image className={styles.homeIpadPro1291Item} alt="" src={Circ} />
       			<Image className={styles.homeIpadPro1291Inner} alt="" src={Leftcir} />
@@ -120,9 +121,7 @@ const HomeIPadPro1291:NextPage = () => {
 				
       			<div className={styles.homeParent} onClick={openMenuIPadPro1291}>
 				  
-        				<div style={secondFont.style}  className={styles.home}>
-							<Image src={Homd} alt='' />
-						</div>
+        				
         				<Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
       			</div>
       			<div  style={fourthFont.style} className={styles.unveilingANew1}> {t("firsthead")}  </div>

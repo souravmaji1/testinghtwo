@@ -47,12 +47,12 @@
     line-height: 30px;
     color: #fff;
     display: inline-block;
-    width: 863px;
+    width: 85%;
 }
 .groupChild {
     position: absolute;
     top: 202px;
-    left: 313px;
+    left: 30%;
     width: 292.33px;
     height: 50px;
     object-fit: cover;
@@ -70,7 +70,7 @@
 .maskGroupIcon {
     position: absolute;
     top: 26px;
-    left: 62.76px;
+    left: 2%;
     width: 90.24px;
     height: 87.25px;
     object-fit: cover;
@@ -89,7 +89,7 @@
 .homeParent {
     position: absolute;
     top: 60px;
-    left: 158px;
+    left: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -125,14 +125,14 @@
 .mingcutewallet4FillParent{
     position: absolute;
     top: 45px;
-    left: 564px;
+    left: 60%;
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     display: flex;
     flex-direction: row;
-    padding: 9px 16px;
+    padding: 0.5vh 1vw;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -608,7 +608,7 @@
     left: 72px;
     border-radius: 8px;
     background-color: #282531;
-    width: 430px;
+    width: 85%;
     height: 80px;
     font-size: 22px;
 }
@@ -639,7 +639,7 @@
     left: 72px;
     border-radius: 8px;
     background-color: #282531;
-    width: 430px;
+    width: 85%;
     height: 80px;
     font-size: 22px;
 }
@@ -659,7 +659,7 @@
     left: 72px;
     border-radius: 8px;
     background-color: #282531;
-    width: 430px;
+    width: 85%;
     height: 80px;
     font-size: 22px;
 }
@@ -721,6 +721,7 @@
         gap: 10px;
         font-size: 14px;
         color: #1f1330;
+        margin-top: -0.5%;
     }
     .mingcutewallet4FillLang {
         position: absolute;
@@ -748,7 +749,7 @@
         position: absolute;
     bottom: 51px;
     left: 61px;
-    width: 720px;
+    width: 65%;
     height: 249px;
     }
     .joinOurCommunityParent{
@@ -839,7 +840,7 @@
     .mingcutewallet4FillParent{
         position: absolute;
         top: 45px;
-        left: 480.5px;
+        left: 55%;
         border-radius: 10px;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-backdrop-filter: blur(12px);

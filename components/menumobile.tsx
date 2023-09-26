@@ -10,7 +10,20 @@ import Image from 'next/image';
 import Headlogo from '../public/logs.png';
 import { ConnectWallet } from '@thirdweb-dev/react';
 import Wallet from '../public/mingcute_wallet-4-fill.svg';
+import localFont from 'next/font/local';
 
+const myFont = localFont({
+	src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+  });
+  const secondFont = localFont({
+	src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
+  });
+  const thirdFont = localFont({
+	src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  });
+  const fourthFont = localFont({
+	src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+  });
 
 const MenuIPadPro1291:NextPage = () => {
   	
@@ -44,27 +57,30 @@ const MenuIPadPro1291:NextPage = () => {
       			<Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       			<div className={styles.home} onClick={onHomeTextClick}>
 					<a href='/'>
-					<Image style={{margin:"auto"}}  src={Home} alt='' />
+					<h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>Home</h5>
 					</a>
 				</div>
       			<div className={styles.trade} onClick={onTradeTextClick}>
 				  <a href='/trade'>
-				  <Image style={{margin:"auto"}}  src={Trade} alt='' />
+				  <h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>Trade</h5>
 				  </a>
 				</div>
       			<div className={styles.stake} onClick={onStakeTextClick}>
 				  <a href='/stake'>
-				  <Image style={{margin:"auto"}}  src={Stake} alt='' />
+				  <h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>Stake</h5>
+
 				  </a>
 				</div>
       			<div className={styles.about} onClick={onAboutTextClick}>
 				  <a href='/about'>
-				  <Image style={{margin:"auto"}}  src={About} alt='' />
+				  <h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>About</h5>
+
 				  </a>
 				</div>
       			<div className={styles.profile} onClick={onProfileTextClick}>
 				  <a href='/profile'>
-				  <Image style={{margin:"auto"}} src={Profile} alt='' />
+				  <h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>Profile</h5>
+
 				  </a>
 				</div>
       			<div className={styles.menuIpadPro1291Child} />

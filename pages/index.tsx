@@ -110,6 +110,8 @@ const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 
+import GenericNavbar from "@/components/GenericNavBar";
+
 const HomepageBlack: NextPage = () => {
   const onTradeText1Click = useCallback(() => {
     // Add your code here
@@ -164,11 +166,7 @@ const HomepageBlack: NextPage = () => {
       </div>
 
       <div className={styles.homepageBlack}>
-        <div className={styles.navbars}>
-          <Navbar />
-
         
-        </div>
 
         <Image className={styles.homepageBlackChild} alt="" src={Flower} />
         <div className={styles.homepageBlackItem}></div>

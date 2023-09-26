@@ -57,6 +57,7 @@
     height: 252px;
     text-align: center;
     color: #ffe500;
+    padding-top: 10vh !important;
 }
 .circleBgIcon {
     position: absolute;
@@ -69,7 +70,7 @@
 .maskGroupIcon {
     position: absolute;
     top: 26px;
-    left: 62.76px;
+    left: 2%;
     width: 90.24px;
     height: 87.25px;
     object-fit: cover;
@@ -92,7 +93,7 @@
 .homeParent {
     position: absolute;
     top: 60px;
-    left: 155px;
+    left: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2978,15 +2979,15 @@
 @media (min-width: 801px) and (max-width: 900px){
     .mingcutewallet4FillParent{
         position: absolute;
-        top: 49px;
-        left: 467.5px;
+        top: 45px;
+        left: 58%;
         border-radius: 10px;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
         display: flex;
         flex-direction: row;
-        padding: 9px 15px;
+        padding: 9px 16px;
         align-items: center;
         justify-content: center;
         gap: 0;
@@ -3098,7 +3099,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 322px;
+        width: 80%;
         height: 443px;
     }
     .stakingStatsParent{
@@ -3135,12 +3136,12 @@
     .stakeIpadPro1292Child1{
         position: absolute;
     top: 963px;
-    left: 8px;
+    left: 2%;
     border-radius: 8px;
     background: linear-gradient(180deg, #282531, rgba(40, 37, 49, 0));
     -webkit-backdrop-filter: blur(164px);
     backdrop-filter: blur(164px);
-    width: 779px;
+    width: 98%;
     height: 668px;
     }
     .stakingPool{
@@ -3174,7 +3175,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 832px;
+        width: 98%;
         height: 250px;
     }
     .tradeParent{
