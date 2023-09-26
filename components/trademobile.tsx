@@ -136,42 +136,7 @@ const TradeIPadPro1292: NextPage = () => {
         </section>
 
 
-        <div className={styles.rectangleParent}>
-			
-          <div className={styles.groupInner} />
-          <Image className={styles.maskGroupIcon3} alt="" src={Headlogo} />
-          <div className={styles.mediaInquiresForCmaxContParent}>
-            <div className={styles.copyRight20231}>
-              <Image style={{ margin: "auto" }} src={Copyright} alt="" />
-            </div>
-          </div>
-          <div className={styles.tradeParent}>
-            <div style={fourthFont.style} className={styles.trade}>
-              <a href="/">
-                <Image src={Homer} alt="" />
-              </a>
-            </div>
-            <div style={fourthFont.style} className={styles.trade}>
-              <a href="/trade">
-                <Image src={Tradei} alt="" />
-              </a>
-            </div>
-            <div style={fourthFont.style} className={styles.trade}>
-              <a href="/stake">
-                <Image src={Stakei} alt="" />
-              </a>
-            </div>
-            <div style={fourthFont.style} className={styles.trade}>
-              <a href="/about">
-                <Image src={Abouti} alt="" />
-              </a>{" "}
-            </div>
-
-            <div style={fourthFont.style} className={styles.trade}>
-              <a href="/profile">Profile</a>
-            </div>
-          </div>
-        </div>
+        
         <Link href="/mint">
           <div
             className={styles.rectangleGroup}
@@ -292,6 +257,18 @@ const TradeIPadPro1292: NextPage = () => {
         </PortalPopup>
       )}
 	  <GenericMobileNavbar />
+    <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+            <img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" />
+            <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
+                <h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5>
+                <h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5>
+                <h5 className='text-white montreal text-2xl md:text-2xl'>About</h5>
+                <h5 className='text-white montreal text-2xl md:text-2xl'>Contact Us</h5>
+                <h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5>
+            </div>
+            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
+            
+        </section>
     </>
   );
 };
