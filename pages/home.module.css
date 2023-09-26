@@ -847,14 +847,14 @@
 }
 .mingcutewallet4FillGroup {
     position: absolute;
-    top: 46px;
+    top: 40px;
     left: calc(40% + 364px);
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     backdrop-filter: blur(12px);
     display: flex;
     flex-direction: row;
-    padding: 11px 22px;
+    padding: 0.5vh 1vw;
     align-items: center;
     justify-content: center;
     gap: 10px;

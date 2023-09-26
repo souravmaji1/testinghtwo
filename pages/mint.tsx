@@ -312,7 +312,9 @@ const HomepageTradeSubpage: NextPage = () => {
 
           <Popover>
             <PopoverTrigger>
-              <Button style={thirdFont.style}>CONNECT WALLET</Button>
+              <Button style={{
+                padding: "1vh 2vw"
+              }}><span style={thirdFont.style}>CONNECT WALLET</span></Button>
             </PopoverTrigger>
             <PopoverContent>
               <PopoverArrow />

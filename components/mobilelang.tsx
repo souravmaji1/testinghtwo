@@ -32,7 +32,7 @@ const LanguageSelector: React.FC = () => {
   };
 
   return (
-    <div className="dropdowns" style={{top:"28px",left:"113px",position:'absolute'}}>
+    <div className="dropdowns" style={{top:"40px",left:"35%",position:'absolute'}}>
       <style jsx>{`
         .dropdown-item:hover {
           background-color: transparent; /* Reset the hover background color */

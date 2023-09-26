@@ -126,7 +126,7 @@
 .maskGroupIcon {
     position: absolute;
     top: 26px;
-    left: 62.76px;
+    left: 3%;
     width: 90.24px;
     height: 87.25px;
     object-fit: cover;
@@ -5015,7 +5015,7 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: flex;
-      width: -webkit-fill-available;
+      width: 80%;
       justify-content: center;
       align-items: center;
       padding: 0 0 0 26px;
@@ -5024,21 +5024,21 @@
     }
     .mingcutewallet4FillParent{
       position: absolute;
-      top: 49px;
-      left: 496.5px;
+      top: 45px;
+      left: 61%;
       border-radius: 10px;
       background: linear-gradient(180deg, #ffe500, #fff492);
       -webkit-backdrop-filter: blur(12px);
       backdrop-filter: blur(12px);
       display: flex;
-      flex-direction: row;
-      padding: 9px 0px;
+      flex-direction:row;
+      padding: 0.5vh 1vw;
       align-items: center;
       justify-content: center;
       gap: -4px;
       font-size: 14px;
       color: #1f1330;
-  
+
     }
     .benefitsChild11{
         display: none;
@@ -5327,7 +5327,7 @@
     .homeParent{
       position: absolute;
       top: 60px;
-      left: 166px;
+      left: 17%;
       display: flex;
       flex-direction: row;
       align-items: center;
