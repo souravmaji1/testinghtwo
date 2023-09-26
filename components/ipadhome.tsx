@@ -125,7 +125,7 @@ const HomeIPadPro1291:NextPage = () => {
       			<img className={styles.homeIpadPro1291Item} alt="" src="Group 1000000920.png" />
       			<div className={styles.joinOurCommunityParent}>
         				<div style={thirdFont.style}  className={styles.joinOurCommunity1}> 
-						<Image style={{margin:"auto"}} src={Joins} alt='' />
+						<h5 className="text-5xl">{t('communityhead')}</h5>
 						 </div>
         				<div style={secondFont.style}    className={styles.diveIntoA1}>  {t("communityparagraph")} </div>
         				<img className={styles.groupChild} alt="" src="Group 2.png" />
@@ -140,19 +140,19 @@ const HomeIPadPro1291:NextPage = () => {
       			<Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       			<div className={styles.homeParent}>
         				<div style={fourthFont.style}  className={styles.home}><a href='/'>
-							<Image style={{width:"84%",height:"15px"}}   src={Homei} alt='' />
+						<h5 className='text-base text-white my-0 mx-1'>{t('home')}</h5>
 							</a></div>
         				<div style={fourthFont.style}   className={styles.trade} ><a href='/trade'>
-						<Image style={{width:"84%",height:"15px"}}  src={Tradei} alt='' />
+						<h5 className='text-base text-white my-0 mx-1'>Trade</h5>
 							</a></div>
         				<div style={fourthFont.style}  className={styles.trade} ><a href='/stake'>
-						<Image style={{width:"84%",height:"15px"}}  src={Stakei} alt='' />
+						<h5 className='text-base text-white my-0 mx-1'>Stake</h5>
 							</a></div>
         				<div style={fourthFont.style}  className={styles.trade} ><a href='/about'>
-						<Image style={{width:"84%",height:"15px"}}  src={Abouti} alt='' />
+						<h5 className='text-base text-white my-0 mx-1'>{t('about')}</h5>
 							</a></div>
 
-							<div style={fourthFont.style}  className={styles.trade} ><a href='/about'>
+							<div style={fourthFont.style}  className={styles.trade} ><a href='/profile'>
 						  Profile
 							</a></div>
 						
@@ -177,14 +177,14 @@ const HomeIPadPro1291:NextPage = () => {
       			<div className={styles.btnParent}>
         				<div className={styles.btn}>
           					<Image className={styles.btnChild} alt="" src={Btx} />
-          					<div style={thirdFont.style}  className={styles.startTrading}>
-								<Image src={Starttrading} alt='' />
+          					<div style={thirdFont.style}  className={`flex flex-row items-center justify-center ${styles.startTrading}`}>
+							  <h5 className="text-black text-base w-full text-center my-0 mx-0">{t('tradingbutton')}</h5>
 								 </div>
         				</div>
         				<div className={styles.carbonplayFilledParent}>
           					<Image className={styles.carbonplayFilledIcon1} alt="" src={Video} />
           					<div style={thirdFont.style}  className={styles.watchTutorial}>
-								<Image src={Watch} alt='' />
+							  <h5 className="text-white text-lg mb-0">{t('watch')}</h5>
 								  </div>
         				</div>
       			</div>
@@ -193,14 +193,14 @@ const HomeIPadPro1291:NextPage = () => {
         				<div className={styles.groupParent}>
           					<div className={styles.downloadOurWhitePaperForIParent}>
             						<div style={thirdFont.style}  className={styles.downloadOurWhite1}> 
-									<Image src={Downloadour} alt='' />
+									<h5 className="text-2xl ">{t('downloadhead')}</h5>
 									  </div>
             						<div style={secondFont.style}   className={styles.diveIntoThe1}>📥{t("downloadparagraph")} 🚀</div>
           					</div>
           					<div className={styles.mingcutewallet4FillGroup}>
             						<Image className={styles.carbonplayFilledIcon1} alt="" src={Downloadd} />
             						<div style={thirdFont.style}      className={styles.connectWallet}><a href='https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4'>
-										<Image src={Downloadwhite} alt='' />
+									<h5 className="text-black text-base mb-0">{t('downloadbutton')}</h5>
 										</a></div>
           					</div>
         				</div>
@@ -224,7 +224,7 @@ const HomeIPadPro1291:NextPage = () => {
 
       			</div>
       			<div style={thirdFont.style}  className={styles.treasuryTokens1}>
-					<Image style={{margin:'auto'}} src={Treasury} alt='' />
+				  <h5 className="text-3xl">{t('treasuryhead')}</h5>
 					 </div>
       			<div style={secondFont.style}  className={styles.immerseYourselfIn1}> {t("treasuryparagraph")} </div>
         				<div className={styles.groupDiv}>
@@ -248,7 +248,7 @@ const HomeIPadPro1291:NextPage = () => {
             						<Image className={styles.maskGroupIcon1} alt="" src={Stats} />
             						<div style={thirdFont.style}   className={styles.div}>150.000.000,00 €</div>
             						<div className={styles.div1}>=</div>
-            						<div style={thirdFont.style}   className={styles.treasury}>Treasury</div>
+            						<div style={thirdFont.style}   className={styles.treasury}>{t('treasury')}</div>
             						<div style={thirdFont.style}   className={styles.rsc}>150.000.000 RSC</div>
           					</div>
         				</div>
@@ -257,7 +257,7 @@ const HomeIPadPro1291:NextPage = () => {
           					<div className={styles.benefitsItem} />
           					<div className={styles.benefitsInner} />
           					<div style={thirdFont.style}   className={styles.discoverOurBenefits1}> 
-							<Image src={Discoverb} alt='' />
+							  <h5 className="text-3xl">{t('discoverbenefit')}</h5>
 							</div>
           					<div style={secondFont.style}   className={styles.elevateYourFinancial1}>{t("discoverparagraph")}</div>
           					<div className={styles.benefitsChild1} />
@@ -267,16 +267,16 @@ const HomeIPadPro1291:NextPage = () => {
           					<div className={styles.benefitsChild5} />
           					<div className={styles.benefitsChild6} />
           					<div  style={myFont.style}  className={styles.seamlessFinancialInclusion1}>
-							  <Image src={Seamless} alt='' />
+							  <h5 className="text-2xl my-0">{t('benefithead')}</h5>
 								  </div>
           					<div style={myFont.style}   className={styles.enhancedSecurity}>
-							  <Image src={Securi} alt='' />
+							  <h5 className="text-2xl my-0">{t('benefitheadfour')}</h5>
 								  </div>
           					<div  style={myFont.style}   className={styles.effortlessCrossBorderTransa1}> 
-							  <Image src={Effortles} alt='' />
+							  <h5 className="text-2xl my-0">{t('benefitheadtwo')}</h5>
 							  </div>
           					<div  style={myFont.style}   className={styles.enhancedSecurity1}>
-							  <Image src={Reducedfe} alt='' />
+							  <h5 className="text-2xl my-0">{t('benefitheadfive')}</h5>
 								 </div>
           					<div  style={myFont.style}  className={styles.smartContractCapabilities1}> {t("benefitheadthree")} </div>
           					<div   style={myFont.style}  className={styles.decentralizedControl}>{t("benefitheadsix")} </div>

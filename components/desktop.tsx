@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import EnglishFlag from "../public/Flag (1).png"; // Import the English flag image
-import SpanishFlag from "../public/Flag.png"; // Import the Spanish flag image
-import FrenchFlag from "../public/Flag (3).png"; // Import the French flag image
+import EnglishFlag from "../public/Flag.png"; // Import the English flag image
+import SpanishFlag from "../public/spain (1).png"; // Import the Spanish flag image
+import FrenchFlag from "../public/Flag (1).png"; // Import the French flag image
 import Image, { StaticImageData } from "next/image";
 import localFont from "next/font/local";
 import { useTranslation } from "react-i18next";
@@ -31,7 +31,7 @@ const LanguageSelector: React.FC = () => {
     image: StaticImageData;
   }>({
     name: "EN", // Set English as the default language
-    image: SpanishFlag,
+    image: EnglishFlag,
   });
 
   const { t, i18n } = useTranslation();
@@ -51,7 +51,7 @@ const LanguageSelector: React.FC = () => {
       localStorage.getItem("lang") == " "
     ) {
       localStorage.setItem("lang", "en");
-      handleLanguageChange("en", SpanishFlag);
+      handleLanguageChange("en", EnglishFlag);
     }else if(localStorage.getItem("lang") == "fr"){
       localStorage.setItem("lang", "fr");
       handleLanguageChange("fr", FrenchFlag);
@@ -64,6 +64,9 @@ const LanguageSelector: React.FC = () => {
     }else if(localStorage.getItem("lang") == "ar"){
       localStorage.setItem("lang", "ar");
       handleLanguageChange("ar", ArbaianFlag);
+    }else if(localStorage.getItem("lang") == "es"){
+      localStorage.setItem("lang", "es");
+      handleLanguageChange("es", SpanishFlag);
     }
   }, []);
 
@@ -102,10 +105,10 @@ const LanguageSelector: React.FC = () => {
             href="#"
             onClick={() => {
               localStorage.setItem("lang", "en");
-              handleLanguageChange("en", SpanishFlag);
+              handleLanguageChange("en", EnglishFlag);
             }}
           >
-            <Image src={SpanishFlag} alt="English" />
+            <Image src={EnglishFlag} alt="English" />
             EN
           </a>
         </li>
@@ -122,7 +125,7 @@ const LanguageSelector: React.FC = () => {
               handleLanguageChange("fr", FrenchFlag);
             }}
           >
-            <Image src={EnglishFlag} alt="French" />
+            <Image src={FrenchFlag} alt="French" />
             FR
           </a>
         </li>
@@ -144,7 +147,23 @@ const LanguageSelector: React.FC = () => {
             ITA
           </a>
         </li>
-
+        <li>
+          <a
+            style={{
+              color: "white",
+              fontFamily: "__fourthFont_9c16a8",
+            }}
+            className="dropdown-item"
+            href="#"
+            onClick={() => {
+              localStorage.setItem("lang", "es");
+              handleLanguageChange("es", SpanishFlag);
+            }}
+          >
+            <Image src={SpanishFlag} alt="Spanish" />
+            ES
+          </a>
+        </li>
         <li>
           <a
             style={{

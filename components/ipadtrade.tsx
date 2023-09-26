@@ -128,21 +128,23 @@ const TradeIPadPro1292:NextPage = () => {
       			</div>
       			<Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       			<div className={styles.homeParent}>
-        				<div style={fourthFont.style} className={styles.home} ><a href='/'>
-							<Image style={{width:"84%",height:"15px"}}  src={Homei} alt='' />
+        				<div style={fourthFont.style}  className={styles.home}><a href='/'>
+						<h5 className='text-base text-white my-0 mx-1'>{t('home')}</h5>
 							</a></div>
-        				<a   style={fourthFont.style}  className={styles.trade}  ><a href='/trade'>
-						<Image style={{width:"84%",height:"15px"}}  src={Tradei} alt='' />
-							</a> </a>
-        				<div style={fourthFont.style}   className={styles.home} ><a href='/stake'>
-						<Image style={{width:"84%",height:"15px"}}  src={Stakei} alt='' />	
+        				<div style={fourthFont.style}   className={styles.trade} ><a href='/trade'>
+						<h5 className='text-base text-white my-0 mx-1'>Trade</h5>
 							</a></div>
-        				<div  style={fourthFont.style}  className={styles.home} ><a href='/about'>
-						<Image style={{width:"84%",height:"15px"}}  src={Abouti} alt='' />
+        				<div style={fourthFont.style}  className={styles.trade} ><a href='/stake'>
+						<h5 className='text-base text-white my-0 mx-1'>Stake</h5>
 							</a></div>
-							<div  style={fourthFont.style}  className={styles.home} ><a href='/profile'>
-						     Profile
+        				<div style={fourthFont.style}  className={styles.trade} ><a href='/about'>
+						<h5 className='text-base text-white my-0 mx-1'>{t('about')}</h5>
 							</a></div>
+
+							<div style={fourthFont.style}  className={styles.trade} ><a href='/profile'>
+						  Profile
+							</a></div>
+						
       			</div>
 
 				  <div className={styles.mingcutewallet4FillLang}>

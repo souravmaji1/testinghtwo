@@ -88,19 +88,23 @@ const ProfileIPadPro1294:NextPage = () => {
       			<Image className={styles.circleBgIcon} alt="" src={Circles} />
       			<Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       			<div className={styles.homeParent}>
-        				<div style={fourthFont.style}  className={styles.trade} ><a href='/'>
-						<Image src={Homei} alt='' />
+        				<div style={fourthFont.style}  className={styles.home}><a href='/'>
+						<h5 className='text-base text-white my-0 mx-1'>{t('home')}</h5>
 							</a></div>
-        				<div style={fourthFont.style}  className={styles.home}><a href='/trade'>
-						<Image src={Tradei} alt='' />
+        				<div style={fourthFont.style}   className={styles.trade} ><a href='/trade'>
+						<h5 className='text-base text-white my-0 mx-1'>Trade</h5>
 							</a></div>
-        				<div style={fourthFont.style} className={styles.trade} ><a href='/stake'>
-						<Image src={Stakei} alt='' />
+        				<div style={fourthFont.style}  className={styles.trade} ><a href='/stake'>
+						<h5 className='text-base text-white my-0 mx-1'>Stake</h5>
 							</a></div>
         				<div style={fourthFont.style}  className={styles.trade} ><a href='/about'>
-						<Image src={Abouti} alt='' />
+						<h5 className='text-base text-white my-0 mx-1'>{t('about')}</h5>
 							</a></div>
-        				
+
+							<div style={fourthFont.style}  className={styles.trade} ><a href='/profile'>
+						  Profile
+							</a></div>
+						
       			</div>
 
 				  <div className={styles.mingcutewallet4FillLang} id='ipadProfileLang'>

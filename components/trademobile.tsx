@@ -109,7 +109,7 @@ const TradeIPadPro1292:NextPage = () => {
       		
       			<div className={styles.joinOurCommunityParent}>
         				<div style={thirdFont.style}   className={styles.joinOurCommunity1}>
-							<Image style={{margin:"auto"}}  src={Joincom} alt='' />
+						<h5 className="text-3xl">{t('communityhead')}</h5>
 							 </div>
         				<div style={secondFont.style}   className={styles.diveIntoA1}>{t("communityparagraph")}   </div>
         				

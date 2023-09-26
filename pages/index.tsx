@@ -198,7 +198,7 @@ const HomepageBlack: NextPage = () => {
             <Image className={styles.btnChild} alt="" src={Btn} />
             <div style={thirdFont.style} className={styles.startTrading}>
               <a href="/trade">
-                <Image src={Starttrading} alt="" />
+                <h5 className="text-black text-base w-full text-center">{t('tradingbutton')}</h5>
               </a>
             </div>
           </div>
@@ -209,7 +209,7 @@ const HomepageBlack: NextPage = () => {
               src={Video}
             />
             <div style={fourthFont.style} className={styles.watchTutorial}>
-            <Image src={Watch} alt="" />
+            <h5 className="text-white text-lg mb-0">{t('watch')}</h5>
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ const HomepageBlack: NextPage = () => {
           <div className={styles.groupParent}>
             <div className={styles.downloadOurWhitePaperForIParent}>
               <div style={thirdFont.style} className={styles.downloadOurWhite1}>
-              <Image style={{width:"100%"}} src={Downloadour} alt="" />
+              <h5 className="text-4xl ">{t('downloadhead')}</h5>
               </div>
               <div style={secondFont.style} className={styles.diveIntoThe1}>
                 📥    {t("downloadparagraph")} 🚀
@@ -236,7 +236,7 @@ const HomepageBlack: NextPage = () => {
                 className={styles.downloadWhitepaper}
               >
                 <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
-                <Image  src={Downloadwhite} alt="" />
+                <h5 className="text-black text-base mb-0">{t('downloadbutton')}</h5>
                 </a>
               </div>
             </div>
@@ -256,7 +256,7 @@ const HomepageBlack: NextPage = () => {
           </div>
         </div>
         <div style={thirdFont.style} className={styles.discoverOurBenefits1}>
-        <Image style={{margin:"auto"}} src={Discoverb} alt="" />
+        <h5 className="text-5xl">{t('discoverbenefit')}</h5>
         </div>
         <div style={secondFont.style} className={styles.elevateYourFinancial1}>
          {t("discoverparagraph")}
@@ -272,26 +272,26 @@ const HomepageBlack: NextPage = () => {
           style={myFont.style}
           className={styles.seamlessFinancialInclusion1}
         >
-          <Image src={Seamless} alt="" />
+          <h5 className="text-2xl my-0">{t('benefithead')}</h5>
         </div>
         <div style={myFont.style} className={styles.decentralizedControl}>
-        <Image src={Decentyralized} alt="" />
+        <h5 className="text-2xl my-0">{t('benefitheadsix')}</h5>
         </div>
         <Image className={styles.groupIcon1} alt="" src={Six} />
         <div style={myFont.style} className={styles.enhancedSecurity}>
-        <Image src={Enhanceds} alt="" />
+        <h5 className="text-2xl my-0">{t('benefitheadfour')}</h5>
         </div>
         <div style={myFont.style} className={styles.smartContractCapabilities1}>
-        <Image src={Smartcont} alt="" />
+        <h5 className="text-2xl my-0">{t('benefitheadthree')}</h5>
         </div>
         <div style={myFont.style} className={styles.reducedFees}>
-        <Image src={Reduced} alt="" />
+        <h5 className="text-2xl my-0">{t('benefitheadfive')}</h5>
         </div>
         <div
           style={myFont.style}
           className={styles.effortlessCrossBorderTransa1}
         >
-           <Image src={Effortless} alt="" />
+           <h5 className="text-2xl my-0">{t('benefitheadtwo')}</h5>
         </div>
         <div style={secondFont.style} className={styles.joinAPlatform1}>
 		{t("benefitparagraphone")}
@@ -329,7 +329,7 @@ const HomepageBlack: NextPage = () => {
 
         <div className={styles.joinOurCommunityParent}>
           <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-          <Image style={{margin:"auto"}}  alt="" src={Joincom} />
+          <h5 className="text-5xl">{t('communityhead')}</h5>
           </div>
           <div style={secondFont.style} className={styles.diveIntoA1}>
 		  {t("communityparagraph")}
@@ -435,7 +435,7 @@ const HomepageBlack: NextPage = () => {
           style={thirdFont.style}
           className={styles.treasuryTokens1}
         >
-          <Image style={{margin:'auto'}}  src={Treasury} alt="" />
+          <h5 className="text-5xl">{t('treasuryhead')}</h5>
             </div>
         <div style={secondFont.style} className={styles.immerseYourselfIn1}>
 		{t("treasuryparagraph")}
@@ -461,7 +461,7 @@ const HomepageBlack: NextPage = () => {
           150.000.000,00 €
         </div>
         <div style={thirdFont.style} className={styles.treasury}>
-          Treasury
+          {t('treasury')}
         </div>
         <div style={thirdFont.style} className={styles.rsc}>
           150.000.000 RSC

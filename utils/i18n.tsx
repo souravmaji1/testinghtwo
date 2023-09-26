@@ -20,7 +20,6 @@ i18n
       it: { translation: itTranslation }, // for italian
       ar: { translation: arTranslation },
       ru: { translation: ruTranslation },
-
     },
     lng: 'en', // Set the default language
     fallbackLng: 'en', // Fallback language

@@ -177,7 +177,7 @@ const StakeIPadPro1292:NextPage = () => {
       		
       			<div className={styles.joinOurCommunityParent}>
         				<div  style={thirdFont.style}    className={styles.joinOurCommunity1}>
-							<Image style={{margin:"auto"}} src={Joincom} alt='' />
+						<h5 className="text-3xl">{t('communityhead')}</h5>
 							  </div>
         				<div  style={secondFont.style}  className={styles.diveIntoA1}>{t("communityparagraph")}   </div>
         				
@@ -234,7 +234,7 @@ const StakeIPadPro1292:NextPage = () => {
         				<Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
       			</div>
       			<div style={myFont.style} className={styles.stakingBenefits}>
-					<Image src={Stakingb} alt='' />
+				  <h5 className="text-3xl">{t('stakebenefit')}</h5>
 					 </div>
       			<div style={secondFont.style}  className={styles.stakingInBlockchain1}>{t("stakebenefitparagraph")}   </div>
       			<div className={styles.frameParent}>

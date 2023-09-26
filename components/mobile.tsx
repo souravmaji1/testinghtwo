@@ -140,7 +140,7 @@ const HomeIPadPro1291: NextPage = () => {
             <img className={styles.btnChild} alt="" src="Rectangle 334.svg" />
             <div style={thirdFont.style} className={styles.startTrading}>
               <a href="/trade">
-                <Image src={Starttrading} alt="" />
+              <h5 className="text-black text-base w-full text-center">{t('tradingbutton')}</h5>
               </a>
             </div>
           </div>
@@ -151,7 +151,7 @@ const HomeIPadPro1291: NextPage = () => {
               src={Video}
             />
             <div style={fourthFont.style} className={styles.watchTutorial}>
-              <Image src={Watch} alt="" />
+            <h5 className="text-white text-lg mb-0">{t('watch')}</h5>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ const HomeIPadPro1291: NextPage = () => {
           <div className={styles.groupChild} />
           <div className={styles.groupItem} />
           <div style={thirdFont.style} className={styles.downloadOurWhite1}>
-            <Image src={Downloadour} alt="" />
+          <h5 className="text-2xl text-center my-0 w-full ml-4">{t('downloadhead')}</h5>
           </div>
           <div className={styles.rectangleParent}>
             <div className={styles.groupInner} />
@@ -187,7 +187,7 @@ const HomeIPadPro1291: NextPage = () => {
             />
             <div style={thirdFont.style} className={styles.downloadWhitepaper}>
               <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
-                <Image src={Downloadwhite} alt="" />
+              <h5 className="text-black text-sm mb-0">{t('downloadbutton')}</h5>
               </a>{" "}
             </div>
           </div>
@@ -195,7 +195,7 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.treasuryTokensEcosystemParent}>
           <div style={thirdFont.style} className={styles.treasuryTokens1}>
-            <Image style={{ margin: "auto" }} src={Treasury} alt="" />
+          <h5 className="text-3xl">{t('treasuryhead')}</h5>
           </div>
           <div style={secondFont.style} className={styles.immerseYourselfIn1}>
             {t("treasuryparagraph")}{" "}
@@ -203,7 +203,7 @@ const HomeIPadPro1291: NextPage = () => {
         </div>
         <div className={styles.discoverOurBenefitsParent}>
           <div style={thirdFont.style} className={styles.treasuryTokens1}>
-            <Image style={{ margin: "auto" }} src={Discoverb} alt="" />
+          <h5 className="text-3xl">{t('discoverbenefit')}</h5>
           </div>
           <div
             style={secondFont.style}
@@ -216,7 +216,7 @@ const HomeIPadPro1291: NextPage = () => {
         <div className={styles.homeIpadPro1291Child2} />
         <Image className={styles.maskGroupIcon1} alt="" src={Stats} />
         <div style={thirdFont.style} className={styles.treasury}>
-          <Image src={Treasurysd} alt="" />
+        {t('treasury')}
         </div>
         <div className={styles.parent}>
           <div style={thirdFont.style} className={styles.div}>
@@ -267,7 +267,7 @@ const HomeIPadPro1291: NextPage = () => {
               style={myFont.style}
               className={styles.seamlessFinancialInclusion1}
             >
-              <Image src={Seam} alt="" />
+              <h5 className="text-xl my-0">{t('benefithead')}</h5>
             </div>
             <div style={secondFont.style} className={styles.joinAPlatform1}>
               {t("benefitparagraphone")}{" "}
@@ -283,7 +283,7 @@ const HomeIPadPro1291: NextPage = () => {
               style={myFont.style}
               className={styles.seamlessFinancialInclusion1}
             >
-              <Image src={Effort} alt="" />
+              <h5 className="text-xl my-0">{t('benefitheadtwo')}</h5>
             </div>
             <div style={secondFont.style} className={styles.joinAPlatform1}>
               {" "}
@@ -303,7 +303,7 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.joinOurCommunityParent}>
           <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-            <Image style={{ margin: "auto" }} src={Joincom} alt="" />
+          <h5 className="text-3xl">{t('communityhead')}</h5>
           </div>
           <div style={secondFont.style} className={styles.diveIntoA1}>
             {t("communityparagraph")}{" "}

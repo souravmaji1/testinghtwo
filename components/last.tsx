@@ -83,7 +83,7 @@ const AboutIPadPro1293:NextPage = () => {
       		
       			<div className={styles.joinOurCommunityParent}>
         				<div style={thirdFont.style} className={styles.joinOurCommunity1}>
-							<Image src={Joincom} alt='' />
+						<h5 className="text-3xl">{t('communityhead')}</h5>
 							  </div>
         				<div  style={secondFont.style}  className={styles.diveIntoA1}>{t("communityparagraph")}  </div>
         			
@@ -135,10 +135,10 @@ const AboutIPadPro1293:NextPage = () => {
         				<Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
       			</div>
       			<div style={myFont.style}  className={styles.aboutUs}>
-					<Image src={Abtus} alt='' />
+					<h5 className='text-3xl capitalize'>{t('about')}</h5>
 					  </div>
       			<div style={thirdFont.style}   className={styles.roadMap}> 
-				<Image src={Roadmap} alt='' />
+				  <h5 className='text-3xl capitalize'>{t('roadmap')}</h5>
 				  </div>
       			
       	

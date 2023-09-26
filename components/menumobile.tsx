@@ -11,6 +11,7 @@ import Headlogo from '../public/logs.png';
 import { ConnectWallet } from '@thirdweb-dev/react';
 import Wallet from '../public/mingcute_wallet-4-fill.svg';
 import localFont from 'next/font/local';
+import { useTranslation } from 'react-i18next';
 
 const myFont = localFont({
 	src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
@@ -50,6 +51,8 @@ const MenuIPadPro1291:NextPage = () => {
   	const onProfileTextClick = useCallback(() => {
     		// Add your code here
   	}, []);
+
+	  const { t, i18n } = useTranslation();
   	
   	return (
     		<div className={styles.menuIpadPro1291}>
@@ -57,7 +60,7 @@ const MenuIPadPro1291:NextPage = () => {
       			<Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       			<div className={styles.home} onClick={onHomeTextClick}>
 					<a href='/'>
-					<h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>Home</h5>
+					<h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>{t('home')}</h5>
 					</a>
 				</div>
       			<div className={styles.trade} onClick={onTradeTextClick}>
@@ -73,7 +76,7 @@ const MenuIPadPro1291:NextPage = () => {
 				</div>
       			<div className={styles.about} onClick={onAboutTextClick}>
 				  <a href='/about'>
-				  <h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>About</h5>
+				  <h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>{t('about')}</h5>
 
 				  </a>
 				</div>
