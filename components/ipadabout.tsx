@@ -105,7 +105,7 @@ const AboutIPadPro1293:NextPage = () => {
       			</div>
 
 				
-				  <div className={styles.mingcutewallet4FillLang}>
+				  <div className={styles.mingcutewallet4FillLang} id='ipadAbtLang'>
         <Languageswitch />
         </div>
 				 

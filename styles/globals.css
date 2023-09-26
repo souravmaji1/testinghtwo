@@ -497,6 +497,14 @@ body {
   top: 814px;
 }
 
+#ipadAbtLang .dropdown {
+  top: unset !important;
+}
+
+#ipadProfileLang .dropdown {
+  top: unset !important;
+}
+
 .dropdown-toggle {
   width: 92%;
 

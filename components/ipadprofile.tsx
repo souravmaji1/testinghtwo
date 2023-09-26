@@ -103,7 +103,7 @@ const ProfileIPadPro1294:NextPage = () => {
         				
       			</div>
 
-				  <div className={styles.mingcutewallet4FillLang}>
+				  <div className={styles.mingcutewallet4FillLang} id='ipadProfileLang'>
         <Languageswitch />
         </div>
 				 
@@ -125,7 +125,7 @@ const ProfileIPadPro1294:NextPage = () => {
         				</div>
       			</div>
       			<Image className={styles.profileIpadPro1294Inner} alt="" src={User} />
-      			<div style={myFont.style}  className={styles.sebastianMathew}>User 1</div>
+      			<div style={myFont.style}  className={styles.sebastianMathew}>Test User</div>
       			<div style={thirdFont.style}  className={styles.networth}> 
 			 <Image src={Netwo} alt='' />
 				  </div>

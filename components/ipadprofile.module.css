@@ -11,6 +11,14 @@
     transform-origin: 0 0;
     opacity: 0.35;
 }
+
+.mingcutewallet4FillLang{
+    position: absolute;
+    top: 55px;
+    right: 2%;
+    background-color: red;
+}
+
 .circleBgIcon {
     position: absolute;
     top: 0px;
@@ -23,7 +31,7 @@
 .maskGroupIcon {
     position: absolute;
     top: 26px;
-    left: 62.76px;
+    left: 2%;
     width: 90.24px;
     height: 87.25px;
     object-fit: cover;
@@ -708,19 +716,7 @@
     
       }
     
-      .mingcutewallet4FillLang {
-        position: absolute;
-        top: -763px;
-        left: calc(37% + 364px);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: row;
-        padding: 11px 22px;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        font-size: 16px;
-    }
+      
     .maskGroupParent{
         position: absolute;
         bottom: 51px;
@@ -794,17 +790,17 @@
     .homeParent{
         position: absolute;
         top: 60px;
-        left: 167px;
+        left: 15%;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 38px; 
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 14px; 
     }
     .mingcutewallet4FillParent{
         position: absolute;
-        top: 49px;
-        left: 566.5px;
+        top: 40px;
+        left: 55%;
         border-radius: 10px;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-backdrop-filter: blur(12px);
@@ -822,7 +818,7 @@
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: 81px;
+    left: 50px;
     width: 720px;
     height: 249px;
     }
@@ -846,7 +842,7 @@
     left: 20px;
     border-radius: 8px;
     background-color: #282531;
-    width: 732px;
+    width: 95%;
     height: 449px;
     }
     .frameParent{
@@ -883,7 +879,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 748px;
+        width: 97%;
         height: 721.62px;
     }
 }
