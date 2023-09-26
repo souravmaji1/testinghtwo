@@ -358,6 +358,13 @@
     height: 171.71px;
     overflow: hidden;
 }
+
+.languageone{
+    position: absolute;
+    top: 35px;
+    right: 12%;
+}
+
 .rectangleContainer {
     position: absolute;
     top: 477px;

@@ -124,7 +124,7 @@ const TradeIPadPro1292:NextPage = () => {
 
       			</div>
 
-				  <div className='languageone'>
+				  <div className={styles.languageone}>
 				<LanguageSelector />
 				</div>
 

@@ -9,6 +9,12 @@
     height: 90px;
     opacity: 0.4;
 }
+
+.languageone{
+    position: absolute;
+    top: 35px;
+    right: 12%;
+}
 .maskGroupIcon {
     position: absolute;
     top: 10px;
@@ -368,7 +374,7 @@
 }
 .rectangleGroup {
     position: absolute;
-    top: 937px;
+    top: 850px;
     left: 22px;
     width: 392px;
     height: 396px;
@@ -378,7 +384,7 @@
 }
 .holdings {
     position: absolute;
-    top: 1433px;
+    top: 1300px;
     left: 22px;
     font-size: 28px;
     text-transform: capitalize;
@@ -407,13 +413,14 @@
 .unfold10ResultParent {
     position: absolute;
     top: 425px;
-    left: 141px;
+    left: 100px;
     display: flex;
+    font-size: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
     color: #ffe500;
+    margin-top: 30px;
 }
 .eth47c40f70Icon {
     position: relative;
@@ -528,7 +535,7 @@
 }
 .rectangleContainer {
     position: absolute;
-    top: 1497.19px;
+    top: 1370px;
     left: 19px;
     width: 392px;
     height: 813px;
@@ -1049,8 +1056,8 @@
     .hiSebastianMathewContainer{
         position: absolute;
     top: 474px;
-    left: calc(74% - 184px);
-    font-size: 37px;
+    left: 10%;
+    font-size: 24px;
     text-transform: capitalize;
     font-family: 'Monument Extended';
     display: inline-block;
@@ -1058,19 +1065,19 @@
     }
     .mdilocationParent{
         position: absolute;
-    top: 618px;
-    left: 98px;
+    top: 550px;
+    left: 8%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 7px;
-    font-size: 24px;
+    font-size: 18px;
     }
     .netWorthParent{
         position: absolute;
-        top: 740px;
-        left: 103px;
+        top: 650px;
+        left: 10%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;

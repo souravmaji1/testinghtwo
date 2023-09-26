@@ -194,7 +194,7 @@ const StakeIPadPro1292:NextPage = () => {
       			</div>
 
 
-				  <div className='languageone'>
+				  <div className={styles.languageone}>
 				<LanguageSelector />
 				</div>
 
@@ -230,9 +230,7 @@ const StakeIPadPro1292:NextPage = () => {
       			</div>
       		
       			<div className={styles.stakeParent} onClick={openMenuIPadPro1291}>
-        				<div style={secondFont.style}  className={styles.div}>
-							<Image src={Staks} alt='' />
-						</div>
+        				
         				<Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
       			</div>
       			<div style={myFont.style} className={styles.stakingBenefits}>

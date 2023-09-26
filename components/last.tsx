@@ -98,7 +98,7 @@ const AboutIPadPro1293:NextPage = () => {
 
       			</div>
 
-				  <div className='languageone'>
+				  <div className={styles.languageone}>
 				<LanguageSelector />
 				</div>
 
@@ -131,9 +131,7 @@ const AboutIPadPro1293:NextPage = () => {
         				</div>
       			</div>
       			<div className={styles.aboutParent} onClick={openMenuIPadPro1291}>
-        				<div style={secondFont.style}     className={styles.about1}>
-							<Image src={Abs} alt='' />
-						</div>
+        				
         				<Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
       			</div>
       			<div style={myFont.style}  className={styles.aboutUs}>

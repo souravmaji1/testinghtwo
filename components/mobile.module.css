@@ -121,6 +121,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.languageone{
+    position: absolute;
+    top: 35px;
+    right: 12%;
+}
+
 .btn {
     position: relative;
     width: 350px;
