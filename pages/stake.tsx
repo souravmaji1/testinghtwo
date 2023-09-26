@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import ToolTip from "../components/tool-tip";
 import PortalPopup from "../components/portal-popup";
 import styles from './stake.module.css';
@@ -129,6 +129,23 @@ const HomepageStake:NextPage = () => {
 		and run this function in a useEffect on top of every page, 
 		with the language code that is in the local storage as a parameter */
 	  };
+
+	  useEffect(() => {
+		if (
+		  !localStorage.getItem("lang") ||
+		  localStorage.getItem("lang") == "" ||
+		  localStorage.getItem("lang") == " "
+		)
+		  localStorage.setItem("lang", "en");
+	  }, []);
+	
+	  const handleLanguageChange = () => {
+		i18n.changeLanguage(localStorage.getItem("lang")?.toString());
+	  };
+	
+	  useEffect(() => {
+		handleLanguageChange()
+	  }, [])
   	
   	return (<>
 	<div>

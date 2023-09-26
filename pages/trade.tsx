@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 import styles from './trade.module.css';
 import Frame from '../public/Frame.png';
 import Image from 'next/image';
@@ -95,7 +95,22 @@ const HomepageTrade:NextPage = () => {
 	  with the language code that is in the local storage as a parameter */
 	};
   
-  	
+	useEffect(() => {
+		if (
+		  !localStorage.getItem("lang") ||
+		  localStorage.getItem("lang") == "" ||
+		  localStorage.getItem("lang") == " "
+		)
+		  localStorage.setItem("lang", "en");
+	  }, []);
+	
+	  const handleLanguageChange = () => {
+		i18n.changeLanguage(localStorage.getItem("lang")?.toString());
+	  };
+	
+	  useEffect(() => {
+		handleLanguageChange()
+	  }, [])
   	
   	return (
 		<div>

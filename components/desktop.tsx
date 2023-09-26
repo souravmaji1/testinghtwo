@@ -1,35 +1,69 @@
-import React, { useState } from 'react';
-import EnglishFlag from '../public/Flag (1).png'; // Import the English flag image
-import SpanishFlag from '../public/Flag.png'; // Import the Spanish flag image
-import FrenchFlag from '../public/Flag (3).png'; // Import the French flag image
-import Image, { StaticImageData } from 'next/image';
-import localFont from 'next/font/local';
-import { useTranslation } from 'react-i18next';
+import React, { useEffect, useState } from "react";
+import EnglishFlag from "../public/Flag (1).png"; // Import the English flag image
+import SpanishFlag from "../public/Flag.png"; // Import the Spanish flag image
+import FrenchFlag from "../public/Flag (3).png"; // Import the French flag image
+import Image, { StaticImageData } from "next/image";
+import localFont from "next/font/local";
+import { useTranslation } from "react-i18next";
 
-import ItalianFlag from '../public/italian.png';
-import RussanFlag from '../public/russain.png';
-import ArbaianFlag from '../public/arabian.png';
+import ItalianFlag from "../public/italian.png";
+import RussanFlag from "../public/russain.png";
+import ArbaianFlag from "../public/arabian.png";
 
-const myFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf"});
-const secondFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf"});
-const thirdFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf"});
-const fourthFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf"});
+const myFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+});
+const secondFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
+});
+const thirdFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+});
+const fourthFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
 
 const LanguageSelector: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<{
     name: string;
     image: StaticImageData;
   }>({
-    name: 'EN', // Set English as the default language
+    name: "EN", // Set English as the default language
     image: SpanishFlag,
   });
 
   const { t, i18n } = useTranslation();
 
-  const handleLanguageChange = (language: string, flagImage: StaticImageData) => {
+  const handleLanguageChange = (
+    language: string,
+    flagImage: StaticImageData
+  ) => {
     setSelectedLanguage({ name: language, image: flagImage });
     i18n.changeLanguage(language);
   };
+
+  useEffect(() => {
+    if (
+      localStorage.getItem("lang") == "en" ||
+      localStorage.getItem("lang") == "" ||
+      localStorage.getItem("lang") == " "
+    ) {
+      localStorage.setItem("lang", "en");
+      handleLanguageChange("en", SpanishFlag);
+    }else if(localStorage.getItem("lang") == "fr"){
+      localStorage.setItem("lang", "fr");
+      handleLanguageChange("fr", FrenchFlag);
+    }else if(localStorage.getItem("lang") == "it"){
+      localStorage.setItem("lang", "it");
+      handleLanguageChange("it", ItalianFlag);
+    }else if(localStorage.getItem("lang") == "ru"){
+      localStorage.setItem("lang", "ru");
+      handleLanguageChange("ru", RussanFlag);
+    }else if(localStorage.getItem("lang") == "ar"){
+      localStorage.setItem("lang", "ar");
+      handleLanguageChange("ar", ArbaianFlag);
+    }
+  }, []);
 
   return (
     <div className="dropdown">
@@ -52,19 +86,22 @@ const LanguageSelector: React.FC = () => {
             {selectedLanguage.name}
           </>
         ) : (
-          'Select Language'
+          "Select Language"
         )}
       </button>
       <ul className="dropdown-menu" aria-labelledby="languageDropdown">
         <li>
-          <a 
+          <a
             style={{
-              color: 'white',
-              fontFamily: '__fourthFont_9c16a8',
+              color: "white",
+              fontFamily: "__fourthFont_9c16a8",
             }}
             className="dropdown-item"
             href="#"
-            onClick={() => handleLanguageChange('en', SpanishFlag)}
+            onClick={() => {
+              localStorage.setItem("lang", "en");
+              handleLanguageChange("en", SpanishFlag);
+            }}
           >
             <Image src={SpanishFlag} alt="English" />
             EN
@@ -73,12 +110,15 @@ const LanguageSelector: React.FC = () => {
         <li>
           <a
             style={{
-              color: 'white',
-              fontFamily: '__fourthFont_9c16a8',
+              color: "white",
+              fontFamily: "__fourthFont_9c16a8",
             }}
             className="dropdown-item"
             href="#"
-            onClick={() => handleLanguageChange('fr', FrenchFlag)}
+            onClick={() => {
+              localStorage.setItem("lang", "fr");
+              handleLanguageChange("fr", FrenchFlag);
+            }}
           >
             <Image src={EnglishFlag} alt="French" />
             FR
@@ -88,27 +128,33 @@ const LanguageSelector: React.FC = () => {
         <li>
           <a
             style={{
-              color: 'white',
-              fontFamily: '__fourthFont_9c16a8',
+              color: "white",
+              fontFamily: "__fourthFont_9c16a8",
             }}
             className="dropdown-item"
             href="#"
-            onClick={() => handleLanguageChange('it', ItalianFlag)}
+            onClick={() => {
+              localStorage.setItem("lang", "it");
+              handleLanguageChange("it", ItalianFlag);
+            }}
           >
             <Image src={ItalianFlag} alt="Spanish" />
             ITA
           </a>
         </li>
-      
+
         <li>
           <a
             style={{
-              color: 'white',
-              fontFamily: '__fourthFont_9c16a8',
+              color: "white",
+              fontFamily: "__fourthFont_9c16a8",
             }}
             className="dropdown-item"
             href="#"
-            onClick={() => handleLanguageChange('ru', RussanFlag)}
+            onClick={() => {
+              localStorage.setItem("lang", "ru");
+              handleLanguageChange("ru", RussanFlag);
+            }}
           >
             <Image src={RussanFlag} alt="French" />
             RUS
@@ -117,12 +163,15 @@ const LanguageSelector: React.FC = () => {
         <li>
           <a
             style={{
-              color: 'white',
-              fontFamily: '__fourthFont_9c16a8',
+              color: "white",
+              fontFamily: "__fourthFont_9c16a8",
             }}
             className="dropdown-item"
             href="#"
-            onClick={() => handleLanguageChange('ar', ArbaianFlag)}
+            onClick={() => {
+              localStorage.setItem("lang", "ar");
+              handleLanguageChange("ar", ArbaianFlag);
+            }}
           >
             <Image src={ArbaianFlag} alt="French" />
             AR

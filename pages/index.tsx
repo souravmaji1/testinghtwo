@@ -136,6 +136,23 @@ const HomepageBlack: NextPage = () => {
     i18n.changeLanguage(language);
   };
 
+  useEffect(() => {
+    if (
+      !localStorage.getItem("lang") ||
+      localStorage.getItem("lang") == "" ||
+      localStorage.getItem("lang") == " "
+    )
+      localStorage.setItem("lang", "en");
+  }, []);
+
+  const handleLanguageChange = () => {
+    i18n.changeLanguage(localStorage.getItem("lang")?.toString());
+  };
+
+  useEffect(() => {
+	handleLanguageChange()
+  }, [])
+
   return (
     <div>
       <div className={styles.mobile}>
