@@ -34,12 +34,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(202, 88, 255, 0.4), rgba(255, 255, 255, 0));
-    box-shadow: -5px -5px 250px rgba(255, 255, 255, 0.02) inset;
-    backdrop-filter: blur(42px);
-    width: 430px;
-    height: 90px;
-    opacity: 0.4;
+    width: fit-content;
+    height: fit-content;
 }
 .unionIcon2 {
     position: relative;

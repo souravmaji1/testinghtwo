@@ -83,6 +83,7 @@ import Homer from "../public/hsss.png";
 import Titas from "../public/Tita +24%.png";
 import Tradingvol from "../public/Total Trading Volume.png";
 import LanguageSelector from "./mobilelang";
+import GenericMobileNavbar from "./mobileGenericNavbar";
 
 const HomeIPadPro1291: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
@@ -107,6 +108,7 @@ const HomeIPadPro1291: NextPage = () => {
 
   return (
     <>
+    
       <div className={styles.homeIpadPro1291}>
         <Image className={styles.homeIpadPro1291Child} alt="" src={Flower} />
         <Image className={styles.homeIpadPro1291Item} alt="" src={Circ} />
@@ -116,17 +118,9 @@ const HomeIPadPro1291: NextPage = () => {
           alt=""
           src="shutterstock_2152297015-[Converted] 1.png"
         />
+
         <div className={styles.rectangleDiv} />
-
-        <div className={styles.languageone}>
-          <LanguageSelector />
-        </div>
-
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-
-        <div className={styles.homeParent} onClick={openMenuIPadPro1291}>
-          <Image className={styles.rimenuFillIcon1} alt="" src={Navbs} />
-        </div>
+        <GenericMobileNavbar />
         <div style={fourthFont.style} className={styles.unveilingANew1}>
           {" "}
           {t("firsthead")}{" "}
@@ -140,7 +134,9 @@ const HomeIPadPro1291: NextPage = () => {
             <img className={styles.btnChild} alt="" src="Rectangle 334.svg" />
             <div style={thirdFont.style} className={styles.startTrading}>
               <a href="/trade">
-              <h5 className="text-black text-base w-full text-center">{t('tradingbutton')}</h5>
+                <h5 className="text-black text-base w-full text-center">
+                  {t("tradingbutton")}
+                </h5>
               </a>
             </div>
           </div>
@@ -151,7 +147,7 @@ const HomeIPadPro1291: NextPage = () => {
               src={Video}
             />
             <div style={fourthFont.style} className={styles.watchTutorial}>
-            <h5 className="text-white text-lg mb-0">{t('watch')}</h5>
+              <h5 className="text-white text-lg mb-0">{t("watch")}</h5>
             </div>
           </div>
         </div>
@@ -161,7 +157,9 @@ const HomeIPadPro1291: NextPage = () => {
           <div className={styles.groupChild} />
           <div className={styles.groupItem} />
           <div style={thirdFont.style} className={styles.downloadOurWhite1}>
-          <h5 className="text-2xl text-center my-0 w-full ml-4">{t('downloadhead')}</h5>
+            <h5 className="text-2xl text-center my-0 w-full ml-4">
+              {t("downloadhead")}
+            </h5>
           </div>
           <div className={styles.rectangleParent}>
             <div className={styles.groupInner} />
@@ -187,7 +185,9 @@ const HomeIPadPro1291: NextPage = () => {
             />
             <div style={thirdFont.style} className={styles.downloadWhitepaper}>
               <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
-              <h5 className="text-black text-sm mb-0">{t('downloadbutton')}</h5>
+                <h5 className="text-black text-sm mb-0">
+                  {t("downloadbutton")}
+                </h5>
               </a>{" "}
             </div>
           </div>
@@ -195,7 +195,7 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.treasuryTokensEcosystemParent}>
           <div style={thirdFont.style} className={styles.treasuryTokens1}>
-          <h5 className="text-3xl">{t('treasuryhead')}</h5>
+            <h5 className="text-3xl">{t("treasuryhead")}</h5>
           </div>
           <div style={secondFont.style} className={styles.immerseYourselfIn1}>
             {t("treasuryparagraph")}{" "}
@@ -203,7 +203,7 @@ const HomeIPadPro1291: NextPage = () => {
         </div>
         <div className={styles.discoverOurBenefitsParent}>
           <div style={thirdFont.style} className={styles.treasuryTokens1}>
-          <h5 className="text-3xl">{t('discoverbenefit')}</h5>
+            <h5 className="text-3xl">{t("discoverbenefit")}</h5>
           </div>
           <div
             style={secondFont.style}
@@ -216,7 +216,7 @@ const HomeIPadPro1291: NextPage = () => {
         <div className={styles.homeIpadPro1291Child2} />
         <Image className={styles.maskGroupIcon1} alt="" src={Stats} />
         <div style={thirdFont.style} className={styles.treasury}>
-        {t('treasury')}
+          {t("treasury")}
         </div>
         <div className={styles.parent}>
           <div style={thirdFont.style} className={styles.div}>
@@ -267,7 +267,7 @@ const HomeIPadPro1291: NextPage = () => {
               style={myFont.style}
               className={styles.seamlessFinancialInclusion1}
             >
-              <h5 className="text-xl my-0">{t('benefithead')}</h5>
+              <h5 className="text-xl my-0">{t("benefithead")}</h5>
             </div>
             <div style={secondFont.style} className={styles.joinAPlatform1}>
               {t("benefitparagraphone")}{" "}
@@ -283,7 +283,7 @@ const HomeIPadPro1291: NextPage = () => {
               style={myFont.style}
               className={styles.seamlessFinancialInclusion1}
             >
-              <h5 className="text-xl my-0">{t('benefitheadtwo')}</h5>
+              <h5 className="text-xl my-0">{t("benefitheadtwo")}</h5>
             </div>
             <div style={secondFont.style} className={styles.joinAPlatform1}>
               {" "}
@@ -303,7 +303,7 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.joinOurCommunityParent}>
           <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-          <h5 className="text-3xl">{t('communityhead')}</h5>
+            <h5 className="text-3xl">{t("communityhead")}</h5>
           </div>
           <div style={secondFont.style} className={styles.diveIntoA1}>
             {t("communityparagraph")}{" "}

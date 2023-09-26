@@ -187,7 +187,27 @@ body {
   /* Add additional styling as needed for mobile navigation */
 }
 
+.szh-menu{
+  background: #242222 !important;
+  margin-top: 6px !important;
+  border-bottom: 1px solid yellow !important;
+  border-radius: 10px !important;
+}
 
+.szh-menu__arrow{
+  background: #242222 !important;
+}
+
+.szh-menu__item{
+  width: 100% !important;
+  height: fit-content !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 2% 8% !important;
+  margin-bottom: 2%;
+}
 
 @media (min-width: 350px) and (max-width: 662px) {
 
