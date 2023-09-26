@@ -57,7 +57,6 @@ const MenuIPadPro1291:NextPage = () => {
   	return (
     		<div className={styles.menuIpadPro1291}>
       			<img className={styles.unionIcon1} alt="" src="Union.svg" />
-      			<Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       			<div className={styles.home} onClick={onHomeTextClick}>
 					<a href='/'>
 					<h5 className={`text-[#F9E552] text-xl`} style={{fontFamily: myFont.style.fontFamily}}>{t('home')}</h5>
