@@ -36,6 +36,7 @@ import Paper from "@mui/material/Paper";
 import Footer from "../components/aboutfooter";
 import Navbar from "../components/simplenavbar";
 import Arrowdown from "../public/ri_arrow-up-s-line.svg";
+import communityBg from '../public/back.png'
 
 import Tradei from "../public/montra.png";
 import Stakei from "../public/mobst.png";
@@ -66,6 +67,10 @@ const fourthFont = localFont({
 });
 import { useTranslation } from "react-i18next";
 import GenericMobileNavbar from "./mobileGenericNavbar";
+import { BsGithub } from "react-icons/bs";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { FaXTwitter } from "react-icons/fa6";
+import { SiNotion } from "react-icons/si";
 
 const TradeIPadPro1292: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
@@ -103,7 +108,6 @@ const TradeIPadPro1292: NextPage = () => {
   return (
     <>
       <div className={styles.tradeIpadPro1292}>
-        <Image className={styles.tradeIpadPro1292Child} alt="" src={Flower} />
         <div className={styles.tradeIpadPro1292Item} />
 
         
@@ -111,29 +115,25 @@ const TradeIPadPro1292: NextPage = () => {
           <Image src={Trending} alt="" />
         </div>
 
-        <div className={styles.joinOurCommunityParent}>
-          <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-            <h5 className="text-3xl">{t("communityhead")}</h5>
+        <section
+          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[700px] z-50"
+          style={{
+            backgroundImage: `url('${communityBg.src}')`,
+          }}
+        >
+          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10">
+            {t("communityhead")}
+          </h5>
+          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5">
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={35} />
+            <SiNotion color="#ffffff" size={35} />
           </div>
-          <div style={secondFont.style} className={styles.diveIntoA1}>
-            {t("communityparagraph")}{" "}
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginTop: "290px",
-              gap: "20px",
-            }}
-          >
-            <Image className={styles.groupIte} alt="" src={Github} />
-            <Image className={styles.groupIte} alt="" src={Twitter} />
-            <Image className={styles.groupIte} alt="" src={Linkedin} />
-            <Image className={styles.groupIte} alt="" src={Notion} />
-          </div>
-        </div>
+        </section>
 
 
         <div className={styles.rectangleParent}>

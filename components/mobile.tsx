@@ -42,6 +42,7 @@ import Twitter from "../public/mdi_twitter.svg";
 import Linkedin from "../public/entypo-social_linkedin-with-circle.svg";
 import Notion from "../public/mingcute_notion-fill.svg";
 import Footer from "../components/aboutfooter";
+import communityBg from "../public/back.png";
 
 import Navbar from "../components/navbar";
 import Mobile from "../components/mobile";
@@ -52,6 +53,12 @@ import Termi from "../public/termi.png";
 import Joincom from "../public/Join our community.png";
 import Downloadour from "../public/Download Our White Paper for In-Depth Insights.png";
 import Navbs from "../public/dd.svg";
+
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
+
 const myFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
 });
@@ -108,9 +115,7 @@ const HomeIPadPro1291: NextPage = () => {
 
   return (
     <>
-    
       <div className={styles.homeIpadPro1291}>
-        <Image className={styles.homeIpadPro1291Child} alt="" src={Flower} />
         <Image className={styles.homeIpadPro1291Item} alt="" src={Circ} />
         <Image className={styles.homeIpadPro1291Inner} alt="" src={Leftcir} />
         <img
@@ -121,8 +126,11 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.rectangleDiv} />
         <GenericMobileNavbar />
-        
-        <div style={myFont.style} className={`${styles.discoverTheRwfa} text-4xl`}>
+
+        <div
+          style={myFont.style}
+          className={`${styles.discoverTheRwfa} text-4xl`}
+        >
           {" "}
           {t("secondhead")}{" "}
         </div>
@@ -297,31 +305,26 @@ const HomeIPadPro1291: NextPage = () => {
           <div className={styles.frameChild1} />
           <div className={styles.frameChild1} />
         </div>
+        <section
+          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[750px] z-50"
+          style={{
+            backgroundImage: `url('${communityBg.src}')`,
+          }}
+        >
+          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10">
+            {t("communityhead")}
+          </h5>
+          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5">
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={35} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </section>
 
-        <div className={styles.joinOurCommunityParent}>
-          <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-            <h5 className="text-3xl">{t("communityhead")}</h5>
-          </div>
-          <div style={secondFont.style} className={styles.diveIntoA1}>
-            {t("communityparagraph")}{" "}
-          </div>
-
-          <div
-            className={styles.social}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginTop: "290px",
-              gap: "20px",
-            }}
-          >
-            <Image className={styles.groupIte} alt="" src={Github} />
-            <Image className={styles.groupIte} alt="" src={Twitter} />
-            <Image className={styles.groupIte} alt="" src={Linkedin} />
-            <Image className={styles.groupIte} alt="" src={Notion} />
-          </div>
-        </div>
         <div className={styles.rectangleParent3}>
           <div className={styles.groupChild8} />
           <Image className={styles.maskGroupIcon4} alt="" src={Headlogo} />
