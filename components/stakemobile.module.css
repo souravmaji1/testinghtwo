@@ -33,6 +33,7 @@
     width: 15px;
     height: 15px;
 }
+
 .frameItem {
     position: relative;
     border-radius: 50%;
@@ -40,6 +41,7 @@
     width: 15px;
     height: 15px;
 }
+
 .ellipseDiv {
     position: relative;
     border-radius: 50%;
@@ -48,9 +50,10 @@
     height: 15px;
     display: none;
 }
+
 .ellipseParent {
     position: absolute;
-    top: 1166px;
+    top: 1000px;
     left: calc(50% - 38px);
     display: flex;
     flex-direction: row;
@@ -58,6 +61,7 @@
     justify-content: flex-start;
     gap: 15px;
 }
+
 .stakeIpadPro1292Item {
     position: absolute;
     bottom: 576px;
@@ -66,11 +70,12 @@
     height: 562px;
 }
 
-.languageone{
+.languageone {
     position: absolute;
     top: 35px;
     right: 12%;
 }
+
 .stakeIpadPro1292Inner {
     position: absolute;
     top: 0px;
@@ -82,11 +87,13 @@
     height: 90px;
     opacity: 0.4;
 }
+
 .unionIcon1 {
     position: relative;
     width: 20.31px;
     height: 20.31px;
 }
+
 .maskGroupIcon {
     position: absolute;
     top: 10px;
@@ -95,9 +102,10 @@
     height: 69.85px;
     object-fit: cover;
 }
+
 .stakingPool {
     position: absolute;
-    top: 1351px;
+    top: 1150px;
     left: calc(50% - 73px);
     font-size: 28px;
     text-transform: capitalize;
@@ -105,9 +113,10 @@
     color: #ffe500;
     text-align: center;
 }
+
 .stakingStats {
     position: sticky;
-    top: 2573px;
+    top: 2300px;
     margin: auto;
     display: flex;
     font-size: 27px;
@@ -119,6 +128,7 @@
     align-content: center;
     justify-content: center;
 }
+
 .groupChild {
     position: absolute;
     bottom: 0px;
@@ -126,6 +136,7 @@
     width: 430px;
     height: 718px;
 }
+
 .ourPartners {
     position: absolute;
     bottom: 150px;
@@ -135,6 +146,7 @@
     display: inline-block;
     width: 332px;
 }
+
 .fuelingInnovationThrough1 {
     position: absolute;
     bottom: 0px;
@@ -146,6 +158,7 @@
     display: inline-block;
     width: 342px;
 }
+
 .ourPartnersParent {
     position: absolute;
     bottom: 350.89px;
@@ -153,38 +166,45 @@
     width: 342px;
     height: 184px;
 }
+
 .clipPathGroup3 {
     position: relative;
     width: 100.8px;
     height: 56px;
 }
+
 .maskGroupIcon1 {
     position: relative;
     width: 146px;
     height: 25.96px;
     object-fit: cover;
 }
+
 .clipPathGroup4 {
     position: relative;
     width: 115.9px;
     height: 38px;
 }
+
 .maskGroupIcon2 {
     position: relative;
     width: 150.62px;
     height: 41.82px;
     object-fit: cover;
 }
+
 .partnersLogosChild {
     position: relative;
     width: 141.83px;
     height: 53.07px;
 }
+
 .clipPathGroup5 {
     position: relative;
     width: 123.33px;
     height: 40px;
 }
+
 .partnersLogos {
     position: absolute;
     bottom: 0px;
@@ -197,6 +217,7 @@
     justify-content: flex-start;
     gap: 80px;
 }
+
 .groupParent {
     position: absolute;
     bottom: 93.11px;
@@ -204,6 +225,7 @@
     width: 355px;
     height: 534.89px;
 }
+
 .vectorParent {
     position: absolute;
     bottom: 1098px;
@@ -214,6 +236,7 @@
     font-size: 28px;
     color: #ffe500;
 }
+
 .joinOurCommunity1 {
     position: absolute;
     bottom: 281px;
@@ -221,6 +244,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .diveIntoA1 {
     position: absolute;
     bottom: 101px;
@@ -233,6 +257,7 @@
     display: inline-block;
     width: 389px;
 }
+
 .groupItem {
     position: absolute;
     top: 265px;
@@ -240,6 +265,7 @@
     width: 292.33px;
     height: 50px;
 }
+
 .joinOurCommunityParent {
     position: absolute;
     bottom: 677px;
@@ -250,6 +276,7 @@
     font-size: 28px;
     color: #ffe500;
 }
+
 .groupInner {
     position: absolute;
     bottom: 0px;
@@ -259,6 +286,7 @@
     width: 430px;
     height: 578px;
 }
+
 .maskGroupIcon3 {
     position: absolute;
     bottom: 392px;
@@ -267,6 +295,7 @@
     height: 110px;
     object-fit: cover;
 }
+
 .mediaInquiresFor1 {
     position: absolute;
     bottom: 75px;
@@ -276,6 +305,7 @@
     width: 321px;
     opacity: 0.5;
 }
+
 .copyRight20231 {
     position: absolute;
     bottom: 0px;
@@ -285,6 +315,7 @@
     width: 274px;
     opacity: 0.5;
 }
+
 .mediaInquiresForCmaxContParent {
     position: absolute;
     bottom: 101px;
@@ -292,11 +323,13 @@
     width: 321px;
     height: 123px;
 }
+
 .trade {
     position: relative;
     text-transform: capitalize;
     font-weight: bold;
 }
+
 .tradeParent {
     position: absolute;
     bottom: 293px;
@@ -311,6 +344,7 @@
     gap: 31px;
     text-align: left;
 }
+
 .rectangleParent {
     position: absolute;
     bottom: 0px;
@@ -319,11 +353,13 @@
     height: 578px;
     text-align: center;
 }
+
 .vectorIcon3 {
     position: relative;
     width: 20px;
     height: 20px;
 }
+
 .vectorGroup {
     position: absolute;
     top: 133.5px;
@@ -334,6 +370,7 @@
     justify-content: flex-start;
     gap: 18px;
 }
+
 .rimenuFillIcon1 {
     position: relative;
     width: 30px;
@@ -341,6 +378,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .stakeParent {
     position: absolute;
     top: 30px;
@@ -353,6 +391,7 @@
     cursor: pointer;
     color: #ffe500;
 }
+
 .stakingBenefits {
     position: absolute;
     top: 208px;
@@ -366,6 +405,7 @@
     display: inline-block;
     width: 334px;
 }
+
 .stakingInBlockchain1 {
     position: absolute;
     top: 326px;
@@ -377,11 +417,13 @@
     display: inline-block;
     width: 392px;
 }
+
 .groupIcon {
     position: relative;
     width: 49.81px;
     height: 70px;
 }
+
 .frameDiv {
     width: 200px;
     display: flex;
@@ -391,6 +433,7 @@
     gap: 26px;
     cursor: pointer;
 }
+
 .loremIpsumDolor3 {
     position: relative;
     font-size: 18px;
@@ -399,6 +442,7 @@
     display: inline-block;
     width: 346px;
 }
+
 .frameParent {
     position: absolute;
     top: 526px;
@@ -410,6 +454,7 @@
     gap: 30px;
     text-align: center;
 }
+
 .groupIcon1 {
     position: absolute;
     height: 97.79%;
@@ -422,6 +467,7 @@
     overflow: hidden;
     max-height: 100%;
 }
+
 .loremIpsumDolor4 {
     position: absolute;
     height: 161.82%;
@@ -431,6 +477,7 @@
     line-height: 37px;
     display: inline-block;
 }
+
 .frame2 {
     position: relative;
     width: 66.4px;
@@ -438,6 +485,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .networkSecurity {
     position: relative;
     font-size: 20px;
@@ -445,6 +493,7 @@
     text-align: center;
     font-weight: bold;
 }
+
 .loremIpsumDolor5 {
     position: relative;
     font-size: 18px;
@@ -454,6 +503,7 @@
     display: inline-block;
     width: 346px;
 }
+
 .frameGroup {
     position: absolute;
     top: 846px;
@@ -465,6 +515,7 @@
     gap: 30px;
     font-size: 22px;
 }
+
 .rectangleDiv {
     position: absolute;
     top: 0px;
@@ -475,6 +526,7 @@
     width: 392px;
     height: 333px;
 }
+
 .lineDiv {
     align-self: stretch;
     position: relative;
@@ -483,6 +535,7 @@
     height: 1px;
     display: none;
 }
+
 .frameChild5 {
     align-self: stretch;
     position: relative;
@@ -490,6 +543,7 @@
     box-sizing: border-box;
     height: 1px;
 }
+
 .lineParent {
     position: absolute;
     top: 68px;
@@ -501,6 +555,7 @@
     justify-content: flex-start;
     gap: 38px;
 }
+
 .titaEtf {
     position: absolute;
     top: 31.12px;
@@ -510,14 +565,17 @@
     width: 159.6px;
     height: 27.81px;
 }
+
 .vectorIcon4 {
     position: relative;
     width: 22px;
     height: 13.58px;
 }
+
 .div {
     position: relative;
 }
+
 .vectorContainer {
     position: absolute;
     top: 31.12px;
@@ -531,6 +589,7 @@
     gap: 6px;
     text-align: right;
 }
+
 .frameIcon {
     position: absolute;
     top: 81.09px;
@@ -539,6 +598,7 @@
     height: 198.96px;
     overflow: hidden;
 }
+
 .gWrapper {
     border-radius: 6px;
     background-color: #3e4057;
@@ -548,6 +608,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .maxWrapper {
     border-radius: 6px;
     background-color: #ffe500;
@@ -558,6 +619,7 @@
     justify-content: center;
     color: #000;
 }
+
 .frameParent2 {
     position: absolute;
     top: 297px;
@@ -569,14 +631,16 @@
     gap: 5px;
     font-size: 10px;
 }
+
 .rectangleGroup {
     position: absolute;
-    top: 1415px;
+    top: 1200px;
     left: 22px;
     width: 392px;
     height: 333px;
     cursor: pointer;
 }
+
 .rectangleIcon {
     position: absolute;
     top: 0px;
@@ -584,6 +648,7 @@
     width: 440px;
     height: 585px;
 }
+
 .maskGroupIcon4 {
     position: absolute;
     top: 0px;
@@ -592,6 +657,7 @@
     height: 585px;
     object-fit: cover;
 }
+
 .totalAmountStake1 {
     position: absolute;
     top: 2px;
@@ -603,6 +669,7 @@
     width: 192px;
     height: 27.02px;
 }
+
 .apr {
     position: relative;
     text-transform: capitalize;
@@ -610,6 +677,7 @@
     width: 70px;
     flex-shrink: 0;
 }
+
 .aprWrapper {
     position: absolute;
     top: 0px;
@@ -628,6 +696,7 @@
     font-size: 20px;
     color: #ffe500;
 }
+
 .cmax {
     position: absolute;
     top: 45.46px;
@@ -637,23 +706,33 @@
     font-weight: 500;
     color: #0ce770;
 }
+
 .totalAmountStakeParent {
     position: relative;
     width: 318px;
     height: 117.46px;
 }
+
 .frameChild11 {
     position: relative;
     width: 294px;
     height: 1px;
 }
+
 .claimRewards {
     position: absolute;
     top: 0px;
-    left: 62px;
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .antDesigndollarOutlinedIcon {
     position: absolute;
     width: 60px;
@@ -663,14 +742,22 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .usd {
-   
+
     position: absolute;
     text-transform: uppercase;
     font-weight: 500;
-    left: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     font-size: 24px;
 }
+
 .antDesigndollarOutlinedParent {
     position: absolute;
     top: 48.95px;
@@ -690,12 +777,14 @@
     font-size: 56px;
     color: #1f1330;
 }
+
 .claimRewardsParent {
     position: relative;
     width: 293.69px;
     height: 112.24px;
     font-size: 26px;
 }
+
 .groupParent1 {
     position: absolute;
     top: 106px;
@@ -707,14 +796,16 @@
     justify-content: flex-start;
     gap: 72px;
 }
+
 .groupDiv {
     position: absolute;
-    top: 1868px;
+    top: 1650px;
     left: -5px;
     width: 440px;
     height: 585px;
     font-size: 22px;
 }
+
 .frameChild12 {
     position: absolute;
     top: 0px;
@@ -725,6 +816,7 @@
     height: 449px;
     display: none;
 }
+
 .frameChild13 {
     position: absolute;
     width: 100%;
@@ -735,6 +827,7 @@
     overflow: hidden;
     height: 1px;
 }
+
 .frameChild14 {
     position: absolute;
     width: 100%;
@@ -745,6 +838,7 @@
     overflow: hidden;
     height: 1px;
 }
+
 .frameChild15 {
     position: absolute;
     width: 100%;
@@ -755,6 +849,7 @@
     overflow: hidden;
     height: 1px;
 }
+
 .topHolders {
     position: absolute;
     top: 49px;
@@ -762,6 +857,7 @@
     font-size: 30px;
     text-transform: capitalize;
 }
+
 .wrapper {
     border-radius: 50px;
     background-color: #5f5a6b;
@@ -771,6 +867,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .div1 {
     position: relative;
     font-size: 22px;
@@ -778,6 +875,7 @@
     text-transform: capitalize;
     color: #fff;
 }
+
 .frameParent4 {
     position: absolute;
     top: 3645px;
@@ -789,6 +887,7 @@
     width: 382px;
     height: 623px;
 }
+
 .container {
     border-radius: 50px;
     background-color: #5f5a6b;
@@ -798,12 +897,14 @@
     align-items: center;
     justify-content: center;
 }
+
 .div2 {
     position: relative;
     font-size: 22px;
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .frameParent22 {
     position: absolute;
     top: 139px;
@@ -827,6 +928,7 @@
     justify-content: flex-start;
     gap: 18px;
 }
+
 .frameParent6 {
     position: absolute;
     top: 291px;
@@ -837,6 +939,7 @@
     justify-content: flex-start;
     gap: 18px;
 }
+
 .frameParent7 {
     position: absolute;
     top: 377px;
@@ -847,6 +950,7 @@
     justify-content: flex-start;
     gap: 18px;
 }
+
 .div5 {
     position: absolute;
     top: 143px;
@@ -856,6 +960,7 @@
     text-transform: capitalize;
     color: #ffe500;
 }
+
 .div6 {
     position: absolute;
     top: 220px;
@@ -864,6 +969,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .div7 {
     position: absolute;
     top: 297px;
@@ -872,6 +978,7 @@
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .div8 {
     position: absolute;
     top: 383px;
@@ -880,6 +987,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .frameChild16 {
     position: absolute;
     top: 27px;
@@ -887,6 +995,7 @@
     width: 18.71px;
     height: 18.71px;
 }
+
 .rectangleContainer {
     position: relative;
     border-radius: 8px;
@@ -894,6 +1003,7 @@
     width: 392px;
     height: 449px;
 }
+
 .groupChild1 {
     position: absolute;
     top: 0px;
@@ -904,6 +1014,7 @@
     width: 392px;
     height: 443px;
 }
+
 .vectorParent1 {
     position: absolute;
     top: 42px;
@@ -915,6 +1026,7 @@
     justify-content: flex-end;
     gap: 10px;
 }
+
 .frameIcon1 {
     position: absolute;
     top: 101px;
@@ -923,6 +1035,7 @@
     height: 252px;
     overflow: hidden;
 }
+
 .cmaxPrice {
     position: absolute;
     top: 36px;
@@ -932,6 +1045,7 @@
     font-family: 'Monument Extended';
     text-align: left;
 }
+
 .rectangleParent1 {
     position: relative;
     width: 392px;
@@ -939,9 +1053,10 @@
     cursor: pointer;
     text-align: right;
 }
+
 .frameParent3 {
     position: absolute;
-    top: 2637px;
+    top: 2400px;
     left: calc(50% - 196px);
     display: flex;
     flex-direction: column;
@@ -949,6 +1064,7 @@
     justify-content: center;
     gap: 20px;
 }
+
 .stakeIpadPro1292 {
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
@@ -962,8 +1078,8 @@
 }
 
 
-@media (min-width: 300px) and (max-width: 327px){
-    .stakeParent{
+@media (min-width: 300px) and (max-width: 327px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -976,7 +1092,8 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 19px;
@@ -987,7 +1104,8 @@
         display: inline-block;
         width: 351px;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(65% - 196px);
@@ -999,20 +1117,22 @@
         -webkit-text-fill-color: transparent;
         display: inline-block;
         width: 334px;
-    
-    }
-    .stakingInBlockchain1{
-        position: absolute;
-    top: 326px;
-    left: 19px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    display: inline-block;
-    width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakingInBlockchain1 {
+        position: absolute;
+        top: 326px;
+        left: 19px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        width: 351px;
+
+    }
+
+    .stakeIpadPro1292Child {
         position: absolute;
         top: 476px;
         left: calc(63% - 196px);
@@ -1023,7 +1143,8 @@
         width: 312px;
         height: 755px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 526px;
         left: 65px;
@@ -1034,7 +1155,8 @@
         gap: 30px;
         text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
         top: 846px;
         left: 67px;
@@ -1044,9 +1166,10 @@
         justify-content: flex-start;
         gap: 30px;
         font-size: 22px;
-    
+
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
         top: 0px;
         left: -5px;
@@ -1056,9 +1179,10 @@
         backdrop-filter: blur(46px);
         width: 293px;
         height: 333px;
-    
+
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 0px;
@@ -1068,21 +1192,23 @@
         align-items: flex-start;
         justify-content: flex-start;
         gap: 38px;
-    
-    }
-    .frameParent2{
-        position: absolute;
-    top: 297px;
-    left: 3px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 7px;
-    font-size: 10px;
 
     }
-    .groupParent1{
+
+    .frameParent2 {
+        position: absolute;
+        top: 297px;
+        left: 3px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 7px;
+        font-size: 10px;
+
+    }
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 10px;
@@ -1093,15 +1219,17 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 319px;
-    left: 35px;
-    height: 449px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 319px;
+        left: 35px;
+        height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
         top: 0px;
         left: 40px;
@@ -1111,9 +1239,10 @@
         backdrop-filter: blur(46px);
         width: 309px;
         height: 443px;
-    
+
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -1122,7 +1251,8 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
         top: 101px;
         left: 31.36px;
@@ -1130,73 +1260,79 @@
         height: 252px;
         overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: -33px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.tradeParent{
-    position: absolute;
-    bottom: 293px;
-    left: 4px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-}
-.maskGroupIcon3{
-    position: absolute;
-    bottom: 392px;
-    left: 140px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-.copyRight20231{
-    position: absolute;
-    bottom: 0px;
-    left: 7px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 45px;
-    display: inline-block;
-    width: 389px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -33px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 4px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupIcon3 {
+        position: absolute;
+        bottom: 392px;
+        left: 140px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .copyRight20231 {
+        position: absolute;
+        bottom: 0px;
+        left: 7px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 45px;
+        display: inline-block;
+        width: 389px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -32px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -32px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
 
-}
-
-@media (min-width: 328px) and (max-width: 360px){
-    .stakeParent{
+@media (min-width: 328px) and (max-width: 360px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -1209,7 +1345,8 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -1222,96 +1359,105 @@
         display: inline-block;
         width: 334px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
-    top: 326px;
-    left: 19px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    display: inline-block;
-    width: 351px;
+        top: 326px;
+        left: 19px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 76px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 76px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 81px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 81px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-    top: 0px;
-    left: -5px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 327px;
-    height: 333px;
+        top: 0px;
+        left: -5px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 327px;
+        height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
-    top: 68px;
-    left: 0px;
-    width: 321px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
+        top: 68px;
+        left: 0px;
+        width: 321px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
-    top: 297px;
-    left: -5px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 13px;
-    font-size: 10px;
+        top: 297px;
+        left: -5px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 13px;
+        font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
-    top: 106px;
-    left: 28px;
-    height: 373px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 72px;
+        top: 106px;
+        left: 28px;
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -1319,18 +1465,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -1339,51 +1487,55 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: -11px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -11px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -32px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -32px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-
-}
 
 
-@media (min-width: 361px) and (max-width: 375px){
-    .stakeParent{
+@media (min-width: 361px) and (max-width: 375px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -1396,65 +1548,71 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
-    top: 208px;
-    left: calc(59% - 196px);
-    font-size: 34px;
-    text-transform: capitalize;
-    font-family: 'Monument Extended';
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    width: 333px;
+        top: 208px;
+        left: calc(59% - 196px);
+        font-size: 34px;
+        text-transform: capitalize;
+        font-family: 'Monument Extended';
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 333px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         padding: 0 8px 0 0;
-    position: absolute;
-    top: 326px;
-    left: 19px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    display: inline-block;
-    width: 351px;
+        position: absolute;
+        top: 326px;
+        left: 19px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 76px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 76px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 81px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 81px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
         top: 0px;
         left: -5px;
@@ -1465,18 +1623,20 @@
         width: 340px;
         height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
-    top: 68px;
-    left: 0px;
-    width: 334px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
+        top: 68px;
+        left: 0px;
+        width: 334px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 3px;
@@ -1486,21 +1646,23 @@
         justify-content: flex-start;
         gap: 13px;
         font-size: 10px;
-    
+
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
-    top: 106px;
-    left: 28px;
-    height: 373px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 72px;
+        top: 106px;
+        left: 28px;
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -1508,18 +1670,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -1528,58 +1692,62 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: -11px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -11px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -25px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
+
+
+
+
+
+
 }
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
-
-}
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -25px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
 
 
 
 
-
-
-}
-
-
-
-
-@media (min-width: 376px) and (max-width: 390px){
-    .stakeParent{
+@media (min-width: 376px) and (max-width: 390px) {
+    .stakeParent {
         position: absolute;
         top: 30px;
         left: 90%;
@@ -1591,7 +1759,8 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -1604,7 +1773,8 @@
         display: inline-block;
         width: 334px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 35px;
@@ -1615,18 +1785,20 @@
         width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 600px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 526px;
         left: 92px;
@@ -1637,9 +1809,10 @@
         gap: 30px;
         text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-        top: 846px;
+        top: 750px;
         left: 97px;
         display: flex;
         flex-direction: column;
@@ -1648,7 +1821,8 @@
         gap: 30px;
         font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
         top: 0px;
         left: 13px;
@@ -1659,7 +1833,8 @@
         width: 324px;
         height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 16px;
@@ -1670,7 +1845,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 12px;
@@ -1682,18 +1858,20 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
-    top: 106px;
-    left: 28px;
-    height: 373px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 72px;
+        top: 106px;
+        left: 28px;
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -1701,18 +1879,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -1721,55 +1901,59 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: -2px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -2px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -12px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
+
+
+
+
+
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -12px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
 
-
-
-
-
-
-}
-
-@media (min-width: 391px) and (max-width: 393px){
-    .stakeParent{
+@media (min-width: 391px) and (max-width: 393px) {
+    .stakeParent {
         position: inherit;
         top: 30px;
         left: auto;
@@ -1781,7 +1965,8 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -1794,7 +1979,8 @@
         display: inline-block;
         width: 334px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 35px;
@@ -1805,18 +1991,20 @@
         width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 526px;
         left: 92px;
@@ -1827,7 +2015,8 @@
         gap: 30px;
         text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
         top: 846px;
         left: 97px;
@@ -1838,7 +2027,8 @@
         gap: 30px;
         font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
         top: 0px;
         left: 13px;
@@ -1849,7 +2039,8 @@
         width: 324px;
         height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 16px;
@@ -1860,7 +2051,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 12px;
@@ -1872,18 +2064,20 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
-    top: 106px;
-    left: 28px;
-    height: 373px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 72px;
+        top: 106px;
+        left: 28px;
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -1891,18 +2085,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -1911,72 +2107,78 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: -2px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
 
-}
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -19px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-}
-
-@media (min-width: 394px) and (max-width: 408px){
-    .frameParent{
+    .joinOurCommunityParent {
         position: absolute;
-    top: 526px;
-    left: 91px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        bottom: 677px;
+        left: -2px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
 
     }
-    .stakingInBlockchain1{
+
+    .rectangleParent {
         position: absolute;
-    top: 326px;
-    padding: 0 13px 0 0;
-    left: 19px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    display: inline-block;
-    width: 392px;
+        bottom: 0px;
+        left: -19px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
     }
-    .frameGroup{
+}
+
+@media (min-width: 394px) and (max-width: 408px) {
+    .frameParent {
+        position: absolute;
+        top: 526px;
+        left: 91px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
+
+    }
+
+    .stakingInBlockchain1 {
+        position: absolute;
+        top: 326px;
+        padding: 0 13px 0 0;
+        left: 19px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        width: 392px;
+    }
+
+    .frameGroup {
         position: absolute;
         top: 846px;
         left: 92px;
@@ -1990,8 +2192,8 @@
 }
 
 
-@media (min-width: 437px) and (max-width: 440px){
-    .stakeParent{
+@media (min-width: 437px) and (max-width: 440px) {
+    .stakeParent {
         position: inherit;
         top: 30px;
         left: auto;
@@ -2003,7 +2205,8 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -2016,7 +2219,8 @@
         display: inline-block;
         width: 334px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 50px;
@@ -2027,30 +2231,33 @@
         width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 123px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 123px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
 
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
         top: 846px;
         left: 127px;
@@ -2061,18 +2268,20 @@
         gap: 30px;
         font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 21px;
@@ -2083,7 +2292,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 25px;
@@ -2095,7 +2305,8 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 48px;
@@ -2106,7 +2317,8 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -2114,18 +2326,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -2134,54 +2348,56 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 11px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 11px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
 
-}
+@media(min-width: 453px) and (max-width: 455px) {}
 
-@media(min-width: 453px) and (max-width: 455px){
-
-}
-
-@media(min-width: 456px) and (max-width: 470px){
-    .stakeParent{
+@media(min-width: 456px) and (max-width: 470px) {
+    .stakeParent {
         position: inherit;
         top: 30px;
         left: auto;
@@ -2193,83 +2409,90 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 125px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 125px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 126px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 126px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 293px;
-    left: 43px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
+        bottom: 293px;
+        left: 43px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
 
     }
-    .copyRight20231{
+
+    .copyRight20231 {
         position: absolute;
-    bottom: 0px;
-    left: 42px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
+        bottom: 0px;
+        left: 42px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
 
     }
-    .maskGroupIcon3{
+
+    .maskGroupIcon3 {
         position: absolute;
-    bottom: 392px;
-    left: 172px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 392px;
+        left: 172px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 476px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 476px;
+        height: 578px;
     }
-    .maskGroupIcon4{
+
+    .maskGroupIcon4 {
         position: absolute;
-    top: 0px;
-    left: 12px;
-    width: 440px;
-    height: 585px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 0px;
+        left: 12px;
+        width: 440px;
+        height: 585px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
 }
 
-@media (min-width: 441px) and (max-width: 455px){
-    .stakeParent{
+@media (min-width: 441px) and (max-width: 455px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -2282,24 +2505,27 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 1415px;
-    left: 37px;
-    width: 392px;
-    height: 333px;
-    cursor: pointer;
+        top: 1415px;
+        left: 37px;
+        width: 392px;
+        height: 333px;
+        cursor: pointer;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -2311,9 +2537,10 @@
         -webkit-text-fill-color: transparent;
         display: inline-block;
         width: 334px;
-    
+
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 50px;
@@ -2324,83 +2551,91 @@
         width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 122px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 122px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 124px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 124px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
 
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 293px;
-    left: 38px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
+        bottom: 293px;
+        left: 38px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
     }
-    .copyRight20231{
+
+    .copyRight20231 {
         position: absolute;
-    bottom: 0px;
-    left: 36px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
+        bottom: 0px;
+        left: 36px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
     }
-    .maskGroupIcon3{
+
+    .maskGroupIcon3 {
         position: absolute;
-    bottom: 392px;
-    left: 170px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 392px;
+        left: 170px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 21px;
@@ -2411,7 +2646,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 25px;
@@ -2423,7 +2659,8 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 48px;
@@ -2434,7 +2671,8 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -2442,18 +2680,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -2462,112 +2702,119 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 11px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
 
-}
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-
-}
-
-@media (min-width: 431px) and (max-width: 450px){
-    .groupInner{
+    .joinOurCommunityParent {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 477px;
-    height: 578px;
+        bottom: 677px;
+        left: 11px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
 
     }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 431px) and (max-width: 450px) {
+    .groupInner {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 477px;
+        height: 578px;
+
+    }
 }
 
 
-@media (min-width: 461px) and (max-width: 482px){
-    .stakeParent{
+@media (min-width: 461px) and (max-width: 482px) {
+    .stakeParent {
         position: initial;
-    top: -7px;
-    margin-top: -8px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+        top: -7px;
+        margin-top: -8px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 293px;
-    left: 42px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
+        bottom: 293px;
+        left: 42px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
     }
-    .copyRight20231{
+
+    .copyRight20231 {}
+
+    .maskGroupIcon3 {
+        position: absolute;
+        bottom: 392px;
+        left: 173px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupInner {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
 
     }
-    .maskGroupIcon3{
-        position: absolute;
-    bottom: 392px;
-    left: 173px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    }
-    .groupInner{
-        position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
 
-    }
-    .tradeParent{
+    .tradeParent {
         position: absolute;
         bottom: 293px;
         left: 45px;
@@ -2579,9 +2826,10 @@
         justify-content: center;
         gap: 38px;
         text-align: left;
-    
+
     }
-    .copyRight20231{
+
+    .copyRight20231 {
         position: absolute;
         bottom: 0px;
         left: 40px;
@@ -2590,7 +2838,8 @@
         width: 274px;
         opacity: 0.5;
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
         top: 1868px;
         left: 2px;
@@ -2598,31 +2847,35 @@
         height: 585px;
         font-size: 22px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 1415px;
-    left: 46px;
-    width: 392px;
-    height: 333px;
-    cursor: pointer;
+        top: 1415px;
+        left: 46px;
+        width: 392px;
+        height: 333px;
+        cursor: pointer;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
         top: 1415px;
         width: 392px;
         height: 333px;
         cursor: pointer;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -2635,7 +2888,8 @@
         display: inline-block;
         width: 334px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 50px;
@@ -2646,64 +2900,70 @@
         width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .maskGroupIcon4{
+
+    .maskGroupIcon4 {
         position: sticky;
-    top: 0px;
-    display: flex;
-    left: 0;
-    width: -webkit-fill-available;
-    height: 585px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+        top: 0px;
+        display: flex;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 585px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 136px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 136px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 139px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 139px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 21px;
@@ -2714,7 +2974,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 25px;
@@ -2726,7 +2987,8 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 48px;
@@ -2737,7 +2999,8 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -2745,18 +3008,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -2765,54 +3030,58 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 27px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 27px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-
-}
 
 
 
 
 
-@media (min-width: 483px) and (max-width: 500px){
-    .stakeParent{
+@media (min-width: 483px) and (max-width: 500px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -2825,32 +3094,34 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .frameDiv{
-        width: 239px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
-    cursor: pointer;
-    }
-    .tradeParent{
-        position: absolute;
-    bottom: 293px;
-    left: 42px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-    }
-    .copyRight20231{
 
+    .frameDiv {
+        width: 239px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        cursor: pointer;
     }
-    .maskGroupIcon3{
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 42px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .copyRight20231 {}
+
+    .maskGroupIcon3 {
         position: absolute;
         bottom: 392px;
         left: 200px;
@@ -2859,17 +3130,19 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
 
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
         bottom: 293px;
         left: 66px;
@@ -2881,18 +3154,20 @@
         justify-content: center;
         gap: 38px;
         text-align: left;
-    
+
     }
-    .copyRight20231{
+
+    .copyRight20231 {
         position: absolute;
-    bottom: 0px;
-    left: 65px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
+        bottom: 0px;
+        left: 65px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
         top: 1868px;
         left: 2px;
@@ -2900,24 +3175,27 @@
         height: 585px;
         font-size: 22px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 1415px;
-    left: 46px;
-    width: 392px;
-    height: 333px;
-    cursor: pointer;
+        top: 1415px;
+        left: 46px;
+        width: 392px;
+        height: 333px;
+        cursor: pointer;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: sticky;
         top: 1415px;
         display: flex;
@@ -2928,7 +3206,8 @@
         cursor: pointer;
         margin: auto;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -2940,9 +3219,10 @@
         -webkit-text-fill-color: transparent;
         display: inline-block;
         width: 334px;
-    
+
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 50px;
@@ -2953,64 +3233,70 @@
         width: 351px;
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(58% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 332px;
-    height: 755px;
+        top: 476px;
+        left: calc(58% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 332px;
+        height: 755px;
     }
-    .maskGroupIcon4{
+
+    .maskGroupIcon4 {
         position: sticky;
-    top: 0px;
-    display: flex;
-    left: 0;
-    width: -webkit-fill-available;
-    height: 585px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+        top: 0px;
+        display: flex;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 585px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 136px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 136px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 139px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 139px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 21px;
@@ -3021,7 +3307,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 25px;
@@ -3033,7 +3320,8 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 48px;
@@ -3044,7 +3332,8 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -3052,18 +3341,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -3072,53 +3363,57 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 0;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    margin: 0 46px;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 0;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        margin: 0 46px;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-
-}
 
 
 
-@media (min-width: 501px) and (max-width: 530px){
-    .stakeParent{
+@media (min-width: 501px) and (max-width: 530px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -3131,32 +3426,34 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .frameDiv{
-        width: 239px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
-    cursor: pointer;
-    }
-    .tradeParent{
-        position: absolute;
-    bottom: 293px;
-    left: 42px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-    }
-    .copyRight20231{
 
+    .frameDiv {
+        width: 239px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        cursor: pointer;
     }
-    .maskGroupIcon3{
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 42px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .copyRight20231 {}
+
+    .maskGroupIcon3 {
         position: absolute;
         bottom: 392px;
         left: 200px;
@@ -3165,17 +3462,19 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
 
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
         bottom: 293px;
         left: 78px;
@@ -3187,9 +3486,10 @@
         justify-content: center;
         gap: 38px;
         text-align: left;
-    
+
     }
-    .copyRight20231{
+
+    .copyRight20231 {
         position: absolute;
         bottom: 0px;
         left: 75px;
@@ -3198,7 +3498,8 @@
         width: 274px;
         opacity: 0.5;
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
         top: 1868px;
         left: 2px;
@@ -3206,24 +3507,27 @@
         height: 585px;
         font-size: 22px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 1415px;
-    left: 46px;
-    width: 392px;
-    height: 333px;
-    cursor: pointer;
+        top: 1415px;
+        left: 46px;
+        width: 392px;
+        height: 333px;
+        cursor: pointer;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: sticky;
         top: 1415px;
         display: flex;
@@ -3234,7 +3538,8 @@
         cursor: pointer;
         margin: auto;
     }
-    .stakingBenefits{
+
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -3247,7 +3552,8 @@
         display: inline-block;
         width: 334px;
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 102px;
@@ -3256,10 +3562,11 @@
         line-height: 30px;
         display: inline-block;
         width: 351px;
-    
+
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
         top: 476px;
         left: calc(57% - 196px);
@@ -3270,53 +3577,58 @@
         width: 332px;
         height: 755px;
     }
-    .maskGroupIcon4{
+
+    .maskGroupIcon4 {
         position: sticky;
-    top: 0px;
-    display: flex;
-    left: 0;
-    width: -webkit-fill-available;
-    height: 585px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+        top: 0px;
+        display: flex;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 585px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 526px;
-    left: 136px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
+        top: 526px;
+        left: 136px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 846px;
-    left: 139px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
+        top: 846px;
+        left: 139px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
     }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 21px;
@@ -3327,7 +3639,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 25px;
@@ -3339,7 +3652,8 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 48px;
@@ -3350,7 +3664,8 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -3358,18 +3673,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -3378,54 +3695,58 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 0;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    margin: 0 53px;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 0;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        margin: 0 53px;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-
-}
 
 
 
 
-@media (min-width: 531px) and (max-width: 570px){
-    .stakeParent{
+@media (min-width: 531px) and (max-width: 570px) {
+    .stakeParent {
         position: initial;
         top: -7px;
         margin-top: -8px;
@@ -3438,51 +3759,55 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .frameDiv{
+
+    .frameDiv {
         width: 239px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
-    cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        cursor: pointer;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 293px;
-    left: 42px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
+        bottom: 293px;
+        left: 42px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
     }
-    .copyRight20231{
+
+    .copyRight20231 {}
+
+    .maskGroupIcon3 {
+        position: absolute;
+        bottom: 392px;
+        left: 220px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupInner {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
 
     }
-    .maskGroupIcon3{
-        position: absolute;
-    bottom: 392px;
-    left: 220px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    }
-    .groupInner{
-        position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
 
-    }
-    .tradeParent{
+    .tradeParent {
         position: absolute;
         bottom: 293px;
         left: 92px;
@@ -3494,19 +3819,21 @@
         justify-content: center;
         gap: 38px;
         text-align: left;
-    
-    
+
+
     }
-    .copyRight20231{
+
+    .copyRight20231 {
         position: absolute;
-    bottom: 0px;
-    left: 89px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
+        bottom: 0px;
+        left: 89px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
         top: 1868px;
         left: 2px;
@@ -3514,24 +3841,27 @@
         height: 585px;
         font-size: 22px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 1415px;
-    left: 46px;
-    width: 392px;
-    height: 333px;
-    cursor: pointer;
+        top: 1415px;
+        left: 46px;
+        width: 392px;
+        height: 333px;
+        cursor: pointer;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: sticky;
         top: 1415px;
         display: flex;
@@ -3542,314 +3872,8 @@
         cursor: pointer;
         margin: auto;
     }
-    .stakingBenefits{
-        position: absolute;
-    top: 208px;
-    left: calc(59% - 196px);
-    font-size: 35px;
-    text-transform: capitalize;
-    font-family: 'Monument Extended';
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    width: 334px;
-    }
-    .stakingInBlockchain1{
-        position: absolute;
-        top: 326px;
-        left: 102px;
-        font-size: 18px;
-        letter-spacing: -0.02em;
-        line-height: 30px;
-        display: inline-block;
-        width: 351px;
-    
 
-    }
-    .stakeIpadPro1292Child{
-        position: absolute;
-    top: 476px;
-    left: calc(49% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 376px;
-    height: 755px;
-    }
-    .maskGroupIcon4{
-        position: sticky;
-    top: 0px;
-    display: flex;
-    left: 0;
-    width: -webkit-fill-available;
-    height: 585px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    }
-    .frameParent{
-        position: absolute;
-    top: 526px;
-    left: 136px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
-    }
-    .frameGroup{
-        position: absolute;
-    top: 846px;
-    left: 139px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 22px;
-    }
-    .rectangleDiv{
-        position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
-    }
-    .lineParent{
-        position: absolute;
-        top: 68px;
-        left: 21px;
-        width: 334px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 38px;
-    }
-    .frameParent2{
-        position: absolute;
-        top: 297px;
-        left: 25px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 13px;
-        font-size: 10px;
-
-    }
-    .groupParent1{
-        position: absolute;
-        top: 106px;
-        left: 48px;
-        height: 373px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 72px;
-    }
-    .rectangleContainer{
-        position: relative;
-        border-radius: 8px;
-        background-color: #282531;
-        width: 334px;
-        left: 27px;
-        height: 449px;
-    }
-    .groupChild1{
-        position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
-    }
-    .cmaxPrice{
-        position: absolute;
-        top: 36px;
-        left: 46.25px;
-        font-size: 24px;
-        text-transform: uppercase;
-        font-family: 'Monument Extended';
-        text-align: left;
-    }
-    .frameIcon1{
-        position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
-    }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 0;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    margin: 0 63px;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
-
-}
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
-
-}
-
-
-
-@media (min-width: 571px) and (max-width: 600px){
-    .stakeParent{
-        position: initial;
-        top: -7px;
-        margin-top: -8px;
-        left: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 17px;
-        cursor: pointer;
-        font-size: 20px;
-    }
-    .frameDiv{
-        width: 239px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 26px;
-    cursor: pointer;
-    }
-    .tradeParent{
-        position: absolute;
-    bottom: 293px;
-    left: 42px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-    }
-    .copyRight20231{
-
-    }
-    .maskGroupIcon3{
-        position: absolute;
-    bottom: 392px;
-    left: 220px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    }
-    .groupInner{
-        position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
-
-    }
-    .tradeParent{
-        position: absolute;
-        bottom: 293px;
-        left: 92px;
-        width: 375px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 38px;
-        text-align: left;
-    
-    
-    }
-    .copyRight20231{
-        position: absolute;
-    bottom: 0px;
-    left: 89px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
-    }
-    .groupDiv{
-        position: absolute;
-        top: 1868px;
-        left: 2px;
-        width: 625px;
-        height: 585px;
-        font-size: 22px;
-    }
-    .rectangleGroup{
-        position: absolute;
-    top: 1415px;
-    left: 46px;
-    width: 392px;
-    height: 333px;
-    cursor: pointer;
-    }
-    .groupInner{
-        position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 900px;
-    height: 578px;
-    }
-    .rectangleGroup{
-        position: sticky;
-        top: 1415px;
-        display: flex;
-        width: 367px;
-        justify-content: center;
-        align-items: center;
-        height: 333px;
-        cursor: pointer;
-        margin: auto;
-    }
-    .stakingBenefits{
+    .stakingBenefits {
         position: absolute;
         top: 208px;
         left: calc(59% - 196px);
@@ -3861,9 +3885,9 @@
         -webkit-text-fill-color: transparent;
         display: inline-block;
         width: 334px;
-    
     }
-    .stakingInBlockchain1{
+
+    .stakingInBlockchain1 {
         position: absolute;
         top: 326px;
         left: 102px;
@@ -3872,79 +3896,73 @@
         line-height: 30px;
         display: inline-block;
         width: 351px;
-    
+
 
     }
-    .stakeIpadPro1292Child{
+
+    .stakeIpadPro1292Child {
         position: absolute;
-    top: 476px;
-    left: calc(49% - 196px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 376px;
-    height: 755px;
+        top: 476px;
+        left: calc(49% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 376px;
+        height: 755px;
     }
-    .maskGroupIcon4{
+
+    .maskGroupIcon4 {
         position: sticky;
-    top: 0px;
-    display: flex;
-    left: 0;
-    width: -webkit-fill-available;
-    height: 585px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+        top: 0px;
+        display: flex;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 585px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 526px;
-        left: 157px;
+        left: 136px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         gap: 30px;
-        text-align: center;  
-    
+        text-align: center;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
         top: 846px;
-        left: 162px;
+        left: 139px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         gap: 30px;
         font-size: 22px;
-    
     }
-    .ellipseParent{
+
+    .rectangleDiv {
         position: absolute;
-    top: 1166px;
-    left: calc(48% - 38px);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 15px;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
     }
-    .rectangleDiv{
-        position: absolute;
-    top: 0px;
-    left: 21px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 338px;
-    height: 333px;
-    }
-    .lineParent{
+
+    .lineParent {
         position: absolute;
         top: 68px;
         left: 21px;
@@ -3955,7 +3973,8 @@
         justify-content: flex-start;
         gap: 38px;
     }
-    .frameParent2{
+
+    .frameParent2 {
         position: absolute;
         top: 297px;
         left: 25px;
@@ -3967,7 +3986,8 @@
         font-size: 10px;
 
     }
-    .groupParent1{
+
+    .groupParent1 {
         position: absolute;
         top: 106px;
         left: 48px;
@@ -3978,7 +3998,8 @@
         justify-content: flex-start;
         gap: 72px;
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: relative;
         border-radius: 8px;
         background-color: #282531;
@@ -3986,18 +4007,20 @@
         left: 27px;
         height: 449px;
     }
-    .groupChild1{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 27px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 336px;
-    height: 443px;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
     }
-    .cmaxPrice{
+
+    .cmaxPrice {
         position: absolute;
         top: 36px;
         left: 46.25px;
@@ -4006,45 +4029,396 @@
         font-family: 'Monument Extended';
         text-align: left;
     }
-    .frameIcon1{
+
+    .frameIcon1 {
         position: absolute;
-    top: 101px;
-    left: 19.36px;
-    width: 335.28px;
-    height: 252px;
-    overflow: hidden;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
     }
-.joinOurCommunityParent{
-    position: absolute;
-    bottom: 677px;
-    left: 0;
-    width: 389px;
-    height: 315px;
-    text-align: center;
-    margin: 0 81px;
-    font-size: 28px;
-    color: #ffe500;
-}
-.diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 393px;
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 0;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        margin: 0 63px;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }
-.rectangleParent{
-    position: absolute;
-    bottom: 0px;
-    left: -8px;
-    width: 430px;
-    height: 578px;
-    text-align: center;
-}
+
+
+
+@media (min-width: 571px) and (max-width: 600px) {
+    .stakeParent {
+        position: initial;
+        top: -7px;
+        margin-top: -8px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .frameDiv {
+        width: 239px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        cursor: pointer;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 42px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .copyRight20231 {}
+
+    .maskGroupIcon3 {
+        position: absolute;
+        bottom: 392px;
+        left: 220px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupInner {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
+
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 92px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+
+
+    }
+
+    .copyRight20231 {
+        position: absolute;
+        bottom: 0px;
+        left: 89px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
+    }
+
+    .groupDiv {
+        position: absolute;
+        top: 1868px;
+        left: 2px;
+        width: 625px;
+        height: 585px;
+        font-size: 22px;
+    }
+
+    .rectangleGroup {
+        position: absolute;
+        top: 1415px;
+        left: 46px;
+        width: 392px;
+        height: 333px;
+        cursor: pointer;
+    }
+
+    .groupInner {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 900px;
+        height: 578px;
+    }
+
+    .rectangleGroup {
+        position: sticky;
+        top: 1415px;
+        display: flex;
+        width: 367px;
+        justify-content: center;
+        align-items: center;
+        height: 333px;
+        cursor: pointer;
+        margin: auto;
+    }
+
+    .stakingBenefits {
+        position: absolute;
+        top: 208px;
+        left: calc(59% - 196px);
+        font-size: 35px;
+        text-transform: capitalize;
+        font-family: 'Monument Extended';
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 334px;
+
+    }
+
+    .stakingInBlockchain1 {
+        position: absolute;
+        top: 326px;
+        left: 102px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        width: 351px;
+
+
+    }
+
+    .stakeIpadPro1292Child {
+        position: absolute;
+        top: 476px;
+        left: calc(49% - 196px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 376px;
+        height: 755px;
+    }
+
+    .maskGroupIcon4 {
+        position: sticky;
+        top: 0px;
+        display: flex;
+        left: 0;
+        width: -webkit-fill-available;
+        height: 585px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .frameParent {
+        position: absolute;
+        top: 526px;
+        left: 157px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        text-align: center;
+
+    }
+
+    .frameGroup {
+        position: absolute;
+        top: 846px;
+        left: 162px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        font-size: 22px;
+
+    }
+
+    .ellipseParent {
+        position: absolute;
+        top: 1166px;
+        left: calc(48% - 38px);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 0px;
+        left: 21px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 338px;
+        height: 333px;
+    }
+
+    .lineParent {
+        position: absolute;
+        top: 68px;
+        left: 21px;
+        width: 334px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+    }
+
+    .frameParent2 {
+        position: absolute;
+        top: 297px;
+        left: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 13px;
+        font-size: 10px;
+
+    }
+
+    .groupParent1 {
+        position: absolute;
+        top: 106px;
+        left: 48px;
+        height: 373px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 72px;
+    }
+
+    .rectangleContainer {
+        position: relative;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 334px;
+        left: 27px;
+        height: 449px;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: 27px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 336px;
+        height: 443px;
+    }
+
+    .cmaxPrice {
+        position: absolute;
+        top: 36px;
+        left: 46.25px;
+        font-size: 24px;
+        text-transform: uppercase;
+        font-family: 'Monument Extended';
+        text-align: left;
+    }
+
+    .frameIcon1 {
+        position: absolute;
+        top: 101px;
+        left: 19.36px;
+        width: 335.28px;
+        height: 252px;
+        overflow: hidden;
+    }
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 0;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+        margin: 0 81px;
+        font-size: 28px;
+        color: #ffe500;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 393px;
+
+    }
+
+    .rectangleParent {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+        width: 430px;
+        height: 578px;
+        text-align: center;
+    }
 
 }

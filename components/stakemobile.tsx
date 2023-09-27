@@ -36,7 +36,7 @@ import PriceView from "../pages/test";
 import Cmax from "./mintcmax";
 import Navbar from "../components/tradenav";
 import Footer from "../components/footer";
-import communityBg from '../public/back.png'
+import communityBg from "../public/back.png";
 
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
@@ -156,30 +156,31 @@ const StakeIPadPro1292: NextPage = () => {
         </div>
 
         <section
-          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[700px] z-50"
+          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[800px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}
         >
-          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10">
+          <h5
+            className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
             {t("communityhead")}
           </h5>
-          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5">
+          <h5
+            className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
             {t("communityparagraph")}
           </h5>
           <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
             <BsGithub color="#ffffff" size={35} />
             <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
             <SiNotion color="#ffffff" size={35} />
           </div>
         </section>
 
-        
-
-        
-
-        
         <div style={myFont.style} className={styles.stakingBenefits}>
           <h5 className="text-3xl">{t("stakebenefit")}</h5>
         </div>
@@ -403,19 +404,26 @@ const StakeIPadPro1292: NextPage = () => {
           <ToolTip onClose={closeToolTip1} />
         </PortalPopup>
       )}
-	  <GenericMobileNavbar />
-    <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-            <img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" />
-            <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>About</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Contact Us</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5>
-            </div>
-            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
-            
-        </section>
+      <GenericMobileNavbar />
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <img
+          src={Headlogo.src}
+          className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+          alt=""
+        />
+        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+          <h5 className="text-white montreal text-2xl md:text-2xl">Trade</h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">Stake</h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">About</h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">
+            Contact Us
+          </h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">Profile</h5>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
     </>
   );
 };

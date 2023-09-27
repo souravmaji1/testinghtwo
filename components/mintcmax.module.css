@@ -281,18 +281,18 @@
 }
 .groupParent {
     position: absolute;
-    top: 558px;
-    left: calc(50% - 158px);
+    top: 500px;
+    left: calc(50% - 161px);
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-    width: 316px;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     font-size: 32px;
-    height: 49px;
-    padding: 11px -6px;
+    height: fit-content;
+    padding: 5% 21%;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -319,7 +319,7 @@
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     -webkit-backdrop-filter: blur(46px);
     backdrop-filter: blur(46px);
-    width: 320px;
+    width: 85%;
     height: 253.61px;
 }
 .credit{
@@ -332,6 +332,7 @@
     margin: 314px 30px;
     font-family: '__thirdFont_3ea4f2';
     border-radius: 12px;
+    padding: 3% 10%;
 }
 .swapMintburnChild1 {
     position: absolute;
@@ -339,7 +340,7 @@
     left: 26px;
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(20, 19, 25, 0), #44484b 96.22%);
-    width: 318px;
+    width: 85%;
     height: 248px;
 }
 
@@ -400,7 +401,7 @@
 }
 .youPay {
     position: absolute;
-    top: 194.95px;
+    top: 120px;
     left: 47px;
     font-size: 14px;
     text-transform: capitalize;
@@ -460,7 +461,7 @@
 }
 .balance323400 {
     position: absolute;
-    top: 194.95px;
+    top: 120px;
     left: 204px;
     font-size: 14px;
     text-transform: capitalize;
@@ -468,7 +469,7 @@
 }
 .expectedPrice124681 {
     position: absolute;
-    top: 293.95px;
+    top: 230px;
     left: 48px;
     font-size: 14px;
     text-transform: capitalize;
@@ -494,8 +495,9 @@
 }
 .div5 {
     position: absolute;
-    top: 246px;
+    top: 150px;
     left: 40px;
+    width: 40%;
     font-size: 32px;
     font-weight: 500;
 }
@@ -522,18 +524,19 @@
 }
 .frameGroup {
     position: absolute;
-    top: 240.03px;
+    top: 160px;
     left: 201px;
-    border-radius: 40px;
+    border-radius: 14px;
     background-color: #3f4145;
-    width: 120px;
+    width: 33%;
     display: flex;
     flex-direction: row;
-    padding: 6px;
+    padding: 6px 6px;
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
+    border: solid 1px #fff;
 }
 .swapMintburn {
     position: absolute;
@@ -763,7 +766,7 @@
     @media (min-width: 376px) and (max-width: 390px) {
       .swapMintburnChild{
         position: absolute;
-        top: 3645px;
+        top: 3400px;
         left: 3px;
         border-radius: 11px;
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
@@ -1009,13 +1012,44 @@
         .swapMintburnChild{
             position: absolute;
             top: 2725px;
-            left: 250px;
+            left: 0px;
             border-radius: 11px;
             background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
             -webkit-backdrop-filter: blur(46px);
             backdrop-filter: blur(46px);
-            width: 382px;
+            width: 97%;
+            margin-right: auto;
+            margin-left: auto;
             height: 619px;
+          }
+
+          .swapMintburnInner{
+            width: 93%;
+          }
+
+          .swapMintburnChild1{
+            width: 93%;
+          }
+
+          .balance323400{
+            left: 85%;
+          }
+
+          .div5{
+            width: 45%;
+          }
+
+          .frameGroup{
+            width: 40%;
+            left: 52%;
+            padding: 1.5% 3%;
+            top: 155px;
+          }
+
+          .groupParent{
+            padding: 3.5% 3%;
+            left: 29px;
+            width: 93%;
           }
       }
   
