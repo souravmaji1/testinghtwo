@@ -1175,7 +1175,8 @@
        
     }
     .mobile{
-        display: block;
+        background: linear-gradient(180deg, #201d26, #1d1b20) !important;
+        height: fit-content !important;
     }
 }
 

@@ -191,6 +191,11 @@ body {
 
 .gradBlueBG{
   background: linear-gradient(180deg, #201d26, #1d1b20);
+  color: #ffe500;
+}
+
+body{
+  background: linear-gradient(180deg, #201d26, #1d1b20) !important; 
 }
 
 .aboutGlassBox {

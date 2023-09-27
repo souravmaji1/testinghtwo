@@ -85,10 +85,8 @@ const AboutIPadPro1293: NextPage = () => {
   };
 
   return (
-    <>
-      <div className={styles.aboutIpadPro1293}>
-       
-        <section className="w-screen h-fit absolute top-44">
+    <div className="w-screen h-fit gradBlueBG">
+      <section className="w-screen h-fit absolute top-0 pt-40 gradBlueBG">
           <section className="w-screen h-fit px-3">
             <h5 className="text-3xl capitalize mb-3" style={myFont.style}>
               {t("about")}
@@ -116,7 +114,10 @@ const AboutIPadPro1293: NextPage = () => {
                 >
                   Q1
                 </h5>
-                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                <p
+                  className="text-white text-sm leading-relaxed"
+                  style={secondFont.style}
+                >
                   {t("roadmapone")}
                 </p>
               </div>
@@ -127,7 +128,10 @@ const AboutIPadPro1293: NextPage = () => {
                 >
                   Q2
                 </h5>
-                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                <p
+                  className="text-white text-sm leading-relaxed"
+                  style={secondFont.style}
+                >
                   {t("roadmapthree")}
                 </p>
               </div>
@@ -138,7 +142,10 @@ const AboutIPadPro1293: NextPage = () => {
                 >
                   Q3
                 </h5>
-                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                <p
+                  className="text-white text-sm leading-relaxed"
+                  style={secondFont.style}
+                >
                   {t("roadmapfour")}
                 </p>
               </div>
@@ -149,7 +156,10 @@ const AboutIPadPro1293: NextPage = () => {
                 >
                   Q4
                 </h5>
-                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                <p
+                  className="text-white text-sm leading-relaxed"
+                  style={secondFont.style}
+                >
                   {t("roadmaptwo")}
                 </p>
               </div>
@@ -189,37 +199,56 @@ const AboutIPadPro1293: NextPage = () => {
               </div>
             </div>
           </section>
-          
-        </section>
-        <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start pt-10 absolute bottom-0 pb-24">
-        <a href="/">
-          <img
-            src={Headlogo.src}
-            className=" aspect-square w-20 md:w-36 my-10 md:my-16"
-            alt=""
-          />
-        </a>
-        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
-          <a href="/trade">
-            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>Trade</h5>
-          </a>
-          <a href="/stake">
-            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>Stake</h5>
-          </a>
-          <a href="/about">
-            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>About</h5>
-          </a>
-          <a href="/profile">
-            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>
-              Profile
+          <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start pt-10 pb-24">
+            <a href="/">
+              <img
+                src={Headlogo.src}
+                className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+                alt=""
+              />
+            </a>
+            <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+              <a href="/trade">
+                <h5
+                  className="text-white montreal text-2xl md:text-2xl"
+                  style={thirdFont.style}
+                >
+                  Trade
+                </h5>
+              </a>
+              <a href="/stake">
+                <h5
+                  className="text-white montreal text-2xl md:text-2xl"
+                  style={thirdFont.style}
+                >
+                  Stake
+                </h5>
+              </a>
+              <a href="/about">
+                <h5
+                  className="text-white montreal text-2xl md:text-2xl"
+                  style={thirdFont.style}
+                >
+                  About
+                </h5>
+              </a>
+              <a href="/profile">
+                <h5
+                  className="text-white montreal text-2xl md:text-2xl"
+                  style={thirdFont.style}
+                >
+                  Profile
+                </h5>
+              </a>
+            </div>
+            <h5
+              className="montreal text-gray-500 text-sm absolute bottom-8"
+              style={thirdFont.style}
+            >
+              All Rights Reserved - © 2021 Stephen King
             </h5>
-          </a>
-        </div>
-        <h5 className="montreal text-gray-500 text-sm absolute bottom-8" style={thirdFont.style}>
-          All Rights Reserved - © 2021 Stephen King
-        </h5>
-      </section>
-      </div>
+          </section>
+        </section>
       {isMenuIPadPro1291Open && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
@@ -230,8 +259,7 @@ const AboutIPadPro1293: NextPage = () => {
         </PortalPopup>
       )}
       <GenericMobileNavbar />
-      
-    </>
+    </div>
   );
 };
 
