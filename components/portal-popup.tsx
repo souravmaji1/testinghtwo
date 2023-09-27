@@ -181,7 +181,7 @@ const HomepageTradeSubpage:NextPage = () => {
         				<div className={styles.maskGroupParent}>
           					<img className={styles.maskGroupIcon1} alt="" src="Mask group.png" />
           					<div className={styles.mediaInquiresForCmaxContParent}>
-            						<div className={styles.mediaInquiresForContainer}>{`Media inquires for CMax - Contact `}
+            						<div className={styles.mediaInquiresForContainer}>{`All Rights Reserved - © 2023 CMax `}
               							<span className={styles.mediacmaxcom}>media@cmax.com</span>
             						</div>
             						<div className={styles.copyRight20231}>Copy Right 2023 - CMax. All Rights Reserved</div>
@@ -190,7 +190,6 @@ const HomepageTradeSubpage:NextPage = () => {
             						<div className={styles.trade}>Trade</div>
             						<div className={styles.trade}>Stake</div>
             						<div className={styles.trade}>About</div>
-            						<div className={styles.trade}>Contact Us</div>
             						<div className={styles.trade}>Privacy Policy</div>
             						<div className={styles.trade}>{`Terms & Conditions`}</div>
           					</div>

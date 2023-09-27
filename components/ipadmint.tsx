@@ -171,7 +171,7 @@ const TradeSubpageIPadPro129: NextPage = () => {
           <Image className={styles.maskGroupIcon1} alt="" src={Headlogo} />
           <div className={styles.mediaInquiresForCmaxContParent}>
             <div className={styles.mediaInquiresFor1}>
-              Media inquires for CMax - Contact media@cmax.com
+			All Rights Reserved - © 2023 CMax
             </div>
             <div className={styles.mediaInquiresFor1}>{t("copyright")} </div>
           </div>
@@ -179,7 +179,6 @@ const TradeSubpageIPadPro129: NextPage = () => {
             <div className={styles.home}>Trade</div>
             <div className={styles.home}>Stake</div>
             <div className={styles.home}>About</div>
-            <div className={styles.home}>Contact Us</div>
           </div>
         </div>
       </div>

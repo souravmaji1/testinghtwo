@@ -415,9 +415,7 @@ const StakeIPadPro1292: NextPage = () => {
           <h5 className="text-white montreal text-2xl md:text-2xl">Trade</h5>
           <h5 className="text-white montreal text-2xl md:text-2xl">Stake</h5>
           <h5 className="text-white montreal text-2xl md:text-2xl">About</h5>
-          <h5 className="text-white montreal text-2xl md:text-2xl">
-            Contact Us
-          </h5>
+          
           <h5 className="text-white montreal text-2xl md:text-2xl">Profile</h5>
         </div>
         <h5 className="montreal text-gray-500 text-sm absolute bottom-8">

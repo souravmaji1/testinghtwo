@@ -348,13 +348,13 @@ const ProfileIPadPro1294: NextPage = () => {
       )}
       <GenericMobileNavbar />
       <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-            <img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" />
+            <a href="/"><img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" /></a>
             <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>About</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Contact Us</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5>
+                <a href="/trade"><h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5></a>
+                <a href="/stake"><h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5></a>
+                <a href="/about"><h5 className='text-white montreal text-2xl md:text-2xl'>About</h5></a>
+                <a href="/profile"><h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5></a>
+               
             </div>
             <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
             

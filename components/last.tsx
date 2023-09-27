@@ -28,7 +28,7 @@ import Github from "../public/mdi_github.svg";
 import Twitter from "../public/mdi_twitter.svg";
 import Linkedin from "../public/entypo-social_linkedin-with-circle.svg";
 import Notion from "../public/mingcute_notion-fill.svg";
-import communityBg from '../public/back.png'
+import communityBg from "../public/back.png";
 import { useTranslation } from "react-i18next";
 
 import Tradei from "../public/montra.png";
@@ -109,10 +109,6 @@ const AboutIPadPro1293: NextPage = () => {
           </div>
         </section>
 
-        
-
-        
-        
         <div style={myFont.style} className={styles.aboutUs}>
           <h5 className="text-3xl capitalize">{t("about")}</h5>
         </div>
@@ -218,19 +214,35 @@ const AboutIPadPro1293: NextPage = () => {
           <MenuIPadPro1291 />
         </PortalPopup>
       )}
-	  <GenericMobileNavbar />
-    <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-            <img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" />
-            <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>About</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Contact Us</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5>
-            </div>
-            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
-            
-        </section>
+      <GenericMobileNavbar />
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+          <a href="/trade">
+            <h5 className="text-white montreal text-2xl md:text-2xl">Trade</h5>
+          </a>
+          <a href="/stake">
+            <h5 className="text-white montreal text-2xl md:text-2xl">Stake</h5>
+          </a>
+          <a href="/about">
+            <h5 className="text-white montreal text-2xl md:text-2xl">About</h5>
+          </a>
+          <a href="/profile">
+            <h5 className="text-white montreal text-2xl md:text-2xl">
+              Profile
+            </h5>
+          </a>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
     </>
   );
 };

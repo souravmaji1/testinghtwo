@@ -86,7 +86,7 @@ function GenericMobileNavbar() {
   return (
     <>
       <section className="absolute top-0 left-0 h-fit w-screen flex flex-row items-center justify-between p-2">
-        <img src={logo.src} className="h-16 aspect-square" alt="" />
+        <a href="/"><img src={logo.src} className="h-16 aspect-square" alt="" /></a>
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-row items-center justify-between">
             <Menu
@@ -99,7 +99,7 @@ function GenericMobileNavbar() {
                     <Image
                       src={selectedLanguage.image}
                       alt={selectedLanguage.name}
-                      className="w-full h-full"
+                      className="w-full h-full  aspect-square"
                     />
                   </div>
                 </MenuButton>
@@ -116,7 +116,7 @@ function GenericMobileNavbar() {
                   <Image
                     src={EnglishFlag}
                     alt="English"
-                    className="h-6 w-6 mr-3"
+                    className="h-6 w-6 mr-3 aspect-square"
                   />
                   <h5 className={` text-xl text-white my-0`} style={secondFont.style}>EN</h5>
                 </div>
@@ -131,7 +131,7 @@ function GenericMobileNavbar() {
                   <Image
                     src={FrenchFlag}
                     alt="English"
-                    className="h-6 w-6 mr-3"
+                    className="h-6 w-6 mr-3 aspect-square"
                   />
                   <h5 className={` text-xl text-white my-0`} style={secondFont.style}>FR</h5>
                 </div>
@@ -146,7 +146,7 @@ function GenericMobileNavbar() {
                   <Image
                     src={SpanishFlag}
                     alt="English"
-                    className="h-6 w-6 mr-3"
+                    className="h-6 w-6 mr-3 aspect-square"
                   />
                   <h5 className={` text-xl text-white my-0`} style={secondFont.style}>ES</h5>
                 </div>
@@ -161,7 +161,7 @@ function GenericMobileNavbar() {
                   <Image
                     src={ItalianFlag}
                     alt="English"
-                    className="h-6 w-6 mr-3"
+                    className="h-6 w-6 mr-3 aspect-square"
                   />
                   <h5 className={` text-xl text-white my-0`} style={secondFont.style}>IT</h5>
                 </div>
@@ -176,7 +176,7 @@ function GenericMobileNavbar() {
                   <Image
                     src={RussanFlag}
                     alt="English"
-                    className="h-6 w-6 mr-3"
+                    className="h-6 w-6 mr-3 aspect-square"
                   />
                   <h5 className={` text-xl text-white my-0`} style={secondFont.style}>RU</h5>
                 </div>
@@ -191,7 +191,7 @@ function GenericMobileNavbar() {
                   <Image
                     src={ArbaianFlag}
                     alt="English"
-                    className="h-6 w-6 mr-3"
+                    className="h-6 w-6 mr-3 aspect-square"
                   />
                   <h5 className={` text-xl text-white my-0`} style={secondFont.style}>AR</h5>
                 </div>

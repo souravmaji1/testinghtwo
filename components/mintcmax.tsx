@@ -146,13 +146,13 @@ export default function Minting() {
         sx={{ padding: "10px 20px 10px 20px" }}
       >
         <Tab
-          style={{ fontFamily: "__secondFont_72e69f", fontWeight: "bold" }}
+          style={thirdFont.style}
           sx={{
             height: "54px",
             padding: "10px 50px 10px 50px",
             borderRadius: "7px",
             margin: "auto",
-            fontSize: "29px",
+            fontSize: "24px",
           }}
           _selected={{ color: "black", bg: "yellow" }}
         >

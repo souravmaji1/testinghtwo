@@ -233,7 +233,7 @@ const HomepageTradeSubpage: NextPage = () => {
             />
             <div className={styles.mediaInquiresForCmaxContParent}>
               <div className={styles.mediaInquiresForContainer}>
-                {`Media inquires for CMax - Contact `}
+                {`All Rights Reserved - © 2023 CMax`}
                 <span style={secondFont.style} className={styles.mediacmaxcom}>
                   media@cmax.com
                 </span>
@@ -253,9 +253,7 @@ const HomepageTradeSubpage: NextPage = () => {
               <div style={secondFont.style} className={styles.trade}>
                 About
               </div>
-              <div style={secondFont.style} className={styles.trade}>
-                Contact Us
-              </div>
+              
               <div style={secondFont.style} className={styles.trade}>
                 Privacy Policy
               </div>
