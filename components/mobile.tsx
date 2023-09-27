@@ -92,6 +92,16 @@ import Tradingvol from "../public/Total Trading Volume.png";
 import LanguageSelector from "./mobilelang";
 import GenericMobileNavbar from "./mobileGenericNavbar";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
+import one from "../public/one.png";
+import two from "../public/two.png";
+import three from "../public/three.png";
+import four from "../public/cc.png";
+import five from "../public/bb.png";
+import six from "../public/aa.png";
+
 const HomeIPadPro1291: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
 
@@ -112,6 +122,45 @@ const HomeIPadPro1291: NextPage = () => {
 		and run this function in a useEffect on top of every page, 
 		with the language code that is in the local storage as a parameter */
   };
+
+  const discoverItem = [
+    {
+      top: {
+        title: t('benefithead'),
+        text: t('benefitparagraphone'),
+        icon: one.src,
+      },
+      bottom: {
+        title: t('benefitheadtwo'),
+        text: t('benefitparagraphtwo'),
+        icon: two.src,
+      },
+    },
+    {
+      top: {
+        title: t('benefitheadthree'),
+        text: t('benefitparagraphthree'),
+        icon: three.src,
+      },
+      bottom: {
+        title: t('benefitheadfour'),
+        text: t('benefitparagraphfour'),
+        icon: four.src,
+      },
+    },
+    {
+      top: {
+        title: t('benefitheadfive'),
+        text: t('benefitparagraphfive'),
+        icon: five.src,
+      },
+      bottom: {
+        title: t('benefitheadsix'),
+        text: t('benefitparagraphsix'),
+        icon: six.src,
+      },
+    },
+  ];
 
   return (
     <>
@@ -264,68 +313,97 @@ const HomeIPadPro1291: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className={styles.ellipseGroup}>
-          <div className={styles.ellipseDiv} />
-          <div className={styles.rectangleParent1}>
-            <div className={styles.groupChild3} />
-            <div
-              style={myFont.style}
-              className={styles.seamlessFinancialInclusion1}
+        <section className="h-fit w-full mx-auto px-1 absolute top-[2860px]" id="homeCarousel">
+          <div className="flex md:hidden flex-row items-center justify-center py-3 px-8 mt-5">
+            <Carousel
+              autoPlay={false}
+              interval={4000}
+              showArrows={false}
+              showStatus={false}
+              swipeable={true}
+              dynamicHeight={true}
+              showIndicators={true}
+              infiniteLoop={true}
+              renderIndicator={(
+                clickHandler: (
+                  e: React.MouseEvent | React.KeyboardEvent
+                ) => void,
+                isSelected: boolean,
+                index: number,
+                label: string
+              ) => {
+                if (isSelected) {
+                  return (
+                    <div className="w-3 h-3 bg-[#B2F908] rounded-full"></div>
+                  );
+                } else {
+                  return (
+                    <div className="h-3 w-3 bg-[#575757] rounded-full"></div>
+                  );
+                }
+              }}
             >
-              <h5 className="text-xl my-0">{t("benefithead")}</h5>
-            </div>
-            <div style={secondFont.style} className={styles.joinAPlatform1}>
-              {t("benefitparagraphone")}{" "}
-            </div>
-            <Image className={styles.groupIcon} alt="" src={One} />
+              {discoverItem.map((item, index) => {
+                return (
+                  <div key={index} className="h-fit w-full cursor-grab flex flex-col items-start justify-start">
+                    <div className="discoverBox h-fit w-full rounded-xl py-6 px-4 mb-3 flex flex-col items-start justify-start">
+                      <img
+                        src={item.top.icon}
+                        className="w-20 aspect-square mb-6"
+                        alt=""
+                      />
+                      <h5 className="text-2xl text-[#FFE925] text-left mb-4" style={myFont.style}>
+                        {item.top.title}
+                      </h5>
+                      <h5 className="text-xl text-white text-left" style={secondFont.style}>
+                        {item.top.text}
+                      </h5>
+                    </div>
+                    <div className="discoverBox h-fit w-full rounded-xl py-6 px-4 mb-3 flex flex-col items-start justify-start">
+                      <img
+                        src={item.bottom.icon}
+                        className="h-16 aspect-square mb-6"
+                        alt=""
+                      />
+                      <h5 className="monument text-2xl text-[#FFE925] text-left mb-4" style={myFont.style}>
+                        {item.bottom.title}
+                      </h5>
+                      <h5 className="montreal text-xl text-white text-left" style={secondFont.style}>
+                        {item.bottom.text}
+                      </h5>
+                    </div>
+                  </div>
+                );
+              })}
+            </Carousel>
           </div>
-        </div>
-        <div className={styles.ellipseContainer}>
-          <div className={styles.ellipseDiv} />
-          <div className={styles.rectangleParent1}>
-            <div className={styles.groupChild3} />
-            <div
-              style={myFont.style}
-              className={styles.seamlessFinancialInclusion1}
-            >
-              <h5 className="text-xl my-0">{t("benefitheadtwo")}</h5>
-            </div>
-            <div style={secondFont.style} className={styles.joinAPlatform1}>
-              {" "}
-              {t("benefitparagraphtwo")}{" "}
-            </div>
-            <Image className={styles.groupIcon} alt="" src={Two} />
-          </div>
-        </div>
-        <div className={styles.frameDiv}>
-          <div className={styles.frameChild} />
-          <div className={styles.frameItem} />
-          <div className={styles.frameChild} />
-          <div className={styles.frameChild1} />
-          <div className={styles.frameChild1} />
-          <div className={styles.frameChild1} />
-        </div>
+        </section>
+
         <section
-          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[750px] z-50"
+          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[700px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}
         >
-          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10">
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
             {t("communityhead")}
           </h5>
-          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5">
+          <h5
+            className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
             {t("communityparagraph")}
           </h5>
           <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
             <BsGithub color="#ffffff" size={35} />
             <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
             <SiNotion color="#ffffff" size={35} />
           </div>
         </section>
-
-        
       </div>
       {isMenuIPadPro1291Open && (
         <PortalPopup
@@ -337,17 +415,50 @@ const HomeIPadPro1291: NextPage = () => {
         </PortalPopup>
       )}
       <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-            <img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" />
-            <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>About</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Contact Us</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5>
-            </div>
-            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
-            
-        </section>
+        <img
+          src={Headlogo.src}
+          className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+          alt=""
+        />
+        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+          <h5
+            className="text-white text-2xl md:text-2xl"
+            style={thirdFont.style}
+          >
+            Trade
+          </h5>
+          <h5
+            className="text-white text-2xl md:text-2xl"
+            style={thirdFont.style}
+          >
+            Stake
+          </h5>
+          <h5
+            className="text-white text-2xl md:text-2xl"
+            style={thirdFont.style}
+          >
+            About
+          </h5>
+          <h5
+            className="text-white text-2xl md:text-2xl"
+            style={thirdFont.style}
+          >
+            Contact Us
+          </h5>
+          <h5
+            className="text-white text-2xl md:text-2xl"
+            style={thirdFont.style}
+          >
+            Profile
+          </h5>
+        </div>
+        <h5
+          className="text-gray-500 text-base absolute bottom-8"
+          style={thirdFont.style}
+        >
+          All Rights Reserved - © 2023 CMax
+        </h5>
+      </section>
     </>
   );
 };

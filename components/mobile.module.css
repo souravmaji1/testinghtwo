@@ -5,6 +5,7 @@
     width: 562px;
     height: 562px;
 }
+
 .homeIpadPro1291Item {
     position: absolute;
     top: 681px;
@@ -13,6 +14,7 @@
     height: 437px;
     overflow: hidden;
 }
+
 .homeIpadPro1291Inner {
     position: absolute;
     top: 1753px;
@@ -21,6 +23,7 @@
     height: 437px;
     overflow: hidden;
 }
+
 .shutterstock2152297015ConveIcon {
     position: absolute;
     top: 0px;
@@ -30,6 +33,7 @@
     object-fit: cover;
     mix-blend-mode: luminosity;
 }
+
 .rectangleDiv {
     position: absolute;
     top: 0px;
@@ -37,11 +41,13 @@
     width: fit-content;
     height: fit-content;
 }
+
 .unionIcon2 {
     position: relative;
     width: 20.31px;
     height: 20.31px;
 }
+
 .maskGroupIcon {
     position: absolute;
     top: 10px;
@@ -51,12 +57,14 @@
     object-fit: cover;
 }
 
-#languageDropdown{
+#languageDropdown {
     margin-top: 10% !important;
 }
+
 .home {
     position: relative;
 }
+
 .rimenuFillIcon1 {
     position: relative;
     width: 30px;
@@ -64,6 +72,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .homeParent {
     position: initial;
     top: 30px;
@@ -77,6 +86,7 @@
     font-size: 20px;
     padding-right: 1% !important;
 }
+
 .unveilingANew1 {
     position: absolute;
     top: 175px;
@@ -86,6 +96,7 @@
     font-weight: 500;
     color: #fff;
 }
+
 .discoverTheRwfa {
     position: absolute;
     top: 229px;
@@ -100,6 +111,7 @@
     display: inline-block;
     width: 379px;
 }
+
 .btnChild {
     position: absolute;
     top: -12px;
@@ -107,6 +119,7 @@
     border-radius: 4.69px;
     width: 80vw;
 }
+
 .startTrading {
     position: relative;
     top: calc(50% - 9px);
@@ -118,7 +131,7 @@
     justify-content: center;
 }
 
-.languageone{
+.languageone {
     position: absolute;
     top: 35px;
     right: 12%;
@@ -129,6 +142,7 @@
     width: 350px;
     height: 60px;
 }
+
 .carbonplayFilledIcon1 {
     position: relative;
     width: 26px;
@@ -136,11 +150,13 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .watchTutorial {
     position: relative;
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .carbonplayFilledParent {
     display: flex;
     flex-direction: row;
@@ -149,6 +165,29 @@
     gap: 11px;
     color: #fff;
 }
+
+.glassy {
+    background: radial-gradient(231.00% 135.80% at 0.90% 2.98%, rgba(222, 222, 222, 0.40) 0%, rgba(133, 133, 133, 0.427) 100%) !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.treasuryContainer {
+    background: linear-gradient(180deg, #2B2A26 0%, rgba(43, 42, 38, 0.00) 100%);
+    backdrop-filter: blur(23px);
+}
+
+.treasuryBox {
+    background: linear-gradient(180deg, #2B2A26 0%, rgba(43, 42, 38, 0.00) 100%);
+    backdrop-filter: blur(23px);
+}
+
+
+.discoverBox {
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52) 0%, rgba(40, 39, 41, 0.52) 100%);
+    backdrop-filter: blur(23px);
+
+}
+
 .btnParent {
     position: absolute;
     top: 453px;
@@ -162,11 +201,13 @@
     font-size: 16px;
     color: #1f1330;
 }
+
 .unionIcon3 {
     position: relative;
     width: 23.02px;
     height: 23.02px;
 }
+
 .homeIpadPro1291Child1 {
     position: absolute;
     top: 649px;
@@ -175,6 +216,7 @@
     width: 365px;
     height: 2px;
 }
+
 .groupChild {
     position: absolute;
     top: 116px;
@@ -185,6 +227,7 @@
     height: 83px;
     opacity: 0.3;
 }
+
 .groupItem {
     position: absolute;
     top: 174px;
@@ -196,6 +239,7 @@
     opacity: 0.4;
 
 }
+
 .downloadOurWhite1 {
     position: absolute;
     top: 0px;
@@ -206,6 +250,7 @@
     display: inline-block;
     width: 332px;
 }
+
 .groupInner {
     position: absolute;
     top: 0px;
@@ -216,6 +261,7 @@
     width: 394px;
     height: 266px;
 }
+
 .frameIcon {
     position: absolute;
     top: 0px;
@@ -224,11 +270,13 @@
     height: 128.17px;
     overflow: hidden;
 }
+
 .rwfa {
     position: absolute;
     top: 0px;
     left: calc(50% - 36.5px);
 }
+
 .whitepaper {
     position: absolute;
     top: 28.41px;
@@ -236,6 +284,7 @@
     color: #fff;
     text-align: center;
 }
+
 .rwfaParent {
     position: absolute;
     top: 137.67px;
@@ -243,6 +292,7 @@
     width: 151px;
     height: 46.41px;
 }
+
 .frameParent {
     position: absolute;
     top: 41px;
@@ -250,6 +300,7 @@
     width: 163.44px;
     height: 184.08px;
 }
+
 .rectangleParent {
     position: absolute;
     top: 98px;
@@ -259,7 +310,9 @@
     text-align: left;
     color: #fff931;
     font-family: 'Monument Extended';
+    margin-top: 4% !important;
 }
+
 .diveIntoThe1 {
     position: absolute;
     top: 394px;
@@ -271,6 +324,7 @@
     display: inline-block;
     width: 342px;
 }
+
 .mingcutewallet4FillIcon1 {
     position: absolute;
     top: 11px;
@@ -279,6 +333,7 @@
     height: 26px;
     overflow: hidden;
 }
+
 .downloadWhitepaper {
     position: absolute;
     top: 14.5px;
@@ -287,6 +342,7 @@
     text-transform: uppercase;
     font-weight: 500;
 }
+
 .mingcutewallet4FillParent {
     position: absolute;
     top: 714px;
@@ -301,6 +357,7 @@
     font-size: 16px;
     color: #1f1330;
 }
+
 .ellipseParent {
     position: absolute;
     top: 741px;
@@ -310,6 +367,7 @@
     text-align: center;
     font-size: 18px;
 }
+
 .treasuryTokens1 {
     position: absolute;
     top: 0px;
@@ -319,6 +377,7 @@
     display: inline-block;
     width: 332px;
 }
+
 .immerseYourselfIn1 {
     position: absolute;
     top: 98px;
@@ -332,6 +391,7 @@
     width: 342px;
 
 }
+
 .treasuryTokensEcosystemParent {
     position: absolute;
     top: 1613px;
@@ -340,6 +400,7 @@
     height: 218px;
     text-align: center;
 }
+
 .elevateYourFinancial1 {
     position: absolute;
     top: 64px;
@@ -353,6 +414,7 @@
     display: inline-block;
     width: 360px;
 }
+
 .discoverOurBenefitsParent {
     position: absolute;
     top: 2598px;
@@ -361,6 +423,7 @@
     height: 214px;
     text-align: center;
 }
+
 .homeIpadPro1291Child2 {
     position: absolute;
     top: 1873px;
@@ -371,6 +434,7 @@
     width: 394px;
     height: 625px;
 }
+
 .maskGroupIcon1 {
     position: absolute;
     top: 1895.61px;
@@ -379,6 +443,7 @@
     height: 250.39px;
     object-fit: cover;
 }
+
 .treasury {
     position: absolute;
     top: 1924.11px;
@@ -390,6 +455,7 @@
     width: 138.79px;
     height: 43.48px;
 }
+
 .div {
     position: absolute;
     top: 0px;
@@ -398,6 +464,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .div1 {
     position: absolute;
     top: 43px;
@@ -406,6 +473,7 @@
     font-weight: 500;
     color: #fff931;
 }
+
 .rsc {
     position: absolute;
     top: 86px;
@@ -414,6 +482,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .parent {
     position: absolute;
     top: 1987.59px;
@@ -423,6 +492,7 @@
     font-size: 40px;
     color: #fff;
 }
+
 .groupChild1 {
     position: absolute;
     top: 0px;
@@ -433,6 +503,7 @@
     width: 359px;
     height: 129px;
 }
+
 .frameIcon1 {
     position: absolute;
     top: 0px;
@@ -441,6 +512,7 @@
     height: 73px;
     overflow: hidden;
 }
+
 .totalTradingVolume2 {
     position: absolute;
     top: 5px;
@@ -451,6 +523,7 @@
     display: inline-block;
     width: 230.93px;
 }
+
 .cmax24 {
     position: absolute;
     top: 38px;
@@ -463,6 +536,7 @@
     width: 181.66px;
     height: 39px;
 }
+
 .frameGroup {
     position: absolute;
     top: 26px;
@@ -470,6 +544,7 @@
     width: 315.75px;
     height: 77px;
 }
+
 .rectangleGroup {
     position: absolute;
     top: 2172px;
@@ -479,6 +554,7 @@
     font-size: 18px;
     color: #fff;
 }
+
 .tita24 {
     position: absolute;
     top: 38px;
@@ -491,6 +567,7 @@
     width: 181.66px;
     height: 39px;
 }
+
 .rectangleContainer {
     position: absolute;
     top: 2331px;
@@ -500,13 +577,14 @@
     font-size: 18px;
     color: #fff;
 }
+
 .ellipseDiv {
     position: absolute;
     top: 0px;
     left: 29px;
     position: absolute;
-   
-   
+
+
     border-radius: 50%;
     background-color: rgb(160 8 237 / 26%);
     filter: blur(84px);
@@ -514,6 +592,7 @@
     height: 206px;
 
 }
+
 .groupChild3 {
     position: absolute;
     top: 0px;
@@ -524,6 +603,7 @@
     width: 361px;
     height: 440px;
 }
+
 .seamlessFinancialInclusion1 {
     position: absolute;
     top: 147px;
@@ -533,6 +613,7 @@
     display: inline-block;
     width: 265px;
 }
+
 .joinAPlatform1 {
     position: absolute;
     top: 264px;
@@ -546,6 +627,7 @@
     display: inline-block;
     width: 301px;
 }
+
 .groupIcon {
     position: absolute;
     top: 42px;
@@ -553,6 +635,7 @@
     width: 56.93px;
     aspect-ratio: 1/1 !important;
 }
+
 .rectangleParent1 {
     position: absolute;
     top: 27px;
@@ -560,6 +643,7 @@
     width: 361px;
     height: 440px;
 }
+
 .ellipseGroup {
     position: absolute;
     top: 2902px;
@@ -570,16 +654,16 @@
     color: #fff931;
     font-family: 'Monument Extended';
 }
+
 .ellipseContainer {
-    position: absolute;
-    top: 3368px;
-    left: 34px;
-    width: 361px;
-    height: 467px;
+    
+    width: 100%;
+    height: fit-content;
     font-size: 24px;
     color: #fff931;
     font-family: 'Monument Extended';
 }
+
 .frameChild {
     position: relative;
     border-radius: 50%;
@@ -587,6 +671,7 @@
     width: 15px;
     height: 15px;
 }
+
 .frameItem {
     position: relative;
     border-radius: 50%;
@@ -594,6 +679,7 @@
     width: 15px;
     height: 15px;
 }
+
 .frameChild1 {
     position: relative;
     border-radius: 50%;
@@ -602,6 +688,7 @@
     height: 15px;
     display: none;
 }
+
 .frameDiv {
     position: absolute;
     top: 2862px;
@@ -612,6 +699,7 @@
     justify-content: flex-start;
     gap: 15px;
 }
+
 .rectangleIcon {
     position: absolute;
     bottom: 0px;
@@ -619,6 +707,7 @@
     width: 430px;
     height: 718px;
 }
+
 .ourPartners {
     position: absolute;
     bottom: 150px;
@@ -628,6 +717,7 @@
     display: inline-block;
     width: 332px;
 }
+
 .fuelingInnovationThrough1 {
     position: absolute;
     bottom: 0px;
@@ -639,6 +729,7 @@
     display: inline-block;
     width: 342px;
 }
+
 .ourPartnersParent {
     position: absolute;
     bottom: 350.89px;
@@ -646,38 +737,45 @@
     width: 342px;
     height: 184px;
 }
+
 .clipPathGroup3 {
     position: relative;
     width: 100.8px;
     height: 56px;
 }
+
 .maskGroupIcon2 {
     position: relative;
     width: 146px;
     height: 25.96px;
     object-fit: cover;
 }
+
 .clipPathGroup4 {
     position: relative;
     width: 115.9px;
     height: 38px;
 }
+
 .maskGroupIcon3 {
     position: relative;
     width: 150.62px;
     height: 41.82px;
     object-fit: cover;
 }
+
 .partnersLogosChild {
     position: relative;
     width: 141.83px;
     height: 53.07px;
 }
+
 .clipPathGroup5 {
     position: relative;
     width: 123.33px;
     height: 40px;
 }
+
 .partnersLogos {
     position: absolute;
     bottom: 0px;
@@ -690,6 +788,7 @@
     justify-content: flex-start;
     gap: 80px;
 }
+
 .groupParent {
     position: absolute;
     bottom: 93.11px;
@@ -697,6 +796,7 @@
     width: 355px;
     height: 534.89px;
 }
+
 .vectorParent {
     position: absolute;
     bottom: 1098px;
@@ -705,6 +805,7 @@
     height: 718px;
     text-align: center;
 }
+
 .joinOurCommunity1 {
     position: sticky;
     text-align: center;
@@ -713,6 +814,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .diveIntoA1 {
     position: absolute;
     bottom: 101px;
@@ -725,6 +827,7 @@
     display: inline-block;
     width: 389px;
 }
+
 .groupChild7 {
     position: absolute;
     top: 265px;
@@ -732,6 +835,7 @@
     width: 292.33px;
     height: 50px;
 }
+
 .joinOurCommunityParent {
     position: absolute;
     bottom: 677px;
@@ -740,6 +844,7 @@
     height: 315px;
     text-align: center;
 }
+
 .groupChild8 {
     position: absolute;
     bottom: 0px;
@@ -749,6 +854,7 @@
     width: 679px;
     height: 578px;
 }
+
 .maskGroupIcon4 {
     position: absolute;
     bottom: 392px;
@@ -757,6 +863,7 @@
     height: 110px;
     object-fit: cover;
 }
+
 .mediaInquiresFor1 {
     position: absolute;
     bottom: 75px;
@@ -766,6 +873,7 @@
     width: 321px;
     opacity: 0.5;
 }
+
 .copyRight20231 {
     position: absolute;
     bottom: 0px;
@@ -775,6 +883,7 @@
     width: 274px;
     opacity: 0.5;
 }
+
 .mediaInquiresForCmaxContParent {
     position: absolute;
     bottom: 101px;
@@ -782,10 +891,12 @@
     width: 321px;
     height: 123px;
 }
+
 .trade {
     position: relative;
     text-transform: capitalize;
 }
+
 .tradeParent {
     position: absolute;
     bottom: 293px;
@@ -799,6 +910,7 @@
     gap: 31px;
     text-align: left;
 }
+
 .rectangleParent3 {
     position: absolute;
     bottom: 0px;
@@ -809,6 +921,7 @@
     font-size: 20px;
     color: #fff;
 }
+
 .homeIpadPro1291 {
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
@@ -860,33 +973,34 @@
 
 
 @media (min-width: 300px) and (max-width: 320px) {
-    .homeParent{
-    position: inherit;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: inherit;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-   
-    .btnParent{
+
+    .btnParent {
         position: absolute;
-    top: 453px;
-    left: calc(52% - 157px);
-    width: 314px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 30px;
-    font-size: 16px;
-    color: #1f1330;
+        top: 453px;
+        left: calc(52% - 157px);
+        width: 314px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 30px;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .groupChild{
+
+    .groupChild {
         position: absolute;
         top: 116px;
         left: 227px;
@@ -896,7 +1010,8 @@
         height: 83px;
         opacity: 0.3;
     }
-    .ellipseParent{
+
+    .ellipseParent {
         position: absolute;
         top: 741px;
         left: -32px;
@@ -905,14 +1020,16 @@
         text-align: center;
         font-size: 18px;
     }
-    .frameParent{
-    position: absolute;
-    top: 41px;
-    left: 77px;
-    width: 163.44px;
-    height: 184.08px;
+
+    .frameParent {
+        position: absolute;
+        top: 41px;
+        left: 77px;
+        width: 163.44px;
+        height: 184.08px;
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(42% - 148px);
@@ -922,7 +1039,8 @@
         display: inline-block;
         width: 332px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 26px;
@@ -933,31 +1051,34 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 714px;
-    left: calc(41% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 714px;
+        left: calc(41% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
-    top: 1895.61px;
-    left: 7px;
-    width: 305px;
-    height: 250.39px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 1895.61px;
+        left: 7px;
+        width: 305px;
+        height: 250.39px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 23px;
@@ -965,114 +1086,125 @@
         height: 134px;
         font-size: 35px;
         color: #fff;
-    
+
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 164.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .elevateYourFinancial1{
-    position: absolute;
-    top: 64px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    padding: 0 20px;
-    color: #fff;
-    display: inline-block;
-    width: 342px;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(45% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 287px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 264px;
-    left: 10px;
-    padding: 0;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 65%;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 17px;
-    left: 13px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 239px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
         position: absolute;
-    bottom: 677px;
-    left: -35px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
+        top: 0px;
+        left: 164.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 57px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -51px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .elevateYourFinancial1 {
         position: absolute;
-    top: 0px;
-    left: -26px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 302px;
-    height: 129px;
+        top: 64px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        padding: 0 20px;
+        color: #fff;
+        display: inline-block;
+        width: 342px;
     }
-    .groupInner{
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(45% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 287px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 264px;
+        left: 10px;
+        padding: 0;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 65%;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 17px;
+        left: 13px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 239px;
+    }
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -35px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 57px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -51px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: -26px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 302px;
+        height: 129px;
+    }
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -1083,15 +1215,16 @@
         width: 312px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
@@ -1107,19 +1240,20 @@
 
 
 @media (min-width: 3210px) and (max-width: 326px) {
-    .homeParent{
-    position: inherit;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: inherit;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .groupChild{
+
+    .groupChild {
         position: absolute;
         top: 116px;
         left: 227px;
@@ -1129,67 +1263,74 @@
         height: 83px;
         opacity: 0.3;
     }
-    .ellipseParent{
+
+    .ellipseParent {
         position: absolute;
-    top: 741px;
-    left: -19px;
-    width: 430px;
-    height: 762px;
-    text-align: center;
-    font-size: 18px;
+        top: 741px;
+        left: -19px;
+        width: 430px;
+        height: 762px;
+        text-align: center;
+        font-size: 18px;
     }
-    .frameParent{
-    position: absolute;
-    top: 41px;
-    left: 77px;
-    width: 163.44px;
-    height: 184.08px;
-    }
-    .downloadOurWhite1{
+
+    .frameParent {
         position: absolute;
-    top: 0px;
-    left: calc(42% - 148px);
-    font-size: 28px;
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    width: 332px;
+        top: 41px;
+        left: 77px;
+        width: 163.44px;
+        height: 184.08px;
     }
-    .diveIntoThe1{
+
+    .downloadOurWhite1 {
         position: absolute;
-    top: 394px;
-    left: 26px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 342px;
+        top: 0px;
+        left: calc(42% - 148px);
+        font-size: 28px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        width: 332px;
     }
-    .mingcutewallet4FillParent{
+
+    .diveIntoThe1 {
         position: absolute;
-    top: 714px;
-    left: calc(41% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 394px;
+        left: 26px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 342px;
     }
-    .maskGroupIcon1{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 1895.61px;
-    left: 28px;
-    width: 305px;
-    height: 250.39px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 714px;
+        left: calc(41% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .parent{
+
+    .maskGroupIcon1 {
+        position: absolute;
+        top: 1895.61px;
+        left: 28px;
+        width: 305px;
+        height: 250.39px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -1198,58 +1339,64 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(46% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 306px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 264px;
-    left: 37px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 241px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 22px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
+        position: absolute;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(46% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 306px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 264px;
+        left: 37px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 241px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 22px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 677px;
         left: -22px;
@@ -1257,40 +1404,44 @@
         height: 315px;
         text-align: center;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -34px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
         position: absolute;
-    top: 0px;
-    left: -9px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 302px;
-    height: 129px;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
     }
-    .groupInner{
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -34px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: -9px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 302px;
+        height: 129px;
+    }
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -1301,283 +1452,309 @@
         width: 312px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
 @media (min-width: 327px) and (max-width: 350px) {
-  .ellipseParent{
-    position: absolute;
-    top: 741px;
-    left: -70px;
-    width: 430px;
-    height: 762px;
-    text-align: center;
-    font-size: 18px;
-  }
-  .groupInner{
-    position: absolute;
-    top: 0px;
-    left: 47px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 293px;
-    height: 266px;
-  }
-  .frameGroup{
-    position: absolute;
-    top: 26px;
-    left: -31.37px;
-    width: 104.75px;
-    height: 77px;
-  }
-  .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 20px;
-    left: -12px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 315px;
+    .ellipseParent {
+        position: absolute;
+        top: 741px;
+        left: -70px;
+        width: 430px;
+        height: 762px;
+        text-align: center;
+        font-size: 18px;
+    }
 
-  }
-  .social{
-    margin-right: 133px;
-  }
-  .copyRight20231{
-    position: absolute;
-    bottom: 0px;
-    left: -22px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
-  }
-  .groupItem{
-    position: absolute;
-    top: 174px;
-    left: 118px;
-    border-radius: 50%;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    width: 173px;
-    height: 173px;
-    opacity: 0.4;
-  }
-  .groupChild{
-    position: absolute;
-    top: 116px;
-    left: 259px;
-    border-radius: 50%;
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    width: 84px;
-    height: 83px;
-    opacity: 0.3;
-  }
-  .maskGroupIcon4{
-    position: absolute;
-    bottom: 392px;
-    left: 115px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-  .tradeParent{
-    position: absolute;
-    bottom: 293px;
-    left: -27px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-  }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: -53px;
-    padding: 0 46px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 389px;
-  }
-  .joinOurCommunity1{
-    position: absolute;
-    bottom: 281px;
-    left: 21px;
-    text-transform: capitalize;
-    font-weight: 500;
-  }
-  .groupIcon{
-    position: absolute;
-    top: 42px;
-    left: -4px;
-    width: 56.93px;
-    height: 80px;
+    .groupInner {
+        position: absolute;
+        top: 0px;
+        left: 47px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 293px;
+        height: 266px;
+    }
 
-  }
-  .joinAPlatform1{
-    position: absolute;
-    top: 264px;
-    left: -16px;
-    padding: 0 57px 0 0;
-    font-size: 17px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    font-size: 15px;
-    display: inline-block;
-    width: 360px;
-  }
-  .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(43% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 305px;
-    height: 440px;
-  }
-  .elevateYourFinancial1{
-    position: absolute;
-    top: 64px;
-    left: 0px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    padding: 0 20px;
-    display: inline-block;
-    width: 342px;
-  }
-  .tita24{
-    position: absolute;
-    top: 38px;
-    left: 19px;
-    font-size: 27px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #ffe500;
-    display: inline-block;
-    width: 181.66px;
-    height: 39px;
-  }
-  .totalTradingVolume2{
-    position: absolute;
-    top: 5px;
-    left: 20px;
-    line-height: 36px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 171.93px;
-  }
-  .cmax24{
-    position: absolute;
-    top: 38px;
-    left: 12px;
-    font-size: 27px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #0ce770;
-    display: inline-block;
-    width: 181.66px;
-    height: 39px;
-  }
-  .groupChild1{
-    position: absolute;
-    top: 0px;
-    left: -25px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 306px;
-    height: 129px;
-  }
-  .treasury{
-    position: absolute;
-    top: 1924.11px;
-    left: 31px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
-  }
-  .parent{
-    position: absolute;
-    top: 1987.59px;
-    left: 27px;
-    width: 302px;
-    height: 134px;
-    font-size: 34px;
-    color: #fff;
-  }
-  .maskGroupIcon1{
-    position: absolute;
-    top: 1895.61px;
-    left: 12px;
-    width: 303px;
-    height: 250.39px;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-  .immerseYourselfIn1{
-    position: absolute;
-    top: 98px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 342px;
-  }
-  .downloadOurWhite1{
-    position: absolute;
-    top: 0px;
-    left: calc(50% - 148px);
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    width: 332px;
+    .frameGroup {
+        position: absolute;
+        top: 26px;
+        left: -31.37px;
+        width: 104.75px;
+        height: 77px;
+    }
 
-  }
-  .diveIntoThe1{
-    position: absolute;
-    top: 394px;
-    font-size: 16px;
-    padding: 0 30px;
-    left: 62px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 337px;
-  }
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 20px;
+        left: -12px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 315px;
+
+    }
+
+    .social {
+        margin-right: 133px;
+    }
+
+    .copyRight20231 {
+        position: absolute;
+        bottom: 0px;
+        left: -22px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
+    }
+
+    .groupItem {
+        position: absolute;
+        top: 174px;
+        left: 118px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        width: 173px;
+        height: 173px;
+        opacity: 0.4;
+    }
+
+    .groupChild {
+        position: absolute;
+        top: 116px;
+        left: 259px;
+        border-radius: 50%;
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        width: 84px;
+        height: 83px;
+        opacity: 0.3;
+    }
+
+    .maskGroupIcon4 {
+        position: absolute;
+        bottom: 392px;
+        left: 115px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: -27px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: -53px;
+        padding: 0 46px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 389px;
+    }
+
+    .joinOurCommunity1 {
+        position: absolute;
+        bottom: 281px;
+        left: 21px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .groupIcon {
+        position: absolute;
+        top: 42px;
+        left: -4px;
+        width: 56.93px;
+        height: 80px;
+
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 264px;
+        left: -16px;
+        padding: 0 57px 0 0;
+        font-size: 17px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        font-size: 15px;
+        display: inline-block;
+        width: 360px;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(43% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 305px;
+        height: 440px;
+    }
+
+    .elevateYourFinancial1 {
+        position: absolute;
+        top: 64px;
+        left: 0px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        padding: 0 20px;
+        display: inline-block;
+        width: 342px;
+    }
+
+    .tita24 {
+        position: absolute;
+        top: 38px;
+        left: 19px;
+        font-size: 27px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 181.66px;
+        height: 39px;
+    }
+
+    .totalTradingVolume2 {
+        position: absolute;
+        top: 5px;
+        left: 20px;
+        line-height: 36px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 171.93px;
+    }
+
+    .cmax24 {
+        position: absolute;
+        top: 38px;
+        left: 12px;
+        font-size: 27px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #0ce770;
+        display: inline-block;
+        width: 181.66px;
+        height: 39px;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: -25px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 306px;
+        height: 129px;
+    }
+
+    .treasury {
+        position: absolute;
+        top: 1924.11px;
+        left: 31px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
+    }
+
+    .parent {
+        position: absolute;
+        top: 1987.59px;
+        left: 27px;
+        width: 302px;
+        height: 134px;
+        font-size: 34px;
+        color: #fff;
+    }
+
+    .maskGroupIcon1 {
+        position: absolute;
+        top: 1895.61px;
+        left: 12px;
+        width: 303px;
+        height: 250.39px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .immerseYourselfIn1 {
+        position: absolute;
+        top: 98px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 342px;
+    }
+
+    .downloadOurWhite1 {
+        position: absolute;
+        top: 0px;
+        left: calc(50% - 148px);
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        width: 332px;
+
+    }
+
+    .diveIntoThe1 {
+        position: absolute;
+        top: 394px;
+        font-size: 16px;
+        padding: 0 30px;
+        left: 62px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 337px;
+    }
 }
 
 
@@ -1587,7 +1764,7 @@
 
 
 @media (min-width: 351px) and (max-width: 360px) {
-    .homeParent{
+    .homeParent {
         position: initial;
         top: 30px;
         left: auto;
@@ -1599,69 +1776,76 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .groupChild{
+
+    .groupChild {
         position: absolute;
-    top: 116px;
-    left: 276px;
-    border-radius: 50%;
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    width: 84px;
-    height: 83px;
-    opacity: 0.3;
+        top: 116px;
+        left: 276px;
+        border-radius: 50%;
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        width: 84px;
+        height: 83px;
+        opacity: 0.3;
     }
-    .frameParent{
-    position: absolute;
-    top: 41px;
-    left: 77px;
-    width: 163.44px;
-    height: 184.08px;
-    }
-    .downloadOurWhite1{
+
+    .frameParent {
         position: absolute;
-    top: 0px;
-    left: calc(42% - 148px);
-    font-size: 28px;
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    width: 332px;
+        top: 41px;
+        left: 77px;
+        width: 163.44px;
+        height: 184.08px;
     }
-    .diveIntoThe1{
+
+    .downloadOurWhite1 {
         position: absolute;
-    top: 394px;
-    left: 26px;
-    font-weight: bold;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 330px;
+        top: 0px;
+        left: calc(42% - 148px);
+        font-size: 28px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        width: 332px;
     }
-    .mingcutewallet4FillParent{
+
+    .diveIntoThe1 {
         position: absolute;
-    top: 714px;
-    left: calc(41% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 394px;
+        left: 26px;
+        font-weight: bold;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 330px;
     }
-    .maskGroupIcon1{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 1895.61px;
-    left: 28px;
-    width: 305px;
-    height: 250.39px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 714px;
+        left: calc(41% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .parent{
+
+    .maskGroupIcon1 {
+        position: absolute;
+        top: 1895.61px;
+        left: 28px;
+        width: 305px;
+        height: 250.39px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -1670,127 +1854,138 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(48% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 306px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 243px;
-    font-weight: bold;
-    left: 37px;
-    font-size: 17px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 270px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 19px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
         position: absolute;
-    bottom: 677px;
-    left: -16px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    font-weight: bold;
-    padding: 0px 48px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -34px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .groupChild3 {
         position: absolute;
-    top: 0px;
-    left: -9px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 302px;
-    height: 129px;
+        top: 0px;
+        left: calc(48% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 306px;
+        height: 440px;
     }
-    .groupInner{
+
+    .joinAPlatform1 {
         position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 329px;
-    height: 266px;
+        top: 243px;
+        font-weight: bold;
+        left: 37px;
+        font-size: 17px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 270px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .seamlessFinancialInclusion1 {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 147px;
+        font-size: 19px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -16px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        font-weight: bold;
+        padding: 0px 48px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -34px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: -9px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 302px;
+        height: 129px;
+    }
+
+    .groupInner {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 329px;
+        height: 266px;
+    }
+
+    .shutterstock2152297015ConveIcon {
+        position: absolute;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
 
 @media (min-width: 361px) and (max-width: 375px) {
-    .homeParent{
+    .homeParent {
         position: initial;
         top: 30px;
         left: auto;
@@ -1802,44 +1997,49 @@
         cursor: pointer;
         font-size: 20px;
     }
-    .groupChild{
+
+    .groupChild {
         position: absolute;
-    top: 116px;
-    left: 256px;
-    border-radius: 50%;
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    width: 84px;
-    height: 83px;
-    opacity: 0.3;
+        top: 116px;
+        left: 256px;
+        border-radius: 50%;
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        width: 84px;
+        height: 83px;
+        opacity: 0.3;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 41px;
-    left: 84px;
-    width: 163.44px;
-    height: 184.08px;
+        top: 41px;
+        left: 84px;
+        width: 163.44px;
+        height: 184.08px;
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
-    top: 0px;
-    left: calc(42% - 148px);
-    font-size: 28px;
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    width: 332px;
+        top: 0px;
+        left: calc(42% - 148px);
+        font-size: 28px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        width: 332px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
-    top: 394px;
-    left: 26px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 342px;
+        top: 394px;
+        left: 26px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 714px;
         left: calc(43% - 119px);
@@ -1854,7 +2054,8 @@
         font-size: 16px;
         color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
         top: 1895.61px;
         left: 28px;
@@ -1863,7 +2064,8 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -1872,88 +2074,97 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(48% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 318px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 250px;
-    left: 37px;
-    font-size: 17px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 278px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 19px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
         position: absolute;
-    bottom: 677px;
-    left: -16px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -27px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(48% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 318px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 250px;
+        left: 37px;
+        font-size: 17px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 278px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 19px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: -16px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+    }
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -27px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
         position: absolute;
         top: 0px;
         left: -9px;
@@ -1964,7 +2175,8 @@
         width: 316px;
         height: 129px;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -1975,53 +2187,57 @@
         width: 337px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
 
 @media (min-width: 376px) and (max-width: 390px) {
-    .homeParent{
-    position: absolute;
-    top: 30px;
-    left: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
-    width: fit-content;
-    }
-    .groupChild{
+    .homeParent {
         position: absolute;
-    top: 116px;
-    left: 245px;
-    border-radius: 50%;
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    width: 84px;
-    height: 83px;
-    opacity: 0.3;
+        top: 30px;
+        left: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
+        width: fit-content;
     }
-    .frameParent{
+
+    .groupChild {
         position: absolute;
-    top: 41px;
-    left: 89px;
-    width: 163.44px;
-    height: 184.08px;
-        
+        top: 116px;
+        left: 245px;
+        border-radius: 50%;
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        width: 84px;
+        height: 83px;
+        opacity: 0.3;
     }
-    .downloadOurWhite1{
+
+    .frameParent {
+        position: absolute;
+        top: 41px;
+        left: 89px;
+        width: 163.44px;
+        height: 184.08px;
+
+    }
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(42% - 148px);
@@ -2031,7 +2247,8 @@
         display: inline-block;
         width: 349px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 39px;
@@ -2040,8 +2257,10 @@
         color: #fff;
         display: inline-block;
         width: 342px;
+        margin-top: 3% !important;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 714px;
         left: calc(45% - 119px);
@@ -2056,7 +2275,8 @@
         font-size: 16px;
         color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
         top: 1895.61px;
         left: 28px;
@@ -2067,7 +2287,8 @@
         border-radius: 10px;
         filter: grayscale(1);
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -2076,58 +2297,64 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(48% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 325px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 250px;
-    left: 37px;
-    font-size: 17px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 75%;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 19px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
+        position: absolute;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(48% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 325px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 250px;
+        left: 37px;
+        font-size: 17px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 75%;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 19px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 677px;
         left: -8px;
@@ -2135,96 +2362,104 @@
         height: 315px;
         text-align: center;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -20px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
         position: absolute;
-    top: 0px;
-    left: -9px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 326px;
-    height: 129px;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
     }
-    .groupInner{
+
+    .rectangleParent3 {
         position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 349px;
-    height: 266px;
+        bottom: 0px;
+        left: -20px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .groupChild1 {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: -9px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 326px;
+        height: 129px;
+    }
+
+    .groupInner {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 349px;
+        height: 266px;
+    }
+
+    .shutterstock2152297015ConveIcon {
+        position: absolute;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
 
 @media (min-width: 391px) and (max-width: 393px) {
-    .homeParent{
-    position: inherit;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: inherit;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .groupChild{
+
+    .groupChild {
         position: absolute;
-    top: 116px;
-    left: 245px;
-    border-radius: 50%;
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    width: 84px;
-    height: 83px;
-    opacity: 0.3;
+        top: 116px;
+        left: 245px;
+        border-radius: 50%;
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        width: 84px;
+        height: 83px;
+        opacity: 0.3;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
-    top: 41px;
-    left: 89px;
-    width: 163.44px;
-    height: 184.08px;
-        
+        top: 41px;
+        left: 89px;
+        width: 163.44px;
+        height: 184.08px;
+
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(42% - 148px);
@@ -2234,7 +2469,8 @@
         display: inline-block;
         width: 349px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 39px;
@@ -2244,7 +2480,8 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 714px;
         left: calc(45% - 119px);
@@ -2259,16 +2496,18 @@
         font-size: 16px;
         color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
-    top: 1895.61px;
-    left: 28px;
-    width: 333px;
-    height: 250.39px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 1895.61px;
+        left: 28px;
+        width: 333px;
+        height: 250.39px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -2277,58 +2516,64 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(48% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 334px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 264px;
-    left: 37px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 261px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 20px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
+        position: absolute;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(48% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 334px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 264px;
+        left: 37px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 261px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 20px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 677px;
         left: -2px;
@@ -2336,29 +2581,32 @@
         height: 315px;
         text-align: center;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -20px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -20px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
         position: absolute;
         top: 0px;
         left: -9px;
@@ -2369,7 +2617,8 @@
         width: 334px;
         height: 129px;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -2380,15 +2629,16 @@
         width: 354px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
@@ -2396,27 +2646,29 @@
 
 
 @media (min-width: 394px) and (max-width: 412px) {
-    .homeParent{
-    position: initial;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: initial;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 41px;
         left: 98px;
         width: 163.44px;
         height: 184.08px;
-        
+
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(45% - 148px);
@@ -2426,7 +2678,8 @@
         display: inline-block;
         width: 349px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 47px;
@@ -2436,22 +2689,24 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 714px;
-    left: calc(47% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 714px;
+        left: calc(47% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
         top: 1895.61px;
         left: 28px;
@@ -2460,7 +2715,8 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -2469,58 +2725,64 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(48% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 354px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 246px;
-    left: 37px;
-    font-size: 17px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 268px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 20px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 285px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
+        position: absolute;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(48% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 354px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 246px;
+        left: 37px;
+        font-size: 17px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 268px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 20px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 285px;
+    }
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 677px;
         left: 6px;
@@ -2528,29 +2790,32 @@
         height: 315px;
         text-align: center;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -7px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -7px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
         position: absolute;
         top: 0px;
         left: -9px;
@@ -2561,7 +2826,8 @@
         width: 357px;
         height: 129px;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -2572,40 +2838,43 @@
         width: 369px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 @media (min-width: 413px) and (max-width: 414px) {
-    .homeParent{
-    position: inherit;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: inherit;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 41px;
         left: 98px;
         width: 163.44px;
         height: 184.08px;
-        
+
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(45% - 148px);
@@ -2615,7 +2884,8 @@
         display: inline-block;
         width: 349px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 47px;
@@ -2625,22 +2895,24 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 714px;
-    left: calc(47% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 714px;
+        left: calc(47% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
         top: 1895.61px;
         left: 28px;
@@ -2649,7 +2921,8 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 37px;
@@ -2658,58 +2931,64 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
-    top: 1924.11px;
-    left: 42px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    display: inline-block;
-    width: 138.79px;
-    height: 43.48px;
+        top: 1924.11px;
+        left: 42px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        display: inline-block;
+        width: 138.79px;
+        height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(48% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 354px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 246px;
-    left: 37px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 278px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 22px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
+        position: absolute;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(48% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 354px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 246px;
+        left: 37px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 278px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 22px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 677px;
         left: 6px;
@@ -2717,29 +2996,32 @@
         height: 315px;
         text-align: center;
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -7px;
-    width: 412px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -7px;
+        width: 412px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
         position: absolute;
         top: 0px;
         left: -9px;
@@ -2750,7 +3032,8 @@
         width: 357px;
         height: 129px;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -2761,52 +3044,55 @@
         width: 369px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
 
 @media (min-width: 415px) and (max-width: 485px) {
-    .homeParent{
-    position: initial;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: initial;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .ellipseParent{
+
+    .ellipseParent {
         position: absolute;
-    top: 741px;
-    left: -2px;
-    width: 430px;
-    height: 762px;
-    text-align: center;
-    font-size: 18px;
+        top: 741px;
+        left: -2px;
+        width: 430px;
+        height: 762px;
+        text-align: center;
+        font-size: 18px;
     }
-   
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 41px;
         left: 98px;
         width: 163.44px;
         height: 184.08px;
-        
+
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(45% - 148px);
@@ -2816,7 +3102,8 @@
         display: inline-block;
         width: 349px;
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 47px;
@@ -2826,22 +3113,24 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 714px;
-    left: calc(47% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 714px;
+        left: calc(47% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
         top: 1895.61px;
         left: 33px;
@@ -2850,7 +3139,8 @@
         -o-object-fit: cover;
         object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 50px;
@@ -2859,7 +3149,8 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
         top: 1924.11px;
         left: 52px;
@@ -2870,55 +3161,61 @@
         width: 138.79px;
         height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(52% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 354px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 241px;
-    left: 37px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 288px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 20px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 288px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
         position: absolute;
-    bottom: 677px;
-    left: 18px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
     }
-    .groupChild8{
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(52% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 354px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 241px;
+        left: 37px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 288px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 20px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 288px;
+    }
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 18px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+    }
+
+    .groupChild8 {
         position: absolute;
         bottom: 0px;
         left: 0px;
@@ -2926,42 +3223,46 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
         width: 497px;
         height: 578px;
-    
+
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: -2px;
-    width: 413px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
         position: absolute;
-    top: 0px;
-    left: 6px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 357px;
-    height: 129px;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
     }
-    .groupInner{
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: -2px;
+        width: 413px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: 6px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 357px;
+        height: 129px;
+    }
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -2972,33 +3273,35 @@
         width: 369px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
 @media (min-width: 486px) and (max-width: 520px) {
-    .homeParent{
-    position: initial;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: initial;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .ellipseParent{
+
+    .ellipseParent {
         position: absolute;
         top: 741px;
         left: 15px;
@@ -3007,16 +3310,17 @@
         text-align: center;
         font-size: 18px;
     }
-   
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 41px;
         left: 98px;
         width: 163.44px;
         height: 184.08px;
-        
+
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         left: calc(45% - 148px);
@@ -3025,9 +3329,10 @@
         font-weight: 500;
         display: inline-block;
         width: 358px;
-    
+
     }
-    .diveIntoThe1{
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 47px;
@@ -3037,31 +3342,34 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 714px;
-    left: calc(47% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 714px;
+        left: calc(47% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
-    top: 1895.61px;
-    left: 53px;
-    width: 372px;
-    height: 250.39px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 1895.61px;
+        left: 53px;
+        width: 372px;
+        height: 250.39px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 69px;
@@ -3070,7 +3378,8 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
         top: 1924.11px;
         left: 71px;
@@ -3081,55 +3390,61 @@
         width: 138.79px;
         height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(56% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 354px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 242px;
-    left: 37px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 289px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 19px;
-    left: 37px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
         position: absolute;
-    bottom: 677px;
-    left: 34px;
-    width: 389px;
-    height: 315px;
-    text-align: center;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
     }
-    .groupChild8{
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(56% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 354px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 242px;
+        left: 37px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 289px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 19px;
+        left: 37px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .joinOurCommunityParent {
+        position: absolute;
+        bottom: 677px;
+        left: 34px;
+        width: 389px;
+        height: 315px;
+        text-align: center;
+    }
+
+    .groupChild8 {
         position: absolute;
         bottom: 0px;
         left: 0px;
@@ -3137,62 +3452,68 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
         width: 497px;
         height: 578px;
-    
+
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: 1px;
-    width: 428px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-  .tradeParent{
-    position: absolute;
-    bottom: 293px;
-    left: 35px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-  }
-  .copyRight20231{
-    position: absolute;
-    bottom: 0px;
-    left: 30px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
-  }
-  .maskGroupIcon4{
-    position: absolute;
-    bottom: 392px;
-    left: 166px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
+        position: absolute;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
+    }
+
+    .rectangleParent3 {
+        position: absolute;
+        bottom: 0px;
+        left: 1px;
+        width: 428px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 35px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .copyRight20231 {
+        position: absolute;
+        bottom: 0px;
+        left: 30px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
+    }
+
+    .maskGroupIcon4 {
+        position: absolute;
+        bottom: 392px;
+        left: 166px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupChild1 {
         position: absolute;
         top: 0px;
         left: 25px;
@@ -3203,14 +3524,16 @@
         width: 357px;
         height: 129px;
     }
-    .frameGroup{
+
+    .frameGroup {
         position: absolute;
-    top: 26px;
-    left: 45.63px;
-    width: 315.75px;
-    height: 77px;
+        top: 26px;
+        left: 45.63px;
+        width: 315.75px;
+        height: 77px;
     }
-    .groupInner{
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -3221,32 +3544,34 @@
         width: 369px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 @media (min-width: 521px) and (max-width: 600px) {
-    .homeParent{
-    position: initial;
-    top: 30px;
-    left: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 17px;
-    cursor: pointer;
-    font-size: 20px;
+    .homeParent {
+        position: initial;
+        top: 30px;
+        left: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 17px;
+        cursor: pointer;
+        font-size: 20px;
     }
-    .ellipseParent{
+
+    .ellipseParent {
         position: absolute;
         top: 741px;
         left: 47px;
@@ -3255,27 +3580,29 @@
         text-align: center;
         font-size: 18px;
     }
-   
-    .frameParent{
+
+    .frameParent {
         position: absolute;
         top: 41px;
         left: 98px;
         width: 163.44px;
         height: 184.08px;
-        
-    }
-    .downloadOurWhite1{
-        position: absolute;
-    top: 0px;
-    left: calc(45% - 148px);
-    font-size: 24px;
-    text-transform: capitalize;
-    font-weight: 500;
-    display: inline-block;
-    width: 349px;
 
     }
-    .diveIntoThe1{
+
+    .downloadOurWhite1 {
+        position: absolute;
+        top: 0px;
+        left: calc(45% - 148px);
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        width: 349px;
+
+    }
+
+    .diveIntoThe1 {
         position: absolute;
         top: 394px;
         left: 47px;
@@ -3285,22 +3612,24 @@
         display: inline-block;
         width: 342px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-    top: 714px;
-    left: calc(47% - 119px);
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    width: 273px;
-    height: 48px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #1f1330;
+        top: 714px;
+        left: calc(47% - 119px);
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        width: 273px;
+        height: 48px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 16px;
+        color: #1f1330;
     }
-    .maskGroupIcon1{
+
+    .maskGroupIcon1 {
         position: absolute;
         top: 1895.61px;
         left: 85px;
@@ -3308,9 +3637,10 @@
         height: 250.39px;
         -o-object-fit: cover;
         object-fit: cover;
-    
+
     }
-    .parent{
+
+    .parent {
         position: absolute;
         top: 1987.59px;
         left: 107px;
@@ -3319,7 +3649,8 @@
         font-size: 35px;
         color: #fff;
     }
-    .treasury{
+
+    .treasury {
         position: absolute;
         top: 1924.11px;
         left: 107px;
@@ -3330,54 +3661,60 @@
         width: 138.79px;
         height: 43.48px;
     }
-   .frameIcon1{
-    position: absolute;
-    top: 0px;
-    left: 179.86px;
-    width: 77.89px;
-    height: 73px;
-    overflow: hidden;
-   }
-   .groupChild3{
-    position: absolute;
-    top: 0px;
-    left: calc(68% - 180.5px);
-    border-radius: 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 354px;
-    height: 440px;
-   }
-   .joinAPlatform1{
-    position: absolute;
-    top: 248px;
-    left: 84px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    font-family: 'Neue Montreal';
-    color: #fff;
-    display: inline-block;
-    width: 279px;
-   }
-   .seamlessFinancialInclusion1{
-    position: absolute;
-    top: 147px;
-    font-size: 19px;
-    left: 83px;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 262px;
-   }
-   .groupIcon{
-    position: absolute;
-    top: 42px;
-    left: 95px;
-    width: 56.93px;
-    height: 80px;
-   }
-    .joinOurCommunityParent{
+
+    .frameIcon1 {
+        position: absolute;
+        top: 0px;
+        left: 179.86px;
+        width: 77.89px;
+        height: 73px;
+        overflow: hidden;
+    }
+
+    .groupChild3 {
+        position: absolute;
+        top: 0px;
+        left: calc(68% - 180.5px);
+        border-radius: 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 354px;
+        height: 440px;
+    }
+
+    .joinAPlatform1 {
+        position: absolute;
+        top: 248px;
+        left: 84px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        font-family: 'Neue Montreal';
+        color: #fff;
+        display: inline-block;
+        width: 279px;
+    }
+
+    .seamlessFinancialInclusion1 {
+        position: absolute;
+        top: 147px;
+        font-size: 19px;
+        left: 83px;
+        text-transform: uppercase;
+        display: inline-block;
+        width: 262px;
+    }
+
+    .groupIcon {
+        position: absolute;
+        top: 42px;
+        left: 95px;
+        width: 56.93px;
+        height: 80px;
+    }
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 677px;
         left: 72px;
@@ -3385,88 +3722,97 @@
         height: 315px;
         text-align: center;
     }
-    .groupChild8{
+
+    .groupChild8 {
         position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 601px;
-    height: 578px;
-    
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 601px;
+        height: 578px;
+
     }
-  .diveIntoA1{
-    position: absolute;
-    bottom: 101px;
-    left: 0px;
-    padding: 0 20px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 395px;
-  }
-  .rectangleParent3{
-    position: absolute;
-    bottom: 0px;
-    left: 1px;
-    width: 428px;
-    height: 578px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-  }
-  .tradeParent{
-    position: absolute;
-    bottom: 293px;
-    left: 91px;
-    width: 375px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 38px;
-    text-align: left;
-  }
-  .copyRight20231{
-    position: absolute;
-    bottom: 0px;
-    left: 86px;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 274px;
-    opacity: 0.5;
-  }
-  .maskGroupIcon4{
-    position: absolute;
-    bottom: 392px;
-    left: 216px;
-    width: 113.76px;
-    height: 110px;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-    .groupChild1{
+
+    .diveIntoA1 {
         position: absolute;
-    top: 0px;
-    left: 71px;
-    border-radius: 11px;
-    background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 357px;
-    height: 129px;
+        bottom: 101px;
+        left: 0px;
+        padding: 0 20px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 395px;
     }
-    .frameGroup{
+
+    .rectangleParent3 {
         position: absolute;
-    top: 26px;
-    left: 90.63px;
-    width: 315.75px;
-    height: 77px;
+        bottom: 0px;
+        left: 1px;
+        width: 428px;
+        height: 578px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
     }
-    .groupInner{
+
+    .tradeParent {
+        position: absolute;
+        bottom: 293px;
+        left: 91px;
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .copyRight20231 {
+        position: absolute;
+        bottom: 0px;
+        left: 86px;
+        text-transform: capitalize;
+        display: inline-block;
+        width: 274px;
+        opacity: 0.5;
+    }
+
+    .maskGroupIcon4 {
+        position: absolute;
+        bottom: 392px;
+        left: 216px;
+        width: 113.76px;
+        height: 110px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupChild1 {
+        position: absolute;
+        top: 0px;
+        left: 71px;
+        border-radius: 11px;
+        background: linear-gradient(180deg, #2b2a26, rgba(43, 42, 38, 0));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 357px;
+        height: 129px;
+    }
+
+    .frameGroup {
+        position: absolute;
+        top: 26px;
+        left: 90.63px;
+        width: 315.75px;
+        height: 77px;
+    }
+
+    .groupInner {
         position: absolute;
         top: 0px;
         left: 0px;
@@ -3477,21 +3823,22 @@
         width: 369px;
         height: 266px;
     }
-    .shutterstock2152297015ConveIcon{
+
+    .shutterstock2152297015ConveIcon {
         position: absolute;
-    top: 0px;
-    left: 51px;
-    width: auto;
-    height: 469.13px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    mix-blend-mode: luminosity;
+        top: 0px;
+        left: 51px;
+        width: auto;
+        height: 469.13px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        mix-blend-mode: luminosity;
     }
 }
 
 
-@media (min-width: 240px) and (max-width: 400px){
-    .discoverTheRwfa{
+@media (min-width: 240px) and (max-width: 400px) {
+    .discoverTheRwfa {
         position: absolute;
         top: 229px;
         left: calc(50% - 190px);
@@ -3505,9 +3852,10 @@
         text-align: center;
         display: inline-block;
         width: 384px;
-    
+
     }
-    .downloadOurWhite1{
+
+    .downloadOurWhite1 {
         position: absolute;
         top: 0px;
         font-size: 20px;
@@ -3517,23 +3865,24 @@
         width: 335px;
 
     }
-    .unveilingANew1{
+
+    .unveilingANew1 {
         position: absolute;
-    top: 155px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    text-align: center;
-    font-size: 22px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
+        top: 155px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        text-align: center;
+        font-size: 22px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
     }
 }
 
 
-@media (min-width: 401px) and (max-width: 522px){
-    .discoverTheRwfa{
+@media (min-width: 401px) and (max-width: 522px) {
+    .discoverTheRwfa {
         position: absolute;
         top: 229px;
         left: calc(50% - 190px);
@@ -3547,30 +3896,32 @@
         display: inline-block;
         width: 379px;
     }
-    .unveilingANew1{
+
+    .unveilingANew1 {
         position: absolute;
-    top: 156px;
-    left: calc(50% - 109px);
-    font-size: 25px;
-    text-transform: capitalize;
-    font-weight: 500;
-   
-    color: #fff;
+        top: 156px;
+        left: calc(50% - 109px);
+        font-size: 25px;
+        text-transform: capitalize;
+        font-weight: 500;
+
+        color: #fff;
     }
 }
 
-@media (min-width: 523px) and (max-width: 600px){
-    .unveilingANew1{
+@media (min-width: 523px) and (max-width: 600px) {
+    .unveilingANew1 {
         position: absolute;
-    top: 156px;
-    left: calc(50% - 109px);
-    font-size: 25px;
-    text-transform: capitalize;
-    font-weight: 500;
-   width: 43%;
-    color: #fff;
+        top: 156px;
+        left: calc(50% - 109px);
+        font-size: 25px;
+        text-transform: capitalize;
+        font-weight: 500;
+        width: 43%;
+        color: #fff;
     }
-    .discoverTheRwfa{
+
+    .discoverTheRwfa {
         position: absolute;
         top: 266px;
         left: calc(50% - 190px);

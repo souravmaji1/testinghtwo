@@ -71,7 +71,7 @@ const LanguageSelector: React.FC = () => {
   }, []);
 
   return (
-    <div className="dropdown">
+    <div className={`"dropdown monument" ${myFont.style.fontFamily}`}>
       <style jsx>{`
         .dropdown-item:hover {
           background-color: transparent; /* Reset the hover background color */

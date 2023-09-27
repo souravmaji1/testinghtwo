@@ -118,7 +118,7 @@ function GenericMobileNavbar() {
                     alt="English"
                     className="h-6 w-6 mr-3"
                   />
-                  <h5 className={` text-2xl text-white my-0`}>EN</h5>
+                  <h5 className={` text-xl text-white my-0`} style={secondFont.style}>EN</h5>
                 </div>
               </MenuItem>
               <MenuItem
@@ -133,7 +133,7 @@ function GenericMobileNavbar() {
                     alt="English"
                     className="h-6 w-6 mr-3"
                   />
-                  <h5 className={` text-2xl text-white my-0`}>FR</h5>
+                  <h5 className={` text-xl text-white my-0`} style={secondFont.style}>FR</h5>
                 </div>
               </MenuItem>
               <MenuItem
@@ -148,7 +148,7 @@ function GenericMobileNavbar() {
                     alt="English"
                     className="h-6 w-6 mr-3"
                   />
-                  <h5 className={` text-2xl text-white my-0`}>ES</h5>
+                  <h5 className={` text-xl text-white my-0`} style={secondFont.style}>ES</h5>
                 </div>
               </MenuItem>
               <MenuItem
@@ -163,7 +163,7 @@ function GenericMobileNavbar() {
                     alt="English"
                     className="h-6 w-6 mr-3"
                   />
-                  <h5 className={` text-2xl text-white my-0`}>IT</h5>
+                  <h5 className={` text-xl text-white my-0`} style={secondFont.style}>IT</h5>
                 </div>
               </MenuItem>
               <MenuItem
@@ -178,7 +178,7 @@ function GenericMobileNavbar() {
                     alt="English"
                     className="h-6 w-6 mr-3"
                   />
-                  <h5 className={` text-2xl text-white my-0`}>RU</h5>
+                  <h5 className={` text-xl text-white my-0`} style={secondFont.style}>RU</h5>
                 </div>
               </MenuItem>
               <MenuItem
@@ -193,7 +193,7 @@ function GenericMobileNavbar() {
                     alt="English"
                     className="h-6 w-6 mr-3"
                   />
-                  <h5 className={` text-2xl text-white my-0`}>AR</h5>
+                  <h5 className={` text-xl text-white my-0`} style={secondFont.style}>AR</h5>
                 </div>
               </MenuItem>
             </Menu>
