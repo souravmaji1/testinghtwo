@@ -52,19 +52,19 @@ const LanguageSelector: React.FC = () => {
     ) {
       localStorage.setItem("lang", "en");
       handleLanguageChange("en", EnglishFlag);
-    }else if(localStorage.getItem("lang") == "fr"){
+    } else if (localStorage.getItem("lang") == "fr") {
       localStorage.setItem("lang", "fr");
       handleLanguageChange("fr", FrenchFlag);
-    }else if(localStorage.getItem("lang") == "it"){
+    } else if (localStorage.getItem("lang") == "it") {
       localStorage.setItem("lang", "it");
       handleLanguageChange("it", ItalianFlag);
-    }else if(localStorage.getItem("lang") == "ru"){
+    } else if (localStorage.getItem("lang") == "ru") {
       localStorage.setItem("lang", "ru");
       handleLanguageChange("ru", RussanFlag);
-    }else if(localStorage.getItem("lang") == "ar"){
+    } else if (localStorage.getItem("lang") == "ar") {
       localStorage.setItem("lang", "ar");
       handleLanguageChange("ar", ArbaianFlag);
-    }else if(localStorage.getItem("lang") == "es"){
+    } else if (localStorage.getItem("lang") == "es") {
       localStorage.setItem("lang", "es");
       handleLanguageChange("es", SpanishFlag);
     }
@@ -100,16 +100,25 @@ const LanguageSelector: React.FC = () => {
             style={{
               color: "white",
               fontFamily: "__fourthFont_9c16a8",
+              marginBottom: "5%",
             }}
-            className="dropdown-item"
+            className="dropdown-item flex flex-row "
             href="#"
             onClick={() => {
               localStorage.setItem("lang", "en");
               handleLanguageChange("en", EnglishFlag);
             }}
           >
-            <Image src={EnglishFlag} alt="English" />
-            EN
+            <div className="w-full flex flex-row items-center justify-start gap-2">
+              <Image
+                src={EnglishFlag}
+                alt="English"
+                className="w-7 aspect-square"
+              />
+              <h5 className="text-xl mb-0" style={secondFont.style}>
+                EN
+              </h5>
+            </div>
           </a>
         </li>
         <li>
@@ -117,6 +126,7 @@ const LanguageSelector: React.FC = () => {
             style={{
               color: "white",
               fontFamily: "__fourthFont_9c16a8",
+              marginBottom: "5%",
             }}
             className="dropdown-item"
             href="#"
@@ -125,8 +135,16 @@ const LanguageSelector: React.FC = () => {
               handleLanguageChange("fr", FrenchFlag);
             }}
           >
-            <Image src={FrenchFlag} alt="French" />
-            FR
+            <div className="w-full flex flex-row items-center justify-start gap-2">
+              <Image
+                src={FrenchFlag}
+                alt="English"
+                className="w-7 aspect-square"
+              />
+              <h5 className="text-xl mb-0" style={secondFont.style}>
+                FR
+              </h5>
+            </div>
           </a>
         </li>
 
@@ -135,6 +153,7 @@ const LanguageSelector: React.FC = () => {
             style={{
               color: "white",
               fontFamily: "__fourthFont_9c16a8",
+              marginBottom: "5%",
             }}
             className="dropdown-item"
             href="#"
@@ -143,8 +162,16 @@ const LanguageSelector: React.FC = () => {
               handleLanguageChange("it", ItalianFlag);
             }}
           >
-            <Image src={ItalianFlag} alt="Spanish" />
-            ITA
+            <div className="w-full flex flex-row items-center justify-start gap-2">
+              <Image
+                src={ItalianFlag}
+                alt="English"
+                className="w-7 aspect-square"
+              />
+              <h5 className="text-xl mb-0" style={secondFont.style}>
+                IT
+              </h5>
+            </div>
           </a>
         </li>
         <li>
@@ -152,6 +179,7 @@ const LanguageSelector: React.FC = () => {
             style={{
               color: "white",
               fontFamily: "__fourthFont_9c16a8",
+              marginBottom: "5%",
             }}
             className="dropdown-item"
             href="#"
@@ -160,8 +188,16 @@ const LanguageSelector: React.FC = () => {
               handleLanguageChange("es", SpanishFlag);
             }}
           >
-            <Image src={SpanishFlag} alt="Spanish" />
-            ES
+            <div className="w-full flex flex-row items-center justify-start gap-2">
+              <Image
+                src={SpanishFlag}
+                alt="English"
+                className="w-7 aspect-square"
+              />
+              <h5 className="text-xl mb-0" style={secondFont.style}>
+                ES
+              </h5>
+            </div>
           </a>
         </li>
         <li>
@@ -169,6 +205,7 @@ const LanguageSelector: React.FC = () => {
             style={{
               color: "white",
               fontFamily: "__fourthFont_9c16a8",
+              marginBottom: "5%",
             }}
             className="dropdown-item"
             href="#"
@@ -177,8 +214,16 @@ const LanguageSelector: React.FC = () => {
               handleLanguageChange("ru", RussanFlag);
             }}
           >
-            <Image src={RussanFlag} alt="French" />
-            RUS
+            <div className="w-full flex flex-row items-center justify-start gap-2">
+              <Image
+                src={RussanFlag}
+                alt="English"
+                className="w-7 aspect-square"
+              />
+              <h5 className="text-xl mb-0" style={secondFont.style}>
+                RU
+              </h5>
+            </div>
           </a>
         </li>
         <li>
@@ -186,6 +231,7 @@ const LanguageSelector: React.FC = () => {
             style={{
               color: "white",
               fontFamily: "__fourthFont_9c16a8",
+              marginBottom: "5%",
             }}
             className="dropdown-item"
             href="#"
@@ -194,8 +240,16 @@ const LanguageSelector: React.FC = () => {
               handleLanguageChange("ar", ArbaianFlag);
             }}
           >
-            <Image src={ArbaianFlag} alt="French" />
-            AR
+            <div className="w-full flex flex-row items-center justify-start gap-2">
+              <Image
+                src={ArbaianFlag}
+                alt="English"
+                className="w-7 aspect-square"
+              />
+              <h5 className="text-xl mb-0" style={secondFont.style}>
+                AR
+              </h5>
+            </div>
           </a>
         </li>
         {/* Add more language options as needed */}
