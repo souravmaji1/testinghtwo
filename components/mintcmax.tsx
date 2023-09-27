@@ -196,20 +196,33 @@ export default function Minting() {
             </Dialog>
           </div>
 
-          <div className={styles.groupParent}>
+		  <div className={styles.credit} style={{
+			marginTop: "20px"
+		  }}>
             <Image
               className={styles.frameChild11}
               src={CommitLogo}
               alt={CommitLogo}
             />
-            <button
-              style={thirdFont.style}
-              className={styles.g}
-              onClick={handleMint}
+            <Button
+              style={{
+                textTransform: "none",
+                fontSize: "21px",
+              }}
+              sx={{ color: "black" }}
+              onClick={handleClickOpen}
             >
-              <h5 className="mb-0">COMMIT MINT</h5>
-            </button>
+              <h5 className="mb-0" style={thirdFont.style}>COMMIT MINT</h5>
+            </Button>
+
+            <Dialog open={open} onClose={handleClose}>
+              <DialogContent>
+                <Paycredit />
+              </DialogContent>
+            </Dialog>
           </div>
+
+        
 
           <div className={styles.swapMintburnChild2} />
 
