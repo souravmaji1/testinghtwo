@@ -194,7 +194,7 @@ const AboutIPadPro1293: NextPage = () => {
               <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
                 <BsGithub color="#ffffff" size={35} />
                 <FaXTwitter color="#ffffff" size={35} />
-                <TiSocialLinkedinCircular color="#ffffff" size={35} />
+                <TiSocialLinkedinCircular color="#ffffff" size={45} />
                 <SiNotion color="#ffffff" size={35} />
               </div>
             </div>
