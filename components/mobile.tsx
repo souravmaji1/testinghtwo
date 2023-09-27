@@ -223,7 +223,7 @@ const HomeIPadPro1291: NextPage = () => {
           <div className={styles.groupChild} />
           <div className={styles.groupItem} />
           <div style={thirdFont.style} className={styles.downloadOurWhite1}>
-            <h5 className="text-2xl text-center my-0 w-full ml-4">
+            <h5 className="text-2xl text-center my-0 w-10/12">
               {t("downloadhead")}
             </h5>
           </div>
