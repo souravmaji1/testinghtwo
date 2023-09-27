@@ -112,7 +112,7 @@ const TradeIPadPro1292: NextPage = () => {
 
         
         <div style={thirdFont.style} className={styles.trendingProducts}>
-          <Image src={Trending} alt="" />
+          {t('trendingproducts')}
         </div>
 
         <section
@@ -180,7 +180,7 @@ const TradeIPadPro1292: NextPage = () => {
         </div>
         <div className={styles.unfold10ResultParent}>
           <div style={thirdFont.style} className={styles.unfold10Result1}>
-            unfold 10 result
+            {t('more')}
           </div>
           <Image className={styles.fearrowDownIcon1} alt="" src={Arrowdown} />
         </div>
