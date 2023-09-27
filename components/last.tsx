@@ -87,123 +87,138 @@ const AboutIPadPro1293: NextPage = () => {
   return (
     <>
       <div className={styles.aboutIpadPro1293}>
-        <div className={styles.aboutIpadPro1293Item} />
-
-        <section
-          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[750px] z-50"
-          style={{
-            backgroundImage: `url('${communityBg.src}')`,
-          }}
-        >
-          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10">
-            {t("communityhead")}
-          </h5>
-          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5">
-            {t("communityparagraph")}
-          </h5>
-          <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={35} />
-            <SiNotion color="#ffffff" size={35} />
-          </div>
+       
+        <section className="w-screen h-fit absolute top-44">
+          <section className="w-screen h-fit px-3">
+            <h5 className="text-3xl capitalize mb-3" style={myFont.style}>
+              {t("about")}
+            </h5>
+            <h5
+              className="text-sm text-white capitalize mb-5 leading-relaxed"
+              style={secondFont.style}
+            >
+              {t("aboutparagraph")}
+            </h5>
+            <h5 className="text-3xl capitalize mb-3" style={myFont.style}>
+              {t("roadmap")}
+            </h5>
+            <h5
+              className="text-sm text-white capitalize leading-relaxed"
+              style={secondFont.style}
+            >
+              {t("roadmapparagraph")}
+            </h5>
+            <div className="flex flex-col items-start justify-start mt-5">
+              <div className="w-full h-fit p-4 mb-2 aboutGlassBox">
+                <h5
+                  className="text-[#A0FA09] text-xl mb-3"
+                  style={myFont.style}
+                >
+                  Q1
+                </h5>
+                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                  {t("roadmapone")}
+                </p>
+              </div>
+              <div className="w-full h-fit p-4 mb-2 aboutGlassBox glassy">
+                <h5
+                  className="text-[#A0FA09] text-xl mb-3"
+                  style={myFont.style}
+                >
+                  Q2
+                </h5>
+                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                  {t("roadmapthree")}
+                </p>
+              </div>
+              <div className="w-full h-fit p-4 mb-2 aboutGlassBox glassy">
+                <h5
+                  className="text-[#A0FA09] text-xl mb-3"
+                  style={myFont.style}
+                >
+                  Q3
+                </h5>
+                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                  {t("roadmapfour")}
+                </p>
+              </div>
+              <div className="w-full h-fit p-4 mb-2 aboutGlassBox glassy">
+                <h5
+                  className="text-[#A0FA09] text-xl mb-3"
+                  style={myFont.style}
+                >
+                  Q4
+                </h5>
+                <p className="text-white text-sm leading-relaxed" style={secondFont.style}>
+                  {t("roadmaptwo")}
+                </p>
+              </div>
+            </div>
+            <h5 className="text-3xl capitalize mb-3 mt-5" style={myFont.style}>
+              {t("audit")}
+            </h5>
+            <h5
+              className="text-sm text-white capitalize mb-20  leading-relaxed"
+              style={secondFont.style}
+            >
+              {t("auditparagraph")}
+            </h5>
+            <div
+              className="h-fit w-full bg-center bg-cover bg-no-repeat z-50"
+              style={{
+                backgroundImage: `url('${communityBg.src}')`,
+              }}
+            >
+              <h5
+                className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10"
+                style={thirdFont.style}
+              >
+                {t("communityhead")}
+              </h5>
+              <h5
+                className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5"
+                style={secondFont.style}
+              >
+                {t("communityparagraph")}
+              </h5>
+              <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
+                <BsGithub color="#ffffff" size={35} />
+                <FaXTwitter color="#ffffff" size={35} />
+                <TiSocialLinkedinCircular color="#ffffff" size={35} />
+                <SiNotion color="#ffffff" size={35} />
+              </div>
+            </div>
+          </section>
+          
         </section>
-
-        <div style={myFont.style} className={styles.aboutUs}>
-          <h5 className="text-3xl capitalize">{t("about")}</h5>
+        <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start pt-10 absolute bottom-0 pb-24">
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+          <a href="/trade">
+            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>Trade</h5>
+          </a>
+          <a href="/stake">
+            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>Stake</h5>
+          </a>
+          <a href="/about">
+            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>About</h5>
+          </a>
+          <a href="/profile">
+            <h5 className="text-white montreal text-2xl md:text-2xl" style={thirdFont.style}>
+              Profile
+            </h5>
+          </a>
         </div>
-        <div style={thirdFont.style} className={styles.roadMap}>
-          <h5 className="text-3xl capitalize">{t("roadmap")}</h5>
-        </div>
-
-        <div className={styles.loremIpsumDolorContainer}>
-          <p style={secondFont.style} className={styles.blankLine}>
-            {t("aboutparagraph")}{" "}
-          </p>
-          <p style={secondFont.style} className={styles.blankLine}>
-            &nbsp;
-          </p>
-        </div>
-        <div className={styles.loremIpsumDolorContainer1}>
-          <p style={secondFont.style} className={styles.blankLine}>
-            {t("roadmapparagraph")}{" "}
-          </p>
-          <p className={styles.blankLine}>&nbsp;</p>
-        </div>
-        <div className={styles.loremIpsumDolorContainer2}>
-          <div
-            style={thirdFont.style}
-            className={styles.ourVision1}
-          >{`Audit`}</div>
-          <p style={secondFont.style} className={styles.blankLine}>
-            {t("auditparagraph")}{" "}
-          </p>
-          <p className={styles.blankLine}>&nbsp;</p>
-        </div>
-        <img
-          className={styles.aboutIpadPro1293Inner}
-          alt=""
-          src="Vector 20.svg"
-        />
-
-        <div className={styles.vectorContainer}>
-          <img className={styles.groupChild1} alt="" src="Vector 21.svg" />
-
-          <div className={styles.groupParent2}>
-            <div className={styles.ellipseParent2}>
-              <div className={styles.groupChild5} />
-              <div className={styles.rectangleDiv} />
-              <div style={myFont.style} className={styles.q1}>
-                <Image src={F} alt="" />
-              </div>
-              <div className={styles.distributionTokenCbcContainer}>
-                <p style={fourthFont.style} className={styles.blankLine}>
-                  {t("roadmapone")}{" "}
-                </p>
-              </div>
-            </div>
-            <div className={styles.ellipseParent2}>
-              <div className={styles.groupChild6} />
-              <div className={styles.groupChild7} />
-              <div style={myFont.style} className={styles.q2}>
-                <Image src={S} alt="" />
-              </div>
-              <div className={styles.distributionTokenCbcContainer1}>
-                <p style={fourthFont.style} className={styles.blankLine}>
-                  {t("roadmapthree")}{" "}
-                </p>
-              </div>
-            </div>
-            <div className={styles.ellipseParent4}>
-              <div className={styles.groupChild8} />
-              <div className={styles.groupChild9} />
-              <div style={myFont.style} className={styles.q3}>
-                <Image src={Fo} alt="" />
-              </div>
-              <div className={styles.distributionTokenCbcContainers}>
-                <p style={fourthFont.style} className={styles.blankLine}>
-                  {t("roadmapfour")}{" "}
-                </p>
-              </div>
-            </div>
-            <div className={styles.ellipseParent2}>
-              <div className={styles.groupChild10} />
-              <div className={styles.groupChild7} />
-              <div style={myFont.style} className={styles.q2}>
-                <Image src={T} alt="" />
-              </div>
-              <div className={styles.distributionTokenCbcContainer3}>
-                <p style={fourthFont.style} className={styles.blankLine}>
-                  {t("roadmaptwo")}{" "}
-                </p>
-              </div>
-            </div>
-          </div>
-          <img className={styles.groupChild12} alt="" src="Vector 22.svg" />
-          <img className={styles.groupChild13} alt="" src="Vector 23.svg" />
-          <img className={styles.groupChild14} alt="" src="Vector 24.svg" />
-          <img className={styles.groupChild15} alt="" src="Vector 25.svg" />
-        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8" style={thirdFont.style}>
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
       </div>
       {isMenuIPadPro1291Open && (
         <PortalPopup
@@ -215,34 +230,7 @@ const AboutIPadPro1293: NextPage = () => {
         </PortalPopup>
       )}
       <GenericMobileNavbar />
-      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-        <a href="/">
-          <img
-            src={Headlogo.src}
-            className=" aspect-square w-20 md:w-36 my-10 md:my-16"
-            alt=""
-          />
-        </a>
-        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
-          <a href="/trade">
-            <h5 className="text-white montreal text-2xl md:text-2xl">Trade</h5>
-          </a>
-          <a href="/stake">
-            <h5 className="text-white montreal text-2xl md:text-2xl">Stake</h5>
-          </a>
-          <a href="/about">
-            <h5 className="text-white montreal text-2xl md:text-2xl">About</h5>
-          </a>
-          <a href="/profile">
-            <h5 className="text-white montreal text-2xl md:text-2xl">
-              Profile
-            </h5>
-          </a>
-        </div>
-        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
-          All Rights Reserved - © 2021 Stephen King
-        </h5>
-      </section>
+      
     </>
   );
 };

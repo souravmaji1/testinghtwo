@@ -6,6 +6,11 @@
     height: 562px;
 }
 
+.aboutGlassBox{
+    border-radius: 11px 83px 83px 11px !important;
+    backdrop-filter: blur(46px);
+}
+
 .languageone{
     position: absolute;
     top: 35px;
@@ -762,7 +767,7 @@
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
     width: 100%;
-    height: 4755px;
+    height: 3450px;
     overflow: hidden;
     text-align: left;
     font-size: 28px;
