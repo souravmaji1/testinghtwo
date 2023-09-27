@@ -269,8 +269,7 @@
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 370px;
-    height: 692px;
+    padding-top: 1%;
 }
 .frameChild11 {
     position: relative;
@@ -521,9 +520,7 @@
     position: absolute;
     top: 260px;
     left: 935px;
-    width: 370px;
-    height: 692px;
-    overflow: hidden;
+    
 }
 .groupChild {
     position: absolute;

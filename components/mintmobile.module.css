@@ -473,7 +473,7 @@
 }
 .titaEtf {
     position: absolute;
-    top: 169px;
+    top: 140px;
     left: 28px;
     font-family: 'Monument Extended';
 }
@@ -520,15 +520,15 @@
 }
 .frameParent2 {
     position: absolute;
-    top: 203px;
+    top: 170px;
     left: 28px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: right;
     font-size: 16px;
+    height: fit-content !important;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+
 }
 .tradeSubpageIpadPro129 {
     position: relative;

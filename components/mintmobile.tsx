@@ -65,9 +65,7 @@ const TradeSubpageIPadPro129: NextPage = () => {
       <div className={styles.tradeSubpageIpadPro129}>
         <div className={styles.tradeSubpageIpadPro129Child} />
 
-        
-
-        <div className={styles.swapMintburn}>
+        <div className={`${styles.swapMintburn} w-8/12`}>
           <Minting />
         </div>
         <div className={styles.rectangleGroup} onClick={onGroupContainer3Click}>
@@ -138,21 +136,31 @@ const TradeSubpageIPadPro129: NextPage = () => {
           Tita ETF
         </div>
         <div className={styles.frameParent2}>
-          <div className={styles.frameParent3}>
-            <div className={styles.wrapper}>
-              <div style={secondFont.style} className={styles.trade}>
-                128.68
-              </div>
-            </div>
-            <div className={styles.vectorParent}>
-              <img className={styles.vectorIcon1} alt="" src="Vector.svg" />
-              <div style={secondFont.style} className={styles.trade}>
-                +1,03 | +0,83%
-              </div>
-            </div>
-          </div>
-          <div style={secondFont.style} className={styles.ter033}>
+          <h5
+            className={`text-white text-xl`}
+            style={{
+              fontFamily: `${secondFont.style.fontFamily}`,
+            }}
+          >
             TER → 0.33%
+          </h5>
+          <div className="w-full h-fit flex flex-row items-center justify-start gap-2">
+            <h5
+              className="text-white text-2xl bg-[#3e4057] px-2 py-1 rounded-lg"
+              style={{
+                fontFamily: `${secondFont.style.fontFamily}`,
+              }}
+            >
+              128.68
+            </h5>
+            <h5
+              className="text-white text-2xl bg-[#3e4057] px-2 py-1 rounded-lg"
+              style={{
+                fontFamily: `${secondFont.style.fontFamily}`,
+              }}
+            >
+              +1,03 | +0,83%{" "}
+            </h5>
           </div>
         </div>
       </div>
@@ -166,18 +174,25 @@ const TradeSubpageIPadPro129: NextPage = () => {
         </PortalPopup>
       )}
       <GenericMobileNavbar />
-	  <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-            <img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" />
-            <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Trade</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Stake</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>About</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Contact Us</h5>
-                <h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5>
-            </div>
-            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
-            
-        </section>
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <img
+          src={Headlogo.src}
+          className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+          alt=""
+        />
+        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+          <h5 className="text-white montreal text-2xl md:text-2xl">Trade</h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">Stake</h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">About</h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">
+            Contact Us
+          </h5>
+          <h5 className="text-white montreal text-2xl md:text-2xl">Profile</h5>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
     </>
   );
 };

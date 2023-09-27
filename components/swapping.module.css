@@ -54,12 +54,13 @@
     background: linear-gradient(180deg, rgba(20, 19, 25, 0), #44484b 96.22%);
     width: 368px;
     height: 278.1px;
+    
 }
 .youPay {
     position: absolute;
     top: 127.92px;
-    left: 26.47px;
     text-transform: capitalize;
+    font-size: 30px;
 }
 .youReceive {
     position: absolute;
@@ -130,7 +131,14 @@
     left: 26.47px;
 }
 .span {
-    font-weight: 500;
+    font-weight: 400;
+    height: fit-content !important;
+    display: block !important;
+}
+
+.span input::placeholder{
+    font-size: 12px !important;
+    color: red !important;
 }
 .div2 {
     position: absolute;

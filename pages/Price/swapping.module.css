@@ -30,20 +30,15 @@
 }
 .mingcutewallet4FillParent {
     position: absolute;
-    top: 592px;
+    top: 570px;
     left: calc(50% - 158px);
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     width: 316px;
-    display: flex;
-    flex-direction: row;
+    height: 60px;
     padding: 11px 90px;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
     color: #1f1330;
 }
 .property1swapItem {
@@ -51,7 +46,7 @@
     top: 1.23px;
     left: 0.97px;
     border-radius: 11px;
-    background: linear-gradient(180deg, rgba(20, 19, 25, 0), #44484b 96.22%);
+    background: linear-gradient(180deg, rgba(20, 19, 25, 0), #44484b00 96.22%);
     width: 368px;
     height: 278.1px;
 }
@@ -131,10 +126,12 @@
 }
 .span {
     font-weight: 500;
+    display: block ;
+    height: fit-content;
 }
 .div2 {
     position: absolute;
-    top: 171px;
+    top: 165px;
     left: 27px;
     font-size: 30px;
     text-transform: capitalize;
