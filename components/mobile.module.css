@@ -403,10 +403,10 @@
 
 .elevateYourFinancial1 {
     position: absolute;
-    top: 64px;
+    top: 70px;
     font-weight: bold;
     left: 0px;
-    padding: 0 30px;
+    padding: 30px 20px 0px 20px;
     font-size: 18px;
     letter-spacing: -0.02em;
     line-height: 30px;
@@ -3840,7 +3840,7 @@
 @media (min-width: 240px) and (max-width: 400px) {
     .discoverTheRwfa {
         position: absolute;
-        top: 229px;
+        top: 200px;
         left: calc(50% - 190px);
         font-size: 18px;
         text-transform: capitalize;

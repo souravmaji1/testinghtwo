@@ -126,37 +126,37 @@ const HomeIPadPro1291: NextPage = () => {
   const discoverItem = [
     {
       top: {
-        title: t('benefithead'),
-        text: t('benefitparagraphone'),
+        title: t("benefithead"),
+        text: t("benefitparagraphone"),
         icon: one.src,
       },
       bottom: {
-        title: t('benefitheadtwo'),
-        text: t('benefitparagraphtwo'),
+        title: t("benefitheadtwo"),
+        text: t("benefitparagraphtwo"),
         icon: two.src,
       },
     },
     {
       top: {
-        title: t('benefitheadthree'),
-        text: t('benefitparagraphthree'),
+        title: t("benefitheadthree"),
+        text: t("benefitparagraphthree"),
         icon: three.src,
       },
       bottom: {
-        title: t('benefitheadfour'),
-        text: t('benefitparagraphfour'),
+        title: t("benefitheadfour"),
+        text: t("benefitparagraphfour"),
         icon: four.src,
       },
     },
     {
       top: {
-        title: t('benefitheadfive'),
-        text: t('benefitparagraphfive'),
+        title: t("benefitheadfive"),
+        text: t("benefitparagraphfive"),
         icon: five.src,
       },
       bottom: {
-        title: t('benefitheadsix'),
-        text: t('benefitparagraphsix'),
+        title: t("benefitheadsix"),
+        text: t("benefitparagraphsix"),
         icon: six.src,
       },
     },
@@ -181,7 +181,19 @@ const HomeIPadPro1291: NextPage = () => {
           className={`${styles.discoverTheRwfa} text-4xl`}
         >
           {" "}
-          {t("secondhead")}{" "}
+          <h5
+            className="leading-relaxed w-full"
+            style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "20px"
+                  : localStorage.getItem("lang") == "fr" ||
+                  localStorage.getItem("lang") == "ar" ||
+                  localStorage.getItem("lang") == "it" ? "22px" : "24px"
+            }}
+          >
+            {t("secondhead")}{" "}
+          </h5>
         </div>
         <div className={styles.btnParent}>
           <div className={styles.btn}>
@@ -313,7 +325,10 @@ const HomeIPadPro1291: NextPage = () => {
             </div>
           </div>
         </div>
-        <section className="h-fit w-full mx-auto px-1 absolute top-[2860px]" id="homeCarousel">
+        <section
+          className="h-fit w-full mx-auto px-1 absolute top-[2860px]"
+          id="homeCarousel"
+        >
           <div className="flex md:hidden flex-row items-center justify-center py-3 px-8 mt-5">
             <Carousel
               autoPlay={false}
@@ -345,17 +360,26 @@ const HomeIPadPro1291: NextPage = () => {
             >
               {discoverItem.map((item, index) => {
                 return (
-                  <div key={index} className="h-fit w-full cursor-grab flex flex-col items-start justify-start">
+                  <div
+                    key={index}
+                    className="h-fit w-full cursor-grab flex flex-col items-start justify-start"
+                  >
                     <div className="discoverBox h-fit w-full rounded-xl py-6 px-4 mb-3 flex flex-col items-start justify-start">
                       <img
                         src={item.top.icon}
                         className="w-20 aspect-square mb-6"
                         alt=""
                       />
-                      <h5 className="text-2xl text-[#FFE925] text-left mb-4" style={myFont.style}>
+                      <h5
+                        className="text-2xl text-[#FFE925] text-left mb-4"
+                        style={myFont.style}
+                      >
                         {item.top.title}
                       </h5>
-                      <h5 className="text-xl text-white text-left" style={secondFont.style}>
+                      <h5
+                        className="text-xl text-white text-left"
+                        style={secondFont.style}
+                      >
                         {item.top.text}
                       </h5>
                     </div>
@@ -365,10 +389,16 @@ const HomeIPadPro1291: NextPage = () => {
                         className="h-16 aspect-square mb-6"
                         alt=""
                       />
-                      <h5 className="monument text-2xl text-[#FFE925] text-left mb-4" style={myFont.style}>
+                      <h5
+                        className="monument text-2xl text-[#FFE925] text-left mb-4"
+                        style={myFont.style}
+                      >
                         {item.bottom.title}
                       </h5>
-                      <h5 className="montreal text-xl text-white text-left" style={secondFont.style}>
+                      <h5
+                        className="montreal text-xl text-white text-left"
+                        style={secondFont.style}
+                      >
                         {item.bottom.text}
                       </h5>
                     </div>
