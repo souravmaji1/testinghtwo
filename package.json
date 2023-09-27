@@ -33,6 +33,7 @@
     "eslint-config-next": "12.3.4",
     "ethers": "5",
     "ethers-stable": "npm:ethers@6.4.0",
+    "flag-icons": "^6.11.1",
     "framer-motion": "^10.16.2",
     "i18next": "^23.5.1",
     "i18next-browser-languagedetector": "^7.1.0",

@@ -331,14 +331,16 @@ const HomeIPadPro1291: NextPage = () => {
         >
           <div className="flex md:hidden flex-row items-center justify-center py-3 px-8 mt-5">
             <Carousel
-              autoPlay={false}
+              autoPlay={true}
               interval={4000}
-              showArrows={false}
+              showArrows={true}
               showStatus={false}
               swipeable={true}
               dynamicHeight={true}
               showIndicators={true}
+              emulateTouch={true}
               infiniteLoop={true}
+              showThumbs={false}
               renderIndicator={(
                 clickHandler: (
                   e: React.MouseEvent | React.KeyboardEvent

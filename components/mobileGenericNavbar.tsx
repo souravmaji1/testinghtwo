@@ -10,12 +10,13 @@ import { Menu, MenuItem, MenuButton } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 
-import EnglishFlag from "../public/Flag.png"; // Import the English flag image
-import SpanishFlag from "../public/spain (1).png"; // Import the Spanish flag image
-import FrenchFlag from "../public/Flag (1).png"; // Import the French flag image
-import ItalianFlag from "../public/italian.png";
-import RussanFlag from "../public/russain.png";
-import ArbaianFlag from "../public/arabian.png";
+
+import EnglishFlag from "../public/Flag.svg"; // Import the English flag image
+import SpanishFlag from "../public/spain (1).svg"; // Import the Spanish flag image
+import FrenchFlag from "../public/Flag (1).svg"; // Import the French flag image
+import ItalianFlag from "../public/Flag (2).svg";
+import RussanFlag from "../public/Flag (3).svg";
+import ArbaianFlag from "../public/arabian.svg";
 
 const myFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
@@ -113,6 +114,7 @@ function GenericMobileNavbar() {
                 }}
               >
                 <div className="w-full h-fit flex flex-row items-center justify-start">
+                
                   <Image
                     src={EnglishFlag}
                     alt="English"
