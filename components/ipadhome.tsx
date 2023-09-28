@@ -91,6 +91,8 @@ import Reducedfe from "../public/rf3.png";
 import Securi from "../public/esee.png";
 import Homer from "../public/hsss.png";
 
+import GenericMobileNavbar from "./mobileGenericNavbar";
+
 const HomeIPadPro1291: NextPage = () => {
   const onTradeTextClick = useCallback(() => {
     // Add your code here
@@ -120,6 +122,7 @@ const HomeIPadPro1291: NextPage = () => {
 
   return (
     <div className={styles.homeIpadPro1291}>
+      <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <img
         className={styles.homeIpadPro1291Item}
@@ -147,61 +150,11 @@ const HomeIPadPro1291: NextPage = () => {
         src="shutterstock_2152297015-[Converted] 1.png"
       />
       <Image className={styles.circleBgIcon} alt="" src={Leftcir} />
-      <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-      <div className={styles.homeParent}>
-        <div style={fourthFont.style} className={styles.home}>
-          <a href="/">
-            <h5 className="text-base text-white my-0 mx-1">{t("home")}</h5>
-          </a>
-        </div>
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/trade">
-            <h5 className="text-base text-white my-0 mx-1">Trade</h5>
-          </a>
-        </div>
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/stake">
-            <h5 className="text-base text-white my-0 mx-1">Stake</h5>
-          </a>
-        </div>
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/about">
-            <h5 className="text-base text-white my-0 mx-1">{t("about")}</h5>
-          </a>
-        </div>
+     
 
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/profile">Profile</a>
-        </div>
-      </div>
+      
 
-      <div className={styles.mingcutewallet4FillLang}>
-        <Languageswitch />
-      </div>
-
-      <div className={styles.mingcutewallet4FillParent}>
-        <Image
-          className={styles.mingcutewallet4FillIcon2}
-          alt=""
-          src={Wallet}
-        />
-        <div className={styles.connectWallet}>
-          <ConnectWallet
-            style={{
-              textTransform: "uppercase",
-              background: "none",
-              fontWeight: "500",
-              fontFamily: "__thirdFont_3ea4f2",
-              border: "none",
-              color: "black",
-              fontSize: "13px",
-            }}
-          />
-        </div>
-      </div>
-      <img className={styles.unionIcon3} alt="" src="Union.png" />
-      <img className={styles.unionIcon4} alt="" src="Union.png" />
-      <img className={styles.unionIcon5} alt="" src="Union.png" />
+      
       <div className={styles.btnParent}>
         <div className={styles.btn}>
           <Image className={styles.btnChild} alt="" src={Btx} />

@@ -41,59 +41,46 @@ import Mobile from "../components/mobile";
 import Ipad from "../components/ipadhome";
 import i18n from "../utils/i18n";
 
-import Tradei from '../public/montra.png';
-import Stakei from '../public/mobst.png';
-import Abouti from '../public/mobab.png';
-import Termi from '../public/termi.png';
+import Tradei from "../public/montra.png";
+import Stakei from "../public/mobst.png";
+import Abouti from "../public/mobab.png";
+import Termi from "../public/termi.png";
 
-import Homei from '../public/hm.png';
-import Stakes from '../public/st.png';
-import Abouta from '../public/ab.png';
-import Trades from '../public/tr.png';
-import Whitepaper from '../public/whites.png';
+import Homei from "../public/hm.png";
+import Stakes from "../public/st.png";
+import Abouta from "../public/ab.png";
+import Trades from "../public/tr.png";
+import Whitepaper from "../public/whites.png";
 
+import Homd from "../public/h.png";
+import Treasury from "../public/txts.png";
+import Discoverb from "../public/sb.png";
+import Treasurysd from "../public/Treasury.png";
+import Downloadwhite from "../public/Download Whitepaper.png";
+import Starttrading from "../public/Start Trading.png";
+import Seam from "../public/Seamless Financial Inclusion.png";
+import Effort from "../public/Effortless Cross-Border Transactions.png";
+import Watch from "../public/Watch Tutorial.png";
+import Copyright from "../public/Copy Right 2023 - CMax. All Rights Reserved.png";
 
-import Homd from '../public/h.png';
-import Treasury from '../public/txts.png';
-import Discoverb from '../public/sb.png';
-import Treasurysd from '../public/Treasury.png';
-import Downloadwhite from '../public/Download Whitepaper.png';
-import Starttrading from '../public/Start Trading.png';
-import Seam from '../public/Seamless Financial Inclusion.png';
-import Effort from '../public/Effortless Cross-Border Transactions.png';
-import Watch from '../public/Watch Tutorial.png';
-import Copyright from '../public/Copy Right 2023 - CMax. All Rights Reserved.png';
+import Titas from "../public/Tita +24%.png";
+import Tradingvol from "../public/Total Trading Volume.png";
+import communityBg from "../public/back.png";
 
-import Titas from '../public/Tita +24%.png';
-import Tradingvol from '../public/Total Trading Volume.png';
+import Joincom from "../public/jc.png";
+import Downloadour from "../public/webs.png";
 
+import { Select } from "@chakra-ui/react";
 
-import Joincom from '../public/jc.png';
-import Downloadour from '../public/webs.png';
+import Seamless from "../public/sf1.png";
+import Reduced from "../public/rf3.png";
+import Smartcont from "../public/sc2.png";
+import Decentyralized from "../public/dc6.png";
+import Effortless from "../public/ec5.png";
+import Enhanceds from "../public/es4.png";
 
-import { Select } from '@chakra-ui/react'
-
-
-
-
-import Seamless from '../public/sf1.png';
-import Reduced from '../public/rf3.png';
-import Smartcont from '../public/sc2.png';
-import Decentyralized from '../public/dc6.png';
-import Effortless from '../public/ec5.png';
-import Enhanceds from '../public/es4.png';
-
-
-
-
-import Languageswitch from '../components/desktop';
-
-
-
-
-
-
-
+import Languageswitch from "../components/desktop";
+import GenericMobileNavbar from "@/components/mobileGenericNavbar";
 
 import { useTranslation } from "react-i18next"; // important for translation. import in every page or component
 
@@ -111,6 +98,10 @@ const fourthFont = localFont({
 });
 
 import GenericNavbar from "@/components/GenericNavBar";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
 
 const HomepageBlack: NextPage = () => {
   const onTradeText1Click = useCallback(() => {
@@ -128,8 +119,6 @@ const HomepageBlack: NextPage = () => {
   const onEllipseIconClick = useCallback(() => {
     // Add your code here
   }, []);
-
-  
 
   // important for translation. import in every page or component
   const { t, i18n } = useTranslation();
@@ -152,23 +141,21 @@ const HomepageBlack: NextPage = () => {
   };
 
   useEffect(() => {
-	handleLanguageChange()
-  }, [])
+    handleLanguageChange();
+  }, []);
 
   return (
     <div>
       <div className={styles.mobile}>
         <Mobile />
       </div>
-      
+
       <div className={styles.ipad}>
         <Ipad />
       </div>
 
       <div className={styles.homepageBlack}>
-        
-
-        <Image className={styles.homepageBlackChild} alt="" src={Flower} />
+        <GenericMobileNavbar />
         <div className={styles.homepageBlackItem}></div>
         <div className={styles.homepageBlackInner}></div>
         <div className={styles.ellipseDiv} />
@@ -190,15 +177,16 @@ const HomepageBlack: NextPage = () => {
 			*/}
         </div>
         <div style={myFont.style} className={styles.discoverTheRwfa}>
-         {t("secondhead")}
+          {t("secondhead")}
         </div>
-        <img className={styles.homepageBlackChild8} alt="" src="Group 7.svg" />
         <div className={styles.btnParent}>
           <div className={styles.btn}>
             <Image className={styles.btnChild} alt="" src={Btn} />
             <div style={thirdFont.style} className={styles.startTrading}>
               <a href="/trade">
-                <h5 className="text-black text-base w-full text-center">{t('tradingbutton')}</h5>
+                <h5 className="text-black text-base w-full text-center">
+                  {t("tradingbutton")}
+                </h5>
               </a>
             </div>
           </div>
@@ -209,59 +197,66 @@ const HomepageBlack: NextPage = () => {
               src={Video}
             />
             <div style={fourthFont.style} className={styles.watchTutorial}>
-            <h5 className="text-white text-lg mb-0">{t('watch')}</h5>
+              <h5 className="text-white text-lg mb-0">{t("watch")}</h5>
             </div>
           </div>
         </div>
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
-        <div className={styles.frameParent}>
-          <div className={styles.groupParent}>
-            <div className={styles.downloadOurWhitePaperForIParent}>
-              <div style={thirdFont.style} className={styles.downloadOurWhite1}>
-              <h5 className="text-4xl ">{t('downloadhead')}</h5>
-              </div>
-              <div style={secondFont.style} className={styles.diveIntoThe1}>
-                📥    {t("downloadparagraph")} 🚀
-              </div>
-            </div>
-            <div className={styles.mingcutewallet4FillParent}>
-              <Image
-                className={styles.carbonplayFilledIcon1}
-                alt=""
-                src={Arrow}
-              />
-              <div
-                style={thirdFont.style}
-                className={styles.downloadWhitepaper}
-              >
-                <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
-                <h5 className="text-black text-base mb-0">{t('downloadbutton')}</h5>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className={styles.rectangleParent}>
-            <div className={styles.groupChild} />
-            <div className={styles.frameGroup}>
-              <Image className={styles.frameIcon} alt="" src={Frame} />
-              <div className={styles.rwfaParent}>
-                <div style={myFont.style} className={styles.rwfa1}>
+        <div className="absolute top-[1010px] w-full h-fit">
+          
+          <div className={`mx-0 ${styles.frameParent}`}>
+            <div className={styles.groupParent}>
+              <div className={styles.downloadOurWhitePaperForIParent}>
+                <div
+                  style={thirdFont.style}
+                  className={styles.downloadOurWhite1}
+                >
+                  <h5 className="text-4xl ">{t("downloadhead")}</h5>
                 </div>
-                <div style={myFont.style} className={styles.whitepaper}>
-                <Image src={Whitepaper} alt="" />
-                </div> 
+                <div style={secondFont.style} className={styles.diveIntoThe1}>
+                  📥 {t("downloadparagraph")} 🚀
+                </div>
+              </div>
+              <div className={styles.mingcutewallet4FillParent}>
+                <Image
+                  className={styles.carbonplayFilledIcon1}
+                  alt=""
+                  src={Arrow}
+                />
+                <div
+                  style={thirdFont.style}
+                  className={styles.downloadWhitepaper}
+                >
+                  <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
+                    <h5 className="text-black text-base mb-0">
+                      {t("downloadbutton")}
+                    </h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className={styles.rectangleParent}>
+              <div className={styles.groupChild} />
+              <div className={styles.frameGroup}>
+                <Image className={styles.frameIcon} alt="" src={Frame} />
+                <div className={styles.rwfaParent}>
+                  <div style={myFont.style} className={styles.rwfa1}></div>
+                  <div style={myFont.style} className={styles.whitepaper}>
+                    <Image src={Whitepaper} alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div style={thirdFont.style} className={styles.discoverOurBenefits1}>
-        <h5 className="text-5xl">{t('discoverbenefit')}</h5>
+          <h5 className="text-5xl">{t("discoverbenefit")}</h5>
         </div>
         <div style={secondFont.style} className={styles.elevateYourFinancial1}>
-         {t("discoverparagraph")}
+          {t("discoverparagraph")}
         </div>
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
+
         <div className={styles.homepageBlackChild9} />
         <div className={styles.homepageBlackChild10} />
         <div className={styles.homepageBlackChild11} />
@@ -272,50 +267,50 @@ const HomepageBlack: NextPage = () => {
           style={myFont.style}
           className={styles.seamlessFinancialInclusion1}
         >
-          <h5 className="text-2xl my-0">{t('benefithead')}</h5>
+          <h5 className="text-2xl my-0">{t("benefithead")}</h5>
         </div>
         <div style={myFont.style} className={styles.decentralizedControl}>
-        <h5 className="text-2xl my-0">{t('benefitheadsix')}</h5>
+          <h5 className="text-2xl my-0">{t("benefitheadsix")}</h5>
         </div>
         <Image className={styles.groupIcon1} alt="" src={Six} />
         <div style={myFont.style} className={styles.enhancedSecurity}>
-        <h5 className="text-2xl my-0">{t('benefitheadfour')}</h5>
+          <h5 className="text-2xl my-0">{t("benefitheadfour")}</h5>
         </div>
         <div style={myFont.style} className={styles.smartContractCapabilities1}>
-        <h5 className="text-2xl my-0">{t('benefitheadthree')}</h5>
+          <h5 className="text-2xl my-0">{t("benefitheadthree")}</h5>
         </div>
         <div style={myFont.style} className={styles.reducedFees}>
-        <h5 className="text-2xl my-0">{t('benefitheadfive')}</h5>
+          <h5 className="text-2xl my-0">{t("benefitheadfive")}</h5>
         </div>
         <div
           style={myFont.style}
           className={styles.effortlessCrossBorderTransa1}
         >
-           <h5 className="text-2xl my-0">{t('benefitheadtwo')}</h5>
+          <h5 className="text-2xl my-0">{t("benefitheadtwo")}</h5>
         </div>
         <div style={secondFont.style} className={styles.joinAPlatform1}>
-		{t("benefitparagraphone")}
+          {t("benefitparagraphone")}
         </div>
         <div style={secondFont.style} className={styles.enjoyThePower1}>
-		{t("benefitparagraphsix")}
+          {t("benefitparagraphsix")}
         </div>
         <div
           style={secondFont.style}
           className={styles.experienceEnhancedSecurity1}
         >
-         {t("benefitparagraphfour")}
+          {t("benefitparagraphfour")}
         </div>
         <div
           style={secondFont.style}
           className={styles.leverageSmartContracts1}
         >
-           {t("benefitparagraphthree")}
+          {t("benefitparagraphthree")}
         </div>
         <div style={secondFont.style} className={styles.benefitFromLower1}>
-		{t("benefitparagraphfive")}
+          {t("benefitparagraphfive")}
         </div>
         <div style={secondFont.style} className={styles.sendAndReceive1}>
-		{t("benefitparagraphtwo")}
+          {t("benefitparagraphtwo")}
         </div>
         <Image className={styles.groupicon1} alt="" src={One} />
         <Image className={styles.groupIcon2} alt="" src={Fou} />
@@ -323,101 +318,12 @@ const HomepageBlack: NextPage = () => {
         <Image className={styles.groupIcon4} alt="" src={Three} />
         <Image className={styles.groupIcon5} alt="" src={Fif} />
 
-        <div className={styles.homepageBlackChild16}>
-          <Footer />
-        </div>
-
-        <div className={styles.joinOurCommunityParent}>
-          <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-          <h5 className="text-5xl">{t('communityhead')}</h5>
-          </div>
-          <div style={secondFont.style} className={styles.diveIntoA1}>
-		  {t("communityparagraph")}
-          </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginTop: "294px",
-              gap: "20px",
-            }}
-          >
-            <Image className={styles.groupIte} alt="" src={Github} />
-            <Image className={styles.groupIte} alt="" src={Twitter} />
-            <Image className={styles.groupIte} alt="" src={Linkedin} />
-            <Image className={styles.groupIte} alt="" src={Notion} />
-          </div>
-        </div>
-        
         <div className={styles.homepageBlackChild17} />
         <Image
           className={styles.shutterstock2152297015ConveIcon}
           alt=""
           src={Home}
         />
-
-        <div className={styles.homeParent}>
-          <div style={fourthFont.style} className={styles.home}>
-            <a href="/">
-            <Image style={{width:'54px'}}    src={Homei} alt='' />
-
-            </a>
-          </div>
-          <div style={fourthFont.style} className={styles.trade1}>
-            <a href="/trade">
-            <Image style={{width:'54px'}}    src={Tradei} alt='' />
-
-            </a>
-          </div>
-          <div style={fourthFont.style} className={styles.trade1}>
-            <a href="/stake">
-            <Image style={{width:'54px'}}    src={Stakei} alt='' />
-
-            </a>
-          </div>
-          <div style={fourthFont.style} className={styles.trade1}>
-            <a href="/about">
-            <Image style={{width:'54px'}}    src={Abouta} alt='' />
-
-            </a>
-          </div>
-          <div style={fourthFont.style} className={styles.trade1}>
-           
-          </div>
-        </div>
-
-
-        <div className={styles.mingcutewallet4FillLang}>
-        <Languageswitch />
-        </div>
-        
-        
-
-
-        <div className={styles.mingcutewallet4FillGroup}>
-       
-
-
-          <Image className={styles.carbonplayFilledIcon1} alt="" src={Wallet} />
-          <ConnectWallet
-            style={{
-              textTransform: "uppercase",
-              background: "none",
-              fontWeight: "500",
-              fontFamily: "__thirdFont_3ea4f2",
-              border: "none",
-              color: "black",
-            }}
-          />
-
-  
-
-        </div>
-
-       
-
-
 
         <img className={styles.unionIcon4} alt="" src="Union.svg" />
         <Image className={styles.unionIcon5} alt="" src={Star} />
@@ -431,21 +337,17 @@ const HomepageBlack: NextPage = () => {
             src="carbon:play-filled.svg"
           />
         </div>
-        <div
-        
-          style={thirdFont.style}
-          className={styles.treasuryTokens1}
-        >
-          <h5 className="text-5xl">{t('treasuryhead')}</h5>
-            </div>
+        <div style={thirdFont.style} className={styles.treasuryTokens1}>
+          <h5 className="text-5xl">{t("treasuryhead")}</h5>
+        </div>
         <div style={secondFont.style} className={styles.immerseYourselfIn1}>
-		{t("treasuryparagraph")}
+          {t("treasuryparagraph")}
         </div>
         <Image className={styles.maskGroupIcon6} alt="" src={Stats} />
         <div className={styles.homepageBlackChild20} />
         <Image className={styles.frameIcon3} alt="" src={Green} />
         <div style={secondFont.style} className={styles.totalTradingVolume2}>
-		{t("totaltrading")}
+          {t("totaltrading")}
         </div>
         <div className={styles.homepageBlackChild21} />
         <Image className={styles.frameIcon4} alt="" src={White} />
@@ -453,7 +355,7 @@ const HomepageBlack: NextPage = () => {
           Cmax +24%
         </div>
         <div style={secondFont.style} className={styles.totalTradingVolume3}>
-		{t("totaltrading")}
+          {t("totaltrading")}
         </div>
         <div style={thirdFont.style} className={styles.tita24}>
           Tita +24%
@@ -462,15 +364,69 @@ const HomepageBlack: NextPage = () => {
           150.000.000,00 €
         </div>
         <div style={thirdFont.style} className={styles.treasury}>
-          {t('treasury')}
+          {t("treasury")}
         </div>
         <div style={thirdFont.style} className={styles.rsc}>
           150.000.000 RSC
         </div>
         <div className={styles.div1}>=</div>
       </div>
-  
-
+      <section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[600px] z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 mb-10"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
+          <a href="/">
+            <h5 className="text-white montreal text-2xl md:text-xl">Home</h5>
+          </a>
+          <a href="/trade">
+            <h5 className="text-white montreal text-2xl md:text-xl">Trade</h5>
+          </a>
+          <a href="/stake">
+            <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
+          </a>
+          <a href="/about">
+            <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+          </a>
+          <a href="/profile">
+            <h5 className="text-white montreal text-2xl md:text-xl">Profile</h5>
+          </a>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
     </div>
   );
 };

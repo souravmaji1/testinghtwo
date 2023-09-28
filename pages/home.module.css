@@ -326,15 +326,15 @@
     font-family: 'MonumentExtended-Regular';
 }
 .frameParent {
-    position: absolute;
-    top: 1006px;
-    left: 135px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 38px;
     color: #ffe500;
+    width: 80vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .discoverOurBenefits1 {
     position: absolute;

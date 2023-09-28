@@ -17,15 +17,7 @@ const myFont = localFont({
   });
 
 function GenericNavbar(){
-    const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
-  	
-  	const openMenuIPadPro1291 = useCallback(() => {
-    		setMenuIPadPro1291Open(true);
-  	}, []);
-  	
-  	const closeMenuIPadPro1291 = useCallback(() => {
-    		setMenuIPadPro1291Open(false);
-  	}, []);
+    
     return(
         <section className="absolute top-0 left-0 h-fit w-screen bg-red-300 flex flex-row items-center justify-start">
             <img src={logo.src} className='h-16 aspect-square' alt="" />
