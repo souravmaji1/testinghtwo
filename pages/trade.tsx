@@ -154,7 +154,7 @@ const HomepageTrade: NextPage = () => {
           >
             <div className={styles.groupItem} />
             <div style={myFont.style} className={styles.titaEtf}>
-              Ticccta ETF
+              Tita ETF
             </div>
             <div className={styles.vectorParent}>
               <Image className={styles.vectorIcon4} alt="" src={Sear} />
