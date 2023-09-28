@@ -51,6 +51,13 @@ const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
+import GenericMobileNavbar from "@/components/mobileGenericNavbar";
+import communityBg from "../public/back.png";
+
 const HomepageProfile: NextPage = () => {
   const onHomeTextClick = useCallback(() => {
     // Add your code here
@@ -99,62 +106,8 @@ const HomepageProfile: NextPage = () => {
 
       <div className={styles.homepageProfile}>
         <div className={styles.homepageProfileChild} />
-        <Image className={styles.homepageProfileItem} alt="" src={Circles} />
-        <div className={styles.rwfa}>RWFA</div>
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-        <div className={styles.homepageProfileInner}>
-          <Footer />
-        </div>
-
-        <div className={styles.navbars}>
-          <Navbar />
-        </div>
-
-        <div className={styles.homeParent}>
-          <div style={{ fontFamily: "Inter" }} className={styles.home}>
-            <a href="/">
-              <Image style={{ width: "54px" }} src={Homei} alt="" />
-            </a>
-          </div>
-          <div style={{ fontFamily: "Inter" }} className={styles.home}>
-            <a href="/trade">
-              <Image style={{ width: "54px" }} src={Trades} alt="" />
-            </a>
-          </div>
-          <div style={{ fontFamily: "Inter" }} className={styles.home}>
-            <a href="/stake">
-              <Image style={{ width: "54px" }} src={Stakes} alt="" />
-            </a>
-          </div>
-          <div style={{ fontFamily: "Inter" }} className={styles.home}>
-            <a href="/about">
-              <Image style={{ width: "54px" }} src={Abouta} alt="" />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.mingcutewallet4FillLang}>
-          <Languageswitch />
-        </div>
-
+        <GenericMobileNavbar />
         <Image className={styles.homepageProfileChild2} alt="" src={User} />
-        <div className={styles.mingcutewallet4FillParent}>
-          <Image
-            className={styles.mingcutewallet4FillIcon1}
-            alt=""
-            src={Wallets}
-          />
-          <ConnectWallet
-            style={{
-              textTransform: "uppercase",
-              background: "none",
-              fontWeight: "500",
-              fontFamily: "__thirdFont_3ea4f2",
-              border: "none",
-              color: "black",
-            }}
-          />
-        </div>
 
         <Image className={styles.unionIcon3} alt="" src={Star} />
         <div style={myFont.style} className={styles.sebastianMathew}>
@@ -352,6 +305,62 @@ const HomepageProfile: NextPage = () => {
           </div>
         </div>
       </div>
+      <section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[450px] z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 mb-10"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
+          <a href="/">
+            <h5 className="text-white montreal text-2xl md:text-xl">Home</h5>
+          </a>
+          <a href="/trade">
+            <h5 className="text-white montreal text-2xl md:text-xl">Trade</h5>
+          </a>
+          <a href="/stake">
+            <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
+          </a>
+          <a href="/about">
+            <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+          </a>
+          <a href="/profile">
+            <h5 className="text-white montreal text-2xl md:text-xl">Profile</h5>
+          </a>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
     </div>
   );
 };

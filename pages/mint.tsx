@@ -55,6 +55,13 @@ const fourthFont = localFont({
 
 import { useTranslation } from "react-i18next";
 
+import communityBg from "../public/back.png";
+import GenericMobileNavbar from "@/components/mobileGenericNavbar";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
+
 const HomepageTradeSubpage: NextPage = () => {
   const onBackToTradeBtnClick = useCallback(() => {
     // Add your code here
@@ -114,16 +121,7 @@ const HomepageTradeSubpage: NextPage = () => {
       </div>
 
       <div className={styles.homepageTradeSubpage}>
-        <div className={styles.homepageTradeSubpageChild} />
-
-        <Image
-          className={styles.homepageTradeSubpageItem}
-          alt=""
-          src={Circles}
-        />
-
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-
+        <GenericMobileNavbar />
         <div className={styles.homepageTradeSubpageInner} />
 
         <div style={myFont.style} className={styles.titaEtf}>
@@ -222,127 +220,38 @@ const HomepageTradeSubpage: NextPage = () => {
         <div className={styles.swapMintburn}>
           <Minting />
         </div>
-
-        <div className={styles.rectangleParent}>
-          <div className={styles.groupChild} />
-          <div className={styles.maskGroupParent}>
+        
+        <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+          <a href="/">
             <img
-              className={styles.maskGroupIcon1}
+              src={Headlogo.src}
+              className=" aspect-square w-20 mb-10"
               alt=""
-              src="Mask group.png"
             />
-            <div className={styles.mediaInquiresForCmaxContParent}>
-              <div className={styles.mediaInquiresForContainer}>
-                {`All Rights Reserved - © 2023 CMax`}
-                <span style={secondFont.style} className={styles.mediacmaxcom}>
-                  media@cmax.com
-                </span>
-              </div>
-              <div style={secondFont.style} className={styles.copyRight20231}>
-                {t("copyright")}
-              </div>
-            </div>
-
-            <div className={styles.tradeParent}>
-              <div style={secondFont.style} className={styles.trade}>
-                Trade
-              </div>
-              <div style={secondFont.style} className={styles.trade}>
-                Stake
-              </div>
-              <div style={secondFont.style} className={styles.trade}>
-                About
-              </div>
-              
-              <div style={secondFont.style} className={styles.trade}>
-                Privacy Policy
-              </div>
-              <div
-                style={secondFont.style}
-                className={styles.trade}
-              >{`Terms & Conditions`}</div>
-            </div>
-          </div>
-        </div>
-        <Image
-          className={styles.homepageTradeSubpageChild1}
-          src={Logo}
-          alt={Logo}
-        />
-
-        <div className={styles.navbars}>
-          <Navbar />
-        </div>
-
-        <div className={styles.homeParent}>
-          <div style={fourthFont.style} className={styles.home}>
+          </a>
+          <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
             <a href="/">
-              <Image style={{ width: "54px" }} src={Homei} alt="" />
+              <h5 className="text-white montreal text-2xl md:text-xl">Home</h5>
             </a>
-          </div>
-          <div style={fourthFont.style} className={styles.trade1}>
-            <a href="/mint">
-              <Image style={{ width: "54px" }} src={Trades} alt="" />
+            <a href="/trade">
+              <h5 className="text-white montreal text-2xl md:text-xl">Trade</h5>
             </a>
-          </div>
-          <div style={fourthFont.style} className={styles.home}>
             <a href="/stake">
-              <Image style={{ width: "54px" }} src={Stakes} alt="" />
+              <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
             </a>
-          </div>
-          <div style={fourthFont.style} className={styles.home}>
             <a href="/about">
-              <Image style={{ width: "54px" }} src={Abouta} alt="" />
+              <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+            </a>
+            <a href="/profile">
+              <h5 className="text-white montreal text-2xl md:text-xl">
+                Profile
+              </h5>
             </a>
           </div>
-        </div>
-
-        <div className={styles.mingcutewallet4FillLang}>
-          <Languageswitch />
-        </div>
-
-        <div className={styles.mingcutewallet4FillParent}>
-          <Image
-            className={styles.mingcutewallet4FillIcon1}
-            alt={Wallet}
-            src={Wallet}
-          />
-
-          <Popover>
-            <PopoverTrigger>
-              <Button style={{
-                padding: "1vh 2vw"
-              }}><span style={thirdFont.style}>CONNECT WALLET</span></Button>
-            </PopoverTrigger>
-            <PopoverContent>
-              <PopoverArrow />
-              <PopoverCloseButton />
-              <PopoverHeader>Confirmation!</PopoverHeader>
-              <PopoverBody>
-                {" "}
-                <ConnectKitButton
-                  customTheme={{
-                    "--ck-connectbutton-background": "#fbec50",
-                    "--ck-connectbutton-color": "#373737",
-                  }}
-                />{" "}
-              </PopoverBody>
-              <PopoverHeader>Confirmation!</PopoverHeader>
-              <PopoverBody>
-                <ConnectWallet
-                  btnTitle="Tita Login"
-                  style={{
-                    background: "yellow",
-                    fontWeight: "500",
-                    fontFamily: "__thirdFont_3ea4f2",
-                    border: "none",
-                    color: "black",
-                  }}
-                />
-              </PopoverBody>
-            </PopoverContent>
-          </Popover>
-        </div>
+          <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+            All Rights Reserved - © 2021 Stephen King
+          </h5>
+        </section>
       </div>
     </div>
   );

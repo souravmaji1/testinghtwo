@@ -480,7 +480,7 @@
 .q2 {
     position: absolute;
     top: 418px;
-    left: 205px;
+    left: 315px;
     font-size: 24px;
     font-family: 'Monument Extended';
     background: linear-gradient(263.1deg, #bbfa09, #9efa09);
@@ -491,7 +491,7 @@
 .q4 {
     position: absolute;
     top: 1031px;
-    left: auto;
+    left: 315px;
     font-size: 24px;
     font-family: 'Monument Extended';
     background: linear-gradient(263.1deg, #bbfa09, #9efa09);
@@ -725,7 +725,7 @@
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
     width: 100%;
-    height: 3556px;
+    height: 3250px;
     overflow: hidden;
     text-align: left;
     font-size: 43px;

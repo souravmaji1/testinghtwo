@@ -122,7 +122,6 @@ const HomeIPadPro1291: NextPage = () => {
 
   return (
     <div className={styles.homeIpadPro1291}>
-      <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <img
         className={styles.homeIpadPro1291Item}
