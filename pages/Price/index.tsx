@@ -127,7 +127,7 @@ export default function PriceView({
           <div style={secondFont.style} className={styles.youReceive}>
             <h5 className="monument text-xl text-white">You Recieve:</h5>
           </div>
-          <div style={secondFont.style} className={styles.balance323400}>
+          <div style={secondFont.style} className={`${styles.balance323400}`}>
             <h5 className="monument text-xl text-white">Balance $0</h5>
           </div>
           <div style={secondFont.style} className={styles.div}>

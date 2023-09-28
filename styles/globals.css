@@ -25,6 +25,10 @@ body {
   overflow-x: hidden !important;
 }
 
+.chakra-tabs__tab{
+  width: 50% !important;
+}
+
 a {
   color: white;
   text-decoration: none;

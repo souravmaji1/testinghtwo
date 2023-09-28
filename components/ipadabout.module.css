@@ -7,6 +7,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .aboutIpadPro1293Item {
     position: absolute;
     top: -235.84px;
@@ -16,10 +17,11 @@
     filter: blur(304px);
     width: 855.45px;
     height: 855.45px;
-    transform:  rotate(15deg);
+    transform: rotate(15deg);
     transform-origin: 0 0;
     opacity: 0.35;
 }
+
 .circleBgIcon {
     position: absolute;
     top: 0px;
@@ -28,6 +30,7 @@
     height: 461px;
     object-fit: cover;
 }
+
 .maskGroupIcon {
     position: absolute;
     top: 26px;
@@ -36,21 +39,25 @@
     height: 87.25px;
     object-fit: cover;
 }
+
 .home {
     position: relative;
     text-transform: capitalize;
 }
+
 .trade {
     position: relative;
     text-transform: capitalize;
     cursor: pointer;
 }
+
 .about {
     position: relative;
     text-transform: capitalize;
     color: #ffe500;
     cursor: pointer;
 }
+
 .homeParent {
     position: absolute;
     top: 60px;
@@ -62,6 +69,7 @@
     gap: 2px;
     font-size: 16px;
 }
+
 .aboutIpadPro1293Inner {
     position: absolute;
     top: 52px;
@@ -72,6 +80,7 @@
     object-fit: cover;
     cursor: pointer;
 }
+
 .mingcutewallet4FillIcon1 {
     position: relative;
     width: 23px;
@@ -80,11 +89,13 @@
     flex-shrink: 0;
     object-fit: cover;
 }
+
 .connectWallet {
     position: relative;
     text-transform: uppercase;
     font-weight: 500;
 }
+
 .mingcutewallet4FillParent {
     position: absolute;
     top: 49px;
@@ -101,18 +112,21 @@
     font-size: 14px;
     color: #1f1330;
 }
+
 .unionIcon2 {
     position: relative;
     width: 20.31px;
     height: 20.31px;
     object-fit: cover;
 }
+
 .unionIcon3 {
     position: relative;
     width: 13.54px;
     height: 13.54px;
     object-fit: cover;
 }
+
 .groupChild {
     position: absolute;
     bottom: 0px;
@@ -122,6 +136,7 @@
     width: 1024px;
     height: 328px;
 }
+
 .maskGroupIcon1 {
     position: absolute;
     bottom: 139px;
@@ -130,11 +145,13 @@
     height: 110px;
     object-fit: cover;
 }
+
 .mediaInquiresFor1 {
     position: relative;
     text-transform: capitalize;
     opacity: 0.5;
 }
+
 .mediaInquiresForCmaxContParent {
     position: absolute;
     bottom: 0px;
@@ -145,6 +162,7 @@
     justify-content: center;
     gap: 12px;
 }
+
 .tradeParent {
     position: absolute;
     bottom: 88px;
@@ -156,6 +174,7 @@
     gap: 38px;
     text-align: left;
 }
+
 .maskGroupParent {
     position: absolute;
     bottom: 51px;
@@ -163,6 +182,7 @@
     width: 720px;
     height: 249px;
 }
+
 .rectangleParent {
     position: absolute;
     bottom: 0px;
@@ -172,6 +192,7 @@
     text-align: center;
     font-size: 20px;
 }
+
 .aboutUs {
     position: absolute;
     top: 257px;
@@ -185,6 +206,7 @@
     display: inline-block;
     width: 900px;
 }
+
 .roadMap {
     position: absolute;
     top: 617.55px;
@@ -196,6 +218,7 @@
     display: inline-block;
     width: 900px;
 }
+
 .ourVision1 {
     position: absolute;
     bottom: 715.15px;
@@ -210,10 +233,12 @@
     width: 900px;
 
 }
+
 .blankLine {
     margin: 0;
     font-weight: bold;
 }
+
 .loremIpsumDolorContainer {
     position: absolute;
     top: 347px;
@@ -223,6 +248,7 @@
     display: inline-block;
     width: 873px;
 }
+
 .loremIpsumDolorContainer1 {
     position: absolute;
     top: 707.55px;
@@ -232,6 +258,7 @@
     display: inline-block;
     width: 873px;
 }
+
 .loremIpsumDolorContainer2 {
     position: absolute;
     bottom: 532.15px;
@@ -241,6 +268,7 @@
     display: inline-block;
     width: 873px;
 }
+
 .groupItem {
     position: absolute;
     top: 17.5px;
@@ -250,6 +278,7 @@
     height: 1069px;
     object-fit: cover;
 }
+
 .groupInner {
     position: absolute;
     top: 3px;
@@ -259,6 +288,7 @@
     width: 30px;
     height: 30px;
 }
+
 .ellipseDiv {
     position: absolute;
     top: 272px;
@@ -268,6 +298,7 @@
     width: 30px;
     height: 30px;
 }
+
 .groupChild1 {
     position: absolute;
     top: 542px;
@@ -277,6 +308,7 @@
     width: 30px;
     height: 30px;
 }
+
 .groupChild2 {
     position: absolute;
     top: 814px;
@@ -286,6 +318,7 @@
     width: 30px;
     height: 30px;
 }
+
 .div {
     position: absolute;
     top: 0px;
@@ -293,6 +326,7 @@
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .div1 {
     position: absolute;
     top: 268px;
@@ -300,6 +334,7 @@
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .div2 {
     position: absolute;
     top: 539px;
@@ -307,6 +342,7 @@
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .div3 {
     position: absolute;
     top: 811px;
@@ -314,6 +350,7 @@
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .frameDiv {
     position: absolute;
     top: 557px;
@@ -322,6 +359,7 @@
     height: 5px;
     overflow: hidden;
 }
+
 .groupChild3 {
     position: absolute;
     top: 75px;
@@ -331,6 +369,7 @@
     width: 134px;
     height: 134px;
 }
+
 .groupChild4 {
     position: absolute;
     top: 354px;
@@ -340,6 +379,7 @@
     width: 134px;
     height: 134px;
 }
+
 .groupChild5 {
     position: absolute;
     top: 624px;
@@ -349,6 +389,7 @@
     width: 134px;
     height: 134px;
 }
+
 .groupChild6 {
     position: absolute;
     top: 898px;
@@ -358,6 +399,7 @@
     width: 134px;
     height: 134px;
 }
+
 .rectangleDiv {
     position: absolute;
     top: 62px;
@@ -368,6 +410,7 @@
     width: 367px;
     height: 178px;
 }
+
 .groupChild7 {
     position: absolute;
     top: 604px;
@@ -378,6 +421,7 @@
     width: 367px;
     height: 178px;
 }
+
 .groupChild8 {
     position: absolute;
     top: 332px;
@@ -388,6 +432,7 @@
     width: 367px;
     height: 178px;
 }
+
 .groupChild9 {
     position: absolute;
     top: 876px;
@@ -398,6 +443,7 @@
     width: 367px;
     height: 178px;
 }
+
 .q1 {
     position: absolute;
     top: 88px;
@@ -408,6 +454,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .q3 {
     position: absolute;
     top: 630px;
@@ -418,6 +465,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .q2 {
     position: absolute;
     top: 354px;
@@ -429,6 +477,7 @@
     -webkit-text-fill-color: transparent;
     text-align: right;
 }
+
 .q4 {
     position: absolute;
     top: 898px;
@@ -440,6 +489,7 @@
     -webkit-text-fill-color: transparent;
     text-align: right;
 }
+
 .distributionTokenCbcContainer {
     position: absolute;
     top: 137px;
@@ -449,6 +499,7 @@
     font-weight: 500;
     color: #fff;
 }
+
 .distributionTokenCbcContainer1 {
     position: absolute;
     top: 679px;
@@ -458,6 +509,7 @@
     font-weight: 500;
     color: #fff;
 }
+
 .distributionTokenCbcContainer2 {
     position: absolute;
     top: 403px;
@@ -468,6 +520,7 @@
     color: #fff;
     text-align: right;
 }
+
 .distributionTokenCbcContainer3 {
     position: absolute;
     top: 947px;
@@ -478,6 +531,7 @@
     color: #fff;
     text-align: right;
 }
+
 .vectorParent {
     position: absolute;
     top: 961px;
@@ -487,6 +541,7 @@
     font-size: 22px;
     color: #000;
 }
+
 .license {
     position: absolute;
     bottom: 1110px;
@@ -496,6 +551,7 @@
     font-weight: 500;
     color: #ffe500;
 }
+
 .aboutIpadPro1293Child1 {
     position: absolute;
     bottom: 432.54px;
@@ -507,6 +563,7 @@
     height: 618px;
     overflow: hidden;
 }
+
 .image1Icon {
     position: absolute;
     top: 12.95px;
@@ -516,6 +573,7 @@
     object-fit: cover;
     mix-blend-mode: multiply;
 }
+
 .image1Wrapper {
     position: absolute;
     bottom: 455.54px;
@@ -526,6 +584,7 @@
     height: 572px;
     overflow: hidden;
 }
+
 .vectorIcon {
     position: absolute;
     bottom: 1235.77px;
@@ -535,6 +594,7 @@
     height: 1px;
     object-fit: cover;
 }
+
 .frameChild {
     position: absolute;
     top: 813.69px;
@@ -546,6 +606,7 @@
     opacity: 0.2;
     mix-blend-mode: luminosity;
 }
+
 .rectangleWrapper {
     position: absolute;
     bottom: 0px;
@@ -553,6 +614,7 @@
     width: 1024px;
     height: 625px;
 }
+
 .meetOurTeam1 {
     position: absolute;
     bottom: -277.69px;
@@ -563,6 +625,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .maskGroupIcon2 {
     position: absolute;
     bottom: 136px;
@@ -571,6 +634,7 @@
     height: 180px;
     object-fit: cover;
 }
+
 .maskGroupIcon3 {
     position: absolute;
     bottom: 136px;
@@ -579,6 +643,7 @@
     height: 180px;
     object-fit: cover;
 }
+
 .maskGroupIcon4 {
     position: absolute;
     bottom: 136px;
@@ -587,6 +652,7 @@
     height: 180px;
     object-fit: cover;
 }
+
 .gianlucaDiBella3 {
     position: absolute;
     bottom: 73px;
@@ -597,6 +663,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .gianlucaDiBella4 {
     position: absolute;
     bottom: 73px;
@@ -607,6 +674,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .gianlucaDiBella5 {
     position: absolute;
     bottom: 73px;
@@ -617,6 +685,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .ceoAndCoFounder {
     position: absolute;
     bottom: 40px;
@@ -625,6 +694,7 @@
     line-height: 30px;
     text-transform: capitalize;
 }
+
 .ceoAndCoFounder1 {
     position: absolute;
     bottom: 40px;
@@ -633,6 +703,7 @@
     line-height: 30px;
     text-transform: capitalize;
 }
+
 .ceoAndCoFounder2 {
     position: absolute;
     bottom: 40px;
@@ -642,11 +713,12 @@
     text-transform: capitalize;
 }
 
-.mingcutewallet4FillLang{
-    position: absolute !important; 
+.mingcutewallet4FillLang {
+    position: absolute !important;
     top: 60px !important;
     right: 2%;
 }
+
 .groupIcon {
     position: absolute;
     bottom: 0px;
@@ -655,6 +727,7 @@
     height: 22px;
     object-fit: cover;
 }
+
 .groupChild10 {
     position: absolute;
     bottom: 0px;
@@ -663,6 +736,7 @@
     height: 22px;
     object-fit: cover;
 }
+
 .groupChild11 {
     position: absolute;
     bottom: 0px;
@@ -671,6 +745,7 @@
     height: 22px;
     object-fit: cover;
 }
+
 .maskGroupGroup {
     position: absolute;
     bottom: -644.69px;
@@ -681,6 +756,7 @@
     font-size: 24px;
 
 }
+
 .frameParent {
     position: absolute;
     bottom: 1698.17px;
@@ -689,6 +765,7 @@
     height: 625px;
     font-size: 43px;
 }
+
 .aboutIpadPro1293 {
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
@@ -701,172 +778,189 @@
     font-family: 'Neue Montreal';
 }
 
-@media (min-width: 600px) and (max-width: 670px){
-            .aboutUs{
-                position: absolute;
-                top: 257px;
-                left: 0;
-                font-size: 46px;
-                text-transform: capitalize;
-                font-family: 'Monument Extended';
-                background: linear-gradient(180deg, #ffe500, #fff492);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                display: inline-block;
-                width: 900px;
-                padding: 0 0 0 20px;
-            }
-            .distributionTokenCbcContainer2{
-                position: absolute;
-    top: 403px;
-    left: 0;
-    right: 394px;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    text-align: right;
-    left: 132px;
-    top: 509px;
-            }
-            .groupChild4{
-                position: absolute;
-    top: 575px;
-    left: 60px;
-    border-radius: 50%;
-    background-color: #35321b;
-    width: 134px;
-    height: 134px;
-            }
-            .groupItem{
-                position: absolute;
-    top: 248.5px;
-    left: -0.5px;
-    border-radius: 220px;
-    width: 775px;
-    height: 1069px;
-    -o-object-fit: cover;
-    object-fit: cover;
-            }
-            .groupChild6{
-                position: absolute;
-    top: 1363px;
-    left: 64px;
-    border-radius: 50%;
-    background-color: #35321b;
-    width: 134px;
-    height: 134px;
-            }
-            .groupInner{
-                display: none;
-            }
-            .div{
-                display: none;
-            }
-            .groupChild2{
-                display: none;
-            }
-            .div3{
-                display: none;
-            }
-            .groupChild5{
-                position: absolute;
-    top: 964px;
-    left: 588px;
-    border-radius: 50%;
-    background-color: #351b2f;
-    width: 134px;
-    height: 134px;
+@media (min-width: 600px) and (max-width: 670px) {
+    .aboutUs {
+        position: absolute;
+        top: 257px;
+        left: 0;
+        font-size: 46px;
+        text-transform: capitalize;
+        font-family: 'Monument Extended';
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 900px;
+        padding: 0 0 0 20px;
+    }
 
-            }
-            .q4{
-                position: absolute;
-    top: 1287px;
-    left: 339px;
-    font-size: 24px;
-    font-family: 'Monument Extended';
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: right;
-            }
-            .distributionTokenCbcContainer3{
-                position: absolute;
-    
-    left: 0;
-    right: 394px;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    text-align: right;
-    left: 132px;
-    top: 1330px;
-            }
-            .q2{
-                position: absolute;
-    top: 469px;
-    left: 339px;
-    font-size: 24px;
-    font-family: 'Monument Extended';
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: right;
-            }
-            .distributionTokenCbcContainer{
-                position: absolute;
-    top: 122px;
-    left: 304px;
-    padding: 0 100px;
-    font-size: 14px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-            }
-            .groupChild9{
-                position: absolute;
-    top: 1267px;
-    left: 39px;
-    border-radius: 83px 13px 13px 83px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 367px;
-    height: 358px;
+    .distributionTokenCbcContainer2 {
+        position: absolute;
+        top: 403px;
+        left: 0;
+        right: 394px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 509px;
+    }
 
-            }
-            .q3{
-                position: absolute;
-    top: 863px;
-    left: 404px;
-    font-size: 24px;
-    font-family: 'Monument Extended';
-    background: linear-gradient(263.1deg, #bbfa09, #9efa09);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-            }
-            .distributionTokenCbcContainer1{
-                position: absolute;
-    top: 924px;
-    padding: 0 91px;
-    left: 306px;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-            }
-            .groupChild7{
-                position: absolute;
-    top: 828px;
-    left: 376px;
-    border-radius: 13px 83px 83px 13px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 367px;
-    height: 391px;
-            }
+    .groupChild4 {
+        position: absolute;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
+    }
+
+    .groupItem {
+        position: absolute;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupChild6 {
+        position: absolute;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
+    }
+
+    .groupInner {
+        display: none;
+    }
+
+    .div {
+        display: none;
+    }
+
+    .groupChild2 {
+        display: none;
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    .groupChild5 {
+        position: absolute;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
+
+    }
+
+    .q4 {
+        position: absolute;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer3 {
+        position: absolute;
+
+        left: 0;
+        right: 394px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 1330px;
+    }
+
+    .q2 {
+        position: absolute;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer {
+        position: absolute;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
+
+    }
+
+    .q3 {
+        position: absolute;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
 
 
 
@@ -876,129 +970,139 @@
 
 
 
-            .groupChild8{
-                position: absolute;
-    top: 462px;
-    left: 39px;
-    border-radius: 83px 13px 13px 83px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 367px;
-    height: 339px;
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
 
-            }
-            .rectangleDiv{
-                position: absolute;
-    top: 62px;
-    left: 376px;
-    border-radius: 11px 83px 83px 11px;
-    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-    -webkit-backdrop-filter: blur(46px);
-    backdrop-filter: blur(46px);
-    width: 367px;
-    height: 376px;
-            }
-            .aboutIpadPro1293{
-                position: relative;
-    background: linear-gradient(180deg, #201d26, #1d1b20);
-    width: 100%;
-    height: 3436px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 18px;
-    color: #fff;
-    font-family: 'Neue Montreal';
-            }
-            .loremIpsumDolorContainer1{
-                position: absolute;
-                top: 684.55px;
-                padding: 0 0 0 20px;
-                letter-spacing: -0.02em;
-                line-height: 30px;
-                display: inline-block;
-                left: 0;
-                font-size: 16px;
-                width: 644px;
-            }
-            .vectorParent{
-                position: absolute;
-    top: 961px;
-    left: -100px;
-    width: 774px;
-    height: 1086px;
-    font-size: 22px;
-    color: #000;
-            }
-            .loremIpsumDolorContainer2{
-                position: absolute;
-    bottom: 452.15px;
-    padding: 0 0 0 20px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    left: 0;
-    display: inline-block;
-    width: 567px;
-            }
-            .tradeParent{
-                position: absolute;
-    bottom: 88px;
-    left: 180px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
-            }
-            .maskGroupParent{
-                position: absolute;
-    bottom: 48px;
-    left: -40px;
-    width: 720px;
-    height: 249px;
-            
-            }
-            .ourVision1{
-                position: absolute;
-    bottom: 715.15px;
-    padding: 0 0 0 20px;
-    font-size: 43px;
-    text-transform: capitalize;
-    font-weight: 500;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    left: 0;
-    display: inline-block;
-    width: 900px;
-            }
-            .roadMap{
-                position: absolute;
-    top: 617.55px;
-    left: 0;
-    padding: 0 0 0 20px;
-    font-size: 36px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #ffe500;
-    display: inline-block;
-    width: 900px;
-            }
-            .loremIpsumDolorContainer{
-                position: absolute;
-    top: 347px;
-    padding: 0 0 0 20px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    left: 0;
-    display: inline-block;
-    width: 569px;
-            }
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
+        position: relative;
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
+    }
+
+    .loremIpsumDolorContainer1 {
+        position: absolute;
+        top: 684.55px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        left: 0;
+        font-size: 16px;
+        width: 644px;
+    }
+
+    .vectorParent {
+        position: absolute;
+        top: 961px;
+        left: -100px;
+        width: 774px;
+        height: 1086px;
+        font-size: 22px;
+        color: #000;
+    }
+
+    .loremIpsumDolorContainer2 {
+        position: absolute;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupParent {
+        position: absolute;
+        bottom: 48px;
+        left: -40px;
+        width: 720px;
+        height: 249px;
+
+    }
+
+    .ourVision1 {
+        position: absolute;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .roadMap {
+        position: absolute;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
+    }
 }
 
-@media (min-width: 601px) and (max-width: 620px){
-    .mingcutewallet4FillParent{
+@media (min-width: 601px) and (max-width: 620px) {
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 334.5px;
@@ -1016,17 +1120,18 @@
         font-size: 14px;
         color: #1f1330;
     }
-    
-    .maskGroupIcon{
+
+    .maskGroupIcon {
         position: absolute;
-    top: 26px;
-    left: -3.24px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 26px;
+        left: -3.24px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .homeParent{
+
+    .homeParent {
         position: absolute;
         top: 60px;
         left: 86px;
@@ -1039,8 +1144,8 @@
     }
 }
 
-@media (min-width: 621px) and (max-width: 670px){
-    .mingcutewallet4FillParent{
+@media (min-width: 621px) and (max-width: 670px) {
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 334.5px;
@@ -1058,17 +1163,18 @@
         font-size: 14px;
         color: #1f1330;
     }
-    
-    .maskGroupIcon{
+
+    .maskGroupIcon {
         position: absolute;
-    top: 26px;
-    left: -3.24px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 26px;
+        left: -3.24px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .homeParent{
+
+    .homeParent {
         position: absolute;
         top: 60px;
         left: 86px;
@@ -1082,8 +1188,8 @@
 }
 
 
-@media (min-width: 768px) and (max-width: 800px){
-    .homeParent{
+@media (min-width: 768px) and (max-width: 800px) {
+    .homeParent {
         position: absolute;
         top: 60px;
         left: 177px;
@@ -1094,7 +1200,8 @@
         gap: 20px;
         font-size: 16px;
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 472.5px;
@@ -1110,405 +1217,119 @@
         gap: -4px;
         font-size: 14px;
         color: #1f1330;
-    
-      }
-    
-      
-    .loremIpsumDolorContainer{
-        position: absolute;
-    top: 347px;
-    left: 15px;
-    padding: 0 119px 0 0;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    display: inline-block;
-    width: 873px;
-    }
-    .vectorParent{
-        position: absolute;
-    top: 961px;
-    left: -3px;
-    width: 774px;
-    height: 1086px;
-    font-size: 22px;
-    color: #000;
-    }
-    .loremIpsumDolorContainer2{
-        position: absolute;
-    bottom: 493.15px;
-    left: calc(57% - 433px);
-    letter-spacing: -0.02em;
-    padding: 0 124px 0 0;
-    line-height: 30px;
-    display: inline-block;
-    width: 873px;
 
     }
-    .maskGroupParent{
+
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        left: 15px;
+        padding: 0 119px 0 0;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        width: 873px;
+    }
+
+    .vectorParent {
+        position: absolute;
+        top: 961px;
+        left: -3px;
+        width: 774px;
+        height: 1086px;
+        font-size: 22px;
+        color: #000;
+    }
+
+    .loremIpsumDolorContainer2 {
+        position: absolute;
+        bottom: 493.15px;
+        left: calc(57% - 433px);
+        letter-spacing: -0.02em;
+        padding: 0 124px 0 0;
+        line-height: 30px;
+        display: inline-block;
+        width: 873px;
+
+    }
+
+    .maskGroupParent {
         position: absolute;
         bottom: 51px;
         left: 45px;
         width: 720px;
         height: 249px;
     }
-    .ourVision1{
-        position: absolute;
-    bottom: 715.15px;
-    left: calc(57% - 437px);
-    font-size: 43px;
-    text-transform: capitalize;
-    font-weight: 500;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    width: 900px;
-    }
-    .groupItem{
-        position: absolute;
-    top: 17.5px;
-    left: 7.5px;
-    border-radius: 220px;
-    width: 775px;
-    height: 1069px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    }
-    .loremIpsumDolorContainer1{
-        position: absolute;
-    top: 707.55px;
-    padding: 0 112px 0 0;
-    left: 19px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    display: inline-block;
-    width: 873px;
 
-    }
-    .roadMap{
+    .ourVision1 {
         position: absolute;
-    top: 617.55px;
-    left: calc(57% - 437px);
-    font-size: 36px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #ffe500;
-    display: inline-block;
-    width: 900px;
-    }
-    .aboutUs{
-        position: absolute;
-    top: 257px;
-    left: calc(56% - 437px);
-    font-size: 50px;
-    text-transform: capitalize;
-    font-family: 'Monument Extended';
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    width: 900px;
-    }
-}
-
-
-
-@media (min-width: 671px) and (max-width: 700px){
-    .aboutUs{
-        position: absolute;
-        top: 257px;
-        left: 0;
-        font-size: 46px;
-        text-transform: capitalize;
-        font-family: 'Monument Extended';
-        background: linear-gradient(180deg, #ffe500, #fff492);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: inline-block;
-        width: 900px;
-        padding: 0 0 0 20px;
-    }
-    .distributionTokenCbcContainer2{
-        position: absolute;
-    left: 0;
-    right: 394px;
-    font-size: 15px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    text-align: right;
-    left: 132px;
-    top: 509px;
-    }
-    .groupChild4{
-        position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
-    }
-    .groupItem{
-        position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
-    }
-    .groupChild6{
-        position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
-    }
-    .groupInner{
-        display: none;
-    }
-    .div{
-        display: none;
-    }
-    .groupChild2{
-        display: none;
-    }
-    .div3{
-        display: none;
-    }
-    .groupChild5{
-        position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
-
-    }
-    .q4{
-        position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer3{
-        position: absolute;
-        left: 0;
-        right: 394px;
-        font-size: 15px;
+        bottom: 715.15px;
+        left: calc(57% - 437px);
+        font-size: 43px;
         text-transform: capitalize;
         font-weight: 500;
-        color: #fff;
-        text-align: right;
-        left: 132px;
-        top: 1330px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 900px;
     }
-    .q2{
+
+    .groupItem {
         position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
+        top: 17.5px;
+        left: 7.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .distributionTokenCbcContainer{
+
+    .loremIpsumDolorContainer1 {
         position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild9{
-        position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
-
-    }
-    .q3{
-        position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    }
-    .distributionTokenCbcContainer1{
-        position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild7{
-        position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
-    }
-
-
-
-
-
-
-
-
-
-    .groupChild8{
-        position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
-
-    }
-    .rectangleDiv{
-        position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
-    }
-    .aboutIpadPro1293{
-        position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
-    }
-    .loremIpsumDolorContainer1{
-        position: absolute;
-        top: 684.55px;
-        padding: 0 0 0 20px;
+        top: 707.55px;
+        padding: 0 112px 0 0;
+        left: 19px;
         letter-spacing: -0.02em;
         line-height: 30px;
         display: inline-block;
-        left: 0;
-        font-size: 16px;
-        width: 644px;
+        width: 873px;
+
     }
-    .vectorParent{
+
+    .roadMap {
         position: absolute;
-top: 961px;
-left: -100px;
-width: 774px;
-height: 1086px;
-font-size: 22px;
-color: #000;
+        top: 617.55px;
+        left: calc(57% - 437px);
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
     }
-    .loremIpsumDolorContainer2{
+
+    .aboutUs {
         position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
-    }
-    .tradeParent{
-        position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
-    }
-    .maskGroupParent{
-        position: absolute;
-bottom: 48px;
-left: -40px;
-width: 720px;
-height: 249px;
-    
-    }
-    .ourVision1{
-        position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
-    }
-    .roadMap{
-        position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
-    }
-    .loremIpsumDolorContainer{
-        position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
+        top: 257px;
+        left: calc(56% - 437px);
+        font-size: 50px;
+        text-transform: capitalize;
+        font-family: 'Monument Extended';
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 900px;
     }
 }
 
-@media (min-width: 700px) and (max-width: 767px){
-    .aboutUs{
+
+
+@media (min-width: 671px) and (max-width: 700px) {
+    .aboutUs {
         position: absolute;
         top: 257px;
         left: 0;
@@ -1522,307 +1343,8 @@ width: 569px;
         width: 900px;
         padding: 0 0 0 20px;
     }
-    .distributionTokenCbcContainer2{
-        position: absolute;
-top: 403px;
-left: 0;
-right: 394px;
-font-size: 15px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-text-align: right;
-left: 132px;
-top: 509px;
-    }
-    .groupChild4{
-        position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
-    }
-    .groupItem{
-        position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
-    }
-    .groupChild6{
-        position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
-    }
-    .groupInner{
-        display: none;
-    }
-    .div{
-        display: none;
-    }
-    .groupChild2{
-        display: none;
-    }
-    .div3{
-        display: none;
-    }
-    .groupChild5{
-        position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
 
-    }
-    .q4{
-        position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer3{
-        position: absolute;
-
-left: 0;
-right: 394px;
-font-size: 15px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-text-align: right;
-left: 132px;
-top: 1330px;
-    }
-    .q2{
-        position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer{
-        position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild9{
-        position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
-
-    }
-    .q3{
-        position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    }
-    .distributionTokenCbcContainer1{
-        position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild7{
-        position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
-    }
-
-
-
-
-
-
-
-
-
-    .groupChild8{
-        position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
-
-    }
-    .rectangleDiv{
-        position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
-    }
-    .aboutIpadPro1293{
-        position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
-    }
-    .loremIpsumDolorContainer1{
-        position: absolute;
-        top: 684.55px;
-        padding: 0 0 0 20px;
-        letter-spacing: -0.02em;
-        line-height: 30px;
-        display: inline-block;
-        left: 0;
-        font-size: 16px;
-        width: 644px;
-    }
-    .vectorParent{
-        position: absolute;
-top: 961px;
-left: -100px;
-width: 774px;
-height: 1086px;
-font-size: 22px;
-color: #000;
-    }
-    .loremIpsumDolorContainer2{
-        position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
-    }
-    .tradeParent{
-        position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
-    }
-    .maskGroupParent{
-        position: absolute;
-    bottom: 48px;
-    left: 15px;
-    width: 720px;
-    height: 249px;
-
-    
-    }
-    .ourVision1{
-        position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
-    }
-    .roadMap{
-        position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
-    }
-    .loremIpsumDolorContainer{
-        position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
-    }
-}
-
-
-
-
-@media (min-width: 768px) and (max-width: 800px){
-    .aboutUs{
-        position: absolute;
-        top: 257px;
-        left: 0;
-        font-size: 46px;
-        text-transform: capitalize;
-        font-family: 'Monument Extended';
-        background: linear-gradient(180deg, #ffe500, #fff492);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: inline-block;
-        width: 900px;
-        padding: 0 0 0 20px;
-    }
-    .distributionTokenCbcContainer2{
+    .distributionTokenCbcContainer2 {
         position: absolute;
         left: 0;
         right: 394px;
@@ -1834,187 +1356,206 @@ width: 569px;
         left: 132px;
         top: 509px;
     }
-    .groupChild4{
+
+    .groupChild4 {
         position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupItem{
+
+    .groupItem {
         position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .groupChild6{
+
+    .groupChild6 {
         position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupInner{
+
+    .groupInner {
         display: none;
     }
-    .div{
+
+    .div {
         display: none;
     }
-    .groupChild2{
+
+    .groupChild2 {
         display: none;
     }
-    .div3{
+
+    .div3 {
         display: none;
     }
-    .groupChild5{
+
+    .groupChild5 {
         position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
 
     }
-    .q4{
-        position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer3{
-        position: absolute;
-    left: 0;
-    right: 394px;
-    font-size: 15px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #fff;
-    text-align: right;
-    left: 132px;
-    top: 1330px;
-    }
-    .q2{
-        position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer{
-        position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild9{
-        position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
 
-    }
-    .q3{
+    .q4 {
         position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    }
-    .distributionTokenCbcContainer1{
-        position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild7{
-        position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
 
-
-
-
-
-
-
-
-
-    .groupChild8{
+    .distributionTokenCbcContainer3 {
         position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
+        left: 0;
+        right: 394px;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 1330px;
+    }
+
+    .q2 {
+        position: absolute;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer {
+        position: absolute;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
 
     }
-    .rectangleDiv{
+
+    .q3 {
         position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    .aboutIpadPro1293{
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
+
+
+
+
+
+
+
+
+
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
+
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
         position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
     }
-    .loremIpsumDolorContainer1{
+
+    .loremIpsumDolorContainer1 {
         position: absolute;
         top: 684.55px;
         padding: 0 0 0 20px;
@@ -2025,88 +1566,91 @@ font-family: 'Neue Montreal';
         font-size: 16px;
         width: 644px;
     }
-    .vectorParent{
+
+    .vectorParent {
         position: absolute;
         top: 961px;
-        left: -28px;
+        left: -100px;
         width: 774px;
         height: 1086px;
         font-size: 22px;
         color: #000;
     }
-    .loremIpsumDolorContainer2{
+
+    .loremIpsumDolorContainer2 {
         position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
         bottom: 48px;
-        left: 60px;
+        left: -40px;
         width: 720px;
         height: 249px;
-    
 
-    
     }
-    .ourVision1{
+
+    .ourVision1 {
         position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
     }
-    .roadMap{
+
+    .roadMap {
         position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
     }
-    .loremIpsumDolorContainer{
+
+    .loremIpsumDolorContainer {
         position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
     }
 }
 
-
-
-@media (min-width: 801px) and (max-width: 850px){
-    .aboutUs{
+@media (min-width: 700px) and (max-width: 767px) {
+    .aboutUs {
         position: absolute;
         top: 257px;
         left: 0;
@@ -2120,201 +1664,221 @@ width: 569px;
         width: 900px;
         padding: 0 0 0 20px;
     }
-    .distributionTokenCbcContainer2{
+
+    .distributionTokenCbcContainer2 {
         position: absolute;
-top: 403px;
-left: 0;
-right: 394px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-text-align: right;
-left: 132px;
-top: 509px;
+        top: 403px;
+        left: 0;
+        right: 394px;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 509px;
     }
-    .groupChild4{
+
+    .groupChild4 {
         position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupItem{
+
+    .groupItem {
         position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .groupChild6{
+
+    .groupChild6 {
         position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupInner{
+
+    .groupInner {
         display: none;
     }
-    .div{
+
+    .div {
         display: none;
     }
-    .groupChild2{
+
+    .groupChild2 {
         display: none;
     }
-    .div3{
+
+    .div3 {
         display: none;
     }
-    .groupChild5{
+
+    .groupChild5 {
         position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
 
     }
-    .q4{
-        position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer3{
-        position: absolute;
 
-left: 0;
-right: 394px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-text-align: right;
-left: 132px;
-top: 1330px;
-    }
-    .q2{
+    .q4 {
         position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer{
-        position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild9{
-        position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
-
-    }
-    .q3{
-        position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    }
-    .distributionTokenCbcContainer1{
-        position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild7{
-        position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
 
-
-
-
-
-
-
-
-
-    .groupChild8{
+    .distributionTokenCbcContainer3 {
         position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
+
+        left: 0;
+        right: 394px;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 1330px;
+    }
+
+    .q2 {
+        position: absolute;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer {
+        position: absolute;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
 
     }
-    .rectangleDiv{
+
+    .q3 {
         position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    .aboutIpadPro1293{
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
+
+
+
+
+
+
+
+
+
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
+
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
         position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
     }
-    .loremIpsumDolorContainer1{
+
+    .loremIpsumDolorContainer1 {
         position: absolute;
         top: 684.55px;
         padding: 0 0 0 20px;
@@ -2325,7 +1889,660 @@ font-family: 'Neue Montreal';
         font-size: 16px;
         width: 644px;
     }
-    .vectorParent{
+
+    .vectorParent {
+        position: absolute;
+        top: 961px;
+        left: -100px;
+        width: 774px;
+        height: 1086px;
+        font-size: 22px;
+        color: #000;
+    }
+
+    .loremIpsumDolorContainer2 {
+        position: absolute;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupParent {
+        position: absolute;
+        bottom: 48px;
+        left: 15px;
+        width: 720px;
+        height: 249px;
+
+
+    }
+
+    .ourVision1 {
+        position: absolute;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .roadMap {
+        position: absolute;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 800px) {
+    .aboutUs {
+        position: absolute;
+        top: 257px;
+        left: 0;
+        font-size: 46px;
+        text-transform: capitalize;
+        font-family: 'Monument Extended';
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 900px;
+        padding: 0 0 0 20px;
+    }
+
+    .distributionTokenCbcContainer2 {
+        position: absolute;
+        left: 0;
+        right: 394px;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 509px;
+    }
+
+    .groupChild4 {
+        position: absolute;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
+    }
+
+    .groupItem {
+        position: absolute;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupChild6 {
+        position: absolute;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
+    }
+
+    .groupInner {
+        display: none;
+    }
+
+    .div {
+        display: none;
+    }
+
+    .groupChild2 {
+        display: none;
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    .groupChild5 {
+        position: absolute;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
+
+    }
+
+    .q4 {
+        position: absolute;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer3 {
+        position: absolute;
+        left: 0;
+        right: 394px;
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 1330px;
+    }
+
+    .q2 {
+        position: absolute;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer {
+        position: absolute;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
+
+    }
+
+    .q3 {
+        position: absolute;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
+
+
+
+
+
+
+
+
+
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
+
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
+        position: relative;
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
+    }
+
+    .loremIpsumDolorContainer1 {
+        position: absolute;
+        top: 684.55px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        left: 0;
+        font-size: 16px;
+        width: 644px;
+    }
+
+    .vectorParent {
+        position: absolute;
+        top: 961px;
+        left: -28px;
+        width: 774px;
+        height: 1086px;
+        font-size: 22px;
+        color: #000;
+    }
+
+    .loremIpsumDolorContainer2 {
+        position: absolute;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupParent {
+        position: absolute;
+        bottom: 48px;
+        left: 60px;
+        width: 720px;
+        height: 249px;
+
+
+
+    }
+
+    .ourVision1 {
+        position: absolute;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .roadMap {
+        position: absolute;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
+    }
+}
+
+
+
+@media (min-width: 801px) and (max-width: 850px) {
+    .aboutUs {
+        position: absolute;
+        top: 257px;
+        left: 0;
+        font-size: 46px;
+        text-transform: capitalize;
+        font-family: 'Monument Extended';
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        width: 900px;
+        padding: 0 0 0 20px;
+    }
+
+    .distributionTokenCbcContainer2 {
+        position: absolute;
+        top: 403px;
+        left: 0;
+        right: 394px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 509px;
+    }
+
+    .groupChild4 {
+        position: absolute;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
+    }
+
+    .groupItem {
+        position: absolute;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .groupChild6 {
+        position: absolute;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
+    }
+
+    .groupInner {
+        display: none;
+    }
+
+    .div {
+        display: none;
+    }
+
+    .groupChild2 {
+        display: none;
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    .groupChild5 {
+        position: absolute;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
+
+    }
+
+    .q4 {
+        position: absolute;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer3 {
+        position: absolute;
+
+        left: 0;
+        right: 394px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 1330px;
+    }
+
+    .q2 {
+        position: absolute;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer {
+        position: absolute;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
+
+    }
+
+    .q3 {
+        position: absolute;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
+
+
+
+
+
+
+
+
+
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
+
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
+        position: relative;
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
+    }
+
+    .loremIpsumDolorContainer1 {
+        position: absolute;
+        top: 684.55px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        display: inline-block;
+        left: 0;
+        font-size: 16px;
+        width: 644px;
+    }
+
+    .vectorParent {
         position: absolute;
         top: 961px;
         left: 8px;
@@ -2333,9 +2550,10 @@ font-family: 'Neue Montreal';
         height: 1086px;
         font-size: 22px;
         color: #000;
-    
+
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 45px;
         left: 60%;
@@ -2352,78 +2570,85 @@ font-family: 'Neue Montreal';
         font-size: 14px;
         color: #1f1330;
     }
-    .loremIpsumDolorContainer2{
+
+    .loremIpsumDolorContainer2 {
         position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
+        bottom: 390.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
+        
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
         bottom: 48px;
         left: 60px;
         width: 720px;
         height: 249px;
-    
 
-    
+
+
     }
-    .ourVision1{
+
+    .ourVision1 {
         position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
     }
-    .roadMap{
+
+    .roadMap {
         position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
     }
-    .loremIpsumDolorContainer{
+
+    .loremIpsumDolorContainer {
         position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
     }
 }
 
 
-@media (min-width: 851px) and (max-width: 920px){
-    .aboutUs{
+@media (min-width: 851px) and (max-width: 920px) {
+    .aboutUs {
         position: absolute;
         top: 257px;
         left: 0;
@@ -2437,7 +2662,8 @@ width: 569px;
         width: 900px;
         padding: 0 0 0 20px;
     }
-    .distributionTokenCbcContainer2{
+
+    .distributionTokenCbcContainer2 {
         position: absolute;
         left: 0;
         right: 394px;
@@ -2449,68 +2675,78 @@ width: 569px;
         left: 132px;
         top: 509px;
     }
-    .groupChild4{
+
+    .groupChild4 {
         position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupItem{
+
+    .groupItem {
         position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .groupChild6{
+
+    .groupChild6 {
         position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupInner{
+
+    .groupInner {
         display: none;
     }
-    .div{
+
+    .div {
         display: none;
     }
-    .groupChild2{
+
+    .groupChild2 {
         display: none;
     }
-    .div3{
+
+    .div3 {
         display: none;
     }
-    .groupChild5{
+
+    .groupChild5 {
         position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
 
     }
-    .q4{
+
+    .q4 {
         position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
-    .distributionTokenCbcContainer3{
+
+    .distributionTokenCbcContainer3 {
         position: absolute;
         left: 0;
         right: 394px;
@@ -2521,71 +2757,77 @@ text-align: right;
         text-align: right;
         left: 132px;
         top: 1330px;
-    
+
     }
-    .q2{
+
+    .q2 {
         position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
-    .distributionTokenCbcContainer{
+
+    .distributionTokenCbcContainer {
         position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
     }
-    .groupChild9{
+
+    .groupChild9 {
         position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
 
     }
-    .q3{
+
+    .q3 {
         position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    .distributionTokenCbcContainer1{
+
+    .distributionTokenCbcContainer1 {
         position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
     }
-    .groupChild7{
+
+    .groupChild7 {
         position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
     }
 
 
@@ -2596,41 +2838,44 @@ height: 391px;
 
 
 
-    .groupChild8{
+    .groupChild8 {
         position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
 
     }
-    .rectangleDiv{
+
+    .rectangleDiv {
         position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
     }
-    .aboutIpadPro1293{
+
+    .aboutIpadPro1293 {
         position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
     }
-    .loremIpsumDolorContainer1{
+
+    .loremIpsumDolorContainer1 {
         position: absolute;
         top: 684.55px;
         padding: 0 0 0 20px;
@@ -2641,7 +2886,8 @@ font-family: 'Neue Montreal';
         font-size: 16px;
         width: 644px;
     }
-    .vectorParent{
+
+    .vectorParent {
         position: absolute;
         top: 961px;
         left: 28px;
@@ -2650,95 +2896,102 @@ font-family: 'Neue Montreal';
         font-size: 22px;
         color: #000;
     }
-    .mingcutewallet4FillParent{
-        position: absolute;
-    top: 49px;
-    left: 594.5px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    display: flex;
-    flex-direction: row;
-    padding: 9px 16px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 14px;
-    color: #1f1330;
-    }
-    .loremIpsumDolorContainer2{
-        position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
-    }
-    .tradeParent{
-        position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
-    }
-    .maskGroupParent{
-        position: absolute;
-    bottom: 48px;
-    left: 98px;
-    width: 720px;
-    height: 249px;
-    
 
-    
-    }
-    .ourVision1{
+    .mingcutewallet4FillParent {
         position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
+        top: 49px;
+        left: 594.5px;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        display: flex;
+        flex-direction: row;
+        padding: 9px 16px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+        color: #1f1330;
     }
-    .roadMap{
+
+    .loremIpsumDolorContainer2 {
         position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
     }
-    .loremIpsumDolorContainer{
+
+    .tradeParent {
         position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupParent {
+        position: absolute;
+        bottom: 48px;
+        left: 98px;
+        width: 720px;
+        height: 249px;
+
+
+
+    }
+
+    .ourVision1 {
+        position: absolute;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .roadMap {
+        position: absolute;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
     }
 }
 
 
-@media (min-width: 921px) and (max-width: 970px){
-    .aboutUs{
+@media (min-width: 921px) and (max-width: 970px) {
+    .aboutUs {
         position: absolute;
         top: 257px;
         left: 0;
@@ -2752,201 +3005,221 @@ width: 569px;
         width: 900px;
         padding: 0 0 0 20px;
     }
-    .distributionTokenCbcContainer2{
+
+    .distributionTokenCbcContainer2 {
         position: absolute;
-top: 403px;
-left: 0;
-right: 394px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-text-align: right;
-left: 132px;
-top: 509px;
+        top: 403px;
+        left: 0;
+        right: 394px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 509px;
     }
-    .groupChild4{
+
+    .groupChild4 {
         position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupItem{
+
+    .groupItem {
         position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .groupChild6{
+
+    .groupChild6 {
         position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupInner{
+
+    .groupInner {
         display: none;
     }
-    .div{
+
+    .div {
         display: none;
     }
-    .groupChild2{
+
+    .groupChild2 {
         display: none;
     }
-    .div3{
+
+    .div3 {
         display: none;
     }
-    .groupChild5{
+
+    .groupChild5 {
         position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
 
     }
-    .q4{
-        position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer3{
-        position: absolute;
 
-left: 0;
-right: 394px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-text-align: right;
-left: 132px;
-top: 1330px;
-    }
-    .q2{
+    .q4 {
         position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer{
-        position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild9{
-        position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
-
-    }
-    .q3{
-        position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    }
-    .distributionTokenCbcContainer1{
-        position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild7{
-        position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
 
-
-
-
-
-
-
-
-
-    .groupChild8{
+    .distributionTokenCbcContainer3 {
         position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
+
+        left: 0;
+        right: 394px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+        text-align: right;
+        left: 132px;
+        top: 1330px;
+    }
+
+    .q2 {
+        position: absolute;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+
+    .distributionTokenCbcContainer {
+        position: absolute;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
 
     }
-    .rectangleDiv{
+
+    .q3 {
         position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    .aboutIpadPro1293{
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
+
+
+
+
+
+
+
+
+
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
+
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
         position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
     }
-    .loremIpsumDolorContainer1{
+
+    .loremIpsumDolorContainer1 {
         position: absolute;
         top: 684.55px;
         padding: 0 0 0 20px;
@@ -2957,7 +3230,8 @@ font-family: 'Neue Montreal';
         font-size: 16px;
         width: 644px;
     }
-    .vectorParent{
+
+    .vectorParent {
         position: absolute;
         top: 961px;
         left: 75px;
@@ -2966,94 +3240,101 @@ font-family: 'Neue Montreal';
         font-size: 22px;
         color: #000;
     }
-    .mingcutewallet4FillParent{
-        position: absolute;
-    top: 49px;
-    left: 594.5px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    display: flex;
-    flex-direction: row;
-    padding: 9px 16px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 14px;
-    color: #1f1330;
-    }
-    .loremIpsumDolorContainer2{
-        position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
-    }
-    .tradeParent{
-        position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
-    }
-    .maskGroupParent{
-        position: absolute;
-    bottom: 48px;
-    left: 125px;
-    width: 720px;
-    height: 249px;
-    
 
-    
-    }
-    .ourVision1{
+    .mingcutewallet4FillParent {
         position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
+        top: 49px;
+        left: 594.5px;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        display: flex;
+        flex-direction: row;
+        padding: 9px 16px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+        color: #1f1330;
     }
-    .roadMap{
+
+    .loremIpsumDolorContainer2 {
         position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
     }
-    .loremIpsumDolorContainer{
+
+    .tradeParent {
         position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupParent {
+        position: absolute;
+        bottom: 48px;
+        left: 125px;
+        width: 720px;
+        height: 249px;
+
+
+
+    }
+
+    .ourVision1 {
+        position: absolute;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .roadMap {
+        position: absolute;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
     }
 }
 
-@media (min-width: 971px) and (max-width: 1056px){
-    .aboutUs{
+@media (min-width: 971px) and (max-width: 1056px) {
+    .aboutUs {
         position: absolute;
         top: 257px;
         left: 0;
@@ -3067,7 +3348,8 @@ width: 569px;
         width: 900px;
         padding: 0 0 0 20px;
     }
-    .distributionTokenCbcContainer2{
+
+    .distributionTokenCbcContainer2 {
         position: absolute;
         left: 0;
         right: 394px;
@@ -3079,68 +3361,78 @@ width: 569px;
         left: 132px;
         top: 509px;
     }
-    .groupChild4{
+
+    .groupChild4 {
         position: absolute;
-top: 575px;
-left: 60px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 575px;
+        left: 60px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupItem{
+
+    .groupItem {
         position: absolute;
-top: 248.5px;
-left: -0.5px;
-border-radius: 220px;
-width: 775px;
-height: 1069px;
--o-object-fit: cover;
-object-fit: cover;
+        top: 248.5px;
+        left: -0.5px;
+        border-radius: 220px;
+        width: 775px;
+        height: 1069px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .groupChild6{
+
+    .groupChild6 {
         position: absolute;
-top: 1363px;
-left: 64px;
-border-radius: 50%;
-background-color: #35321b;
-width: 134px;
-height: 134px;
+        top: 1363px;
+        left: 64px;
+        border-radius: 50%;
+        background-color: #35321b;
+        width: 134px;
+        height: 134px;
     }
-    .groupInner{
+
+    .groupInner {
         display: none;
     }
-    .div{
+
+    .div {
         display: none;
     }
-    .groupChild2{
+
+    .groupChild2 {
         display: none;
     }
-    .div3{
+
+    .div3 {
         display: none;
     }
-    .groupChild5{
+
+    .groupChild5 {
         position: absolute;
-top: 964px;
-left: 588px;
-border-radius: 50%;
-background-color: #351b2f;
-width: 134px;
-height: 134px;
+        top: 964px;
+        left: 588px;
+        border-radius: 50%;
+        background-color: #351b2f;
+        width: 134px;
+        height: 134px;
 
     }
-    .q4{
+
+    .q4 {
         position: absolute;
-top: 1287px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
+        top: 1287px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
-    .distributionTokenCbcContainer3{
+
+    .distributionTokenCbcContainer3 {
         position: absolute;
         left: 0;
         right: 394px;
@@ -3152,114 +3444,123 @@ text-align: right;
         left: 132px;
         top: 1330px;
     }
-    .q2{
-        position: absolute;
-top: 469px;
-left: 339px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-text-align: right;
-    }
-    .distributionTokenCbcContainer{
-        position: absolute;
-top: 122px;
-left: 304px;
-padding: 0 100px;
-font-size: 14px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild9{
-        position: absolute;
-top: 1267px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 358px;
 
-    }
-    .q3{
+    .q2 {
         position: absolute;
-top: 863px;
-left: 404px;
-font-size: 24px;
-font-family: 'Monument Extended';
-background: linear-gradient(263.1deg, #bbfa09, #9efa09);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-    }
-    .distributionTokenCbcContainer1{
-        position: absolute;
-top: 924px;
-padding: 0 91px;
-left: 306px;
-font-size: 16px;
-text-transform: capitalize;
-font-weight: 500;
-color: #fff;
-    }
-    .groupChild7{
-        position: absolute;
-top: 828px;
-left: 376px;
-border-radius: 13px 83px 83px 13px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 391px;
+        top: 469px;
+        left: 339px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
     }
 
-
-
-
-
-
-
-
-
-    .groupChild8{
+    .distributionTokenCbcContainer {
         position: absolute;
-top: 462px;
-left: 39px;
-border-radius: 83px 13px 13px 83px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 339px;
+        top: 122px;
+        left: 304px;
+        padding: 0 100px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild9 {
+        position: absolute;
+        top: 1267px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 358px;
 
     }
-    .rectangleDiv{
+
+    .q3 {
         position: absolute;
-top: 62px;
-left: 376px;
-border-radius: 11px 83px 83px 11px;
-background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
--webkit-backdrop-filter: blur(46px);
-backdrop-filter: blur(46px);
-width: 367px;
-height: 376px;
+        top: 863px;
+        left: 404px;
+        font-size: 24px;
+        font-family: 'Monument Extended';
+        background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-    .aboutIpadPro1293{
+
+    .distributionTokenCbcContainer1 {
+        position: absolute;
+        top: 924px;
+        padding: 0 91px;
+        left: 306px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .groupChild7 {
+        position: absolute;
+        top: 828px;
+        left: 376px;
+        border-radius: 13px 83px 83px 13px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 391px;
+    }
+
+
+
+
+
+
+
+
+
+    .groupChild8 {
+        position: absolute;
+        top: 462px;
+        left: 39px;
+        border-radius: 83px 13px 13px 83px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 339px;
+
+    }
+
+    .rectangleDiv {
+        position: absolute;
+        top: 62px;
+        left: 376px;
+        border-radius: 11px 83px 83px 11px;
+        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+        -webkit-backdrop-filter: blur(46px);
+        backdrop-filter: blur(46px);
+        width: 367px;
+        height: 376px;
+    }
+
+    .aboutIpadPro1293 {
         position: relative;
-background: linear-gradient(180deg, #201d26, #1d1b20);
-width: 100%;
-height: 3436px;
-overflow: hidden;
-text-align: left;
-font-size: 18px;
-color: #fff;
-font-family: 'Neue Montreal';
+        background: linear-gradient(180deg, #201d26, #1d1b20);
+        width: 100%;
+        height: 3436px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'Neue Montreal';
     }
-    .loremIpsumDolorContainer1{
+
+    .loremIpsumDolorContainer1 {
         position: absolute;
         top: 684.55px;
         padding: 0 0 0 20px;
@@ -3270,7 +3571,8 @@ font-family: 'Neue Montreal';
         font-size: 16px;
         width: 644px;
     }
-    .vectorParent{
+
+    .vectorParent {
         position: absolute;
         top: 961px;
         left: 116px;
@@ -3278,100 +3580,107 @@ font-family: 'Neue Montreal';
         height: 1086px;
         font-size: 22px;
         color: #000;
-    
-    }
-    
-    .groupChild{
-        position: absolute;
-    bottom: 0px;
-    left: 0px;
-    background-color: #141315;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 1500px;
-    height: 328px
-    }
-    .mingcutewallet4FillParent{
-        position: absolute;
-    top: 49px;
-    left: 594.5px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #ffe500, #fff492);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    display: flex;
-    flex-direction: row;
-    padding: 9px 16px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 14px;
-    color: #1f1330;
-    }
-    .loremIpsumDolorContainer2{
-        position: absolute;
-bottom: 452.15px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 567px;
-    }
-    .tradeParent{
-        position: absolute;
-bottom: 88px;
-left: 180px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-justify-content: flex-start;
-gap: 38px;
-text-align: left;
-    }
-    .maskGroupParent{
-        position: absolute;
-    bottom: 48px;
-    left: 162px;
-    width: 720px;
-    height: 249px;
-    
 
-    
     }
-    .ourVision1{
+
+    .groupChild {
         position: absolute;
-bottom: 715.15px;
-padding: 0 0 0 20px;
-font-size: 43px;
-text-transform: capitalize;
-font-weight: 500;
-background: linear-gradient(180deg, #ffe500, #fff492);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-left: 0;
-display: inline-block;
-width: 900px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #141315;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
+        width: 1500px;
+        height: 328px
     }
-    .roadMap{
+
+    .mingcutewallet4FillParent {
         position: absolute;
-top: 617.55px;
-left: 0;
-padding: 0 0 0 20px;
-font-size: 36px;
-text-transform: capitalize;
-font-weight: 500;
-color: #ffe500;
-display: inline-block;
-width: 900px;
+        top: 49px;
+        left: 594.5px;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+        display: flex;
+        flex-direction: row;
+        padding: 9px 16px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+        color: #1f1330;
     }
-    .loremIpsumDolorContainer{
+
+    .loremIpsumDolorContainer2 {
         position: absolute;
-top: 347px;
-padding: 0 0 0 20px;
-letter-spacing: -0.02em;
-line-height: 30px;
-left: 0;
-display: inline-block;
-width: 569px;
+        bottom: 452.15px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 567px;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 88px;
+        left: 180px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+    }
+
+    .maskGroupParent {
+        position: absolute;
+        bottom: 48px;
+        left: 162px;
+        width: 720px;
+        height: 249px;
+
+
+
+    }
+
+    .ourVision1 {
+        position: absolute;
+        bottom: 715.15px;
+        padding: 0 0 0 20px;
+        font-size: 43px;
+        text-transform: capitalize;
+        font-weight: 500;
+        background: linear-gradient(180deg, #ffe500, #fff492);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        left: 0;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .roadMap {
+        position: absolute;
+        top: 617.55px;
+        left: 0;
+        padding: 0 0 0 20px;
+        font-size: 36px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #ffe500;
+        display: inline-block;
+        width: 900px;
+    }
+
+    .loremIpsumDolorContainer {
+        position: absolute;
+        top: 347px;
+        padding: 0 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        left: 0;
+        display: inline-block;
+        width: 569px;
     }
 }

@@ -74,6 +74,8 @@ const fourthFont = localFont({
 
 import { useTranslation } from "react-i18next";
 
+import GenericMobileNavbar from "./mobileGenericNavbar";
+
 const StakeIPadPro1292: NextPage = () => {
   const [isToolTipOpen, setToolTipOpen] = useState(false);
   const [isToolTip1Open, setToolTip1Open] = useState(false);
@@ -146,6 +148,7 @@ const StakeIPadPro1292: NextPage = () => {
   return (
     <>
       <div className={styles.stakeIpadPro1292}>
+        <GenericMobileNavbar />
         <div className={styles.stakeIpadPro1292Child} />
         <img
           className={styles.stakeIpadPro1292Item}
@@ -163,59 +166,11 @@ const StakeIPadPro1292: NextPage = () => {
           <img className={styles.groupChild} alt="" src="Group 2.png" />
         </div>
         <Image className={styles.circleBgIcon} alt="" src={Circles} />
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-        <div className={styles.homeParent}>
-        				<div style={fourthFont.style}  className={styles.home}><a href='/'>
-						<h5 className='text-base text-white my-0 mx-1'>{t('home')}</h5>
-							</a></div>
-        				<div style={fourthFont.style}   className={styles.trade} ><a href='/trade'>
-						<h5 className='text-base text-white my-0 mx-1'>Trade</h5>
-							</a></div>
-        				<div style={fourthFont.style}  className={styles.trade} ><a href='/stake'>
-						<h5 className='text-base text-white my-0 mx-1'>Stake</h5>
-							</a></div>
-        				<div style={fourthFont.style}  className={styles.trade} ><a href='/about'>
-						<h5 className='text-base text-white my-0 mx-1'>{t('about')}</h5>
-							</a></div>
 
-							<div style={fourthFont.style}  className={styles.trade} ><a href='/profile'>
-						  Profile
-							</a></div>
-						
-      			</div>
-
-        <div className={styles.mingcutewallet4FillLang} style={{right: "0vw"}}>
-          <Languageswitch />
-        </div>
-
-        <div className={styles.mingcutewallet4FillParent}>
-          <Image
-            className={styles.mingcutewallet4FillIcon1}
-            alt=""
-            src={Wallet}
-          />
-          <ConnectWallet
-            style={{
-              textTransform: "uppercase",
-              background: "none",
-              fontWeight: "500",
-              fontFamily: "__thirdFont_3ea4f2",
-              border: "none",
-            }}
-          />
-          <div className={styles.connectWallet}></div>
-        </div>
         <img className={styles.unionIcon2} alt="" src="Union.png" />
         <img className={styles.unionIcon3} alt="" src="Union.png" />
 
-        <div className={styles.rectangleParent}>
-          <div className={styles.groupItem} />
-          <div className={styles.maskGroupParent}>
-            <Footer />
-          </div>
-        </div>
-
-        <div className={styles.mintcmax} style={{width: "98% !importnat"}}>
+        <div className={styles.mintcmax} style={{ width: "98% !importnat" }}>
           <Cmax />
         </div>
 
@@ -457,6 +412,42 @@ const StakeIPadPro1292: NextPage = () => {
             </div>
           </div>
         </div>
+        <section className="bg-[#141315] hidden h-fit w-screen md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+          <a href="/">
+            <img
+              src={Headlogo.src}
+              className=" aspect-square w-20 mb-10"
+              alt=""
+            />
+          </a>
+          <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
+            <a href="/">
+              <h5
+                className="text-white montreal text-2xl md:text-xl"
+                style={secondFont.style}
+              >
+                Home
+              </h5>
+            </a>
+            <a href="/trade">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Trade</h5>
+            </a>
+            <a href="/stake">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Stake</h5>
+            </a>
+            <a href="/about">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>About</h5>
+            </a>
+            <a href="/profile">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>
+                Profile
+              </h5>
+            </a>
+          </div>
+          <h5 className="montreal text-gray-500 text-sm absolute bottom-8" style={thirdFont.style}>
+            All Rights Reserved - © 2021 Stephen King
+          </h5>
+        </section>
       </div>
       {isToolTipOpen && <h1></h1>}
       {isToolTip1Open && <h1></h1>}

@@ -184,7 +184,7 @@ export default function Minting() {
   }, [burnamount]);
 
   return (
-    <div className="w-full h-fit py-10 xl:p-0 lg:p-0">
+    <div className="w-full h-fit py-10 lg:p-0">
       <Tabs className={styles.swapMintburnChild} variant="unstyled">
         <TabList
           className={styles.swapMintburnItem}
@@ -221,7 +221,7 @@ export default function Minting() {
           <TabPanel>
             <div className="h-fit py-3 w-full">
               <div className={styles.swapMintburnInner} />
-              <div className={styles.swapMintburnChild1} />
+              <div className={`${styles.swapMintburnChild1} lg:h-[500px]`} />
               <div className={styles.antDesignswapOutlined}>
                 <div className={styles.max1}>max</div>
               </div>

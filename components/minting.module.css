@@ -308,20 +308,20 @@
 .swapMintburnInner {
     position: absolute;
     top: 103.95px;
-    left: 25px;
+    left: 4%;
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(71, 71, 71, 0.52));
     backdrop-filter: blur(46px);
-    width: 320px;
+    width: 92%;
     height: 382.61px;
 }
 .swapMintburnChild1 {
     position: absolute;
     top: 103.95px;
-    left: 26px;
+    left: 4%;
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(20, 19, 25, 0), #44484b 96.22%);
-    width: 318px;
+    width: 92%;
     height: 248px;
 }
 .max1 {

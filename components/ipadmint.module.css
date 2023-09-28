@@ -11,6 +11,10 @@
     transform-origin: 0 0;
     opacity: 0.35;
 }
+
+.swapMintburnChild2{
+    width: 50% !important;
+}
 .swapMintburn2Child {
     position: absolute;
     top: 0px;
@@ -18,7 +22,7 @@
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 310px;
+    width: 95vw;
     height: 692px;
 }
 .frameChild {
@@ -56,7 +60,7 @@
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 270px;
+    width: 95vw;
     height: 60px;
 }
 .swapMintburn2Inner {
@@ -66,7 +70,7 @@
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 270px;
+    width: 95vw;
     height: 382.61px;
 }
 .rectangleDiv {
@@ -122,7 +126,7 @@
     left: 153.49px;
     border-radius: 7px;
     background-color: #ffe500;
-    width: 130px;
+    width: 95vw;
     height: 40px;
 }
 .swap {
@@ -382,7 +386,7 @@
     left: 0px;
     background-color: #141315;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08) inset;
-    width: 1024px;
+    width: 100vw;
     height: 328px;
 }
 .maskGroupIcon1 {
@@ -422,8 +426,8 @@
 .maskGroupParent {
     position: absolute;
     bottom: 51px;
-    left: 152px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 }
 .rectangleParent {
@@ -449,7 +453,7 @@
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 543.14px;
+    width: 95vw;
     height: 692px;
 }
 .frameInner {
@@ -597,22 +601,22 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 582.14px;
+        width: 95%;
         height: 692px;
     }
     .swapMintburn2{
         position: absolute;
     top: 1012px;
-    left: 123.77px;
-    width: 364px;
+    left: 2%;
+    width: 95vw;
     height: 692px;
     overflow: hidden;
     }
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: -54px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 
     }
@@ -663,23 +667,23 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 636.14px;
+        width: 95vw;
         height: 692px;
     
     }
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 152.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: -54px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 
     }
@@ -729,7 +733,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 669.14px;
+        width: 95vw;
         height: 692px;
     }
     .homeParent{
@@ -762,16 +766,16 @@
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 152.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: -15px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 
     }
@@ -822,7 +826,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 717.14px;
+        width: 95vw;
         height: 692px;
     
     }
@@ -846,16 +850,16 @@
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 191.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: -15px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 
     }
@@ -905,7 +909,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 744.14px;
+        width: 95vw;
         height: 692px;
     
     
@@ -943,16 +947,16 @@
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 191.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: -15px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 
     }
@@ -1002,7 +1006,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 744.14px;
+        width: 95vw;
         height: 692px;
     
     
@@ -1027,8 +1031,8 @@
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 191.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
@@ -1036,7 +1040,7 @@
         position: absolute;
         bottom: 51px;
         left: 33px;
-        width: 720px;
+        width: 100vw;
         height: 249px;
 
     }
@@ -1086,7 +1090,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 806.14px;
+        width: 95vw;
         height: 692px;
     
     }
@@ -1110,8 +1114,8 @@
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 232.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
@@ -1119,7 +1123,7 @@
         position: absolute;
         bottom: 51px;
         left: 61px;
-        width: 720px;
+        width: 100vw;
         height: 249px;
     
 
@@ -1171,7 +1175,7 @@
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     -webkit-backdrop-filter: blur(46px);
     backdrop-filter: blur(46px);
-    width: 866.14px;
+    width: 95vw;
     height: 692px;
     
     }
@@ -1206,8 +1210,8 @@
     .swapMintburn2{
         position: absolute;
     top: 1012px;
-    left: 275.77px;
-    width: 364px;
+    left: 2%;
+    width: 95vw;
     height: 692px;
     overflow: hidden;
     }
@@ -1215,7 +1219,7 @@
         position: absolute;
         bottom: 51px;
         left: 106px;
-        width: 720px;
+        width: 100vw;
         height: 249px;
 
     }
@@ -1265,7 +1269,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 951.14px;
+        width: 95vw;
         height: 692px;
     
     
@@ -1301,16 +1305,16 @@
     .swapMintburn2{
         position: absolute;
         top: 1012px;
-        left: 325.77px;
-        width: 364px;
+        left: 2%;
+        width: 95vw;
         height: 692px;
         overflow: hidden;
     }
     .maskGroupParent{
         position: absolute;
     bottom: 51px;
-    left: 159px;
-    width: 720px;
+    left: 0px;
+    width: 100vw;
     height: 249px;
 
     }

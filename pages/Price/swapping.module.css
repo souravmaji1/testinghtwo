@@ -263,3 +263,22 @@
     color: #fff;
     font-family: 'Neue Montreal';
 }
+
+@media screen and (min-width: 600px) and (max-width:900px) {
+    .balance323400{
+        left: 80% !important;
+    }
+
+    .frameParent{
+        left: 75% !important;
+    }
+
+    .antDesignswapOutlined{
+        left: 87%;
+    }
+
+    .frameGroup{
+        left: 75%;
+    }
+    
+}

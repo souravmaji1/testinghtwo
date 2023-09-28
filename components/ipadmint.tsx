@@ -43,6 +43,8 @@ import Abouta from "../public/ab.png";
 import Trades from "../public/tr.png";
 import Languageswitch from "../components/desktop";
 import Homer from "../public/hsss.png";
+import Footer from "./footer";
+import GenericMobileNavbar from "./mobileGenericNavbar";
 
 const myFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
@@ -86,102 +88,18 @@ const TradeSubpageIPadPro129: NextPage = () => {
 
   return (
     <div className={styles.tradeSubpageIpadPro129}>
+      <GenericMobileNavbar />
       <div className={styles.tradeSubpageIpadPro129Child} />
       <div className={styles.swapMintburn2}>
         <Minting />
       </div>
       <Image className={styles.circleBgIcon} alt="" src={Circles} />
-      <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-      <div className={styles.homeParent}>
-        <div style={fourthFont.style} className={styles.home}>
-          <a href="/">
-            <h5 className="text-base text-white my-0 mx-1">{t("home")}</h5>
-          </a>
-        </div>
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/trade">
-            <h5 className="text-base text-white my-0 mx-1">Trade</h5>
-          </a>
-        </div>
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/stake">
-            <h5 className="text-base text-white my-0 mx-1">Stake</h5>
-          </a>
-        </div>
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/about">
-            <h5 className="text-base text-white my-0 mx-1">{t("about")}</h5>
-          </a>
-        </div>
+      
 
-        <div style={fourthFont.style} className={styles.trade}>
-          <a href="/profile">Profile</a>
-        </div>
-      </div>
-
-      <div className={styles.mingcutewallet4FillLang}>
-        <Languageswitch />
-      </div>
-
-      <div className={styles.mingcutewallet4FillParent}>
-        <Image
-          className={styles.mingcutewallet4FillIcon1}
-          alt=""
-          src={Wallet}
-        />
-
-        <Popover>
-          <PopoverTrigger>
-            <Button>Connect Wallet</Button>
-          </PopoverTrigger>
-          <PopoverContent>
-            <PopoverArrow />
-            <PopoverCloseButton />
-            <PopoverHeader>Confirmation!</PopoverHeader>
-            <PopoverBody>
-              {" "}
-              <ConnectKitButton
-                customTheme={{
-                  "--ck-connectbutton-background": "#fbec50",
-                  "--ck-connectbutton-color": "#373737",
-                }}
-              />{" "}
-            </PopoverBody>
-            <PopoverHeader>Confirmation!</PopoverHeader>
-            <PopoverBody>
-              <ConnectWallet
-                btnTitle="Tita Login"
-                style={{
-                  background: "yellow",
-                  fontWeight: "500",
-                  fontFamily: "__thirdFont_3ea4f2",
-                  border: "none",
-                  color: "black",
-                }}
-              />
-            </PopoverBody>
-          </PopoverContent>
-        </Popover>
-      </div>
+      
       <img className={styles.unionIcon2} alt="" src="Union.png" />
       <img className={styles.unionIcon3} alt="" src="Union.png" />
-      <div className={styles.rectangleParent}>
-        <div className={styles.groupChild} />
-        <div className={styles.maskGroupParent}>
-          <Image className={styles.maskGroupIcon1} alt="" src={Headlogo} />
-          <div className={styles.mediaInquiresForCmaxContParent}>
-            <div className={styles.mediaInquiresFor1}>
-			All Rights Reserved - © 2023 CMax
-            </div>
-            <div className={styles.mediaInquiresFor1}>{t("copyright")} </div>
-          </div>
-          <div className={styles.tradeParent}>
-            <div className={styles.home}>Trade</div>
-            <div className={styles.home}>Stake</div>
-            <div className={styles.home}>About</div>
-          </div>
-        </div>
-      </div>
+      
       <div className={styles.text7}>{` `}</div>
       <div className={styles.tradeSubpageIpadPro129Inner} />
       <div className={styles.lineParent}>
