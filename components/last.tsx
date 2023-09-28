@@ -85,7 +85,7 @@ const AboutIPadPro1293: NextPage = () => {
   };
 
   return (
-    <div className="w-screen h-fit gradBlueBG">
+    <div className="w-screen h-[3500px] gradBlueBG">
       <section className="w-screen h-fit absolute top-0 pt-40 gradBlueBG">
           <section className="w-screen h-fit px-3">
             <h5 className="text-3xl capitalize mb-3" style={myFont.style}>

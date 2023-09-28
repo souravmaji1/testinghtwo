@@ -92,6 +92,17 @@ import Securi from "../public/esee.png";
 import Homer from "../public/hsss.png";
 
 import GenericMobileNavbar from "./mobileGenericNavbar";
+import one from "../public/one.png";
+import two from "../public/two.png";
+import three from "../public/three.png";
+import four from "../public/cc.png";
+import five from "../public/bb.png";
+import six from "../public/aa.png";
+import communityBg from "../public/back.png";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
 
 const HomeIPadPro1291: NextPage = () => {
   const onTradeTextClick = useCallback(() => {
@@ -122,24 +133,84 @@ const HomeIPadPro1291: NextPage = () => {
 
   return (
     <div className={styles.homeIpadPro1291}>
+      <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
-      <img
-        className={styles.homeIpadPro1291Item}
-        alt=""
-        src="Group 1000000920.png"
-      />
-      <div className={styles.joinOurCommunityParent}>
-        <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-          <h5 className="text-5xl">{t("communityhead")}</h5>
+      <div className="w-screen h-fit absolute top-[2200px] flex flex-col items-center justify-start pt-10">
+        <h5 className="text-3xl text-[#FFE925] mb-3" style={thirdFont.style}>
+          {t("discoverbenefit")}
+        </h5>
+        <h5
+          className="text-xl text-center w-10/12 text-white leading-relaxed mb-5"
+          style={secondFont.style}
+        >
+          {t("discoverparagraph")}
+        </h5>
+        <div className="flex flex-row items-center justify-start w-full h-[50vh] gap-2 px-20 mb-3">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+            <img src={one.src} className="h-10 w-8 mb-3" alt="" />
+            <h5
+              className="text-2xl text-[#FFE925] text-left mb-4"
+              style={myFont.style}
+            >
+              {t("benefithead")}
+            </h5>
+            <h5
+              className="text-xl text-white text-left"
+              style={secondFont.style}
+            >
+              {t("benefitparagraphone")}
+            </h5>
+          </div>
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+            <img src={two.src} className="h-10 w-10 mb-3" alt="" />
+            <h5
+              className="text-2xl text-[#FFE925] text-left mb-4"
+              style={myFont.style}
+            >
+              {t("benefitheadtwo")}
+            </h5>
+            <h5
+              className="text-xl text-white text-left"
+              style={secondFont.style}
+            >
+              {t("benefitparagraphtwo")}
+            </h5>
+          </div>
         </div>
-        <div style={secondFont.style} className={styles.diveIntoA1}>
-          {" "}
-          {t("communityparagraph")}{" "}
+        <div className="flex flex-row items-center justify-start w-full h-[50vh] gap-2 px-20">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+            <img src={three.src} className="h-10 w-10 mb-3" alt="" />
+            <h5
+              className="text-2xl text-[#FFE925] text-left mb-4"
+              style={myFont.style}
+            >
+              {t("benefitheadthree")}
+            </h5>
+            <h5
+              className="text-xl text-white text-left"
+              style={secondFont.style}
+            >
+              {t("benefitparagraphthree")}
+            </h5>
+          </div>
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+            <img src={four.src} className="h-10 w-10 mb-3" alt="" />
+            <h5
+              className="text-2xl text-[#FFE925] text-left mb-4"
+              style={myFont.style}
+            >
+              {t("benefitheadfour")}
+            </h5>
+            <h5
+              className="text-xl text-white text-left"
+              style={secondFont.style}
+            >
+              {t("benefitparagraphfour")}
+            </h5>
+          </div>
         </div>
-        <img className={styles.groupChild} alt="" src="Group 2.png" />
       </div>
       <div className={styles.homeIpadPro1291Inner} />
-      <div className={styles.ellipseDiv} />
       <Image className={styles.frameIcon} alt="" src={Circ} />
       <Image className={styles.homeIpadPro1291Child1} alt="" src={Circ} />
       <Image className={styles.homeIpadPro1291Child2} alt="" src={Leftcir} />
@@ -149,11 +220,7 @@ const HomeIPadPro1291: NextPage = () => {
         src="shutterstock_2152297015-[Converted] 1.png"
       />
       <Image className={styles.circleBgIcon} alt="" src={Leftcir} />
-     
 
-      
-
-      
       <div className={styles.btnParent}>
         <div className={styles.btn}>
           <Image className={styles.btnChild} alt="" src={Btx} />
@@ -267,82 +334,8 @@ const HomeIPadPro1291: NextPage = () => {
         <div className={styles.benefitsChild} />
         <div className={styles.benefitsItem} />
         <div className={styles.benefitsInner} />
-        <div style={thirdFont.style} className={styles.discoverOurBenefits1}>
-          <h5 className="text-3xl">{t("discoverbenefit")}</h5>
-        </div>
-        <div style={secondFont.style} className={styles.elevateYourFinancial1}>
-          {t("discoverparagraph")}
-        </div>
-        <div className={styles.benefitsChild1} />
-        <div className={styles.benefitsChild2} />
-        <div className={styles.benefitsChild3} />
-        <div className={styles.benefitsChild4} />
-        <div className={styles.benefitsChild5} />
-        <div className={styles.benefitsChild6} />
-        <div
-          style={myFont.style}
-          className={styles.seamlessFinancialInclusion1}
-        >
-          <h5 className="text-2xl my-0">{t("benefithead")}</h5>
-        </div>
-        <div style={myFont.style} className={styles.enhancedSecurity}>
-          <h5 className="text-2xl my-0">{t("benefitheadfour")}</h5>
-        </div>
-        <div
-          style={myFont.style}
-          className={styles.effortlessCrossBorderTransa1}
-        >
-          <h5 className="text-2xl my-0">{t("benefitheadtwo")}</h5>
-        </div>
-        <div style={myFont.style} className={styles.enhancedSecurity1}>
-          <h5 className="text-2xl my-0">{t("benefitheadfive")}</h5>
-        </div>
-        <div style={myFont.style} className={styles.smartContractCapabilities1}>
-          {" "}
-          {t("benefitheadthree")}{" "}
-        </div>
-        <div style={myFont.style} className={styles.decentralizedControl}>
-          {t("benefitheadsix")}{" "}
-        </div>
-        <div style={secondFont.style} className={styles.joinAPlatform1}>
-          {t("benefitparagraphone")}{" "}
-        </div>
-        <div
-          style={secondFont.style}
-          className={styles.experienceEnhancedSecurity1}
-        >
-          {t("benefitparagraphfour")}{" "}
-        </div>
-        <div style={secondFont.style} className={styles.sendAndReceive1}>
-          {t("benefitparagraphtwo")}{" "}
-        </div>
-        <div style={secondFont.style} className={styles.benefitFromLower2}>
-          {" "}
-          {t("benefitparagraphfive")}{" "}
-        </div>
-        <div
-          style={secondFont.style}
-          className={styles.leverageSmartContracts1}
-        >
-          {t("benefitparagraphthree")}{" "}
-        </div>
-        <div style={secondFont.style} className={styles.benefitFromLower3}>
-          {t("benefitparagraphsix")}{" "}
-        </div>
-        <Image className={styles.groupIcon} alt="" src={One} />
-        <Image className={styles.benefitsChild7} alt="" src={Two} />
-        <Image className={styles.benefitsChild8} alt="" src={Three} />
-        <Image className={styles.benefitsChild9} alt="" src={Fou} />
-        <Image className={styles.benefitsChild10} alt="" src={Fif} />
-        <Image className={styles.benefitsChild11} alt="" src={Six} />
       </div>
 
-      <div className={styles.rectangleParent2}>
-        <div className={styles.groupChild4} />
-        <div className={styles.maskGroupGroup}>
-          <Footer />
-        </div>
-      </div>
       <div style={thirdFont.style} className={styles.unveilingANew1}>
         {" "}
         {t("firsthead")}{" "}
@@ -351,7 +344,37 @@ const HomeIPadPro1291: NextPage = () => {
         {" "}
         {t("secondhead")}{" "}
       </div>
+
+      <section className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat mt-20 absolute z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </div>
+      </section>
+      
     </div>
+
   );
 };
 
