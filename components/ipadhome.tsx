@@ -345,7 +345,7 @@ const HomeIPadPro1291: NextPage = () => {
         {t("secondhead")}{" "}
       </div>
 
-      <section className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat mt-20 absolute z-50 opacity-100">
+      <section className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat mt-20 absolute bottom-[350px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"

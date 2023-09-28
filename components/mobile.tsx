@@ -188,8 +188,10 @@ const HomeIPadPro1291: NextPage = () => {
                 localStorage.getItem("lang") == "ru"
                   ? "20px"
                   : localStorage.getItem("lang") == "fr" ||
-                  localStorage.getItem("lang") == "ar" ||
-                  localStorage.getItem("lang") == "it" ? "22px" : "24px"
+                    localStorage.getItem("lang") == "ar" ||
+                    localStorage.getItem("lang") == "it"
+                  ? "22px"
+                  : "24px",
             }}
           >
             {t("secondhead")}{" "}
@@ -447,19 +449,31 @@ const HomeIPadPro1291: NextPage = () => {
         </PortalPopup>
       )}
       <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
-      <a href="/"><img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" /></a>
-            <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
-                <a href="/trade"><h5 className='text-white montreal text-2xl md:text-2xl' style={thirdFont.style}>Trade</h5></a>
-                <a href="/stake"><h5 className='text-white montreal text-2xl md:text-2xl' style={thirdFont.style}>Stake</h5></a>
-                <a href="/about"><h5 className='text-white montreal text-2xl md:text-2xl' style={thirdFont.style}>About</h5></a>
-                <a href="/profile"><h5 className='text-white montreal text-2xl md:text-2xl' style={thirdFont.style}>Profile</h5></a>
-               
-            </div>
-        <h5
-          className="text-gray-500 text-base absolute bottom-8"
-          style={thirdFont.style}
-        >
-          All Rights Reserved - © 2023 CMax
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10">
+          <a href="/trade">
+            <h5 className="text-white montreal text-2xl md:text-2xl">Trade</h5>
+          </a>
+          <a href="/stake">
+            <h5 className="text-white montreal text-2xl md:text-2xl">Stake</h5>
+          </a>
+          <a href="/about">
+            <h5 className="text-white montreal text-2xl md:text-2xl">About</h5>
+          </a>
+          <a href="/profile">
+            <h5 className="text-white montreal text-2xl md:text-2xl">
+              Profile
+            </h5>
+          </a>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
         </h5>
       </section>
     </>
