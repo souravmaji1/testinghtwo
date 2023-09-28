@@ -47,8 +47,15 @@ const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 
-const HomepageAbout: NextPage = () => {
+import communityBg from "../public/back.png";
 
+import GenericMobileNavbar from "@/components/mobileGenericNavbar";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
+
+const HomepageAbout: NextPage = () => {
   const onHomeTextClick = useCallback(() => {
     // Add your code here
   }, []);
@@ -89,9 +96,8 @@ const HomepageAbout: NextPage = () => {
   };
 
   useEffect(() => {
-	handleLanguageChange()
-  }, [])
-  
+    handleLanguageChange();
+  }, []);
 
   return (
     <div>
@@ -103,113 +109,22 @@ const HomepageAbout: NextPage = () => {
       </div>
 
       <div className={styles.homepageAbout}>
+        <GenericMobileNavbar />
         <div className={styles.homepageAboutChild} />
         <Image className={styles.homepageAboutItem} alt="" src={Circles} />
         <div className={styles.rwfa}>RWFA</div>
-        <img className={styles.homepageAboutInner} alt="" src="Group 7.svg" />
-        <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
-        <div className={styles.rectangleDiv} />
-        <div className={styles.maskGroupParent}>
-          <div className={styles.homepageBlackChild16}>
-            <Footer />
-          </div>
 
-          <div className={styles.mediaInquiresForCmaxContParent}></div>
-          <div className={styles.tradeParent}></div>
-        </div>
-
-        <div className={styles.navbars}>
-          <Navbar />
-        </div>
-
-        <div className={styles.homeParent}>
-          <div
-            style={fourthFont.style}
-            className={styles.home}
-            onClick={onHomeTextClick}
-          >
-            <a href="/">
-              <Image style={{ width: "54px" }} src={Homei} alt="" />
-            </a>
-          </div>
-          <div
-            style={fourthFont.style}
-            className={styles.home}
-            onClick={onTradeText1Click}
-          >
-            <a href="/trade">
-              <Image style={{ width: "54px" }} src={Tradei} alt="" />
-            </a>
-          </div>
-          <div
-            style={fourthFont.style}
-            className={styles.home}
-            onClick={onStakeText1Click}
-          >
-            <a href="/stake">
-              <Image style={{ width: "54px" }} src={Stakei} alt="" />
-            </a>{" "}
-          </div>
-          <div style={fourthFont.style} className={styles.about1}>
-            <a href="/about">
-              <Image style={{ width: "54px" }} src={Abouta} alt="" />
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.mingcutewallet4FillLang}>
-          <Languageswitch />
-        </div>
-
-        <div className={styles.mingcutewallet4FillParent}>
-          <Image
-            className={styles.mingcutewallet4FillIcon1}
-            alt=""
-            src={Wallet}
-          />
-          <div className={styles.connectWallet}>
-            <ConnectWallet
-              style={{
-                textTransform: "uppercase",
-                background: "none",
-                fontWeight: "500",
-                fontFamily: "__thirdFont_3ea4f2",
-                border: "none",
-              }}
-            />
-          </div>
-        </div>
         <Image className={styles.unionIcon2} alt="" src={Star} />
         <img className={styles.unionIcon3} alt="" src="Union.svg" />
-        <div style={myFont.style} className={styles.aboutUs}>
-          <Image src={Aboutus} alt="" />
-        </div>
-        <div
-          style={thirdFont.style}
-          className={styles.ourVision1}
-        >{`Audit`}</div>
-        <div style={thirdFont.style} className={styles.roadMap}>
-          <Image src={Roadmap} alt="" />
-        </div>
-        <div className={styles.loremIpsumDolorContainer}>
-          <p style={secondFont.style} className={styles.blankLine}>
-            {t("aboutparagraph")}{" "}
-          </p>
-          <p className={styles.blankLine}>&nbsp;</p>
-        </div>
-        <div className={styles.loremIpsumDolorContainer1}>
-          <p style={secondFont.style} className={styles.blankLine}>
-            {t("auditparagraph")}{" "}
-          </p>
-          <p style={secondFont.style} className={styles.blankLine}>
-            &nbsp;
-          </p>
-        </div>
-        <div style={secondFont.style} className={styles.loremIpsumDolor7}>
-          {t("roadmapparagraph")}{" "}
+        <div className="w-screen h-fit absolute top-[260px] px-20">
+          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">{t('about')}</h5>
+          <h5 style={secondFont.style} className="text-2xl le text-white w-10/12 leading-relaxed mb-5">{t('aboutparagraph')}</h5>
+          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">{t('roadmap')}</h5>
+          <h5 style={secondFont.style} className="text-2xl le text-white w-10/12 leading-relaxed mb-5">{t('roadmapparagraph')}</h5>
+
         </div>
 
-        <div className={styles.vectorParent}>
+        <div className={styles.vectorParent} style={{top: "1000px"}}>
           <Image className={styles.groupItem} alt="" src={Snake} />
 
           <div className={styles.frameDiv} />
@@ -222,16 +137,16 @@ const HomepageAbout: NextPage = () => {
           <div className={styles.groupChild9} />
           <div className={styles.groupChild10} />
           <div style={myFont.style} className={styles.q1}>
-            Q3 2023
+            Q1
           </div>
           <div style={myFont.style} className={styles.q3}>
-            Q1 2024
+            Q3
           </div>
           <div style={myFont.style} className={styles.q2}>
             Q2
           </div>
           <div style={myFont.style} className={styles.q4}>
-            Q4 2025
+            Q4
           </div>
           <div className={styles.distributionTokenCbcContainer}>
             <p style={fourthFont.style} className={styles.blankLine}>
@@ -257,8 +172,45 @@ const HomepageAbout: NextPage = () => {
             </p>
           </div>
         </div>
-        <Image className={styles.rectangleIcon} alt="" src={Abouts} />
+
+        <div className="w-screen h-fit absolute top-[2500px] px-20">
+          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">{t('audit')}</h5>
+          <h5 style={secondFont.style} className="text-2xl le text-white w-10/12 leading-relaxed mb-5">{t('auditparagraph')}</h5>
+          
+        </div>
+
+        
       </div>
+
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 mb-10"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
+          <a href="/">
+            <h5 className="text-white montreal text-2xl md:text-xl">Home</h5>
+          </a>
+          <a href="/trade">
+            <h5 className="text-white montreal text-2xl md:text-xl">Trade</h5>
+          </a>
+          <a href="/stake">
+            <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
+          </a>
+          <a href="/about">
+            <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+          </a>
+          <a href="/profile">
+            <h5 className="text-white montreal text-2xl md:text-xl">Profile</h5>
+          </a>
+        </div>
+        <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+          All Rights Reserved - © 2021 Stephen King
+        </h5>
+      </section>
     </div>
   );
 };
