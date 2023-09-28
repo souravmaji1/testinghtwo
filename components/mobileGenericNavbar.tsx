@@ -447,7 +447,7 @@ function GenericMobileNavbar() {
             </a>
             <a href="/trade">
               <h5 style={fourthFont.style} className="text-white text-base mb-0">
-                Traddde
+                Trade
               </h5>
             </a>
             <a href="/stake">
