@@ -152,9 +152,10 @@ export default function Minting() {
             padding: "10px 50px 10px 50px",
             borderRadius: "7px",
             margin: "auto",
-            fontSize: "24px",
+            fontSize: "1.1rem",
+            background: "linear-gradient(180deg, #ffe500, #fff492)"
           }}
-          _selected={{ color: "black", bg: "yellow" }}
+          _selected={{ color: "black", bg: "linear-gradient(180deg, #ffe500, #fff492)" }}
         >
           Buy CMAX
         </Tab>

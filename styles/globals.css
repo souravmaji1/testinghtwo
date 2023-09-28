@@ -197,6 +197,7 @@ body {
 .gradBlueBG{
   background: linear-gradient(180deg, #201d26, #1d1b20);
   color: #ffe500;
+  height: 100vh !important;
 }
 
 body{
@@ -215,7 +216,28 @@ body{
 .discoverBox {
   background: linear-gradient(180deg, rgba(71, 71, 71, 0.52) 0%, rgba(40, 39, 41, 0.52) 100%);
   backdrop-filter: blur(23px);
+}
 
+.discoverBoxContainer{
+  height: 50vh !important;
+}
+
+@media screen and (orientation: landscape) {
+  .discoverBox{
+    height: 110vh !important
+  }
+
+  .discoverBoxContainer{
+    height: 120vh !important;
+  }
+
+  .homeIpadPro1291{
+    height: 4000px !important;
+  }
+
+  .whitePaperBox{
+    top: 20px !important;
+  }
 }
 
 .credit {
@@ -690,3 +712,9 @@ body{
 
   }
 }
+
+
+.whitePaperBox{
+  top: 30% !important;
+}
+
