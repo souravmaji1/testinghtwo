@@ -182,7 +182,7 @@ const HomepageAbout: NextPage = () => {
         
       </div>
 
-      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+      <section className="bg-[#141315] h-fit w-screen hidden md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
         <a href="/">
           <img
             src={Headlogo.src}
