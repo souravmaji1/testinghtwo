@@ -492,26 +492,26 @@ const HomepageStake: NextPage = () => {
             </div>
           </div>
         </div>
-		<section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[450px] z-50 opacity-100">
+        <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[500px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
         <img
           src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
           alt=""
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
             style={thirdFont.style}
           >
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}
           </h5>
-          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+          <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
             <BsGithub color="#ffffff" size={35} />
             <FaXTwitter color="#ffffff" size={35} />
             <TiSocialLinkedinCircular color="#ffffff" size={45} />

@@ -377,7 +377,7 @@ const HomepageBlack: NextPage = () => {
       <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[600px] z-50 opacity-100">
         <img
           src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 mx-auto aspect-square"
+          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
           alt=""
         />
         <div>
