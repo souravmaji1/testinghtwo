@@ -192,24 +192,6 @@ const HomepageTradeSubpage: NextPage = () => {
             </div>
           </div>
           <div className={styles.frame1}>
-            <div className={styles.lineParent}>
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-              <div className={styles.frameChild} />
-            </div>
-            <img className={styles.groupIcon5} alt="" src="Group.svg" />
-            <img className={styles.groupIcon6} alt="" src="Group.svg" />
-            <img className={styles.groupIcon7} alt="" src="Group.svg" />
-            <img className={styles.groupIcon8} alt="" src="Group.svg" />
 
             <div className=" bg-none">
             <Chart />
