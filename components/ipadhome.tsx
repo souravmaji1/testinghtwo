@@ -132,7 +132,7 @@ const HomeIPadPro1291: NextPage = () => {
   };
 
   return (
-    <div className={styles.homeIpadPro1291}>
+    <div className={`${styles.homeIpadPro1291}`}>
       <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <div className="w-screen h-fit absolute top-[2200px] flex flex-col items-center justify-start pt-10">
@@ -145,8 +145,8 @@ const HomeIPadPro1291: NextPage = () => {
         >
           {t("discoverparagraph")}
         </h5>
-        <div className="flex flex-row items-center justify-start w-full h-[50vh] gap-2 px-20 mb-3">
-          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+        <div className="flex landscape:md:h-fit flex-row items-center justify-start w-full discoverBoxContainer gap-2 px-20 mb-2">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 landscape:md:h-fit portrait:md:h-[40vh]  discoverBox">
             <img src={one.src} className="h-10 w-8 mb-3" alt="" />
             <h5
               className="text-2xl text-[#FFE925] text-left mb-4"
@@ -161,7 +161,7 @@ const HomeIPadPro1291: NextPage = () => {
               {t("benefitparagraphone")}
             </h5>
           </div>
-          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 landscape:md:h-fit portrait:md:h-[40vh] discoverBox">
             <img src={two.src} className="h-10 w-10 mb-3" alt="" />
             <h5
               className="text-2xl text-[#FFE925] text-left mb-4"
@@ -177,8 +177,8 @@ const HomeIPadPro1291: NextPage = () => {
             </h5>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start w-full h-[50vh] gap-2 px-20">
-          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+        <div className="flex flex-row items-center justify-start w-full discoverBoxContainer gap-2 px-20">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox landscape:md:h-fit portrait:md:h-[40vh]">
             <img src={three.src} className="h-10 w-10 mb-3" alt="" />
             <h5
               className="text-2xl text-[#FFE925] text-left mb-4"
@@ -193,7 +193,7 @@ const HomeIPadPro1291: NextPage = () => {
               {t("benefitparagraphthree")}
             </h5>
           </div>
-          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox landscape:md:h-fit portrait:md:h-[40vh]">
             <img src={four.src} className="h-10 w-10 mb-3" alt="" />
             <h5
               className="text-2xl text-[#FFE925] text-left mb-4"
@@ -345,7 +345,7 @@ const HomeIPadPro1291: NextPage = () => {
         {t("secondhead")}{" "}
       </div>
 
-      <section className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat mt-20 absolute bottom-[350px] z-50 opacity-100">
+      <section className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[450px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"

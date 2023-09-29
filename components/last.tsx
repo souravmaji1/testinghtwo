@@ -85,7 +85,7 @@ const AboutIPadPro1293: NextPage = () => {
   };
 
   return (
-    <div className="w-screen h-[3500px] gradBlueBG">
+    <div className="w-screen gradBlueBG">
       <section className="w-screen h-fit absolute top-0 pt-40 gradBlueBG">
           <section className="w-screen h-fit px-3">
             <h5 className="text-3xl capitalize mb-3" style={myFont.style}>
@@ -242,10 +242,10 @@ const AboutIPadPro1293: NextPage = () => {
               </a>
             </div>
             <h5
-              className="montreal text-gray-500 text-sm absolute bottom-8"
+              className="montreal text-gray-500 text-sm  bottom-8"
               style={thirdFont.style}
             >
-              All Rights Reserved - © 2021 Stephen King
+              All Rights Reserved - © 2023 CMax
             </h5>
           </section>
         </section>

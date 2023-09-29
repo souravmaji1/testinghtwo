@@ -2327,7 +2327,7 @@
         font-weight: 500;
         color: #fff;
         text-align: right;
-        left: 132px;
+        left: 9%;
         top: 509px;
     }
 
@@ -2411,7 +2411,7 @@
         font-weight: 500;
         color: #fff;
         text-align: right;
-        left: 132px;
+        left: 9%;
         top: 1330px;
     }
 
@@ -2431,7 +2431,7 @@
         position: absolute;
         top: 122px;
         left: 304px;
-        padding: 0 100px;
+        padding: 0 20px 0 13%;
         font-size: 14px;
         text-transform: capitalize;
         font-weight: 500;
@@ -2441,12 +2441,12 @@
     .groupChild9 {
         position: absolute;
         top: 1267px;
-        left: 39px;
+        left: 0px;
         border-radius: 83px 13px 13px 83px;
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 367px;
+        width: 54%;
         height: 358px;
 
     }
@@ -2465,7 +2465,7 @@
     .distributionTokenCbcContainer1 {
         position: absolute;
         top: 924px;
-        padding: 0 91px;
+        padding: 0 20px 0 13%;
         left: 306px;
         font-size: 16px;
         text-transform: capitalize;
@@ -2481,7 +2481,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 367px;
+        width: 54%;
         height: 391px;
     }
 
@@ -2496,12 +2496,12 @@
     .groupChild8 {
         position: absolute;
         top: 462px;
-        left: 39px;
+        left: 0px;
         border-radius: 83px 13px 13px 83px;
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 367px;
+        width: 54%;
         height: 339px;
 
     }
@@ -2514,7 +2514,7 @@
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 367px;
+        width: 54%;
         height: 376px;
     }
 
@@ -3018,6 +3018,7 @@
         text-align: right;
         left: 132px;
         top: 509px;
+        
     }
 
     .groupChild4 {

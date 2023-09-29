@@ -86,14 +86,14 @@ const AboutIPadPro1293: NextPage = () => {
 
   return (
     <div className={styles.aboutIpadPro1293}>
-		<GenericMobileNavbar />
+      <GenericMobileNavbar />
       <Image className={styles.aboutIpadPro1293Child} alt="" src={Rightone} />
       <div className={styles.aboutIpadPro1293Item} />
       <Image className={styles.circleBgIcon} alt="" src={Circles} />
 
       <img className={styles.unionIcon2} alt="" src="Union.png" />
       <img className={styles.unionIcon3} alt="" src="Union.png" />
-      
+
       <div style={myFont.style} className={styles.aboutUs}>
         <h5 className="text-4xl capitalize">{t("about")}</h5>
       </div>
@@ -155,26 +155,77 @@ const AboutIPadPro1293: NextPage = () => {
         </div>
         <div className={styles.distributionTokenCbcContainer}>
           <p style={thirdFont.style} className={styles.blankLine}>
-            {" "}
-            {t("roadmapone")}{" "}
+          <span
+              style={{
+                fontSize:
+                  localStorage.getItem("lang") == "ru"
+                    ? "14px"
+                    : localStorage.getItem("lang") == "fr" ||
+                      localStorage.getItem("lang") == "ar" ||
+                      localStorage.getItem("lang") == "it"
+                    ? "16px"
+                    : "16px",
+              }}
+            >
+              {t("roadmapone")}
+            </span>
           </p>
         </div>
         <div className={styles.distributionTokenCbcContainer1}>
           <p style={thirdFont.style} className={styles.blankLine}>
-            {" "}
-            {t("roadmapfour")}{" "}
+          <span
+              style={{
+                fontSize:
+                  localStorage.getItem("lang") == "ru"
+                    ? "14px"
+                    : localStorage.getItem("lang") == "fr" ||
+                      localStorage.getItem("lang") == "ar" ||
+                      localStorage.getItem("lang") == "it"
+                    ? "16px"
+                    : "16px",
+              }}
+            >
+              {t("roadmapfour")}
+            </span>
           </p>
         </div>
         <div className={styles.distributionTokenCbcContainer2}>
           <p style={thirdFont.style} className={styles.blankLine}>
-            {" "}
-            {t("roadmapthree")}{" "}
+            <span
+              style={{
+                fontSize:
+                  localStorage.getItem("lang") == "ru"
+                    ? "14px"
+                    : localStorage.getItem("lang") == "fr" ||
+                      localStorage.getItem("lang") == "ar" ||
+                      localStorage.getItem("lang") == "it"
+                    ? "16px"
+                    : "16px",
+              }}
+            >
+              {t("roadmapthree")}
+            </span>
           </p>
         </div>
         <div className={styles.distributionTokenCbcContainer3}>
-          <p style={thirdFont.style} className={`${styles.blankLine} text-base`}>
-            {" "}
-            {t("roadmaptwo")}{" "}
+          <p
+            style={thirdFont.style}
+            className={`${styles.blankLine} text-base`}
+          >
+            <span
+              style={{
+                fontSize:
+                  localStorage.getItem("lang") == "ru"
+                    ? "14px"
+                    : localStorage.getItem("lang") == "fr" ||
+                      localStorage.getItem("lang") == "ar" ||
+                      localStorage.getItem("lang") == "it"
+                    ? "16px"
+                    : "16px",
+              }}
+            >
+              {t("roadmaptwo")}
+            </span>
           </p>
         </div>
       </div>

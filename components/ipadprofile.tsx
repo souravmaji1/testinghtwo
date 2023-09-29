@@ -87,7 +87,6 @@ const ProfileIPadPro1294: NextPage = () => {
 		<GenericMobileNavbar />
       <div className={styles.profileIpadPro1294Child} />
       <Image className={styles.circleBgIcon} alt="" src={Circles} />
-      <Image className={styles.maskGroupIcon} alt="" src={Headlogo} />
       
 
       
