@@ -367,14 +367,12 @@
     width: 320px;
 }
 .groupItem {
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 370px;
-    height: 333px;
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 .titaEtf {
     position: absolute;
@@ -403,15 +401,12 @@
     position: absolute;
     top: 86px;
     left: 27px;
-    width: 328px;
+    width: 90%;
     height: 211px;
     overflow: hidden;
 }
 .rectangleParent {
-    position: absolute;
-    top: 260px;
-    left: 1%;
-    width: 370px;
+    aspect-ratio: 1/1;
     height: 333px;
     cursor: pointer;
     font-family: 'MonumentExtended-Regular';
@@ -518,7 +513,7 @@
     left: 0px;
     border-radius: 8px;
     background-color: #282531;
-    width: 570.18px;
+    width: 50%;
     height: 80px;
 }
 .groupChild3 {
@@ -527,7 +522,7 @@
     left: 0px;
     border-radius: 8px;
     background-color: #282531;
-    width: 570.18px;
+    width: 50%;
     height: 80px;
 }
 .groupChild4 {
@@ -536,34 +531,34 @@
     left: 0px;
     border-radius: 8px;
     background-color: #282531;
-    width: 570.18px;
+    width: 50%;
     height: 80px;
 }
 .groupChild5 {
     position: absolute;
     top: 90.62px;
-    left: 599px;
+    left: 51%;
     border-radius: 8px;
     background-color: #282531;
-    width: 570px;
+    width: 50%;
     height: 80px;
 }
 .groupChild6 {
     position: absolute;
     top: 190.62px;
-    left: 599px;
+    left: 51%;
     border-radius: 8px;
     background-color: #282531;
-    width: 570px;
+    width: 50%;
     height: 80px;
 }
 .groupChild7 {
     position: absolute;
     top: 291.62px;
-    left: 599px;
+    left: 51%;
     border-radius: 8px;
     background-color: #282531;
-    width: 570px;
+    width: 50%;
     height: 80px;
 }
 .trendingProducts {
@@ -578,7 +573,7 @@
 .tita {
     position: absolute;
     top: 117.31px;
-    left: 138px;
+    left: 8%;
     font-weight: bold;
     line-height: 36px;
     text-transform: capitalize;
@@ -588,7 +583,7 @@
 .aptos {
     position: absolute;
     top: 217.62px;
-    left: 37px;
+    left: 3%;
     line-height: 36px;
     font-weight: bold;
     text-transform: capitalize;
@@ -598,7 +593,7 @@
 .quant {
     position: absolute;
     top: 317.92px;
-    left: 37px;
+    left: 3%;
     line-height: 36px;
     font-weight: bold;
     text-transform: capitalize;
@@ -609,14 +604,14 @@
     position: absolute;
     top: 117.31px;
     font-weight: bold;
-    left: 630px;
+    left: 55%;
     line-height: 36px;
     text-transform: capitalize;
 }
 .shibaInu {
     position: absolute;
     top: 217.62px;
-    left: 630px;
+    left: 55%;
     font-weight: bold;
     line-height: 36px;
     text-transform: capitalize;
@@ -625,7 +620,7 @@
     position: absolute;
     top: 317.92px;
     font-weight: bold;
-    left: 630px;
+    left: 55%;
     line-height: 36px;
     text-transform: capitalize;
 }
@@ -674,7 +669,7 @@
 .groupChild8 {
     position: absolute;
     top: 110.31px;
-    left: 72.99px;
+    left: 3%;
     border-radius: 50%;
     width: 42.31px;
     height: 40px;
@@ -739,7 +734,7 @@
 .polygonParent {
     position: absolute;
     top: 117.31px;
-    left: 469.35px;
+    right: 52%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -808,8 +803,8 @@
 .groupDiv {
     position: absolute;
     top: 1098px;
-    left: 136px;
-    width: 1169px;
+    left: 3%;
+    width: 93%;
     height: 371.62px;
     font-size: 22px;
 }

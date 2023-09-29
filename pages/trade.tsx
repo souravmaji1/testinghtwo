@@ -134,61 +134,66 @@ const HomepageTrade: NextPage = () => {
         <GenericMobileNavbar />
 
         <Image className={styles.unionIcon3} alt="" src={Star} />
-        <div className={styles.homepageTradeChild3} />
-        <div className={styles.homepageTradeChild4} />
-        <div className={styles.homepageTradeChild5} />
 
-        <div style={myFont.style} className={styles.comingSoon}>
-          {t("comingsoon")}
-        </div>
-        <div style={myFont.style} className={styles.comingSoon1}>
-          {t("comingsoon")}
-        </div>
-        <div style={myFont.style} className={styles.comingSoon2}>
-          {t("comingsoon")}
-        </div>
-        <Link href="/mint">
-          <div
-            className={styles.rectangleParent}
-            onClick={onGroupContainer2Click}
-          >
-            <div className={styles.groupItem} />
-            <div style={myFont.style} className={styles.titaEtf}>
-              Tita ETF
+        <div className="w-screen h-fit absolute top-[260px] px-2 gap-4 flex flex-col items-center justify-center">
+          <div className="w-10/12 h-fit flex flex-row items-center justify-center gap-4">
+            <div className="w-1/3 flex flex-row items-center justify-end">
+              <Link href="/mint">
+                <div
+                  className={styles.rectangleParent}
+                  onClick={onGroupContainer2Click}
+                >
+                  <div className={styles.groupItem} />
+                </div>
+              </Link>
             </div>
-            <div className={styles.vectorParent}>
-              <Image className={styles.vectorIcon4} alt="" src={Sear} />
-              <div style={{ fontFamily: "Inter" }} className={styles.trade}>
-                8%
+            <div className="w-1/3 flex flex-row items-center justify-center">
+              <div
+                className={styles.rectangleParent}
+                onClick={onGroupContainer2Click}
+              >
+                <div className={`${styles.groupItem}`} />
               </div>
             </div>
-            <Image className={styles.frameIcon2} alt="" src={Stats} />
+            <div className="w-1/3 flex flex-row items-center justify-start">
+              <div
+                className={styles.rectangleParent}
+                onClick={onGroupContainer2Click}
+              >
+                <div className={styles.groupItem} />
+              </div>
+            </div>
           </div>
-        </Link>
-        <div className={styles.rectangleGroup} onClick={onGroupContainer3Click}>
-          <div className={styles.groupItem} />
-          <div className={styles.vectorGroup}></div>
-          <div style={myFont.style} className={styles.tusaEtf}>
-            {t("comingsoon")}
+          <div className="w-10/12 h-fit flex flex-row items-center justify-center gap-4">
+            <div className="w-1/3 flex flex-row items-center justify-end">
+              <Link href="/mint">
+                <div
+                  className={styles.rectangleParent}
+                  onClick={onGroupContainer2Click}
+                >
+                  <div className={styles.groupItem} />
+                </div>
+              </Link>
+            </div>
+            <div className="w-1/3 flex flex-row items-center justify-center">
+              <div
+                className={styles.rectangleParent}
+                onClick={onGroupContainer2Click}
+              >
+                <div className={`${styles.groupItem}`} />
+              </div>
+            </div>
+            <div className="w-1/3 flex flex-row items-center justify-start">
+              <div
+                className={styles.rectangleParent}
+                onClick={onGroupContainer2Click}
+              >
+                <div className={styles.groupItem} />
+              </div>
+            </div>
           </div>
-          <Image className={styles.frameIcon3} alt="" src={Frame} />
         </div>
-        <div
-          className={styles.rectangleContainer}
-          onClick={onGroupContainer4Click}
-        >
-          <div className={styles.groupItem} />
-          <div className={styles.vectorContainer}>
-            <Image className={styles.vectorIcon4} alt="" src={""} />
-          </div>
-          <div style={myFont.style} className={styles.tgermEtf}>
-            {t("comingsoon")}
-          </div>
-          <Image className={styles.frameIcon4} alt="" src={Frame} />
-        </div>
-        <Image className={styles.frameIcon5} alt="" src={Frame} />
-        <Image className={styles.frameIcon6} alt="" src={Frame} />
-        <Image className={styles.frameIcon7} alt="" src={Frame} />
+
         <div className={styles.groupDiv}>
           <div className={styles.groupChild2} />
           <div className={styles.groupChild3} />
@@ -228,33 +233,33 @@ const HomepageTrade: NextPage = () => {
             </div>
           </div>
         </div>
-        <section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[450px] z-50 opacity-100">
-          <img
-            src={communityBg.src}
-            className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
-            alt=""
-          />
-          <div>
-            <h5
-              className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
-              style={thirdFont.style}
-            >
-              {t("communityhead")}
-            </h5>
-            <h5
-              className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
-              style={secondFont.style}
-            >
-              {t("communityparagraph")}
-            </h5>
-            <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
-              <BsGithub color="#ffffff" size={35} />
-              <FaXTwitter color="#ffffff" size={35} />
-              <TiSocialLinkedinCircular color="#ffffff" size={45} />
-              <SiNotion color="#ffffff" size={35} />
-            </div>
+        <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[400px] z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
           </div>
-        </section>
+        </div>
+      </section>
         <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
           <a href="/">
             <img
