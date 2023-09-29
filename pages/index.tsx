@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { useCallback } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import styles from "./home.module.css";
 import Image from "next/image";
 import Btn from "../public/Rectangle 334.svg";
@@ -28,14 +28,12 @@ import Partner from "../public/Partners-Logos.png";
 import Flower from "../public/Group 1000000920.png";
 import { ConnectWallet } from "@thirdweb-dev/react";
 import localFont from "next/font/local";
-import React, { useEffect } from "react";
 import Sliders from "../components/slider";
 import Github from "../public/mdi_github.svg";
 import Twitter from "../public/mdi_twitter.svg";
 import Linkedin from "../public/entypo-social_linkedin-with-circle.svg";
 import Notion from "../public/mingcute_notion-fill.svg";
 import Footer from "../components/aboutfooter";
-import { useState } from "react";
 import Navbar from "../components/navbar";
 import Mobile from "../components/mobile";
 import Ipad from "../components/ipadhome";
@@ -104,22 +102,25 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 
 const HomepageBlack: NextPage = () => {
-  const onTradeText1Click = useCallback(() => {
-    // Add your code here
-  }, []);
 
-  const onStakeText1Click = useCallback(() => {
-    // Add your code here
-  }, []);
+  const [orientation, setOrientation] = useState("")
 
-  const onAboutText1Click = useCallback(() => {
-    // Add your code here
-  }, []);
+  useEffect(() => {
+    const handleOrientationChange = () =>{
+      setOrientation(window.screen.orientation.type)
+      console.log(window.screen.orientation.type)
+    }
 
-  const onEllipseIconClick = useCallback(() => {
-    // Add your code here
-  }, []);
+    window.screen.orientation.addEventListener('change', handleOrientationChange);
+    setOrientation(window.screen.orientation.type)
 
+    return ()=>{
+      window.screen.orientation.removeEventListener('change', handleOrientationChange);
+    }
+
+  }, [])
+  
+  
   // important for translation. import in every page or component
   const { t, i18n } = useTranslation();
   // important for translation. import in every page or component
@@ -143,6 +144,8 @@ const HomepageBlack: NextPage = () => {
   useEffect(() => {
     handleLanguageChange();
   }, []);
+
+
 
   return (
     <div>
@@ -203,7 +206,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
-        <div className="absolute top-[1010px]  w-full h-fit">
+        <div className="absolute md:top-[1010px] lg:top-[0px] xl:top-[1010px]   w-full h-fit">
           
           <div className={`mx-0 ${styles.frameParent}`}>
             <div className={styles.groupParent}>
@@ -371,7 +374,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[600px] z-50 opacity-100">
+      <section className="h-fit w-screen bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[600px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
@@ -424,7 +427,7 @@ const HomepageBlack: NextPage = () => {
           </a>
         </div>
         <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
-          All Rights Reserved - © 2021 Stephen King
+          All Rights Reserved - © 2023 CMax
         </h5>
       </section>
     </div>

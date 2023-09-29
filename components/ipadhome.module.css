@@ -331,7 +331,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 70px;
 }
 .groupItem {
     position: absolute;
@@ -1091,7 +1091,7 @@
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
     width: 100%;
-    height: 4400px;
+    
     overflow: hidden;
     text-align: left;
     font-size: 36px;

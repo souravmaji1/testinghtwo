@@ -216,12 +216,12 @@ const AboutIPadPro1293: NextPage = () => {
               style={{
                 fontSize:
                   localStorage.getItem("lang") == "ru"
-                    ? "14px"
+                    ? "12px"
                     : localStorage.getItem("lang") == "fr" ||
                       localStorage.getItem("lang") == "ar" ||
                       localStorage.getItem("lang") == "it"
-                    ? "16px"
-                    : "16px",
+                    ? "14px"
+                    : "14px",
               }}
             >
               {t("roadmaptwo")}
