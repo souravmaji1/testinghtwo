@@ -1,11 +1,11 @@
 .homepageStakeChild {
     position: absolute;
     top: 1080px;
-    left: 141px;
+    left: 3%;
     border-radius: 8px;
     background: linear-gradient(180deg, #282531, rgba(40, 37, 49, 0));
     backdrop-filter: blur(164px);
-    width: 1170px;
+    width: 93%;
     height: 668px;
 }
 .homepageStakeItem {
@@ -346,7 +346,7 @@
 .stakingBenefits {
     position: absolute;
     top: 308px;
-    left: calc(50% - 585px);
+    left: 3%;
     font-size: 55px;
     text-transform: capitalize;
     font-family: 'Monument Extended';
@@ -359,12 +359,12 @@
 .homepageStakeChild4 {
     position: absolute;
     top: 523px;
-    left: 135px;
+    left: 3%;
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     -webkit-backdrop-filter: blur(46px);
     backdrop-filter: blur(46px);
-    width: 1171px;
+    width: 93%;
     height: 290px;
 }
 .frameChild {
@@ -465,6 +465,8 @@
     justify-content: space-between;
     text-align: center;
     font-size: 28px;
+    width: 93%;
+    left: 4%;
 }
 .eparrowRightBoldIcon2 {
     position: absolute;
@@ -486,7 +488,7 @@
 .stakingPool {
     position: absolute;
     top: 996px;
-    left: 136px;
+    left: 3%;
     font-size: 43px;
     text-transform: capitalize;
     font-weight: 500;
@@ -514,11 +516,13 @@
 .frameParent1 {
     position: absolute;
     top: 1668px;
-    left: 255px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 68px;
     font-size: 16px;
 }
@@ -532,8 +536,8 @@
 .lineParent {
     position: absolute;
     top: 1192px;
-    left: 200px;
-    width: 1040px;
+    left: 5%;
+    width: 89%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -543,14 +547,14 @@
 .homepageStakeChild5 {
     position: absolute;
     top: 1238.63px;
-    left: 251.01px;
-    width: 932.45px;
+    left: 5%;
+    width: 89%;
     height: 399.37px;
 }
 .stakingInBlockchain1 {
     position: absolute;
     top: 407px;
-    left: 139px;
+    left: 3%;
     font-size: 24px;
     font-weight: bold;
     line-height: 36px;
@@ -572,11 +576,12 @@
     background-size: cover;
     height: 323px;
     object-fit: cover;
+    width: 100%;
 }
 .claimRewards {
     position: absolute;
     top: 91px;
-    left: 940px;
+    left: 65%;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -584,7 +589,7 @@
     position: absolute;
     top: 86px;
     font-size: 22px;
-    left: 141px;
+    left: 5%;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -596,7 +601,7 @@
 .aprWrapper {
     position: absolute;
     top: 79px;
-    left: 423px;
+    left: 35%;
     border-radius: 7px;
     background-color: #3e4057;
     display: flex;
@@ -611,7 +616,7 @@
 .cmax {
     position: absolute;
     top: 153px;
-    left: 141px;
+    left: 5%;
     font-size: 82px;
     text-transform: uppercase;
     font-weight: 500;
@@ -626,8 +631,8 @@
 }
 .antDesigndollarOutlinedParent {
     position: absolute;
-    top: 150px;
-    left: 838px;
+    top: 175px;
+    left: 65vw;
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-backdrop-filter: blur(12px);
@@ -637,6 +642,7 @@
     padding: 7px 0px;
     align-items: center;
     justify-content: center;
+    width: 20vw;
     gap: 10px;
     font-size: 56px;
     color: #1f1330;
@@ -652,7 +658,7 @@
     position: absolute;
     top: 1878px;
     left: 0px;
-    width: 1440px;
+    width: 100vw;
     height: 323px;
     font-size: 32px;
 }
@@ -703,7 +709,7 @@
 .groupDiv {
     position: absolute;
     top: 1114px;
-    left: 550px;
+    left: 35%;
     width: 340px;
     height: 40px;
 }
@@ -722,14 +728,15 @@
     left: 0px;
     border-radius: 8px;
     background-color: #282531;
-    width: 570px;
+    width: 45vw;
     height: 449px;
 }
 .topHolders {
     position: absolute;
     top: 130px;
-    left: 207px;
+    left: 0px;
     font-size: 30px;
+    width: 45%;
     text-transform: capitalize;
 }
 .text28 {
@@ -795,7 +802,7 @@
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 567px;
+    width: 45vw;
     height: 443px;
 }
 .vectorIcon4 {
@@ -805,8 +812,8 @@
 }
 .vectorContainer {
     position: absolute;
-    top: 42px;
-    left: 478px;
+    top: 15%;
+    left: 1%;
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -817,7 +824,7 @@
     position: absolute;
     top: 101px;
     left: 28px;
-    width: 511px;
+    width: 80%;
     height: 252px;
     overflow: hidden;
 }
@@ -841,7 +848,7 @@
 .rectangleParent {
     position: absolute;
     top: 83px;
-    left: 603px;
+    left: 48vw;
     width: 567px;
     height: 443px;
     cursor: pointer;
@@ -932,8 +939,8 @@
 .stakingStatsParent {
     position: absolute;
     top: 2331px;
-    left: 135px;
-    width: 1170px;
+    left: 3%;
+    width: 90%;
     height: 535px;
     font-size: 22px;
 }
@@ -955,13 +962,13 @@
 .cmaxPrice1 {
     position: absolute;
     top: 36px;
-    left: 102.18px;
+    left: 0px;
     font-size: 24px;
     text-transform: uppercase;
     font-family: 'Monument Extended';
     text-align: left;
     display: inline-block;
-    width: 249.79px;
+    width: 90%;
     height: 35.59px;
 }
 .div14 {

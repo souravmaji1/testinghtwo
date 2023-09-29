@@ -171,7 +171,7 @@ const HomepageStake: NextPage = () => {
           <Image className={styles.rectangleIcon} alt="" src={Rectangle} />
          
 
-          <div className={styles.staking}>
+          <div className={"absolute landscape:lg:top-[250px] landscape:xl:top-[50px] top-[150px]  w-screen "}>
             <Cmax />
           </div>
 
@@ -410,7 +410,6 @@ const HomepageStake: NextPage = () => {
                 09324414
               </div>
             </div>
-            <img className={styles.groupChild6} alt="" src="Arrow 1.svg" />
           </div>
 
           <div className={styles.stakingStatsParent}>
@@ -419,7 +418,7 @@ const HomepageStake: NextPage = () => {
             </div>
             <div className={styles.groupChild1} />
             <div style={thirdFont.style} className={styles.topHolders}>
-              <Image src={Totalrewards} alt="" />
+              <h5 className="text-white text-2xl text-center" style={myFont.style}>Top Holders</h5>
             </div>
             <div className={styles.text28}>{` `}</div>
             <img className={styles.groupChild2} alt="" src="Vector 16.svg" />
@@ -448,7 +447,7 @@ const HomepageStake: NextPage = () => {
               </div>
               <Image className={styles.frameIcon3} alt="" src={Green} />
               <div style={thirdFont.style} className={styles.cmaxPrice1}>
-                <Image src={Cmaxpr} alt="" />
+                <h5 className="text-white text-2xl text-center" style={myFont.style}>CMAX PRICE</h5>
               </div>
             </div>
             <div className={styles.frameParent2}>
@@ -491,7 +490,6 @@ const HomepageStake: NextPage = () => {
                 09324414
               </div>
             </div>
-            <img className={styles.groupChild6} alt="" src="Arrow 1.svg" />
           </div>
         </div>
 		<section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[450px] z-50 opacity-100">
