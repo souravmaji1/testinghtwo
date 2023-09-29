@@ -197,6 +197,7 @@ body {
 .gradBlueBG{
   background: linear-gradient(180deg, #201d26, #1d1b20);
   color: #ffe500;
+  height: 100vh !important;
 }
 
 body{
@@ -215,8 +216,14 @@ body{
 .discoverBox {
   background: linear-gradient(180deg, rgba(71, 71, 71, 0.52) 0%, rgba(40, 39, 41, 0.52) 100%);
   backdrop-filter: blur(23px);
-
+  
 }
+
+.discoverBoxContainer{
+  height: fit-content !important;
+}
+
+
 
 .credit {
   display: flex;
@@ -690,3 +697,5 @@ body{
 
   }
 }
+
+
