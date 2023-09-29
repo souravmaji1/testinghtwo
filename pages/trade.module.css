@@ -410,7 +410,7 @@
 .rectangleParent {
     position: absolute;
     top: 260px;
-    left: 136px;
+    left: 1%;
     width: 370px;
     height: 333px;
     cursor: pointer;
@@ -445,7 +445,7 @@
 .rectangleGroup {
     position: absolute;
     top: 260px;
-    left: 536px;
+    left: 34%;
     width: 370px;
     height: 333px;
     cursor: pointer;
@@ -481,7 +481,7 @@
 .rectangleContainer {
     position: absolute;
     top: 260px;
-    left: 934px;
+    left: 67%;
     width: 370px;
     height: 333px;
     cursor: pointer;
