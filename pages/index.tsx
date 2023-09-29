@@ -203,7 +203,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
-        <div className="absolute whitePaperBox w-full h-fit">
+        <div className="whitePaperBox landscape:md:absolute landscape:md:top-0 portrait:lg:absolute portrait:lg:top-[30%] w-full h-fit">
           
           <div className={`mx-0 ${styles.frameParent}`}>
             <div className={styles.groupParent}>
