@@ -473,7 +473,7 @@ const HomeIPadPro1291: NextPage = () => {
           </a>
         </div>
         <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
-          All Rights Reserved - © 2021 Stephen King
+          All Rights Reserved - © 2023 CMax
         </h5>
       </section>
     </>

@@ -124,7 +124,7 @@ const HomepageAbout: NextPage = () => {
 
         </div>
 
-        <div className={styles.vectorParent} style={{top: "1000px"}}>
+        <div className={styles.vectorParent} style={{top: "1100px"}}>
           <Image className={styles.groupItem} alt="" src={Snake} />
 
           <div className={styles.frameDiv} />
@@ -208,7 +208,7 @@ const HomepageAbout: NextPage = () => {
           </a>
         </div>
         <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
-          All Rights Reserved - © 2021 Stephen King
+          All Rights Reserved - © 2023 CMax
         </h5>
       </section>
     </div>

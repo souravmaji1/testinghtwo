@@ -132,7 +132,7 @@ const HomeIPadPro1291: NextPage = () => {
   };
 
   return (
-    <div className={`${styles.homeIpadPro1291} h-[4400px] landscape:h-[4000px]`}>
+    <div className={`${styles.homeIpadPro1291} h-[4200px] landscape:h-[4000px]`}>
       <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <div className="w-screen h-fit absolute top-[2200px] flex flex-col items-center justify-start pt-10">
@@ -345,7 +345,7 @@ const HomeIPadPro1291: NextPage = () => {
         {t("secondhead")}{" "}
       </div>
 
-      <section className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[10%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"

@@ -266,7 +266,7 @@ const TradeIPadPro1292: NextPage = () => {
                 <a href="/profile"><h5 className='text-white montreal text-2xl md:text-2xl'>Profile</h5></a>
                
             </div>
-            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2021 Stephen King</h5>
+            <h5 className="montreal text-gray-500 text-sm absolute bottom-8">All Rights Reserved - © 2023 CMax</h5>
             
         </section>
     </>
