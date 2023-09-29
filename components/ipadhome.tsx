@@ -223,7 +223,6 @@ const HomeIPadPro1291: NextPage = () => {
 
       <div className={styles.btnParent}>
         <div className={styles.btn}>
-          <Image className={styles.btnChild} alt="" src={Btx} />
           <div
             style={thirdFont.style}
             className={`flex flex-row items-center justify-center ${styles.startTrading}`}

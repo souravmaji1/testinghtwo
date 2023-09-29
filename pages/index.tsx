@@ -184,10 +184,10 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.btnParent}>
           <div className={styles.btn}>
-            <Image className={styles.btnChild} alt="" src={Btn} />
-            <div style={thirdFont.style} className={styles.startTrading}>
+            
+            <div style={thirdFont.style} className={`${styles.startTrading} startTradingBtnClipped`}>
               <a href="/trade">
-                <h5 className="text-black text-base w-full text-center">
+                <h5 className="text-black text-base w-full text-center mb-0">
                   {t("tradingbutton")}
                 </h5>
               </a>

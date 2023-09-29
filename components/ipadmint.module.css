@@ -584,7 +584,6 @@
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
     width: 100%;
-    height: 1454px;
     overflow: hidden;
     text-align: left;
     font-size: 16px;
@@ -1072,7 +1071,7 @@
         position: relative;
         background: linear-gradient(180deg, #201d26, #1d1b20);
         width: 100%;
-        height: 2099px;
+        
         overflow: hidden;
         text-align: left;
         font-size: 16px;

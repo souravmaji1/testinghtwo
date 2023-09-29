@@ -163,10 +163,18 @@
 .startTrading {
     position: absolute;
     font-size: 17px;
-    top: calc(49% - 9px);
+    top: calc(49% - 20px);
     left: calc(36% - 54px);
     text-transform: uppercase;
     font-weight: 500;
+    background: linear-gradient(180deg, #ffe500, #fff492);
+    border-radius: 4px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%);
 }
 .btn {
     position: relative;
@@ -195,7 +203,7 @@
 .btnParent {
     position: absolute;
     top: 733px;
-    left: calc(50% - 586px);
+    left: 7%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1072,7 +1080,6 @@
     color: #fff;
     font-family: 'NeueMontreal-Light';
 }
-
 
 
 
@@ -2181,7 +2188,7 @@ width: 670px;
    .btnParent{
     position: absolute;
     top: 733px;
-    left: calc(58% - 586px);
+    left: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2563,7 +2570,7 @@ width: 670px;
     .btnParent{
      position: absolute;
      top: 733px;
-     left: calc(58% - 586px);
+     left: 4%;
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -3062,7 +3069,7 @@ width: 670px;
     .btnParent{
      position: absolute;
      top: 733px;
-     left: calc(58% - 586px);
+     left: 3%;
      display: flex;
      flex-direction: row;
      align-items: center;

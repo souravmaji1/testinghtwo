@@ -87,7 +87,7 @@ const TradeSubpageIPadPro129: NextPage = () => {
   };
 
   return (
-    <div className={styles.tradeSubpageIpadPro129}>
+    <div className={`${styles.tradeSubpageIpadPro129} h-[2100px]`}>
       <GenericMobileNavbar />
       <div className={styles.tradeSubpageIpadPro129Child} />
       <div className={styles.swapMintburn2}>
@@ -178,6 +178,42 @@ const TradeSubpageIPadPro129: NextPage = () => {
           +1,03 | +0,83%
         </div>
       </div>
+      <section className="bg-[#141315] hidden h-fit w-screen md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+          <a href="/">
+            <img
+              src={Headlogo.src}
+              className=" aspect-square w-20 mb-10"
+              alt=""
+            />
+          </a>
+          <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
+            <a href="/">
+              <h5
+                className="text-white montreal text-2xl md:text-xl"
+                style={secondFont.style}
+              >
+                Home
+              </h5>
+            </a>
+            <a href="/trade">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Trade</h5>
+            </a>
+            <a href="/stake">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Stake</h5>
+            </a>
+            <a href="/about">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>About</h5>
+            </a>
+            <a href="/profile">
+              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>
+                Profile
+              </h5>
+            </a>
+          </div>
+          <h5 className="montreal text-gray-500 text-sm absolute bottom-8" style={thirdFont.style}>
+            All Rights Reserved - © 2023 CMax
+          </h5>
+        </section>
     </div>
   );
 };
