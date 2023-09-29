@@ -129,6 +129,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(180deg, #ffe500, #fff492);
+    border-radius: 4px;
+    padding: 5% 2%;
+    width: 80%;
+    margin-left: auto !important;
+     margin-right: auto !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%);
 }
 
 .languageone {
@@ -164,6 +175,7 @@
     justify-content: flex-start;
     gap: 11px;
     color: #fff;
+    margin-top: 8%;
 }
 
 .glassy {

@@ -199,10 +199,9 @@ const HomeIPadPro1291: NextPage = () => {
         </div>
         <div className={styles.btnParent}>
           <div className={styles.btn}>
-            <img className={styles.btnChild} alt="" src="Rectangle 334.svg" />
             <div style={thirdFont.style} className={styles.startTrading}>
               <a href="/trade">
-                <h5 className="text-black text-base w-full text-center">
+                <h5 className="text-black text-base w-full text-center mb-0">
                   {t("tradingbutton")}
                 </h5>
               </a>
