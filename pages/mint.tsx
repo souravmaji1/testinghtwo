@@ -122,105 +122,112 @@ const HomepageTradeSubpage: NextPage = () => {
 
       <div className={styles.homepageTradeSubpage}>
         <GenericMobileNavbar />
-        <div className={styles.homepageTradeSubpageInner} />
+        <div className="h-full w-screen bg-red-50/10 mt-36 relative">
+          <div className={styles.homepageTradeSubpageInner} />
 
-        <div style={myFont.style} className={styles.titaEtf}>
-          Tita ETF
-        </div>
-        <div className={styles.wrapper}>
-          <div style={secondFont.style} className={styles.div}>
-            128.68
+          <div style={myFont.style} className={styles.titaEtf}>
+            Tita ETF
           </div>
-        </div>
-        <div className={styles.frameParent}>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              1G
+          <div className={styles.wrapper}>
+            <div style={secondFont.style} className={styles.div}>
+              128.68
             </div>
           </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              1M
+          <div className={styles.frameParent}>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                1G
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                1M
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                3M
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                6M
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                1A
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                3A
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                5A
+              </div>
+            </div>
+            <div className={styles.gWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                YTD
+              </div>
+            </div>
+            <div className={styles.maxWrapper}>
+              <div style={thirdFont.style} className={styles.g}>
+                MAX
+              </div>
             </div>
           </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              3M
+          <div style={secondFont.style} className={styles.ter033}>
+            TER → 0.33%
+          </div>
+          <div className={styles.vectorParent}>
+            <img className={styles.vectorIcon1} alt="" src="Vector.svg" />
+            <div className={styles.div}>
+              <span style={secondFont.style}>{`+1,03  `}</span>
+              <span className={styles.span}>|</span>
+              <span style={secondFont.style}> +0,83%</span>
             </div>
           </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              6M
+          <div className={styles.frame1}>
+            <div className={styles.lineParent}>
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
+              <div className={styles.frameChild} />
             </div>
-          </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              1A
-            </div>
-          </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              3A
-            </div>
-          </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              5A
-            </div>
-          </div>
-          <div className={styles.gWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              YTD
-            </div>
-          </div>
-          <div className={styles.maxWrapper}>
-            <div style={thirdFont.style} className={styles.g}>
-              MAX
-            </div>
-          </div>
-        </div>
-        <div style={secondFont.style} className={styles.ter033}>
-          TER → 0.33%
-        </div>
-        <div className={styles.vectorParent}>
-          <img className={styles.vectorIcon1} alt="" src="Vector.svg" />
-          <div className={styles.div}>
-            <span style={secondFont.style}>{`+1,03  `}</span>
-            <span className={styles.span}>|</span>
-            <span style={secondFont.style}> +0,83%</span>
-          </div>
-        </div>
-        <div className={styles.frame1}>
-          <div className={styles.lineParent}>
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-          </div>
-          <img className={styles.groupIcon5} alt="" src="Group.svg" />
-          <img className={styles.groupIcon6} alt="" src="Group.svg" />
-          <img className={styles.groupIcon7} alt="" src="Group.svg" />
-          <img className={styles.groupIcon8} alt="" src="Group.svg" />
+            <img className={styles.groupIcon5} alt="" src="Group.svg" />
+            <img className={styles.groupIcon6} alt="" src="Group.svg" />
+            <img className={styles.groupIcon7} alt="" src="Group.svg" />
+            <img className={styles.groupIcon8} alt="" src="Group.svg" />
 
-          <Chart />
+            <div className=" bg-none">
+            <Chart />
+            </div>
+          </div>
+          <div className={styles.rectangleDiv} />
+          <div
+            className={styles.backToTradeBtn1}
+            onClick={onBackToTradeBtnClick}
+          >
+            <Image className={styles.pharrowDownBoldIcon1} alt="" src="" />
+            <div className={styles.g}>Back to trade</div>
+          </div>
+          <div className={styles.swapMintburn}>
+            <Minting />
+          </div>
         </div>
-        <div className={styles.rectangleDiv} />
-        <div className={styles.backToTradeBtn1} onClick={onBackToTradeBtnClick}>
-          <Image className={styles.pharrowDownBoldIcon1} alt="" src="" />
-          <div className={styles.g}>Back to trade</div>
-        </div>
-        <div className={styles.swapMintburn}>
-          <Minting />
-        </div>
-        
+
         <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
           <a href="/">
             <img

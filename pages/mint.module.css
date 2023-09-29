@@ -35,18 +35,18 @@
 }
 .homepageTradeSubpageInner {
     position: absolute;
-    top: 260px;
-    left: 136px;
+    top: 15%;
+    left: 3%;
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
     backdrop-filter: blur(46px);
-    width: 769px;
+    width: 60%;
     height: 692px;
 }
 .titaEtf {
     position: absolute;
-    top: 202px;
-    left: 135px;
+    top: 3%;
+    left: 3%;
     font-size: 24px;
     font-family: 'MonumentExtended-Regular';
 }
@@ -57,8 +57,8 @@
 }
 .wrapper {
     position: absolute;
-    top: 189px;
-    left: 476px;
+    top: 7%;
+    left: 3%;
     border-radius: 7px;
     background-color: #3e4057;
     display: flex;
@@ -95,8 +95,8 @@
 }
 .frameParent {
     position: absolute;
-    top: 898px;
-    left: 204px;
+    top: 60%;
+    left: 5%;
     width: 646px;
     display: flex;
     flex-direction: row;
@@ -105,8 +105,8 @@
 }
 .ter033 {
     position: absolute;
-    top: 199px;
-    left: 778px;
+    top: 7.5%;
+    left: 27%;
     font-size: 22px;
     line-height: 36px;
     text-transform: capitalize;
@@ -121,8 +121,8 @@
 }
 .vectorParent {
     position: absolute;
-    top: 189px;
-    left: 571px;
+    top: 7%;
+    left: 10%;
     border-radius: 7px;
     background-color: #3e4057;
     display: flex;
@@ -225,8 +225,8 @@
 }
 .frame1 {
     position: absolute;
-    top: 426px;
-    left: 163px;
+    top: 17%;
+    left: 4%;
     width: 709px;
     height: 456px;
 }
