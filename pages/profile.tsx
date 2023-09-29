@@ -57,6 +57,8 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 import GenericMobileNavbar from "@/components/mobileGenericNavbar";
 import communityBg from "../public/back.png";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { BsChevronDown } from 'react-icons/bs'
 
 const HomepageProfile: NextPage = () => {
   const onHomeTextClick = useCallback(() => {
@@ -107,19 +109,52 @@ const HomepageProfile: NextPage = () => {
       <div className={styles.homepageProfile}>
         <div className={styles.homepageProfileChild} />
         <GenericMobileNavbar />
-        <Image className={styles.homepageProfileChild2} alt="" src={User} />
-
-        <Image className={styles.unionIcon3} alt="" src={Star} />
-        <div style={myFont.style} className={styles.sebastianMathew}>
-          User 1
+        <div className="absolute w-screen h-[fit] top-[5%]">
+          <div className="w-full h-fit flex flex-row items-center justify-center gap-10">
+            <div className="w-5/12 h-full flex flex-row items-center justify-end">
+              <img
+                src={User.src}
+                className="w-6/12 aspect-square rounded-full"
+                alt=""
+              />
+            </div>
+            <div className="w-7/12 h-fit flex flex-col items-start justify-between">
+              <h5 className="text-[#FFE500] text-5xl mb-5" style={myFont.style}>
+                Hi,
+              </h5>
+              <h5 className="text-white text-5xl mb-3" style={myFont.style}>
+                Test User
+              </h5>
+              <div className="flex flex-row items-center justify-start mb-3">
+                <MdOutlineLocationOn color="#FFE500" size={40} />
+                <h5
+                  className="text-white text-3xl mb-0 ml-2"
+                  style={secondFont.style}
+                >
+                  Test
+                </h5>
+              </div>
+              <div className="flex flex-row items-center justify-start">
+                <h5
+                  className="text-[#FFE500] text-2xl my-0"
+                  style={fourthFont.style}
+                >
+                  Net Worth:
+                </h5>
+                <h5
+                  className="text-white text-2xl my-0 ml-2"
+                  style={secondFont.style}
+                >
+                  $0
+                </h5>
+              </div>
+            </div>
+          </div>
         </div>
         <div style={thirdFont.style} className={styles.holdings}>
           <Image src={Holdings} alt="" />
         </div>
-        <div style={{ fontFamily: "Inter" }} className={styles.networth}>
-          <Image src={Networth} alt="" />
-        </div>
-        <div className={styles.div}>$0</div>
+
         <div className={styles.rectangleDiv} />
         <div style={{ fontFamily: "Inter" }} className={styles.pl}>
           <Image src={Pls} alt="" />
@@ -178,153 +213,82 @@ const HomepageProfile: NextPage = () => {
           </div>
         </div>
         <div className={styles.frame}>
-          <div className={styles.lineParent}>
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-            <div className={styles.frameChild} />
-          </div>
-          <img className={styles.groupIcon3} alt="" src="Group.svg" />
-          <img className={styles.groupIcon4} alt="" src="Group.svg" />
-          <img className={styles.groupIcon5} alt="" src="Group.svg" />
-          <img className={styles.groupIcon6} alt="" src="Group.svg" />
           <Chart />
         </div>
-        <div className={styles.homepageProfileChild3} />
-        <div style={{ fontFamily: "Inter" }} className={styles.unfold11Coin1}>
-          Unfold 11 Coin
-        </div>
-        <div className={styles.polygon31b1e7a0Parent}>
-          <Image className={styles.polygon31b1e7a0Icon} alt="" src={Polygon} />
-          <div className={styles.polygonParent}>
-            <div style={{ fontFamily: "Inter" }} className={styles.polygon}>
-              Polygon
-            </div>
-            <div className={styles.div2}>
-              <span>
-                <b className={styles.b}>$05</b>
-                <span className={styles.span}>{` `}</span>
-              </span>
-              <span className={styles.span}>
-                <span>03%</span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className={styles.mantle61752091Parent}>
-          <Image className={styles.mantle61752091Icon} alt="" src={Mantle} />
-          <div className={styles.polygonParent}>
-            <div style={{ fontFamily: "Inter" }} className={styles.polygon}>
-              Mantie
-            </div>
-            <div className={styles.div2}>
-              <span>
-                <b className={styles.b}>$75</b>
-                <span className={styles.span}>{` `}</span>
-              </span>
-              <span className={styles.span}>
-                <span>37%</span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className={styles.eth47c40f70Parent}>
-          <Image className={styles.polygon31b1e7a0Icon} alt="" src={Eth} />
-          <div className={styles.polygonParent}>
-            <div style={{ fontFamily: "Inter" }} className={styles.polygon}>
-              Ethereum
-            </div>
-            <div className={styles.div2}>
-              <span>
-                <b className={styles.b}>$83</b>
-                <span className={styles.span}>{` `}</span>
-              </span>
-              <span className={styles.span}>
-                <span>43%</span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className={styles.bsc67e32b4cParent}>
-          <Image className={styles.polygon31b1e7a0Icon} alt="" src={Bnb} />
-          <div className={styles.polygonParent}>
-            <div style={{ fontFamily: "Inter" }} className={styles.polygon}>
-              BNB Coin
-            </div>
-            <div className={styles.div2}>
-              <span>
-                <b className={styles.b}>$24</b>
-                <span className={styles.span}>{` `}</span>
-              </span>
-              <span className={styles.span}>
-                <span>37%</span>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div style={myFont.style} className={styles.hi}>
-          HI,
-        </div>
-        <div className={styles.mdilocationParent}>
-          <Image className={styles.mdilocationIcon1} alt="" src={Location} />
-          <div style={secondFont.style} className={styles.nwBobcatLane}>
-            Test
-          </div>
-        </div>
-        <Image className={styles.homepageProfileChild4} alt="" src={Social} />
-        <div className={styles.text10}>{` `}</div>
-        <div className={styles.text11}>{` `}</div>
-        <div className={styles.eth47c40f70Group}>
-          <Image className={styles.polygon31b1e7a0Icon} alt="" src={Wallet} />
-          <div className={styles.polygonParent}>
-            <div className={styles.walletWrapper}>
-              <div style={{ fontFamily: "Inter" }} className={styles.polygon}>
-                Wallet
+        <div className={`${styles.homepageProfileChild3} h-fit flex flex-col items-center justify-center px-20 py-10`}>
+          <div className="flex flex-row items-center justify-between w-11/12 h-fit gap-1">
+            <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
+              <img src={Eth.src} alt="" />
+              <div>
+                <h5 style={secondFont.style} className="text-white text-xl mb-0">Ethereum</h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
               </div>
             </div>
-            <b className={styles.b4}>$435</b>
-          </div>
-        </div>
-        <div className={styles.eth47c40f70Container}>
-          <Image className={styles.polygon31b1e7a0Icon} alt="" src={Pool} />
-          <div className={styles.polygonParent}>
-            <div className={styles.poolTogetherWrapper}>
-              <div style={{ fontFamily: "Inter" }} className={styles.polygon}>
-                Pool Together
+            <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
+              <img src={Mantle.src} alt="" />
+              <div>
+                <h5 style={secondFont.style} className="text-white text-xl mb-0">Mantle</h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
               </div>
             </div>
-            <b className={styles.b4}>$0</b>
+            <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
+              <img src={Polygon.src} alt="" />
+              <div>
+                <h5 style={secondFont.style} className="text-white text-xl mb-0">Polygon</h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
+              </div>
+            </div>
+            <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
+              <img src={Bnb.src} alt="" />
+              <div>
+                <h5 style={secondFont.style} className="text-white text-xl mb-0">BNB COIN</h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
+              </div>
+            </div>
+          </div>
+          <h5 style={thirdFont.style} className="text-xl text-[#FFE500] mt-10">
+            {t('more')}
+          </h5>
+          <BsChevronDown color="#FFE500" size={30} className="mb-10"></BsChevronDown>
+          <div className="flex flex-row items-center justify-center w-10/12 h-fit gap-5">
+            <div className="h-fit gradGrey w-1/4 flex flex-row items-start justify-between py-3 px-10 rounded-xl border border-white">
+              <img src={Wallet.src} alt="" />
+              <div>
+                <h5 style={secondFont.style} className="text-white text-xl mb-0">Wallet</h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$183 <span className="text-base" style={secondFont.style}>4%</span></h5>
+              </div>
+            </div>
+            <div className="h-fit gradGrey w-1/4 flex flex-row items-start justify-between py-3 px-10 rounded-xl border border-white">
+              <img src={Pool.src} alt="" />
+              <div>
+                <h5 style={secondFont.style} className="text-white text-xl mb-0">Pool Together</h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$0<span className="text-base" style={secondFont.style}>4%</span></h5>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
-      <section className="h-fit w-screen bg-center bg-cover hidden xl:flex flex-col items-center justify-center bg-no-repeat mt-0 absolute bottom-[450px] z-50 opacity-100">
+      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[400px] z-50 opacity-100">
         <img
           src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
           alt=""
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
             style={thirdFont.style}
           >
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}
           </h5>
-          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+          <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
             <BsGithub color="#ffffff" size={35} />
             <FaXTwitter color="#ffffff" size={35} />
             <TiSocialLinkedinCircular color="#ffffff" size={45} />

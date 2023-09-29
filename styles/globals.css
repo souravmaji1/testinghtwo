@@ -629,6 +629,10 @@ body{
   top: 814px;
 }
 
+.gradGrey{
+	background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+}
+
 #ipadAbtLang .dropdown {
   top: unset !important;
 }

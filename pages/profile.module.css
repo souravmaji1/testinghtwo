@@ -195,8 +195,8 @@
 }
 .holdings {
 	position: absolute;
-	top: 1689px;
-	left: calc(50% - 585px);
+	top: 42%;
+	left: 5%;
 	font-size: 43px;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -221,18 +221,18 @@
 }
 .rectangleDiv {
 	position: absolute;
-	top: 874px;
-	left: 135px;
+	top: 18%;
+	left: 3%;
 	border-radius: 11px;
 	background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
 	backdrop-filter: blur(46px);
-	width: 1170px;
+	width: 95%;
 	height: 692px;
 }
 .pl {
 	position: absolute;
-	top: 931px;
-	left: 197px;
+	top: 19%;
+	left: 5%;
 	font-size: 43px;
 	text-transform: capitalize;
 	font-weight: 500;
@@ -245,8 +245,8 @@
 }
 .vectorParent {
 	position: absolute;
-	top: 931px;
-	left: 297px;
+	top: 19%;
+	left: 15%;
 	border-radius: 7px;
 	background-color: #3e4057;
 	display: flex;
@@ -279,8 +279,8 @@
 }
 .frameParent {
 	position: absolute;
-	top: 1512px;
-	left: 273px;
+	top: 37%;
+	left: 10%;
 	width: 906px;
 	display: flex;
 	flex-direction: row;
@@ -378,20 +378,24 @@
 }
 .frame {
 	position: absolute;
-	top: 1040px;
-	left: 205px;
-	width: 996px;
+	top: 22%;
+	left: 5%;
+	width: 90%;
 	height: 456px;
 }
 .homepageProfileChild3 {
 	position: absolute;
-	top: 1775px;
-	left: 135px;
+	top: 45%;
+	left: 5%;
 	border-radius: 8px;
 	background-color: #282531;
-	width: 1170px;
-	height: 449px;
+	width: 90%;
 }
+
+.gradGrey{
+	background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+}
+
 .unfold11Coin1 {
 	position: absolute;
 	top: 1952px;
