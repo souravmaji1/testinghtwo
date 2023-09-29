@@ -52,12 +52,18 @@ const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 
+import communityBg from "../public/back.png";
+
 import Languageswitch from "../components/desktop";
 
 import { useTranslation } from "react-i18next";
 
 import Holdins from "../public/Holdings.png";
 import GenericMobileNavbar from "./mobileGenericNavbar";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
 
 const ProfileIPadPro1294: NextPage = () => {
   const onTradeTextClick = useCallback(() => {
@@ -83,7 +89,7 @@ const ProfileIPadPro1294: NextPage = () => {
   };
 
   return (
-    <div className={styles.profileIpadPro1294}>
+    <div className={`${styles.profileIpadPro1294} h-[2900px] landscape:h-[2900px]`}>
 		<GenericMobileNavbar />
       <div className={styles.profileIpadPro1294Child} />
       <Image className={styles.circleBgIcon} alt="" src={Circles} />
@@ -267,6 +273,33 @@ const ProfileIPadPro1294: NextPage = () => {
           <b className={styles.b3}>$0</b>
         </div>
       </div>
+      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] landscape:bottom-[12%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </div>
+      </section>
       <section className="bg-[#141315] hidden h-fit w-screen md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
           <a href="/">
             <img

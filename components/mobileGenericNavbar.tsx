@@ -58,6 +58,7 @@ function GenericMobileNavbar() {
     flagImage: StaticImageData
   ) => {
     setSelectedLanguage({ name: language, image: flagImage });
+    localStorage.setItem("lang", language);
     i18n.changeLanguage(language);
   };
 
@@ -474,11 +475,11 @@ function GenericMobileNavbar() {
             arrow={true}
             menuButton={
               <MenuButton>
-                <div className="h-8 aspect-square rounded-full border-yellow-400 border p-[1px] mr-3">
+                <div className="h-8 aspect-square rounded-full overflow-hidden border-yellow-400 border p-[1px] mr-3">
                   <Image
                     src={selectedLanguage.image}
                     alt={selectedLanguage.name}
-                    className="w-full h-full  aspect-square"
+                    className="w-full h-full rounded-full aspect-square"
                   />
                 </div>
               </MenuButton>

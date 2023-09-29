@@ -106,7 +106,7 @@ const HomepageProfile: NextPage = () => {
         <IpadProfile />
       </div>
 
-      <div className={styles.homepageProfile}>
+      <div className={`${styles.homepageProfile} h-[2700px]`}>
         <div className={styles.homepageProfileChild} />
         <GenericMobileNavbar />
         <div className="absolute w-screen h-[fit] top-[5%]">
@@ -269,7 +269,7 @@ const HomepageProfile: NextPage = () => {
           </div>
         </div>
       </div>
-      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[400px] z-50 opacity-100">
+      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
