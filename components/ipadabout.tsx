@@ -163,8 +163,8 @@ const AboutIPadPro1293: NextPage = () => {
                     : localStorage.getItem("lang") == "fr" ||
                       localStorage.getItem("lang") == "ar" ||
                       localStorage.getItem("lang") == "it"
-                    ? "16px"
-                    : "16px",
+                    ? "14px"
+                    : "14px",
               }}
             >
               {t("roadmapone")}
@@ -181,8 +181,8 @@ const AboutIPadPro1293: NextPage = () => {
                     : localStorage.getItem("lang") == "fr" ||
                       localStorage.getItem("lang") == "ar" ||
                       localStorage.getItem("lang") == "it"
-                    ? "16px"
-                    : "16px",
+                    ? "14px"
+                    : "14px",
               }}
             >
               {t("roadmapfour")}
@@ -199,8 +199,8 @@ const AboutIPadPro1293: NextPage = () => {
                     : localStorage.getItem("lang") == "fr" ||
                       localStorage.getItem("lang") == "ar" ||
                       localStorage.getItem("lang") == "it"
-                    ? "16px"
-                    : "16px",
+                    ? "14px"
+                    : "14px",
               }}
             >
               {t("roadmapthree")}
@@ -220,8 +220,8 @@ const AboutIPadPro1293: NextPage = () => {
                     : localStorage.getItem("lang") == "fr" ||
                       localStorage.getItem("lang") == "ar" ||
                       localStorage.getItem("lang") == "it"
-                    ? "14px"
-                    : "14px",
+                    ? "13px"
+                    : "13px",
               }}
             >
               {t("roadmaptwo")}

@@ -2889,12 +2889,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(45% - 148px);
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
         font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 349px;
+        width: 100%;
     }
 
     .diveIntoThe1 {

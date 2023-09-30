@@ -156,7 +156,7 @@ const StakeIPadPro1292: NextPage = () => {
         </div>
 
         <section
-          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[800px] z-50"
+          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}

@@ -460,7 +460,6 @@
 .unfold10ResultParent {
     position: absolute;
     top: 425px;
-    left: 100px;
     display: flex;
     font-size: 20px;
     flex-direction: column;
@@ -468,6 +467,9 @@
     justify-content: flex-start;
     color: #ffe500;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .eth47c40f70Icon {
@@ -535,7 +537,7 @@
 .frameDiv {
     position: absolute;
     top: 548px;
-    width: 87% !important;
+    width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
     display: flex;
@@ -603,16 +605,18 @@
     position: absolute;
     top: 1370px;
     left: 19px;
-    width: 392px;
+    width: 361px;
     height: 813px;
     font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profileIpadPro1294 {
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
     width: 100%;
-    height: 3019px;
+    height: 3300px;
     overflow: hidden;
     text-align: left;
     font-size: 20px;

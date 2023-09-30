@@ -60,6 +60,11 @@ import Networth from "../public/Net-worth.png";
 import Copyright from "../public/Copy Right 2023 - CMax. All Rights Reserved.png";
 import LanguageSelector from "./mobilelang";
 import GenericMobileNavbar from "./mobileGenericNavbar";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
+import communityBg from "../public/back.png";
 
 const ProfileIPadPro1294: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
@@ -347,6 +352,31 @@ const ProfileIPadPro1294: NextPage = () => {
         </PortalPopup>
       )}
       <GenericMobileNavbar />
+      <section
+          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
+          style={{
+            backgroundImage: `url('${communityBg.src}')`,
+          }}
+        >
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </section>
       <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
             <a href="/"><img src={Headlogo.src} className=' aspect-square w-20 md:w-36 my-10 md:my-16' alt="" /></a>
             <div className='flex flex-col items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full mb-6 md:mb-10'>
