@@ -8,6 +8,7 @@ import Headlogo from "../public/logs.png";
 import Wallet from "../public/mingcute_wallet-4-fill.svg";
 import User from "../public/Ellipse 59.svg";
 import Circles from "../public/Group 6.png";
+import communityBg from "../public/back.png";
 import Snake from "../public/Vector 19.png";
 import Image from "next/image";
 import Sidecircle from "../public/Group 8.png";
@@ -41,6 +42,10 @@ import Aboutu from "../public/About Us.png";
 import Languageswitch from "../components/desktop";
 import { useTranslation } from "react-i18next";
 import Roadmap from "../public/Road Map.png";
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
 
 const myFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
@@ -231,6 +236,33 @@ const AboutIPadPro1293: NextPage = () => {
       </div>
 
       <div className={styles.frameParent}></div>
+      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

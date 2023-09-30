@@ -74,6 +74,12 @@ const fourthFont = localFont({
 
 import { useTranslation } from "react-i18next";
 
+import { BsGithub } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { SiNotion } from "react-icons/si";
+import communityBg from "../public/back.png";
+
 import GenericMobileNavbar from "./mobileGenericNavbar";
 
 const StakeIPadPro1292: NextPage = () => {
@@ -150,21 +156,34 @@ const StakeIPadPro1292: NextPage = () => {
       <div className={styles.stakeIpadPro1292}>
         <GenericMobileNavbar />
         <div className={styles.stakeIpadPro1292Child} />
+        <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
         <img
-          className={styles.stakeIpadPro1292Item}
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
           alt=""
-          src="Group 1000000920.png"
         />
-        <div className={styles.joinOurCommunityParent}>
-          <div style={thirdFont.style} className={styles.joinOurCommunity1}>
-            <Image style={{ margin: "auto" }} src={Joins} alt="" />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
           </div>
-          <div style={secondFont.style} className={styles.diveIntoA1}>
-            {" "}
-            {t("communityparagraph")}{" "}
-          </div>
-          <img className={styles.groupChild} alt="" src="Group 2.png" />
         </div>
+      </section>
+        
         <Image className={styles.circleBgIcon} alt="" src={Circles} />
 
         <img className={styles.unionIcon2} alt="" src="Union.png" />
