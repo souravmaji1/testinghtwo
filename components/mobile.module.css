@@ -255,22 +255,28 @@
 .downloadOurWhite1 {
     position: absolute;
     top: 0px;
-    left: calc(50% - 148px);
-    font-size: 23px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 28px;
     text-transform: capitalize;
     font-weight: 500;
-    display: inline-block;
-    width: 332px;
+    width: 100%;
 }
 
 .groupInner {
     position: absolute;
     top: 0px;
-    left: 0px;
     border-radius: 11px;
     background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
     backdrop-filter: blur(46px);
-    width: 394px;
+    width: 80%;
+    margin-left: 10%;
     height: 266px;
 }
 
@@ -1049,12 +1055,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(42% - 148px);
-        font-size: 25px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 332px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -1223,14 +1234,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 312px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -1302,12 +1313,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(42% - 148px);
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
         font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 332px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -1460,14 +1476,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 312px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -1496,14 +1512,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 47px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 293px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .frameGroup {
@@ -1751,12 +1767,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(50% - 148px);
-        font-size: 20px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 332px;
+        width: 100%;
 
     }
 
@@ -1816,12 +1837,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(42% - 148px);
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
         font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 332px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -1977,14 +2003,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 329px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -2037,12 +2063,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(42% - 148px);
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
         font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 332px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -2195,14 +2226,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 337px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -2256,12 +2287,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(42% - 148px);
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
         font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 349px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -2417,15 +2453,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        margin-left: 10%;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 80%;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -2479,12 +2514,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(42% - 148px);
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
         font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 349px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -2637,14 +2677,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 354px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -2688,12 +2728,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(45% - 148px);
-        font-size: 22px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 349px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -2846,14 +2891,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 369px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -3117,12 +3162,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(45% - 148px);
-        font-size: 24px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 349px;
+        width: 100%;
     }
 
     .diveIntoThe1 {
@@ -3286,14 +3336,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 369px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -3345,12 +3395,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(45% - 148px);
-        font-size: 23px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 358px;
+        width: 100%;
 
     }
 
@@ -3557,14 +3612,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 369px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {
@@ -3615,12 +3670,17 @@
     .downloadOurWhite1 {
         position: absolute;
         top: 0px;
-        left: calc(45% - 148px);
-        font-size: 24px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 28px;
         text-transform: capitalize;
         font-weight: 500;
-        display: inline-block;
-        width: 349px;
+        width: 100%;
 
     }
 
@@ -3836,14 +3896,14 @@
 
     .groupInner {
         position: absolute;
-        top: 0px;
-        left: 0px;
-        border-radius: 11px;
-        background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
-        -webkit-backdrop-filter: blur(46px);
-        backdrop-filter: blur(46px);
-        width: 369px;
-        height: 266px;
+    top: 0px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+    -webkit-backdrop-filter: blur(46px);
+    backdrop-filter: blur(46px);
+    width: 80%;
+    margin-left: 10%;
+    height: 266px;
     }
 
     .shutterstock2152297015ConveIcon {

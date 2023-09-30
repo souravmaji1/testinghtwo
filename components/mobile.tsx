@@ -220,43 +220,23 @@ const HomeIPadPro1291: NextPage = () => {
         </div>
 
         <div className={styles.homeIpadPro1291Child1} />
-        <div className={styles.ellipseParent}>
-          <div style={thirdFont.style} className={styles.downloadOurWhite1}>
-            <h5 className="text-2xl text-center my-0 w-10/12">
-              {t("downloadhead")}
-            </h5>
+        <div className="w-screen h-fit absolute top-[740px] flex flex-col items-center justify-start gap-4 ">
+          <h5 className="text-2xl text-[#FFE608] text-center my-0 w-10/12" style={thirdFont.style}>
+            {t("downloadhead")}
+          </h5>
+          <div className="w-10/12 h-fit homeGlass rounded-2xl flex flex-col items-center justify-center gap-2">
+            <img src={Frame.src} className="w-7/12 aspect-square" alt="" />
+            <h5 style={myFont.style} className="text-2xll text-white text-center mb-5 ">Whitepaper</h5>
           </div>
-          <div className={styles.rectangleParent}>
-            <div className={styles.groupInner} />
-            <div className={styles.frameParent}>
-              <img className={styles.frameIcon} alt="" src="Frame.svg" />
-              <div className={styles.rwfaParent}>
-                <div style={myFont.style} className={styles.rwfa}></div>
-                <div style={myFont.style} className={styles.whitepaper}>
-                  <Image src={Whitepaper} alt="" />
-                </div>
-              </div>
-            </div>
+          <h5 style={secondFont.style} className="my-4 w-10/12 text-white text-xl text-center">📥 {t("downloadparagraph")} 🚀{" "}</h5>
+         <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
+         <div className="bg-[#FFE608] rounded-xl w-fit px-4 h-fit py-3 flex flex-row items-center justify-center gap-2 ">
+            <img src={Download.src} className="w-1/12" alt="" />
+            <h5 style={thirdFont.style} className="text-xl text-black text-center mb-0">{t("downloadbutton")}</h5>
           </div>
-          <div style={secondFont.style} className={styles.diveIntoThe1}>
-            {" "}
-            📥 {t("downloadparagraph")} 🚀{" "}
-          </div>
-          <div className={styles.mingcutewallet4FillParent}>
-            <Image
-              className={styles.mingcutewallet4FillIcon1}
-              alt=""
-              src={Download}
-            />
-            <div style={thirdFont.style} className={styles.downloadWhitepaper}>
-              <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
-                <h5 className="text-black text-sm mb-0">
-                  {t("downloadbutton")}
-                </h5>
-              </a>{" "}
-            </div>
-          </div>
+         </a>
         </div>
+       
 
         <div className={styles.treasuryTokensEcosystemParent}>
           <div style={thirdFont.style} className={styles.treasuryTokens1}>
