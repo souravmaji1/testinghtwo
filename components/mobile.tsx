@@ -221,8 +221,6 @@ const HomeIPadPro1291: NextPage = () => {
 
         <div className={styles.homeIpadPro1291Child1} />
         <div className={styles.ellipseParent}>
-          <div className={styles.groupChild} />
-          <div className={styles.groupItem} />
           <div style={thirdFont.style} className={styles.downloadOurWhite1}>
             <h5 className="text-2xl text-center my-0 w-10/12">
               {t("downloadhead")}

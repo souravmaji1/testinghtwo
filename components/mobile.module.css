@@ -277,8 +277,7 @@
 .frameIcon {
     position: absolute;
     top: 0px;
-    left: 0px;
-    width: 163.44px;
+    width: 80%;
     height: 128.17px;
     overflow: hidden;
 }
@@ -300,8 +299,7 @@
 .rwfaParent {
     position: absolute;
     top: 137.67px;
-    left: calc(50% - 75.72px);
-    width: 151px;
+    width: 90%;
     height: 46.41px;
 }
 
@@ -316,8 +314,9 @@
 .rectangleParent {
     position: absolute;
     top: 98px;
-    left: 36px;
-    width: 394px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: 266px;
     text-align: left;
     color: #fff931;
@@ -373,11 +372,17 @@
 .ellipseParent {
     position: absolute;
     top: 741px;
-    left: -19px;
-    width: 430px;
+    left: 0px;
+    width: 100vw;
     height: 762px;
     text-align: center;
     font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .treasuryTokens1 {
@@ -2243,8 +2248,7 @@
     .frameParent {
         position: absolute;
         top: 41px;
-        left: 89px;
-        width: 163.44px;
+        width: 50%;
         height: 184.08px;
 
     }
@@ -2263,18 +2267,18 @@
     .diveIntoThe1 {
         position: absolute;
         top: 394px;
-        left: 39px;
+        left: 5%;
         letter-spacing: -0.02em;
         line-height: 30px;
         color: #fff;
         display: inline-block;
-        width: 342px;
+        width: 90%;
         margin-top: 3% !important;
     }
 
     .mingcutewallet4FillParent {
         position: absolute;
-        top: 714px;
+        top: 725px;
         left: calc(45% - 119px);
         border-radius: 10px;
         background: linear-gradient(180deg, #ffe500, #fff492);
@@ -2415,11 +2419,12 @@
         position: absolute;
         top: 0px;
         left: 0px;
+        margin-left: 10%;
         border-radius: 11px;
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 349px;
+        width: 80%;
         height: 266px;
     }
 
@@ -2880,8 +2885,7 @@
     .frameParent {
         position: absolute;
         top: 41px;
-        left: 98px;
-        width: 163.44px;
+        width: 50%;
         height: 184.08px;
 
     }
@@ -2905,17 +2909,17 @@
     .diveIntoThe1 {
         position: absolute;
         top: 394px;
-        left: 47px;
+        left: 7.5%;
         letter-spacing: -0.02em;
         line-height: 30px;
         color: #fff;
         display: inline-block;
-        width: 342px;
+        width: 85%;
     }
 
     .mingcutewallet4FillParent {
         position: absolute;
-        top: 714px;
+        top: 725px;
         left: calc(47% - 119px);
         border-radius: 10px;
         background: linear-gradient(180deg, #ffe500, #fff492);
@@ -3053,12 +3057,13 @@
     .groupInner {
         position: absolute;
         top: 0px;
-        left: 0px;
+        
         border-radius: 11px;
         background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
         -webkit-backdrop-filter: blur(46px);
         backdrop-filter: blur(46px);
-        width: 369px;
+        width: 80%;
+        margin-left: 10%;
         height: 266px;
     }
 
