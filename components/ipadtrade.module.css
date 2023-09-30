@@ -6,6 +6,7 @@
     height: 461px;
     object-fit: cover;
 }
+
 .tradeIpadPro1292Child {
     position: absolute;
     top: -346px;
@@ -15,10 +16,11 @@
     filter: blur(304px);
     width: 1024.95px;
     height: 1024.95px;
-    transform:  rotate(15deg);
+    transform: rotate(15deg);
     transform-origin: 0 0;
     opacity: 0.35;
 }
+
 .tradeIpadPro1292Item {
     position: absolute;
     bottom: 103px;
@@ -27,6 +29,7 @@
     height: 834px;
     object-fit: cover;
 }
+
 .joinOurCommunity1 {
     position: absolute;
     bottom: 209px;
@@ -36,10 +39,11 @@
     display: inline-block;
     width: 917px;
 }
+
 .diveIntoA1 {
     position: absolute;
-    bottom: 110px;
-    left: 27px;
+    bottom: 90px;
+    left: 0px;
     padding: 0 82px;
     font-size: 18px;
     font-weight: bold;
@@ -47,16 +51,20 @@
     line-height: 30px;
     color: #fff;
     display: inline-block;
-    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+
 .groupChild {
     position: absolute;
     top: 202px;
-    left: 30%;
+    left: 35%;
     width: 292.33px;
     height: 50px;
     object-fit: cover;
 }
+
 .joinOurCommunityParent {
     position: absolute;
     bottom: 462px;
@@ -67,6 +75,7 @@
     font-size: 36px;
     color: #ffe500;
 }
+
 .maskGroupIcon {
     position: absolute;
     top: 26px;
@@ -75,17 +84,20 @@
     height: 87.25px;
     object-fit: cover;
 }
+
 .home {
     position: relative;
     text-transform: capitalize;
     cursor: pointer;
 }
+
 .trade {
     position: relative;
     text-transform: capitalize;
     color: #ffe500;
     text-decoration: none;
 }
+
 .homeParent {
     position: absolute;
     top: 60px;
@@ -97,6 +109,7 @@
     gap: 2px;
     font-size: 16px;
 }
+
 .tradeIpadPro1292Inner {
     position: absolute;
     top: 52px;
@@ -108,6 +121,7 @@
     display: none;
     cursor: pointer;
 }
+
 .mingcutewallet4FillIcon1 {
     position: relative;
     width: 23px;
@@ -116,13 +130,14 @@
     flex-shrink: 0;
     object-fit: cover;
 }
+
 .connectWallet {
     position: relative;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.mingcutewallet4FillParent{
+.mingcutewallet4FillParent {
     position: absolute;
     top: 45px;
     left: 60%;
@@ -139,6 +154,7 @@
     font-size: 14px;
     color: #1f1330;
 }
+
 .mingcutewallet4FillLang {
     position: absolute;
     top: -763px;
@@ -152,18 +168,21 @@
     gap: 10px;
     font-size: 16px;
 }
+
 .unionIcon2 {
     position: relative;
     width: 20.31px;
     height: 20.31px;
     object-fit: cover;
 }
+
 .unionIcon3 {
     position: relative;
     width: 13.54px;
     height: 13.54px;
     object-fit: cover;
 }
+
 .partnersChild {
     position: absolute;
     bottom: 0px;
@@ -172,6 +191,7 @@
     height: 535px;
     object-fit: cover;
 }
+
 .ourPartners {
     position: absolute;
     bottom: 362px;
@@ -179,6 +199,7 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
 .fuelingInnovationThrough1 {
     position: absolute;
     bottom: 282px;
@@ -190,42 +211,49 @@
     display: inline-block;
     width: 773px;
 }
+
 .clipPathGroup5 {
     position: relative;
     width: 100.8px;
     height: 56px;
     object-fit: cover;
 }
+
 .maskGroupIcon1 {
     position: relative;
     width: 146px;
     height: 25.96px;
     object-fit: cover;
 }
+
 .clipPathGroup6 {
     position: relative;
     width: 115.9px;
     height: 38px;
     object-fit: cover;
 }
+
 .maskGroupIcon2 {
     position: relative;
     width: 150.62px;
     height: 41.82px;
     object-fit: cover;
 }
+
 .partnersLogosChild {
     position: relative;
     width: 141.83px;
     height: 53.07px;
     object-fit: cover;
 }
+
 .clipPathGroup7 {
     position: relative;
     width: 123.33px;
     height: 40px;
     object-fit: cover;
 }
+
 .frameIcon {
     position: relative;
     width: 118px;
@@ -234,6 +262,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
+
 .frameIcon1 {
     position: relative;
     width: 148px;
@@ -242,6 +271,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
+
 .partnersLogos {
     position: absolute;
     bottom: 130px;
@@ -253,6 +283,7 @@
     justify-content: flex-start;
     gap: 130px;
 }
+
 .partners {
     position: absolute;
     bottom: 848px;
@@ -263,6 +294,7 @@
     font-size: 36px;
     color: #ffe500;
 }
+
 .groupItem {
     position: absolute;
     bottom: 0px;
@@ -272,6 +304,7 @@
     width: 1024px;
     height: 328px;
 }
+
 .maskGroupIcon5 {
     position: absolute;
     bottom: 139px;
@@ -280,11 +313,13 @@
     height: 110px;
     object-fit: cover;
 }
+
 .mediaInquiresFor1 {
     position: relative;
     text-transform: capitalize;
     opacity: 0.5;
 }
+
 .mediaInquiresForCmaxContParent {
     position: absolute;
     bottom: 0px;
@@ -295,10 +330,12 @@
     justify-content: center;
     gap: 12px;
 }
+
 .contactUs {
     position: relative;
     text-transform: capitalize;
 }
+
 .tradeParent {
     position: absolute;
     bottom: 88px;
@@ -310,6 +347,7 @@
     gap: 38px;
     text-align: left;
 }
+
 .maskGroupParent {
     position: absolute;
     bottom: 51px;
@@ -317,6 +355,7 @@
     width: 720px;
     height: 249px;
 }
+
 .rectangleParent {
     position: absolute;
     bottom: 0px;
@@ -325,6 +364,7 @@
     height: 328px;
     text-align: center;
 }
+
 .groupInner {
     position: absolute;
     top: 0px;
@@ -335,20 +375,24 @@
     width: 280px;
     height: 271px;
 }
+
 .titaEtf {
     position: absolute;
     top: 26.86px;
     left: 21.95px;
 }
+
 .vectorIcon4 {
     position: relative;
     width: 22px;
     height: 13.58px;
     object-fit: cover;
 }
+
 .div {
     position: relative;
 }
+
 .vectorParent {
     position: absolute;
     top: 26.86px;
@@ -363,6 +407,7 @@
     text-align: right;
     font-family: 'Neue Montreal';
 }
+
 .frameIcon2 {
     position: absolute;
     top: 69.99px;
@@ -372,6 +417,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .rectangleGroup {
     position: absolute;
     top: 248px;
@@ -381,6 +427,7 @@
     cursor: pointer;
     font-family: 'Monument Extended';
 }
+
 .vectorGroup {
     position: absolute;
     top: 26.86px;
@@ -393,6 +440,7 @@
     justify-content: flex-end;
     gap: 6px;
 }
+
 .tusaEtf {
     position: absolute;
     top: 26.86px;
@@ -400,6 +448,7 @@
     font-family: 'Monument Extended';
     text-align: left;
 }
+
 .frameIcon3 {
     position: absolute;
     top: 69.99px;
@@ -409,6 +458,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .rectangleContainer {
     position: absolute;
     top: 248px;
@@ -418,6 +468,7 @@
     cursor: pointer;
     text-align: right;
 }
+
 .vectorContainer {
     position: absolute;
     top: 26.86px;
@@ -430,6 +481,7 @@
     justify-content: flex-end;
     gap: 6px;
 }
+
 .tgermEtf {
     position: absolute;
     top: 26.86px;
@@ -437,6 +489,7 @@
     font-family: 'Monument Extended';
     text-align: left;
 }
+
 .frameIcon4 {
     position: absolute;
     top: 69.99px;
@@ -446,6 +499,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .groupDiv {
     position: absolute;
     top: 248px;
@@ -455,6 +509,7 @@
     cursor: pointer;
     text-align: right;
 }
+
 .groupChild2 {
     position: absolute;
     top: 0px;
@@ -465,11 +520,13 @@
     width: 280px;
     height: 270px;
 }
+
 .comingSoon {
     position: absolute;
     top: 26.76px;
     left: 22.08px;
 }
+
 .frameIcon5 {
     position: absolute;
     top: 58.73px;
@@ -479,6 +536,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .rectangleParent1 {
     position: absolute;
     top: 543px;
@@ -487,6 +545,7 @@
     height: 270px;
     font-family: 'Monument Extended';
 }
+
 .comingSoon1 {
     position: absolute;
     top: 26.76px;
@@ -495,6 +554,7 @@
     width: 241.86px;
     height: 23.51px;
 }
+
 .frameIcon6 {
     position: absolute;
     top: 58.73px;
@@ -504,6 +564,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .rectangleParent2 {
     position: absolute;
     top: 543px;
@@ -512,6 +573,7 @@
     height: 270px;
     font-family: 'Monument Extended';
 }
+
 .comingSoon2 {
     position: absolute;
     top: 26.76px;
@@ -520,6 +582,7 @@
     width: 203.73px;
     height: 47.03px;
 }
+
 .frameIcon7 {
     position: absolute;
     top: 58.73px;
@@ -529,6 +592,7 @@
     overflow: hidden;
     object-fit: cover;
 }
+
 .rectangleParent3 {
     position: absolute;
     top: 543px;
@@ -537,12 +601,14 @@
     height: 270px;
     font-family: 'Monument Extended';
 }
+
 .vectorIcon7 {
     position: relative;
     width: 20px;
     height: 20px;
     object-fit: cover;
 }
+
 .frameDiv {
     position: absolute;
     top: 187.5px;
@@ -553,6 +619,7 @@
     justify-content: flex-start;
     gap: 18px;
 }
+
 .div3 {
     position: absolute;
     top: 25px;
@@ -561,6 +628,7 @@
     display: inline-block;
     width: 8.46px;
 }
+
 .frameChild {
     position: relative;
     border-radius: 50%;
@@ -568,12 +636,14 @@
     height: 40px;
     object-fit: cover;
 }
+
 .tita {
     position: relative;
     font-weight: bold;
     line-height: 36px;
     text-transform: capitalize;
 }
+
 .ellipseParent {
     position: absolute;
     top: 18px;
@@ -584,6 +654,7 @@
     justify-content: flex-start;
     gap: 20px;
 }
+
 .frameItem {
     position: relative;
     border-radius: 2px;
@@ -591,6 +662,7 @@
     height: 12px;
     object-fit: cover;
 }
+
 .polygonParent {
     position: absolute;
     top: 25px;
@@ -602,6 +674,7 @@
     gap: 9px;
     color: #0ce770;
 }
+
 .parent {
     position: absolute;
     top: 1043px;
@@ -612,6 +685,7 @@
     height: 80px;
     font-size: 22px;
 }
+
 .polygonGroup {
     position: absolute;
     top: 25px;
@@ -623,6 +697,7 @@
     gap: 9px;
     color: #ff2c2c;
 }
+
 .container {
     position: absolute;
     top: 1043px;
@@ -633,6 +708,7 @@
     height: 80px;
     font-size: 22px;
 }
+
 .parent1 {
     position: absolute;
     top: 1143px;
@@ -643,6 +719,7 @@
     height: 80px;
     font-size: 22px;
 }
+
 .parent2 {
     position: absolute;
     top: 1143px;
@@ -653,6 +730,7 @@
     height: 80px;
     font-size: 22px;
 }
+
 .parent3 {
     position: absolute;
     top: 1243px;
@@ -663,6 +741,7 @@
     height: 80px;
     font-size: 22px;
 }
+
 .parent4 {
     position: absolute;
     top: 1243px;
@@ -673,6 +752,7 @@
     height: 80px;
     font-size: 22px;
 }
+
 .trendingProducts {
     position: absolute;
     top: 953px;
@@ -682,6 +762,7 @@
     font-weight: 500;
     color: #ffe500;
 }
+
 .tradeIpadPro1292Child1 {
     position: absolute;
     top: 52px;
@@ -692,6 +773,7 @@
     object-fit: cover;
     cursor: pointer;
 }
+
 .tradeIpadPro1292 {
     position: relative;
     background: linear-gradient(180deg, #201d26, #1d1b20);
@@ -704,8 +786,8 @@
     font-family: 'Neue Montreal';
 }
 
-@media (min-width: 768px) and (max-width: 800px){
-    .mingcutewallet4FillParent{
+@media (min-width: 768px) and (max-width: 800px) {
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 45px;
         left: 440.5px;
@@ -723,6 +805,7 @@
         color: #1f1330;
         margin-top: -0.5%;
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -736,108 +819,118 @@
         gap: 10px;
         font-size: 16px;
     }
-    .rectangleParent3{
+
+    .rectangleParent3 {
         position: absolute;
-    top: 543px;
-    left: 674px;
-    display: none;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 674px;
+        display: none;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
-    bottom: 51px;
-    left: 61px;
-    width: 65%;
-    height: 249px;
+        bottom: 51px;
+        left: 61px;
+        width: 65%;
+        height: 249px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
-    bottom: 462px;
-    left: -28px;
-    width: 917px;
-    height: 252px;
-    text-align: center;
-    font-size: 36px;
-    color: #ffe500;
+        bottom: 462px;
+        left: -28px;
+        width: 917px;
+        height: 252px;
+        text-align: center;
+        font-size: 36px;
+        color: #ffe500;
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: 21px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: 21px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
 
     }
-    .parent4{
+
+    .parent4 {
         position: absolute;
-    top: 1243px;
-    left: 522px;
-    display: none;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 522px;
+        display: none;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent2{
+
+    .parent2 {
         position: absolute;
-    top: 1143px;
-    display: none;
-    left: 522px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        display: none;
+        left: 522px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .container{
+
+    .container {
         position: absolute;
-    top: 1043px;
-    display: none;
-    left: 522px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        display: none;
+        left: 522px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 440px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 440px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
-    top: 248px;
-    left: 433.37px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 433.37px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
 
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
-    top: 248px;
-    left: 673px;
-    display: none;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 673px;
+        display: none;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
     }
 }
 
 
-@media (min-width: 801px) and (max-width: 900px){
-    .mingcutewallet4FillParent{
+@media (min-width: 801px) and (max-width: 900px) {
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 45px;
         left: 55%;
@@ -854,6 +947,7 @@
         font-size: 14px;
         color: #1f1330;
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -867,136 +961,153 @@
         gap: 10px;
         font-size: 16px;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 88px;
-    left: 166px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        bottom: 88px;
+        left: 166px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 115px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 115px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 112px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 112px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-    .rectangleParent3{
+
+    .rectangleParent3 {
         position: absolute;
-    top: 543px;
-    left: 674px;
-    display: none;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 674px;
+        display: none;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
-    bottom: 51px;
-    left: 61px;
-    width: 720px;
-    height: 249px;
+        bottom: 51px;
+        left: 61px;
+        width: 720px;
+        height: 249px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
-    bottom: 462px;
-    left: -28px;
-    width: 917px;
-    height: 252px;
-    text-align: center;
-    font-size: 36px;
-    color: #ffe500;
+        bottom: 462px;
+        left: 0px;
+        width: 100vw;
+        height: 252px;
+        text-align: center;
+        font-size: 36px;
+        color: #ffe500;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: 21px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: 21px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
 
     }
-    .parent4{
+
+    .parent4 {
         position: absolute;
-    top: 1243px;
-    left: 522px;
-    display: none;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 522px;
+        display: none;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent2{
+
+    .parent2 {
         position: absolute;
-    top: 1143px;
-    display: none;
-    left: 522px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        display: none;
+        left: 522px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .container{
+
+    .container {
         position: absolute;
-    top: 1043px;
-    display: none;
-    left: 522px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        display: none;
+        left: 522px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 440px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 440px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
-    top: 248px;
-    left: 433.37px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 433.37px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
 
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
-    top: 248px;
-    left: 673px;
-    display: none;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 673px;
+        display: none;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
     }
 }
 
 
-@media (min-width: 901px) and (max-width: 965px){
-    .mingcutewallet4FillParent{
+@media (min-width: 901px) and (max-width: 965px) {
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 45px;
         left: 480.5px;
@@ -1013,6 +1124,7 @@
         font-size: 14px;
         color: #1f1330;
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -1026,73 +1138,81 @@
         gap: 10px;
         font-size: 16px;
     }
-    .homeParent{
+
+    .homeParent {
         position: absolute;
-    top: 60px;
-    left: 178px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 2px;
-    font-size: 16px;
+        top: 60px;
+        left: 178px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2px;
+        font-size: 16px;
 
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 88px;
-    left: 166px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        bottom: 88px;
+        left: 166px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 115px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 115px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleGroup{
+
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 112px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 112px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-    .rectangleParent3{
+
+    .rectangleParent3 {
         position: absolute;
-    top: 543px;
-    left: 674px;
-    display: none;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 674px;
+        display: none;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
-    bottom: 51px;
-    left: 125px;
-    width: 720px;
-    height: 249px;
+        bottom: 51px;
+        left: 125px;
+        width: 720px;
+        height: 249px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
-    bottom: 462px;
-    left: 15px;
-    width: 917px;
-    height: 252px;
-    text-align: center;
-    font-size: 36px;
-    color: #ffe500;
+        bottom: 462px;
+        left: 15px;
+        width: 917px;
+        height: 252px;
+        text-align: center;
+        font-size: 36px;
+        color: #ffe500;
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
         bottom: 103px;
         left: 59px;
@@ -1102,48 +1222,53 @@
         object-fit: cover;
 
     }
-    .parent4{
+
+    .parent4 {
         position: absolute;
-    top: 1243px;
-    left: 522px;
-    display: none;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 522px;
+        display: none;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent2{
+
+    .parent2 {
         position: absolute;
-    top: 1143px;
-    display: none;
-    left: 522px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        display: none;
+        left: 522px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .container{
+
+    .container {
         position: absolute;
-    top: 1043px;
-    display: none;
-    left: 522px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        display: none;
+        left: 522px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 440px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 440px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
         top: 248px;
         left: 511.37px;
@@ -1152,23 +1277,25 @@
         cursor: pointer;
         text-align: right;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 518px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 518px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .groupDiv{
+
+    .groupDiv {
         position: absolute;
-    top: 248px;
-    left: 673px;
-    display: none;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 673px;
+        display: none;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
     }
 }
 
@@ -1185,29 +1312,31 @@
 
 
 
-@media (min-width: 601px) and (max-width: 612px){
-    .rectangleGroup{
+@media (min-width: 601px) and (max-width: 612px) {
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 13px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 13px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 88px;
-    left: 192px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        bottom: 88px;
+        left: 192px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
 
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 355.5px;
@@ -1224,8 +1353,9 @@
         gap: 0px;
         font-size: 14px;
         color: #1f1330;
-    
+
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -1239,7 +1369,8 @@
         gap: 10px;
         font-size: 16px;
     }
-    .homeParent{
+
+    .homeParent {
         position: absolute;
         top: 60px;
         left: 100px;
@@ -1250,93 +1381,105 @@
         gap: 2px;
         font-size: 16px;
     }
-    .maskGroupIcon{
+
+    .maskGroupIcon {
         position: absolute;
-    top: 26px;
-    left: 8.76px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 26px;
+        left: 8.76px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
-    bottom: 51px;
-    left: -53px;
-    width: 720px;
-    height: 249px;
+        bottom: 51px;
+        left: -53px;
+        width: 720px;
+        height: 249px;
 
     }
-    .diveIntoA1{
+
+    .diveIntoA1 {
         position: absolute;
-    bottom: 110px;
-    left: 181px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 555px;
+        bottom: 110px;
+        left: 181px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 555px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
-    bottom: 462px;
-    left: -155px;
-    width: 917px;
-    height: 252px;
-    text-align: center;
-    font-size: 36px;
-    color: #ffe500;
+        bottom: 462px;
+        left: -155px;
+        width: 917px;
+        height: 252px;
+        text-align: center;
+        font-size: 36px;
+        color: #ffe500;
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: -3px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: -3px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent4{
+
+    .parent4 {
         display: none;
     }
-    .parent2{
+
+    .parent2 {
         display: none;
     }
-    .container{
+
+    .container {
         display: none;
     }
-    .parent3{
+
+    .parent3 {
         position: absolute;
-    top: 1243px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent1{
+
+    .parent1 {
         position: absolute;
-    top: 1143px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent{
+
+    .parent {
         position: absolute;
-    top: 1043px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .trendingProducts{
+
+    .trendingProducts {
         position: absolute;
         top: 953px;
         padding: 0 0 0 20px;
@@ -1346,44 +1489,48 @@
         font-weight: 500;
         color: #ffe500;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 307px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 307px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 12px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 12px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
-    top: 248px;
-    left: 309.37px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 309.37px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
     }
 }
 
-@media (min-width: 613px) and (max-width: 640px){
-    .rectangleGroup{
+@media (min-width: 613px) and (max-width: 640px) {
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 13px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 13px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 354.5px;
@@ -1400,8 +1547,9 @@
         gap: 0px;
         font-size: 14px;
         color: #1f1330;
-    
+
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -1415,41 +1563,45 @@
         gap: 10px;
         font-size: 16px;
     }
-    .homeParent{
-        
-            position: absolute;
-            top: 60px;
-            left: 100px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-            gap: 2px;
-            font-size: 16px;
-        
-    }
-    .maskGroupIcon{
+
+    .homeParent {
+
         position: absolute;
-    top: 26px;
-    left: 9.76px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    }
-    .tradeParent{
-        position: absolute;
-    bottom: 88px;
-    left: 192px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        top: 60px;
+        left: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2px;
+        font-size: 16px;
 
     }
-    .maskGroupParent{
+
+    .maskGroupIcon {
+        position: absolute;
+        top: 26px;
+        left: 9.76px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .tradeParent {
+        position: absolute;
+        bottom: 88px;
+        left: 192px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+
+    }
+
+    .maskGroupParent {
         position: absolute;
         bottom: 51px;
         left: -28px;
@@ -1457,18 +1609,20 @@
         height: 249px;
 
     }
-    .diveIntoA1{
+
+    .diveIntoA1 {
         position: absolute;
-    bottom: 110px;
-    left: 181px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 555px;
+        bottom: 110px;
+        left: 181px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 555px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 462px;
         left: -147px;
@@ -1477,57 +1631,65 @@
         text-align: center;
         font-size: 36px;
         color: #ffe500;
-    
+
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: -3px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: -3px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent4{
+
+    .parent4 {
         display: none;
     }
-    .parent2{
+
+    .parent2 {
         display: none;
     }
-    .container{
+
+    .container {
         display: none;
     }
-    .parent3{
+
+    .parent3 {
         position: absolute;
-    top: 1243px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent1{
+
+    .parent1 {
         position: absolute;
-    top: 1143px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent{
+
+    .parent {
         position: absolute;
-    top: 1043px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .trendingProducts{
+
+    .trendingProducts {
         position: absolute;
         top: 953px;
         padding: 0 0 0 20px;
@@ -1537,44 +1699,48 @@
         font-weight: 500;
         color: #ffe500;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 331px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 331px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 12px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 12px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
-    top: 248px;
-    left: 329.37px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    text-align: right;
+        top: 248px;
+        left: 329.37px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        text-align: right;
     }
 }
 
-@media (min-width: 641px) and (max-width: 660px){
-    .rectangleGroup{
+@media (min-width: 641px) and (max-width: 660px) {
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 13px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 13px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 377.5px;
@@ -1591,8 +1757,9 @@
         width: 26%;
         font-size: 14px;
         color: #1f1330;
-    
+
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -1606,44 +1773,48 @@
         gap: 10px;
         font-size: 16px;
     }
-    .homeParent{
-       
-        
-            position: absolute;
-            top: 60px;
-            left: 100px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-            gap: 2px;
-            font-size: 16px;
-        
-    
-    }
-    .maskGroupIcon{
+
+    .homeParent {
+
+
         position: absolute;
-    top: 26px;
-    left: 15.76px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 60px;
+        left: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2px;
+        font-size: 16px;
+
 
     }
-    .tradeParent{
+
+    .maskGroupIcon {
         position: absolute;
-    bottom: 88px;
-    left: 192px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        top: 26px;
+        left: 15.76px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
 
     }
-    .maskGroupParent{
+
+    .tradeParent {
+        position: absolute;
+        bottom: 88px;
+        left: 192px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
+
+    }
+
+    .maskGroupParent {
         position: absolute;
         bottom: 51px;
         left: -12px;
@@ -1651,18 +1822,20 @@
         height: 249px;
 
     }
-    .diveIntoA1{
+
+    .diveIntoA1 {
         position: absolute;
-    bottom: 110px;
-    left: 181px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 555px;
+        bottom: 110px;
+        left: 181px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 555px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 462px;
         left: -133px;
@@ -1671,57 +1844,65 @@
         text-align: center;
         font-size: 36px;
         color: #ffe500;
-    
+
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: -3px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: -3px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent4{
+
+    .parent4 {
         display: none;
     }
-    .parent2{
+
+    .parent2 {
         display: none;
     }
-    .container{
+
+    .container {
         display: none;
     }
-    .parent3{
+
+    .parent3 {
         position: absolute;
-    top: 1243px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent1{
+
+    .parent1 {
         position: absolute;
-    top: 1143px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent{
+
+    .parent {
         position: absolute;
-    top: 1043px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .trendingProducts{
+
+    .trendingProducts {
         position: absolute;
         top: 953px;
         padding: 0 0 0 20px;
@@ -1731,7 +1912,8 @@
         font-weight: 500;
         color: #ffe500;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
         top: 543px;
         left: 354px;
@@ -1739,15 +1921,17 @@
         height: 270px;
         font-family: 'Monument Extended';
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 12px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 12px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
         top: 248px;
         left: 352.37px;
@@ -1759,17 +1943,18 @@
 }
 
 
-@media (min-width: 661px) and (max-width: 704px){
-    .rectangleGroup{
+@media (min-width: 661px) and (max-width: 704px) {
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 49px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 49px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 380.5px;
@@ -1786,8 +1971,9 @@
         gap: 0px;
         font-size: 14px;
         color: #1f1330;
-    
+
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -1801,7 +1987,8 @@
         gap: 10px;
         font-size: 16px;
     }
-    .homeParent{
+
+    .homeParent {
         position: absolute;
         top: 60px;
         left: 109px;
@@ -1812,35 +1999,40 @@
         gap: 2px;
         font-size: 16px;
     }
-    .maskGroupIcon{
+
+    .maskGroupIcon {
         position: absolute;
-    top: 26px;
-    left: 20.76px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 26px;
+        left: 20.76px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
 
     }
-    .rectangleParent3{
+
+    .rectangleParent3 {
         display: none;
     }
-    .groupDiv{
+
+    .groupDiv {
         display: none;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 88px;
-    left: 192px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        bottom: 88px;
+        left: 192px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
 
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
         bottom: 51px;
         left: 2px;
@@ -1848,18 +2040,20 @@
         height: 249px;
 
     }
-    .diveIntoA1{
+
+    .diveIntoA1 {
         position: absolute;
-    bottom: 110px;
-    left: 181px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 555px;
+        bottom: 110px;
+        left: 181px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 555px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
         bottom: 462px;
         left: -106px;
@@ -1868,57 +2062,65 @@
         text-align: center;
         font-size: 36px;
         color: #ffe500;
-    
+
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: -3px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: -3px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent4{
+
+    .parent4 {
         display: none;
     }
-    .parent2{
+
+    .parent2 {
         display: none;
     }
-    .container{
+
+    .container {
         display: none;
     }
-    .parent3{
+
+    .parent3 {
         position: absolute;
-    top: 1243px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent1{
+
+    .parent1 {
         position: absolute;
-    top: 1143px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent{
+
+    .parent {
         position: absolute;
-    top: 1043px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .trendingProducts{
+
+    .trendingProducts {
         position: absolute;
         top: 953px;
         padding: 0 0 0 20px;
@@ -1928,7 +2130,8 @@
         font-weight: 500;
         color: #ffe500;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
         top: 543px;
         left: 385px;
@@ -1936,15 +2139,17 @@
         height: 270px;
         font-family: 'Monument Extended';
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 53px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 53px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
         top: 248px;
         left: 382.37px;
@@ -1957,18 +2162,18 @@
 
 
 
-@media (min-width: 705px) and (max-width: 767px){
-    .rectangleGroup{
+@media (min-width: 705px) and (max-width: 767px) {
+    .rectangleGroup {
         position: absolute;
-    top: 248px;
-    left: 49px;
-    width: 280px;
-    height: 271px;
-    cursor: pointer;
-    font-family: 'Monument Extended';
+        top: 248px;
+        left: 49px;
+        width: 280px;
+        height: 271px;
+        cursor: pointer;
+        font-family: 'Monument Extended';
     }
-   
-    .mingcutewallet4FillParent{
+
+    .mingcutewallet4FillParent {
         position: absolute;
         top: 49px;
         left: 380.5px;
@@ -1985,8 +2190,9 @@
         gap: 0px;
         font-size: 14px;
         color: #1f1330;
-    
+
     }
+
     .mingcutewallet4FillLang {
         position: absolute;
         top: -763px;
@@ -2000,7 +2206,8 @@
         gap: 10px;
         font-size: 16px;
     }
-    .homeParent{
+
+    .homeParent {
         position: absolute;
         top: 60px;
         left: 117px;
@@ -2011,35 +2218,40 @@
         gap: 2px;
         font-size: 16px;
     }
-    .maskGroupIcon{
+
+    .maskGroupIcon {
         position: absolute;
-    top: 26px;
-    left: 20.76px;
-    width: 90.24px;
-    height: 87.25px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        top: 26px;
+        left: 20.76px;
+        width: 90.24px;
+        height: 87.25px;
+        -o-object-fit: cover;
+        object-fit: cover;
 
     }
-    .rectangleParent3{
+
+    .rectangleParent3 {
         display: none;
     }
-    .groupDiv{
+
+    .groupDiv {
         display: none;
     }
-    .tradeParent{
+
+    .tradeParent {
         position: absolute;
-    bottom: 88px;
-    left: 192px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: left;
+        bottom: 88px;
+        left: 192px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 38px;
+        text-align: left;
 
     }
-    .maskGroupParent{
+
+    .maskGroupParent {
         position: absolute;
         bottom: 51px;
         left: 31px;
@@ -2047,77 +2259,87 @@
         height: 249px;
 
     }
-    .diveIntoA1{
+
+    .diveIntoA1 {
         position: absolute;
-    bottom: 110px;
-    left: 181px;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    line-height: 30px;
-    color: #fff;
-    display: inline-block;
-    width: 555px;
+        bottom: 110px;
+        left: 181px;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        color: #fff;
+        display: inline-block;
+        width: 555px;
     }
-    .joinOurCommunityParent{
+
+    .joinOurCommunityParent {
         position: absolute;
-    bottom: 462px;
-    left: -81px;
-    width: 917px;
-    height: 252px;
-    text-align: center;
-    font-size: 36px;
-    color: #ffe500;
-    
+        bottom: 462px;
+        left: -81px;
+        width: 917px;
+        height: 252px;
+        text-align: center;
+        font-size: 36px;
+        color: #ffe500;
+
     }
-    .tradeIpadPro1292Item{
+
+    .tradeIpadPro1292Item {
         position: absolute;
-    bottom: 103px;
-    left: -3px;
-    width: 834px;
-    height: 834px;
-    -o-object-fit: cover;
-    object-fit: cover;
+        bottom: 103px;
+        left: -3px;
+        width: 834px;
+        height: 834px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
-    .parent4{
+
+    .parent4 {
         display: none;
     }
-    .parent2{
+
+    .parent2 {
         display: none;
     }
-    .container{
+
+    .container {
         display: none;
     }
-    .parent3{
+
+    .parent3 {
         position: absolute;
-    top: 1243px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1243px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent1{
+
+    .parent1 {
         position: absolute;
-    top: 1143px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1143px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .parent{
+
+    .parent {
         position: absolute;
-    top: 1043px;
-    left: 25px;
-    border-radius: 8px;
-    background-color: #282531;
-    width: 430px;
-    height: 80px;
-    font-size: 22px;
+        top: 1043px;
+        left: 25px;
+        border-radius: 8px;
+        background-color: #282531;
+        width: 430px;
+        height: 80px;
+        font-size: 22px;
     }
-    .trendingProducts{
+
+    .trendingProducts {
         position: absolute;
         top: 953px;
         padding: 0 0 0 20px;
@@ -2127,23 +2349,26 @@
         font-weight: 500;
         color: #ffe500;
     }
-    .rectangleParent2{
+
+    .rectangleParent2 {
         position: absolute;
-    top: 543px;
-    left: 416px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 416px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleParent1{
+
+    .rectangleParent1 {
         position: absolute;
-    top: 543px;
-    left: 53px;
-    width: 280px;
-    height: 270px;
-    font-family: 'Monument Extended';
+        top: 543px;
+        left: 53px;
+        width: 280px;
+        height: 270px;
+        font-family: 'Monument Extended';
     }
-    .rectangleContainer{
+
+    .rectangleContainer {
         position: absolute;
         top: 248px;
         left: 411.37px;
