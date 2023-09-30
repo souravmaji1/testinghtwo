@@ -62,6 +62,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
+import { Stat } from "@chakra-ui/react";
 
 const HomepageTrade: NextPage = () => {
   const onHomeTextClick = useCallback(() => {
@@ -143,7 +144,17 @@ const HomepageTrade: NextPage = () => {
                   className={styles.rectangleParent}
                   onClick={onGroupContainer2Click}
                 >
-                  <div className={styles.groupItem} />
+                  <div
+                    className={`${styles.groupItem} flex flex-col items-start justify-start p-3`}
+                  >
+                    <h5
+                      style={myFont.style}
+                      className="text-2xl text-white mb-5"
+                    >
+                      TITA ETF
+                    </h5>
+                    <img src={Stats.src} className="h-3/5" alt="" />
+                  </div>
                 </div>
               </Link>
             </div>
@@ -152,7 +163,14 @@ const HomepageTrade: NextPage = () => {
                 className={styles.rectangleParent}
                 onClick={onGroupContainer2Click}
               >
-                <div className={`${styles.groupItem}`} />
+                <div
+                  className={`${styles.groupItem} flex flex-col items-start justify-start p-3`}
+                >
+                  <h5 style={myFont.style} className="text-2xl text-white mb-5">
+                    Coming soon
+                  </h5>
+                  <img src={Frame.src} className="h-3/5" alt="" />
+                </div>
               </div>
             </div>
             <div className="w-1/3 flex flex-row items-center justify-start">
@@ -160,7 +178,14 @@ const HomepageTrade: NextPage = () => {
                 className={styles.rectangleParent}
                 onClick={onGroupContainer2Click}
               >
-                <div className={styles.groupItem} />
+                <div
+                  className={`${styles.groupItem} flex flex-col items-start justify-start p-3`}
+                >
+                  <h5 style={myFont.style} className="text-2xl text-white mb-5">
+                    Coming soon
+                  </h5>
+                  <img src={Frame.src} className="h-3/5" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -171,7 +196,14 @@ const HomepageTrade: NextPage = () => {
                   className={styles.rectangleParent}
                   onClick={onGroupContainer2Click}
                 >
-                  <div className={styles.groupItem} />
+                  <div
+                  className={`${styles.groupItem} flex flex-col items-start justify-start p-3`}
+                >
+                  <h5 style={myFont.style} className="text-2xl text-white mb-5">
+                    Coming soon
+                  </h5>
+                  <img src={Frame.src} className="h-3/5" alt="" />
+                </div>
                 </div>
               </Link>
             </div>
@@ -180,7 +212,14 @@ const HomepageTrade: NextPage = () => {
                 className={styles.rectangleParent}
                 onClick={onGroupContainer2Click}
               >
-                <div className={`${styles.groupItem}`} />
+                <div
+                  className={`${styles.groupItem} flex flex-col items-start justify-start p-3`}
+                >
+                  <h5 style={myFont.style} className="text-2xl text-white mb-5">
+                    Coming soon
+                  </h5>
+                  <img src={Frame.src} className="h-3/5" alt="" />
+                </div>
               </div>
             </div>
             <div className="w-1/3 flex flex-row items-center justify-start">
@@ -188,7 +227,14 @@ const HomepageTrade: NextPage = () => {
                 className={styles.rectangleParent}
                 onClick={onGroupContainer2Click}
               >
-                <div className={styles.groupItem} />
+                <div
+                  className={`${styles.groupItem} flex flex-col items-start justify-start p-3`}
+                >
+                  <h5 style={myFont.style} className="text-2xl text-white mb-5">
+                    Coming soon
+                  </h5>
+                  <img src={Frame.src} className="h-3/5" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -234,32 +280,32 @@ const HomepageTrade: NextPage = () => {
           </div>
         </div>
         <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[400px] z-50 opacity-100">
-        <img
-          src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
-          alt=""
-        />
-        <div>
-          <h5
-            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
-            style={thirdFont.style}
-          >
-            {t("communityhead")}
-          </h5>
-          <h5
-            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
-            style={secondFont.style}
-          >
-            {t("communityparagraph")}
-          </h5>
-          <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
+          <img
+            src={communityBg.src}
+            className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
+            alt=""
+          />
+          <div>
+            <h5
+              className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
+              style={thirdFont.style}
+            >
+              {t("communityhead")}
+            </h5>
+            <h5
+              className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+              style={secondFont.style}
+            >
+              {t("communityparagraph")}
+            </h5>
+            <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
+              <BsGithub color="#ffffff" size={35} />
+              <FaXTwitter color="#ffffff" size={35} />
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+              <SiNotion color="#ffffff" size={35} />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
         <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
           <a href="/">
             <img
