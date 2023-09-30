@@ -105,20 +105,7 @@ const HomepageBlack: NextPage = () => {
 
   const [orientation, setOrientation] = useState("")
 
-  useEffect(() => {
-    const handleOrientationChange = () =>{
-      setOrientation(window.screen.orientation.type)
-      console.log(window.screen.orientation.type)
-    }
 
-    window.screen.orientation.addEventListener('change', handleOrientationChange);
-    setOrientation(window.screen.orientation.type)
-
-    return ()=>{
-      window.screen.orientation.removeEventListener('change', handleOrientationChange);
-    }
-
-  }, [])
   
   
   // important for translation. import in every page or component
