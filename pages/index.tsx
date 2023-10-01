@@ -292,7 +292,7 @@ const HomepageBlack: NextPage = () => {
                   className="lg:text-xl text-[#FFE925] text-left mb-4"
                   style={myFont.style}
                 >
-                  {item.title}
+                  zef
                 </h5>
                 <h5
                   className="lg:text-2xl text-white text-left"
@@ -357,7 +357,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section className="h-fit lg:scale-125 w-screen mt bg-center bg-cover hidden lg:flex landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[600px] z-50 opacity-100">
+      <section className="h-fit lg:scale-125 xl:scale-100 w-screen mt bg-center bg-cover hidden lg:flex landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[600px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"

@@ -165,7 +165,14 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-xl text-white text-left"
               style={secondFont.style}
             >
-              {t("benefitparagraphone")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitparagraphone")}</span>
+              
             </h5>
           </div>
           <div className="h-full w-1/2 rounded-2xl py-6 px-4 landscape:md:h-fit portrait:md:h-[40vh] discoverBox">
@@ -187,7 +194,13 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-xl text-white text-left"
               style={secondFont.style}
             >
-              {t("benefitparagraphtwo")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitparagraphtwo")}</span>
             </h5>
           </div>
           
@@ -211,7 +224,14 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-xl text-white text-left"
               style={secondFont.style}
             >
-              {t("benefitparagraphthree")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitparagraphthree")}</span>
+              
             </h5>
           </div>
           <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox landscape:md:h-fit portrait:md:h-[40vh]">
@@ -232,7 +252,13 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-xl text-white text-left"
               style={secondFont.style}
             >
-              {t("benefitparagraphfour")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitparagraphfour")}</span>
             </h5>
           </div>
         </div>
@@ -282,7 +308,14 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-xl text-white text-left"
               style={secondFont.style}
             >
-              {t("benefitparagraphsix")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitparagraphsix")}</span>
+              
             </h5>
           </div>
         </div>
