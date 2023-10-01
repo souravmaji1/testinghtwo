@@ -132,7 +132,7 @@ const HomeIPadPro1291: NextPage = () => {
   };
 
   return (
-    <div className={`${styles.homeIpadPro1291} h-[4200px] landscape:h-[4000px]`}>
+    <div className={`${styles.homeIpadPro1291} h-[4700px] landscape:h-[4250px]`}>
       <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <div className="w-screen h-fit absolute top-[2200px] flex flex-col items-center justify-start pt-10">
@@ -152,7 +152,14 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-2xl text-[#FFE925] text-left mb-4"
               style={myFont.style}
             >
-              {t("benefithead")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefithead")}</span>
+              
             </h5>
             <h5
               className="text-xl text-white text-left"
@@ -167,7 +174,14 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-2xl text-[#FFE925] text-left mb-4"
               style={myFont.style}
             >
-              {t("benefitheadtwo")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadtwo")}</span>
+              
             </h5>
             <h5
               className="text-xl text-white text-left"
@@ -176,15 +190,22 @@ const HomeIPadPro1291: NextPage = () => {
               {t("benefitparagraphtwo")}
             </h5>
           </div>
+          
         </div>
-        <div className="flex flex-row items-center justify-start w-full discoverBoxContainer gap-2 px-20">
+        <div className="flex flex-row items-center justify-start w-full discoverBoxContainer gap-2 px-20 mb-2">
           <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox landscape:md:h-fit portrait:md:h-[40vh]">
             <img src={three.src} className="h-10 w-10 mb-3" alt="" />
             <h5
               className="text-2xl text-[#FFE925] text-left mb-4"
               style={myFont.style}
             >
-              {t("benefitheadthree")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadthree")}</span>
             </h5>
             <h5
               className="text-xl text-white text-left"
@@ -199,13 +220,69 @@ const HomeIPadPro1291: NextPage = () => {
               className="text-2xl text-[#FFE925] text-left mb-4"
               style={myFont.style}
             >
-              {t("benefitheadfour")}
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadfour")}</span>
             </h5>
             <h5
               className="text-xl text-white text-left"
               style={secondFont.style}
             >
               {t("benefitparagraphfour")}
+            </h5>
+          </div>
+        </div>
+        <div className="flex flex-row items-center justify-start w-full discoverBoxContainer gap-2 px-20">
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox landscape:md:h-fit portrait:md:h-[40vh]">
+            <img src={three.src} className="h-10 w-10 mb-3" alt="" />
+            <h5
+              className="text-2xl text-[#FFE925] text-left mb-4"
+              style={myFont.style}
+            >
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadfive")}</span>
+            </h5>
+            <h5
+              className="text-xl text-white text-left"
+              style={secondFont.style}
+            >
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitparagraphfive")}</span>
+            </h5>
+          </div>
+          <div className="h-full w-1/2 rounded-2xl py-6 px-4 discoverBox landscape:md:h-fit portrait:md:h-[40vh]">
+            <img src={four.src} className="h-10 w-10 mb-3" alt="" />
+            <h5
+              className="text-2xl text-[#FFE925] text-left mb-4"
+              style={myFont.style}
+            >
+              <span  style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadsix")}</span>
+            </h5>
+            <h5
+              className="text-xl text-white text-left"
+              style={secondFont.style}
+            >
+              {t("benefitparagraphsix")}
             </h5>
           </div>
         </div>
@@ -329,11 +406,7 @@ const HomeIPadPro1291: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.benefits}>
-        <div className={styles.benefitsChild} />
-        <div className={styles.benefitsItem} />
-        <div className={styles.benefitsInner} />
-      </div>
+      
 
       <div style={thirdFont.style} className={styles.unveilingANew1}>
         {" "}
