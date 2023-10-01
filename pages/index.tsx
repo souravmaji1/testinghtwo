@@ -8,12 +8,12 @@ import Video from "../public/carbon_play-filled.svg";
 import Headlogo from "../public/logs.png";
 import Frame from "../public/Frame.svg";
 import Stats from "../public/shutterstock_1007444929-[Converted] 1.png";
-import One from "../public/one.png";
-import Two from "../public/two.png";
-import Three from "../public/three.png";
-import Fou from "../public/cc.png";
-import Fif from "../public/bb.png";
-import Six from "../public/aa.png";
+import one from "../public/one.png";
+import two from "../public/two.png";
+import three from "../public/three.png";
+import four from "../public/cc.png";
+import five from "../public/bb.png";
+import six from "../public/aa.png";
 import Wallet from "../public/mingcute_wallet-4-fill.svg";
 import User from "../public/Ellipse 59.svg";
 import Arrow from "../public/arrow.svg";
@@ -127,6 +127,40 @@ const HomepageBlack: NextPage = () => {
   useEffect(() => {
     handleLanguageChange();
   }, []);
+
+  const discoverItem = [
+    {
+      title: t("benefithead"),
+      text: t("benefitparagraphone"),
+      icon: one.src,
+    },
+    {
+      title: t("benefitheadtwo"),
+      text: t("benefitparagraphtwo"),
+      icon: two.src,
+    },
+    {
+      title: t("benefitheadthree"),
+      text: t("benefitparagraphthree"),
+      icon: three.src,
+    },
+    {
+      title: t("benefitheadfour"),
+      text: t("benefitparagraphfour"),
+      icon: four.src,
+    },
+
+    {
+      title: t("benefitheadfive"),
+      text: t("benefitparagraphfive"),
+      icon: five.src,
+    },
+    {
+      title: t("benefitheadsix"),
+      text: t("benefitparagraphsix"),
+      icon: six.src,
+    },
+  ];
 
   return (
     <div>
@@ -242,109 +276,35 @@ const HomepageBlack: NextPage = () => {
           {t("discoverparagraph")}
         </div>
 
-        <div className={styles.homepageBlackChild9} />
-        <div className={styles.homepageBlackChild10} />
-        <div className={styles.homepageBlackChild11} />
-        <div className={styles.homepageBlackChild12} />
-        <div className={styles.homepageBlackChild13} />
-        <div className={styles.homepageBlackChild14} />
-        <div
-          style={myFont.style}
-          className={styles.seamlessFinancialInclusion1}
-        >
-          <h5 className="my-0 leading-relaxed" style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "1rem"
-                  
-                  : "1.4rem",
-            }}>{t("benefithead")}</h5>
+        <div className="w-screen h-fit absolute bottom-[27%] lg:shrink-0 md:bottom-[20%] lg:px-36 lg:bottom-[22%] xl:bottom-[27%] xl:px-32 md:px-5 grid grid-cols-3 grid-rows-2 gap-3">
+          {discoverItem.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className="discoverBox h-full w-full rounded-xl py-6 px-4 mb-3 flex flex-col items-start justify-start"
+              >
+                <img
+                  src={item.icon}
+                  className="lg:w-20 aspect-square mb-6"
+                  alt=""
+                />
+                <h5
+                  className="lg:text-xl text-[#FFE925] text-left mb-4"
+                  style={myFont.style}
+                >
+                  {item.title}
+                </h5>
+                <h5
+                  className="lg:text-2xl text-white text-left"
+                  style={secondFont.style}
+                >
+                  {item.text}
+                </h5>
+              </div>
+            );
+          })}
         </div>
-        <div style={myFont.style} className={styles.decentralizedControl}>
-          <h5 className="my-0 leading-relaxed" style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "1rem"
-                  
-                  : "1.4rem",
-            }}>{t("benefitheadsix")}</h5>
-        </div>
-        <Image className={styles.groupIcon1} alt="" src={Six} />
-        <div style={myFont.style} className={styles.enhancedSecurity}>
-          <h5 className="my-0 leading-relaxed" style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "1rem"
-                  
-                  : "1.4rem",
-            }}>{t("benefitheadfour")}</h5>
-        </div>
-        <div style={myFont.style} className={styles.smartContractCapabilities1}>
-          <h5 className="my-0 leading-relaxed" style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "1rem"
-                  
-                  : "1.4rem",
-            }}>{t("benefitheadthree")}</h5>
-        </div>
-        <div style={myFont.style} className={styles.reducedFees}>
-          <h5 className="my-0 leading-relaxed" style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "1rem"
-                  
-                  : "1.4rem",
-            }}>{t("benefitheadfive")}</h5>
-        </div>
-        <div
-          style={myFont.style}
-          className={styles.effortlessCrossBorderTransa1}
-        >
-          <h5
-            className="my-0 leading-relaxed"
-            style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "1rem"
-                  
-                  : "1.4rem",
-            }}
-          >
-            {t("benefitheadtwo")}
-          </h5>
-        </div>
-        <div style={secondFont.style} className={styles.joinAPlatform1}>
-          {t("benefitparagraphone")}
-        </div>
-        <div style={secondFont.style} className={styles.enjoyThePower1}>
-          {t("benefitparagraphsix")}
-        </div>
-        <div
-          style={secondFont.style}
-          className={styles.experienceEnhancedSecurity1}
-        >
-          {t("benefitparagraphfour")}
-        </div>
-        <div
-          style={secondFont.style}
-          className={styles.leverageSmartContracts1}
-        >
-          {t("benefitparagraphthree")}
-        </div>
-        <div style={secondFont.style} className={styles.benefitFromLower1}>
-          {t("benefitparagraphfive")}
-        </div>
-        <div style={secondFont.style} className={styles.sendAndReceive1}>
-          {t("benefitparagraphtwo")}
-        </div>
-        <Image className={styles.groupicon1} alt="" src={One} />
-        <Image className={styles.groupIcon2} alt="" src={Fou} />
-        <Image className={styles.groupIcon3} alt="" src={Two} />
-        <Image className={styles.groupIcon4} alt="" src={Three} />
-        <Image className={styles.groupIcon5} alt="" src={Fif} />
 
-        <div className={styles.homepageBlackChild17} />
         <Image
           className={styles.shutterstock2152297015ConveIcon}
           alt=""
@@ -397,7 +357,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[600px] z-50 opacity-100">
+      <section className="h-fit lg:scale-125 w-screen mt bg-center bg-cover hidden lg:flex landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[600px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
