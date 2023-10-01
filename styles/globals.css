@@ -204,6 +204,13 @@ body {
   background: linear-gradient(180deg, #201d26, #1d1b20) !important;
 }
 
+.css-1fkb990{
+  border-color: transparent !important;
+}
+
+.css-16zxvf5{
+  color: #201d26 !important;
+}
 .homeGlass {
   background: rgba( 255, 255, 255, 0.5 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
