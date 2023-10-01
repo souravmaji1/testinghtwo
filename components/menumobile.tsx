@@ -71,7 +71,7 @@ const MenuIPadPro1291: NextPage = () => {
             className={`text-[#F9E552] text-xl mb-4`}
             style={{ fontFamily: myFont.style.fontFamily }}
           >
-            Trade
+            {t('trade')}
           </h5>
         </a>
 		<a href="/stake">
@@ -79,7 +79,7 @@ const MenuIPadPro1291: NextPage = () => {
             className={`text-[#F9E552] text-xl mb-4`}
             style={{ fontFamily: myFont.style.fontFamily }}
           >
-            Stake
+            {t('stake')}
           </h5>
         </a>
 		<a href="/about">
@@ -95,7 +95,7 @@ const MenuIPadPro1291: NextPage = () => {
             className={`text-[#F9E552] text-xl mb-4`}
             style={{ fontFamily: myFont.style.fontFamily }}
           >
-            Profile
+            {t('profile')}
           </h5>
         </a>
 		<div className={`${styles.mingcutewallet4FillParent} w-10/12 h-fit py-2 px-3 flex flex-row items-center justify-center rounded-xl`}>

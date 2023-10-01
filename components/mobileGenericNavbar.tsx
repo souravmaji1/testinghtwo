@@ -257,12 +257,12 @@ function GenericMobileNavbar() {
             </a>
             <a href="/trade">
               <h5 style={fourthFont.style} className="text-white text-xl mb-0">
-                Trade
+                {t('trade')}
               </h5>
             </a>
             <a href="/stake">
               <h5 style={fourthFont.style} className="text-white text-xl mb-0">
-                Stake
+                {t('stake')}
               </h5>
             </a>
             <a href="/about">
@@ -272,7 +272,7 @@ function GenericMobileNavbar() {
             </a>
             <a href="/profile">
               <h5 style={fourthFont.style} className="text-white text-xl mb-0">
-                Profile
+                {t('profile')}
               </h5>
             </a>
           </div>
@@ -448,12 +448,12 @@ function GenericMobileNavbar() {
             </a>
             <a href="/trade">
               <h5 style={fourthFont.style} className="text-white text-base mb-0">
-                Trade
+                {t('trade')}
               </h5>
             </a>
             <a href="/stake">
               <h5 style={fourthFont.style} className="text-white text-base mb-0">
-                Stake
+                {t('stake')}
               </h5>
             </a>
             <a href="/about">
@@ -463,7 +463,7 @@ function GenericMobileNavbar() {
             </a>
             <a href="/profile">
               <h5 style={fourthFont.style} className="text-white text-base mb-0">
-                Profile
+                {t('profile')}
               </h5>
             </a>
           </div>

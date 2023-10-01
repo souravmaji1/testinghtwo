@@ -89,18 +89,16 @@ const ProfileIPadPro1294: NextPage = () => {
   };
 
   return (
-    <div className={`${styles.profileIpadPro1294} h-[2900px] landscape:h-[2900px]`}>
-		<GenericMobileNavbar />
+    <div
+      className={`${styles.profileIpadPro1294} h-[2900px] landscape:h-[2900px]`}
+    >
+      <GenericMobileNavbar />
       <div className={styles.profileIpadPro1294Child} />
       <Image className={styles.circleBgIcon} alt="" src={Circles} />
-      
 
-      
-
-      
       <img className={styles.unionIcon2} alt="" src="Union.png" />
       <img className={styles.unionIcon3} alt="" src="Union.png" />
-      
+
       <Image className={styles.profileIpadPro1294Inner} alt="" src={User} />
       <div style={myFont.style} className={styles.sebastianMathew}>
         Test User
@@ -185,15 +183,19 @@ const ProfileIPadPro1294: NextPage = () => {
         <img className={styles.groupIcon5} alt="" src="Group.png" />
         <img className={styles.groupIcon6} alt="" src="Group.png" />
       </div>
-      <div style={thirdFont.style} className={styles.pl}>
-        <Image src={Pl} alt="" />
-      </div>
-      <div className={styles.vectorParent}>
-        <img className={styles.vectorIcon1} alt="" src="Vector.png" />
-        <div style={thirdFont.style} className={styles.home}>
-          +24%
+      <div
+        style={thirdFont.style}
+        className={`${styles.pl} flex flex-row items-center justify-start`}
+      >
+        <h5 className="text-2xl text-[#ffe500] mr-5">P&L</h5>
+        <div className={styles.vectorParent}>
+          <img className={styles.vectorIcon1} alt="" src="Vector.png" />
+          <div style={thirdFont.style} className={styles.home}>
+            +24%
+          </div>
         </div>
       </div>
+
       <div style={thirdFont.style} className={styles.holdings}>
         <Image src={Holdins} alt="" />
       </div>
@@ -273,7 +275,10 @@ const ProfileIPadPro1294: NextPage = () => {
           <b className={styles.b3}>$0</b>
         </div>
       </div>
-      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] landscape:bottom-[12%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+      <section
+        id="comm"
+        className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] landscape:bottom-[12%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+      >
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
@@ -301,41 +306,62 @@ const ProfileIPadPro1294: NextPage = () => {
         </div>
       </section>
       <section className="bg-[#141315] hidden h-fit w-screen md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+        <a href="/">
+          <img
+            src={Headlogo.src}
+            className=" aspect-square w-20 mb-10"
+            alt=""
+          />
+        </a>
+        <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
           <a href="/">
-            <img
-              src={Headlogo.src}
-              className=" aspect-square w-20 mb-10"
-              alt=""
-            />
+            <h5
+              className="text-white montreal text-2xl md:text-xl"
+              style={secondFont.style}
+            >
+              Home
+            </h5>
           </a>
-          <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
-            <a href="/">
-              <h5
-                className="text-white montreal text-2xl md:text-xl"
-                style={secondFont.style}
-              >
-                Home
-              </h5>
-            </a>
-            <a href="/trade">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Trade</h5>
-            </a>
-            <a href="/stake">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Stake</h5>
-            </a>
-            <a href="/about">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>About</h5>
-            </a>
-            <a href="/profile">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>
-                Profile
-              </h5>
-            </a>
-          </div>
-          <h5 className="montreal text-gray-500 text-sm absolute bottom-8" style={thirdFont.style}>
-            All Rights Reserved - © 2023 CMax
-          </h5>
-        </section>
+          <a href="/trade">
+            <h5
+              className="text-white montreal text-2xl md:text-xl"
+              style={secondFont.style}
+            >
+              Trade
+            </h5>
+          </a>
+          <a href="/stake">
+            <h5
+              className="text-white montreal text-2xl md:text-xl"
+              style={secondFont.style}
+            >
+              Stake
+            </h5>
+          </a>
+          <a href="/about">
+            <h5
+              className="text-white montreal text-2xl md:text-xl"
+              style={secondFont.style}
+            >
+              About
+            </h5>
+          </a>
+          <a href="/profile">
+            <h5
+              className="text-white montreal text-2xl md:text-xl"
+              style={secondFont.style}
+            >
+              Profile
+            </h5>
+          </a>
+        </div>
+        <h5
+          className="montreal text-gray-500 text-sm absolute bottom-8"
+          style={thirdFont.style}
+        >
+          All Rights Reserved - © 2023 CMax
+        </h5>
+      </section>
     </div>
   );
 };

@@ -382,7 +382,7 @@
 .pl {
     position: absolute;
     top: 714px;
-    left: 177px;
+    left: 5%;
     font-size: 32px;
     text-transform: capitalize;
     font-weight: 500;
@@ -395,18 +395,15 @@
     object-fit: cover;
 }
 .vectorParent {
-    position: absolute;
-    top: 714px;
-    left: 251px;
     border-radius: 7px;
     background-color: #3e4057;
-    height: 41px;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     padding: 10px;
     box-sizing: border-box;
-    align-items: baseline;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
     gap: 10px;
     text-align: right;
     font-size: 20px;
@@ -451,6 +448,7 @@
     position: relative;
     text-transform: capitalize;
     font-weight: 500;
+    white-space: nowrap !important;
 }
 .b {
     font-family: 'Neue Montreal';
