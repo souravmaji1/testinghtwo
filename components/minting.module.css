@@ -263,7 +263,8 @@
     color: #1f1330;
 }
 .swapMintburnChild {
-    position: absolute;
+    position: absolute !important;
+    width: 100% !important;
     top: 0px;
     left: 0px;
     border-radius: 11px;
