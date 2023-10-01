@@ -289,10 +289,10 @@ const HomepageBlack: NextPage = () => {
                   alt=""
                 />
                 <h5
-                  className="lg:text-xl text-[#FFE925] text-left mb-4"
+                  className="lg:text-base text-[#FFE925] text-left mb-4"
                   style={myFont.style}
                 >
-                  zef
+                  {item.title}
                 </h5>
                 <h5
                   className="lg:text-2xl text-white text-left"
