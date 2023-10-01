@@ -102,12 +102,8 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 
 const HomepageBlack: NextPage = () => {
+  const [orientation, setOrientation] = useState("");
 
-  const [orientation, setOrientation] = useState("")
-
-
-  
-  
   // important for translation. import in every page or component
   const { t, i18n } = useTranslation();
   // important for translation. import in every page or component
@@ -131,8 +127,6 @@ const HomepageBlack: NextPage = () => {
   useEffect(() => {
     handleLanguageChange();
   }, []);
-
-
 
   return (
     <div>
@@ -171,8 +165,10 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.btnParent}>
           <div className={styles.btn}>
-            
-            <div style={thirdFont.style} className={`${styles.startTrading} startTradingBtnClipped`}>
+            <div
+              style={thirdFont.style}
+              className={`${styles.startTrading} startTradingBtnClipped`}
+            >
               <a href="/trade">
                 <h5 className="text-black text-base w-full text-center mb-0">
                   {t("tradingbutton")}
@@ -194,7 +190,6 @@ const HomepageBlack: NextPage = () => {
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
         <div className="absolute md:top-[1010px] lg:top-[0px] xl:top-[1010px]   w-full h-fit">
-          
           <div className={`mx-0 ${styles.frameParent}`}>
             <div className={styles.groupParent}>
               <div className={styles.downloadOurWhitePaperForIParent}>
@@ -257,26 +252,67 @@ const HomepageBlack: NextPage = () => {
           style={myFont.style}
           className={styles.seamlessFinancialInclusion1}
         >
-          <h5 className="text-2xl my-0">{t("benefithead")}</h5>
+          <h5 className="my-0 leading-relaxed" style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefithead")}</h5>
         </div>
         <div style={myFont.style} className={styles.decentralizedControl}>
-          <h5 className="text-2xl my-0">{t("benefitheadsix")}</h5>
+          <h5 className="my-0 leading-relaxed" style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadsix")}</h5>
         </div>
         <Image className={styles.groupIcon1} alt="" src={Six} />
         <div style={myFont.style} className={styles.enhancedSecurity}>
-          <h5 className="text-2xl my-0">{t("benefitheadfour")}</h5>
+          <h5 className="my-0 leading-relaxed" style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadfour")}</h5>
         </div>
         <div style={myFont.style} className={styles.smartContractCapabilities1}>
-          <h5 className="text-2xl my-0">{t("benefitheadthree")}</h5>
+          <h5 className="my-0 leading-relaxed" style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadthree")}</h5>
         </div>
         <div style={myFont.style} className={styles.reducedFees}>
-          <h5 className="text-2xl my-0">{t("benefitheadfive")}</h5>
+          <h5 className="my-0 leading-relaxed" style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}>{t("benefitheadfive")}</h5>
         </div>
         <div
           style={myFont.style}
           className={styles.effortlessCrossBorderTransa1}
         >
-          <h5 className="text-2xl my-0">{t("benefitheadtwo")}</h5>
+          <h5
+            className="my-0 leading-relaxed"
+            style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "1rem"
+                  
+                  : "1.4rem",
+            }}
+          >
+            {t("benefitheadtwo")}
+          </h5>
         </div>
         <div style={secondFont.style} className={styles.joinAPlatform1}>
           {t("benefitparagraphone")}
