@@ -181,7 +181,33 @@ const HomepageAbout: NextPage = () => {
 
         
       </div>
-
+      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
+        <img
+          src={communityBg.src}
+          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
+          alt=""
+        />
+        <div>
+          <h5
+            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
+            style={thirdFont.style}
+          >
+            {t("communityhead")}
+          </h5>
+          <h5
+            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            style={secondFont.style}
+          >
+            {t("communityparagraph")}
+          </h5>
+          <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
+            <BsGithub color="#ffffff" size={35} />
+            <FaXTwitter color="#ffffff" size={35} />
+            <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            <SiNotion color="#ffffff" size={35} />
+          </div>
+        </div>
+      </section>
       <section className="bg-[#141315] h-fit w-screen hidden md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
         <a href="/">
           <img
