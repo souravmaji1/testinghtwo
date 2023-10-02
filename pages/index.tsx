@@ -271,7 +271,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         
         <div className="absolute w-screen h-fit bottom-[25%] px-20">
-          <h5 className="w-full h-fit text-center text-5xl mb-3" style={thirdFont.style}>{t("discoverbenefit")}</h5>
+          <h5 className="w-full h-fit text-center text-5xl mb-3 text-[##ffe500]" style={thirdFont.style}>{t("discoverbenefit")}</h5>
           <h5 className="w-2/3 mx-auto text-center text-white mb-8">{t("discoverparagraph")}</h5>
           <div className="w-full h-fit grid grid-cols-3 grid-rows-2 gap-3">
           {discoverItem.map((item, index) => {
