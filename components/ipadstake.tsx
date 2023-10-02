@@ -156,7 +156,7 @@ const StakeIPadPro1292: NextPage = () => {
       <div className={styles.stakeIpadPro1292}>
         <GenericMobileNavbar />
         <div className={styles.stakeIpadPro1292Child} />
-        <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+        <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
