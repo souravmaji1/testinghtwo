@@ -93,12 +93,14 @@ export default function Minting() {
 
   const executeApproveAction = async () => {
     try {
-      const allAmount = amount;
+      const allAmount = Number(amount);
+
+      const totalAmount = allAmount * 1000000;
 
       const spenderAddress = "0xcee91e93E147553563A74fb8aD6BECefF227C948";
 
       // Execute the 'approve' action
-      await approve({ args: [spenderAddress, allAmount] });
+      await approve({ args: [spenderAddress, totalAmount] });
     } catch (error) {
       console.error("Error during 'approve' action:", error);
       throw error;
@@ -211,9 +213,9 @@ export default function Minting() {
                 fontSize: "21px",
               }}
               sx={{ color: "black" }}
-              onClick={handleClickOpen}
+              
             >
-              <h5 className="mb-0" style={thirdFont.style}>COMMIT MINT</h5>
+              <button className="mb-0" style={thirdFont.style} onClick={handleMint}  >COMMIT MINT</button>
             </Button>
 
             <Dialog open={open} onClose={handleClose}>
