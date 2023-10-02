@@ -492,7 +492,7 @@ const HomepageStake: NextPage = () => {
             </div>
           </div>
         </div>
-        <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[500px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
+        <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[500px] landscape:lg:bottom-[400px] landscape:xl:bottom-[400px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
