@@ -280,7 +280,13 @@ const HomepageBlack: NextPage = () => {
         
         <div className="absolute w-screen h-fit bottom-[25%] px-20">
           <h5 className="w-full h-fit text-center text-5xl mb-3 text-[##ffe500]" style={thirdFont.style}>{t("discoverbenefit")}</h5>
-          <h5 className="w-2/3 mx-auto text-center text-white mb-8">{t("discoverparagraph")}</h5>
+          <h5 className="w-2/3 mx-auto text-center text-white mb-8" style={{
+              width:
+                localStorage.getItem("lang") == "es"
+                  ? "90%"
+
+                  : "66%",
+            }}>{t("discoverparagraph")}</h5>
           <div className="w-full h-fit grid grid-cols-3 grid-rows-2 gap-3">
           {discoverItem.map((item, index) => {
             return (
@@ -303,7 +309,7 @@ const HomepageBlack: NextPage = () => {
                 localStorage.getItem("lang") == "ru"
                   ? "0.8rem"
 
-                  : "1.2rem",
+                  : "1rem",
             }}>{item.title}</span>
                 </h5>
                 <h5
@@ -315,7 +321,7 @@ const HomepageBlack: NextPage = () => {
                 localStorage.getItem("lang") == "ru"
                   ? "0.9rem"
 
-                  : "1.2rem",
+                  : "1rem",
             }}>{item.text}</span>
                   
                 </h5>
