@@ -72,16 +72,16 @@ export default function Minting() {
   );
 
   const { contract: titaTokenContract } = useContract(
-    "0x00f35860FA16166B0A83E4424807CAe4AFC69Faf"
+    "0x03e54aA9dA867E989D1D2eE987ECb7ddf57a4a74"
   ); // Replace with your TitaToken address
   const { mutateAsync: titaTokenApprove, isLoading: isTitaTokenApproving } =
     useContractWrite(titaTokenContract, "approve");
 
   const { contract: requestTokenContract } = useContract(
-    "0xF7255ea12291b9AA20a3fF83f609608Bd1EAeB04"
+    "0x2150A48b83a68DFb289D70b3e801617b7cD5b98e"
   );
-  const { mutateAsync: requesttitaToken, isLoading: isRequestingToken } =
-    useContractWrite(requestTokenContract, "requesttitaToken");
+  const { mutateAsync: requestToken, isLoading: isRequestingToken } =
+    useContractWrite(requestTokenContract, "requestToken");
   const { mutateAsync: burnToken, isLoading: isBurningToken } =
     useContractWrite(requestTokenContract, "burnToken");
 
@@ -101,11 +101,12 @@ export default function Minting() {
 
   const executeApproveAction = async () => {
     try {
-      const approveAmount = amount; // Use the 'amount' state value
-      const spenderAddress = "0xF7255ea12291b9AA20a3fF83f609608Bd1EAeB04";
+      const approveAmount = Number(amount); // Use the 'amount' state value
+      const totalApprove = approveAmount * 1000000;
+      const spenderAddress = "0x2150A48b83a68DFb289D70b3e801617b7cD5b98e";
 
       // Execute the 'approve' action
-      await approve({ args: [spenderAddress, approveAmount] });
+      await approve({ args: [spenderAddress, totalApprove] });
     } catch (error) {
       console.error("Error during 'approve' action:", error);
       throw error;
@@ -115,7 +116,7 @@ export default function Minting() {
   const executeRequestTokenAction = async () => {
     try {
       // Execute the 'RequestToken' action
-      await requesttitaToken({ args: [address, amount] });
+      await requestToken({ args: [address, amount] });
     } catch (error) {
       console.error("Error during 'RequestToken' action:", error);
       throw error;
@@ -138,11 +139,12 @@ export default function Minting() {
 
   const Titapprove = async () => {
     try {
-      const approveAmount = burnamount; // Use the 'amount' state value
-      const spenderAddress = "0xcee91e93E147553563A74fb8aD6BECefF227C948";
+      const approveAmount = Number(burnamount); // Use the 'amount' state value
+      const burnTotal = BigInt(approveAmount * 10**18);
+      const spenderAddress = "0x2150A48b83a68DFb289D70b3e801617b7cD5b98e";
 
       // Execute the 'approve' action
-      await titaTokenApprove({ args: [spenderAddress, approveAmount] });
+      await titaTokenApprove({ args: [spenderAddress, burnTotal] });
     } catch (error) {
       console.error("Error during 'approve' action:", error);
       throw error;
