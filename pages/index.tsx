@@ -286,16 +286,30 @@ const HomepageBlack: NextPage = () => {
                   alt=""
                 />
                 <h5
-                  className="lg:text-base text-[#FFE925] text-left mb-4"
+                
+                  className="lg:text-base w-2/3 text-[#FFE925] text-left mb-4"
                   style={myFont.style}
                 >
-                  {item.title}
+                  <span style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "0.8rem"
+
+                  : "1.4rem",
+            }}>{item.title}</span>
                 </h5>
                 <h5
                   className="lg:text-2xl text-white text-left"
                   style={secondFont.style}
                 >
-                  {item.text}
+                  <span style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "0.9rem"
+
+                  : "1.4rem",
+            }}>{item.text}</span>
+                  
                 </h5>
               </div>
             );
