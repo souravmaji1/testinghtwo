@@ -280,11 +280,11 @@
 .groupParent {
     position: absolute;
     top: 430px;
-    left: 7%;
+    left: 4%;
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     backdrop-filter: blur(12px);
-    width: 316px;
+    width: 92%;
     display: flex;
     flex-direction: row;
     padding: 11px 90px;
