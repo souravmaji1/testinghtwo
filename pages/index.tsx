@@ -195,6 +195,7 @@ const HomepageBlack: NextPage = () => {
 			*/}
         </div>
         <div style={myFont.style} className={styles.discoverTheRwfa}>
+          
           {t("secondhead")}
         </div>
         <div className={styles.btnParent}>
@@ -234,7 +235,14 @@ const HomepageBlack: NextPage = () => {
                   <h5 className="text-4xl ">{t("downloadhead")}</h5>
                 </div>
                 <div style={secondFont.style} className={styles.diveIntoThe1}>
-                  📥 {t("downloadparagraph")} 🚀
+                <span style={{
+              fontSize:
+                localStorage.getItem("lang") == "ru"
+                  ? "20px"
+
+                  : "24px",
+            }}>📥 {t("downloadparagraph")} 🚀</span>
+                  
                 </div>
               </div>
               <div className={styles.mingcutewallet4FillParent}>
@@ -295,7 +303,7 @@ const HomepageBlack: NextPage = () => {
                 localStorage.getItem("lang") == "ru"
                   ? "0.8rem"
 
-                  : "1.4rem",
+                  : "1.2rem",
             }}>{item.title}</span>
                 </h5>
                 <h5
@@ -307,7 +315,7 @@ const HomepageBlack: NextPage = () => {
                 localStorage.getItem("lang") == "ru"
                   ? "0.9rem"
 
-                  : "1.4rem",
+                  : "1.2rem",
             }}>{item.text}</span>
                   
                 </h5>

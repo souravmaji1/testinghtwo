@@ -350,14 +350,14 @@
 .mint {
     position: absolute;
     top: 5px;
-    left: 100.11px;
+    left: 5%;
     font-weight: 500;
     
 }
 .burn {
     position: absolute;
     top: 5px;
-    left: 238.16px;
+    left: 45%;
     font-weight: 500;
     opacity: 0.7;
 }
@@ -383,7 +383,7 @@
 .youPay {
     position: absolute;
     top: 40px;
-    left: 47px;
+    left: 7%;
     font-size: 14px;
     text-transform: capitalize;
 }
@@ -443,7 +443,7 @@
 .balance323400 {
     position: absolute;
     top: 40px;
-    left: 250px;
+    left: 75%;
     font-size: 14px;
     text-transform: capitalize;
     text-align: right;
@@ -477,7 +477,8 @@
 .div5 {
     position: absolute;
     top: 70px;
-    left: 48px;
+    left: 7%;
+    width: 40%;
     font-size: 32px;
     font-weight: 500;
 }
@@ -505,10 +506,10 @@
 .frameGroup {
     position: absolute;
     top: 80px;
-    left: 201px;
+    left: 53%;
     border-radius: 13px;
     background-color: #3f4145;
-    width: 120px;
+    width: 40%;
     display: flex;
     flex-direction: row;
     padding: 6px;

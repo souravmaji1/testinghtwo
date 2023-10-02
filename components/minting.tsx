@@ -228,9 +228,10 @@ export default function Minting() {
 
               <Tabs variant="unstyled">
                 <TabList>
+                  <div className=" bg-red-200">
                   <Tab
                     style={thirdFont.style}
-                    className={styles.mint}
+                    className={`${styles.mint} w-fit`}
                     _selected={{ color: "yellow", bg: "none" }}
                   >
                     <Image src={Mx} alt="" />
@@ -242,6 +243,7 @@ export default function Minting() {
                   >
                     <Image src={Br} alt="" />
                   </Tab>
+                  </div>
                 </TabList>
                 <TabPanels>
                   <TabPanel>
@@ -339,11 +341,11 @@ export default function Minting() {
                         className={styles.span1}
                         style={{
                           background: "none",
-                          width: "60%",
+                          width: "100%",
                           borderRadius: "15px",
                           border: "solid 1px #ffffff",
                           fontSize: "18px",
-                          padding: "3% 3%",
+                          padding: "1.5% 3%",
                         }}
                         onChange={(e) => setAmount(e.target.value)}
                       />
