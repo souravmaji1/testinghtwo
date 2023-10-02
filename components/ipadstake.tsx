@@ -156,34 +156,37 @@ const StakeIPadPro1292: NextPage = () => {
       <div className={styles.stakeIpadPro1292}>
         <GenericMobileNavbar />
         <div className={styles.stakeIpadPro1292Child} />
-        <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
-        <img
-          src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
-          alt=""
-        />
-        <div>
-          <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
-            style={thirdFont.style}
-          >
-            {t("communityhead")}
-          </h5>
-          <h5
-            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
-            style={secondFont.style}
-          >
-            {t("communityparagraph")}
-          </h5>
-          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
+        <section
+          id="comm"
+          className="h-fit w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+        >
+          <img
+            src={communityBg.src}
+            className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+            alt=""
+          />
+          <div className="mx-auto w-10/12">
+            <h5
+              className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+              style={thirdFont.style}
+            >
+              {t("communityhead")}
+            </h5>
+            <h5
+              className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+              style={secondFont.style}
+            >
+              {t("communityparagraph")}
+            </h5>
+            <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+              <BsGithub color="#ffffff" size={35} />
+              <FaXTwitter color="#ffffff" size={35} />
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+              <SiNotion color="#ffffff" size={35} />
+            </div>
           </div>
-        </div>
-      </section>
-        
+        </section>
+
         <Image className={styles.circleBgIcon} alt="" src={Circles} />
 
         <img className={styles.unionIcon2} alt="" src="Union.png" />
@@ -449,21 +452,42 @@ const StakeIPadPro1292: NextPage = () => {
               </h5>
             </a>
             <a href="/trade">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Trade</h5>
+              <h5
+                className="text-white montreal text-2xl md:text-xl"
+                style={secondFont.style}
+              >
+                Trade
+              </h5>
             </a>
             <a href="/stake">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>Stake</h5>
+              <h5
+                className="text-white montreal text-2xl md:text-xl"
+                style={secondFont.style}
+              >
+                Stake
+              </h5>
             </a>
             <a href="/about">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>About</h5>
+              <h5
+                className="text-white montreal text-2xl md:text-xl"
+                style={secondFont.style}
+              >
+                About
+              </h5>
             </a>
             <a href="/profile">
-              <h5 className="text-white montreal text-2xl md:text-xl" style={secondFont.style}>
+              <h5
+                className="text-white montreal text-2xl md:text-xl"
+                style={secondFont.style}
+              >
                 Profile
               </h5>
             </a>
           </div>
-          <h5 className="montreal text-gray-500 text-sm absolute bottom-8" style={thirdFont.style}>
+          <h5
+            className="montreal text-gray-500 text-sm absolute bottom-8"
+            style={thirdFont.style}
+          >
             All Rights Reserved - © 2023 CMax
           </h5>
         </section>

@@ -224,7 +224,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
-        <div className="absolute md:top-[1010px] lg:top-[10100px] xl:top-[1010px]   w-full h-fit">
+        <div className="absolute md:top-[1010px] lg:top-0 xl:top-[1010px]   w-full h-fit">
           <div className={`mx-0 ${styles.frameParent}`}>
             <div className={styles.groupParent}>
               <div className={styles.downloadOurWhitePaperForIParent}>
@@ -238,9 +238,9 @@ const HomepageBlack: NextPage = () => {
                 <span style={{
               fontSize:
                 localStorage.getItem("lang") == "ru"
-                  ? "20px"
+                  ? "19px"
 
-                  : "24px",
+                  : "23px",
             }}>📥 {t("downloadparagraph")} 🚀</span>
                   
                 </div>

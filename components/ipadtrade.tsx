@@ -121,11 +121,11 @@ const TradeIPadPro1292: NextPage = () => {
         alt=""
         src="Group 1000000920.png"
       />
-      <div className={styles.joinOurCommunityParent}>
-        <div style={thirdFont.style} className={styles.joinOurCommunity1}>
+      <div className={`${styles.joinOurCommunityParent} mx-auto`}>
+        <div style={thirdFont.style} className={`${styles.joinOurCommunity1} mx-auto w-full`}>
           <Image style={{ margin: "auto" }} src={Joins} alt="" />
         </div>
-        <div style={secondFont.style} className={styles.diveIntoA1}>
+        <div style={secondFont.style} className={`${styles.diveIntoA1} mx-auto w-10/12`}>
           {" "}
           {t("communityparagraph")}{" "}
         </div>

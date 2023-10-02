@@ -117,14 +117,27 @@ const HomepageAbout: NextPage = () => {
         <Image className={styles.unionIcon2} alt="" src={Star} />
         <img className={styles.unionIcon3} alt="" src="Union.svg" />
         <div className="w-screen h-fit absolute top-[260px] px-20">
-          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">{t('about')}</h5>
-          <h5 style={secondFont.style} className="text-2xl le text-white w-10/12 leading-relaxed mb-5">{t('aboutparagraph')}</h5>
-          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">{t('roadmap')}</h5>
-          <h5 style={secondFont.style} className="text-2xl le text-white w-10/12 leading-relaxed mb-5">{t('roadmapparagraph')}</h5>
-
+          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">
+            {t("about")}
+          </h5>
+          <h5
+            style={secondFont.style}
+            className="text-2xl le text-white w-10/12 leading-relaxed mb-5"
+          >
+            {t("aboutparagraph")}
+          </h5>
+          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">
+            {t("roadmap")}
+          </h5>
+          <h5
+            style={secondFont.style}
+            className="text-2xl le text-white w-10/12 leading-relaxed mb-5"
+          >
+            {t("roadmapparagraph")}
+          </h5>
         </div>
 
-        <div className={styles.vectorParent} style={{top: "1100px"}}>
+        <div className={styles.vectorParent} style={{ top: "1100px" }}>
           <Image className={styles.groupItem} alt="" src={Snake} />
 
           <div className={styles.frameDiv} />
@@ -174,12 +187,22 @@ const HomepageAbout: NextPage = () => {
         </div>
 
         <div className="w-screen h-fit absolute top-[2500px] px-20">
-          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">{t('audit')}</h5>
-          <h5 style={secondFont.style} className="text-2xl le text-white w-10/12 leading-relaxed mb-5">{t('auditparagraph')}</h5>
-          
+          <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">
+            {t("audit")}
+          </h5>
+          <h5
+            style={secondFont.style}
+            className="text-2xl le text-white w-11/12 leading-relaxed mb-5"
+          >
+            <span
+              style={{
+                fontSize:
+                  localStorage.getItem("lang") == "ru" ? "22px" : "23px",
+              }}
+            >{t("auditparagraph")}</span>
+            
+          </h5>
         </div>
-
-        
       </div>
       <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
         <img
@@ -187,7 +210,7 @@ const HomepageAbout: NextPage = () => {
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
           alt=""
         />
-        <div>
+        <div className="w-10/12 mx-auto">
           <h5
             className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
             style={thirdFont.style}

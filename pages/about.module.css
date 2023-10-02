@@ -511,11 +511,12 @@
 .distributionTokenCbcContainer1 {
     position: absolute;
     top: 775px;
-    left: 398px;
+    left: 406px;
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 500;
     color: #fff;
+    width: 55%;
 }
 .distributionTokenCbcContainer2 {
     position: absolute;

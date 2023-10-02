@@ -236,13 +236,13 @@ const AboutIPadPro1293: NextPage = () => {
       </div>
 
       <div className={styles.frameParent}></div>
-      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+      <section id="comm" className="h-fit w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
           alt=""
         />
-        <div>
+        <div className="mx-auto w-10/12">
           <h5
             className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
             style={thirdFont.style}

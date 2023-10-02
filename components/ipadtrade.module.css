@@ -33,7 +33,6 @@
 .joinOurCommunity1 {
     position: absolute;
     bottom: 209px;
-    left: 0px;
     text-transform: capitalize;
     font-weight: 500;
     display: inline-block;
@@ -43,7 +42,6 @@
 .diveIntoA1 {
     position: absolute;
     bottom: 90px;
-    left: 0px;
     padding: 0 82px;
     font-size: 18px;
     font-weight: bold;
