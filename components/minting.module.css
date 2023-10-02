@@ -279,8 +279,8 @@
 }
 .groupParent {
     position: absolute;
-    top: 592px;
-    left: calc(50% - 158px);
+    top: 430px;
+    left: 7%;
     border-radius: 10px;
     background: linear-gradient(180deg, #ffe500, #fff492);
     backdrop-filter: blur(12px);
