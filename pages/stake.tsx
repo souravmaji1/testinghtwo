@@ -155,7 +155,7 @@ const HomepageStake: NextPage = () => {
 
   return (
     <>
-      <div>
+      <div className="bootstrap-inside">
         <div className={styles.mobile}>
           <StakeMobile />
         </div>

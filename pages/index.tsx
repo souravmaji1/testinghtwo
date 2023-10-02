@@ -163,7 +163,7 @@ const HomepageBlack: NextPage = () => {
   ];
 
   return (
-    <div>
+    <div className="bootstrap-inside">
       <div className={styles.mobile}>
         <Mobile />
       </div>
@@ -172,7 +172,7 @@ const HomepageBlack: NextPage = () => {
         <Ipad />
       </div>
 
-      <div className={`${styles.homepageBlack} h-[5130px]`}>
+      <div className={`${styles.homepageBlack} h-[4730px]`}>
         <GenericMobileNavbar />
         <div className={styles.homepageBlackItem}></div>
         <div className={styles.homepageBlackInner}></div>
@@ -269,19 +269,16 @@ const HomepageBlack: NextPage = () => {
             </div>
           </div>
         </div>
-        <div style={thirdFont.style} className={styles.discoverOurBenefits1}>
-          <h5 className="text-5xl">{t("discoverbenefit")}</h5>
-        </div>
-        <div style={secondFont.style} className={styles.elevateYourFinancial1}>
-          {t("discoverparagraph")}
-        </div>
-
-        <div className="w-screen h-fit absolute bottom-[27%] lg:shrink-0 md:bottom-[20%] lg:px-36 lg:bottom-[22%] xl:bottom-[27%] xl:px-32 md:px-5 grid grid-cols-3 grid-rows-2 gap-3">
+        
+        <div className="absolute w-screen h-fit bottom-[25%] px-20">
+          <h5 className="w-full h-fit text-center text-5xl mb-3" style={thirdFont.style}>{t("discoverbenefit")}</h5>
+          <h5 className="w-2/3 mx-auto text-center text-white mb-8">{t("discoverparagraph")}</h5>
+          <div className="w-full h-fit grid grid-cols-3 grid-rows-2 gap-3">
           {discoverItem.map((item, index) => {
             return (
               <div
                 key={index}
-                className="discoverBox h-full w-full rounded-xl py-6 px-4 mb-3 flex flex-col items-start justify-start"
+                className="discoverBox h-full w-full rounded-xl py-3 px-4 mb-3 flex flex-col items-start justify-start"
               >
                 <img
                   src={item.icon}
@@ -303,7 +300,10 @@ const HomepageBlack: NextPage = () => {
               </div>
             );
           })}
+          </div>
         </div>
+
+        
 
         <Image
           className={styles.shutterstock2152297015ConveIcon}
@@ -357,7 +357,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section className="h-fit lg:scale-125 xl:scale-100 w-screen mt bg-center bg-cover hidden lg:flex landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[500px] landscape:xl:bottom-[600px] z-50 opacity-100">
+      <section className="h-fit md:scale-125 lg:scale-125 xl:scale-125 w-screen mt bg-center bg-cover hidden lg:flex landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[500px] landscape:xl:bottom-[500px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"

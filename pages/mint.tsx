@@ -111,7 +111,7 @@ const HomepageTradeSubpage: NextPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bootstrap-inside">
       <div className={styles.mobile}>
         <Mintmobile />
       </div>

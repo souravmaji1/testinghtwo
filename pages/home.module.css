@@ -160,6 +160,19 @@
     width: 310px;
     height: 120px;
 }
+
+.startTradingBtn {
+    text-transform: uppercase;
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffe500, #fff492);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(20% 0, 100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%);
+}
+
 .startTrading {
     position: absolute;
     font-size: 17px;

@@ -97,7 +97,7 @@ const HomepageProfile: NextPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bootstrap-inside">
       <div className={styles.mobile}>
         <Aboutmobile />
       </div>

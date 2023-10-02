@@ -122,7 +122,7 @@ const HomepageTrade: NextPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bootstrap-inside">
       <div className={styles.tade}>
         <Trademobile />
       </div>
