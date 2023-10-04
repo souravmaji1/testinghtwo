@@ -195,7 +195,6 @@ const HomepageBlack: NextPage = () => {
 			*/}
         </div>
         <div style={myFont.style} className={styles.discoverTheRwfa}>
-          
           {t("secondhead")}
         </div>
         <div className={styles.btnParent}>
@@ -235,14 +234,14 @@ const HomepageBlack: NextPage = () => {
                   <h5 className="text-4xl ">{t("downloadhead")}</h5>
                 </div>
                 <div style={secondFont.style} className={styles.diveIntoThe1}>
-                <span style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "19px"
-
-                  : "23px",
-            }}>📥 {t("downloadparagraph")} 🚀</span>
-                  
+                  <span
+                    style={{
+                      fontSize:
+                        localStorage.getItem("lang") == "ru" ? "19px" : "23px",
+                    }}
+                  >
+                    📥 {t("downloadparagraph")} 🚀
+                  </span>
                 </div>
               </div>
               <div className={styles.mingcutewallet4FillParent}>
@@ -277,61 +276,69 @@ const HomepageBlack: NextPage = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="absolute w-screen h-fit bottom-[25%] px-20">
-          <h5 className="w-full h-fit text-center text-5xl mb-3 text-[##ffe500]" style={thirdFont.style}>{t("discoverbenefit")}</h5>
-          <h5 className="w-2/3 mx-auto text-center text-white mb-8" style={{
-              width:
-                localStorage.getItem("lang") == "es"
-                  ? "90%"
-
-                  : "66%",
-            }}>{t("discoverparagraph")}</h5>
+          <h5
+            className="w-full h-fit text-center text-5xl mb-3 text-[##ffe500]"
+            style={thirdFont.style}
+          >
+            {t("discoverbenefit")}
+          </h5>
+          <h5
+            className="w-2/3 mx-auto text-center text-white mb-8"
+            style={{
+              width: localStorage.getItem("lang") == "es" ? "90%" : "66%",
+            }}
+          >
+            {t("discoverparagraph")}
+          </h5>
           <div className="w-full h-fit grid grid-cols-3 grid-rows-2 gap-3">
-          {discoverItem.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className="discoverBox h-full w-full rounded-xl py-3 px-4 mb-3 flex flex-col items-start justify-start"
-              >
-                <img
-                  src={item.icon}
-                  className="lg:w-20 aspect-square mb-6"
-                  alt=""
-                />
-                <h5
-                
-                  className="lg:text-base w-2/3 text-[#FFE925] text-left mb-4"
-                  style={myFont.style}
+            {discoverItem.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  className="discoverBox h-full w-full rounded-xl py-3 px-4 mb-3 flex flex-col items-start justify-start"
                 >
-                  <span style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "0.8rem"
-
-                  : "1rem",
-            }}>{item.title}</span>
-                </h5>
-                <h5
-                  className="lg:text-2xl text-white text-left"
-                  style={secondFont.style}
-                >
-                  <span style={{
-              fontSize:
-                localStorage.getItem("lang") == "ru"
-                  ? "0.9rem"
-
-                  : "1rem",
-            }}>{item.text}</span>
-                  
-                </h5>
-              </div>
-            );
-          })}
+                  <img
+                    src={item.icon}
+                    className="lg:w-20 aspect-square mb-6"
+                    alt=""
+                  />
+                  <h5
+                    className="lg:text-base w-2/3 text-[#FFE925] text-left mb-4"
+                    style={myFont.style}
+                  >
+                    <span
+                      style={{
+                        fontSize:
+                          localStorage.getItem("lang") == "ru"
+                            ? "0.8rem"
+                            : "1rem",
+                      }}
+                    >
+                      {item.title}
+                    </span>
+                  </h5>
+                  <h5
+                    className="lg:text-2xl text-white text-left"
+                    style={secondFont.style}
+                  >
+                    <span
+                      style={{
+                        fontSize:
+                          localStorage.getItem("lang") == "ru"
+                            ? "0.9rem"
+                            : "1rem",
+                      }}
+                    >
+                      {item.text}
+                    </span>
+                  </h5>
+                </div>
+              );
+            })}
           </div>
         </div>
-
-        
 
         <Image
           className={styles.shutterstock2152297015ConveIcon}
@@ -393,7 +400,7 @@ const HomepageBlack: NextPage = () => {
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
+            className="block z-50 text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
             style={thirdFont.style}
           >
             {t("communityhead")}

@@ -100,32 +100,33 @@ const AboutIPadPro1293: NextPage = () => {
       <img className={styles.unionIcon3} alt="" src="Union.png" />
 
       <div style={myFont.style} className={styles.aboutUs}>
-        <h5 className="text-4xl capitalize">{t("about")}</h5>
+        <h5 className="text-3xl capitalize">{t("about")}</h5>
       </div>
       <div style={thirdFont.style} className={styles.roadMap}>
-        <h5 className="text-4xl capitalize">{t("roadmap")}</h5>
+        <h5 className="text-3xl capitalize">{t("roadmap")}</h5>
       </div>
-      <div style={thirdFont.style} className={styles.ourVision1}>{`Audit`}</div>
+      <div style={thirdFont.style} className={styles.ourVision1}>
+        <h5 className="text-3xl capitalize">
+          {t('audit')}
+        </h5>
+      </div>
       <div className={styles.loremIpsumDolorContainer}>
         <p style={secondFont.style} className={styles.blankLine}>
           {" "}
           {t("aboutparagraph")}{" "}
         </p>
-        <p className={styles.blankLine}>&nbsp;</p>
       </div>
       <div className={styles.loremIpsumDolorContainer1}>
         <p style={secondFont.style} className={styles.blankLine}>
           {" "}
           {t("roadmapparagraph")}{" "}
         </p>
-        <p className={styles.blankLine}>&nbsp;</p>
       </div>
       <div className={styles.loremIpsumDolorContainer2}>
         <p style={secondFont.style} className={styles.blankLine}>
           {" "}
           {t("auditparagraph")}{" "}
         </p>
-        <p className={styles.blankLine}>&nbsp;</p>
       </div>
       <div className={styles.vectorParent}>
         <img className={styles.groupItem} alt="" src="Vector 19.png" />
@@ -244,7 +245,7 @@ const AboutIPadPro1293: NextPage = () => {
         />
         <div className="mx-auto w-10/12">
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-50"
             style={thirdFont.style}
           >
             {t("communityhead")}

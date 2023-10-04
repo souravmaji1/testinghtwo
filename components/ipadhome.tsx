@@ -453,12 +453,12 @@ const HomeIPadPro1291: NextPage = () => {
       <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[6.5%] landscape:bottom-[7%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square z-10"
           alt=""
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-50"
             style={thirdFont.style}
           >
             {t("communityhead")}

@@ -390,7 +390,7 @@
 .antDesignswapOutlined {
     position: absolute;
     top: 338.95px;
-    left: 48px;
+    left: 6%;
     border-radius: 8px;
     background-color: #3f4145;
     height: 26px;
@@ -562,7 +562,7 @@
 .expectedPrice124681 {
     position: absolute;
     top: 230px;
-    left: 48px;
+    left: 5%;
     font-size: 14px;
     text-transform: capitalize;
     color: #676767;

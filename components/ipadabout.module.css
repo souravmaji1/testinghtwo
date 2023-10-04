@@ -3212,7 +3212,7 @@
         position: relative;
         background: linear-gradient(180deg, #201d26, #1d1b20);
         width: 100%;
-        height: 3436px;
+        height: 3836px;
         overflow: hidden;
         text-align: left;
         font-size: 18px;
@@ -3262,7 +3262,7 @@
 
     .loremIpsumDolorContainer2 {
         position: absolute;
-        bottom: 452.15px;
+        bottom: 800px;
         padding: 0 0 0 20px;
         letter-spacing: -0.02em;
         line-height: 30px;
@@ -3296,7 +3296,7 @@
 
     .ourVision1 {
         position: absolute;
-        bottom: 715.15px;
+        bottom: 1100px;
         padding: 0 0 0 20px;
         font-size: 43px;
         text-transform: capitalize;
