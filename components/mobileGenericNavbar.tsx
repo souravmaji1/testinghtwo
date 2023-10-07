@@ -16,7 +16,9 @@ import FrenchFlag from "../public/Flag (1).svg"; // Import the French flag image
 import ItalianFlag from "../public/Flag (2).svg";
 import RussanFlag from "../public/Flag (3).svg";
 import ArbaianFlag from "../public/arabian.svg";
-import GermanFlag from "../public/germany.png"
+import GermanFlag from "../public/germany.png";
+import PortugalFlag from "../public/pr.png";
+import ChineseFlag from "../public/china.png";
 import { ConnectWallet } from "@thirdweb-dev/react";
 
 import { LiaWalletSolid } from "react-icons/lia";
@@ -88,6 +90,8 @@ function GenericMobileNavbar() {
       handleLanguageChange("es", SpanishFlag);
     } else if (localStorage.getItem("lang") == "de") {
       handleLanguageChange("de", GermanFlag);
+    } else if (localStorage.getItem("lang") == "pr") {
+      handleLanguageChange("pr", PortugalFlag);
     }
   }, []);
   return (
@@ -192,6 +196,26 @@ function GenericMobileNavbar() {
                     style={secondFont.style}
                   >
                     ES
+                  </h5>
+                </div>
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  localStorage.setItem("lang", "pr");
+                  handleLanguageChange("pr", PortugalFlag);
+                }}
+              >
+                <div className="w-full h-fit flex flex-row items-center justify-start">
+                  <Image
+                    src={PortugalFlag}
+                    alt="English"
+                    className="h-6 w-6 mr-3 aspect-square"
+                  />
+                  <h5
+                    className={` text-xl text-white my-0`}
+                    style={secondFont.style}
+                  >
+                    PR
                   </h5>
                 </div>
               </MenuItem>
@@ -395,6 +419,26 @@ function GenericMobileNavbar() {
                   style={secondFont.style}
                 >
                   ES
+                </h5>
+              </div>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
+                localStorage.setItem("lang", "pr");
+                handleLanguageChange("pr", PortugalFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={PortugalFlag}
+                  alt="English"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  PR
                 </h5>
               </div>
             </MenuItem>
