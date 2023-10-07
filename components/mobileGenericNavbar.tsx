@@ -16,6 +16,7 @@ import FrenchFlag from "../public/Flag (1).svg"; // Import the French flag image
 import ItalianFlag from "../public/Flag (2).svg";
 import RussanFlag from "../public/Flag (3).svg";
 import ArbaianFlag from "../public/arabian.svg";
+import GermanFlag from "../public/germany.png"
 import { ConnectWallet } from "@thirdweb-dev/react";
 
 import { LiaWalletSolid } from "react-icons/lia";
@@ -85,6 +86,8 @@ function GenericMobileNavbar() {
     } else if (localStorage.getItem("lang") == "es") {
       localStorage.setItem("lang", "es");
       handleLanguageChange("es", SpanishFlag);
+    } else if (localStorage.getItem("lang") == "de") {
+      handleLanguageChange("de", GermanFlag);
     }
   }, []);
   return (
@@ -149,6 +152,26 @@ function GenericMobileNavbar() {
                     style={secondFont.style}
                   >
                     FR
+                  </h5>
+                </div>
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  localStorage.setItem("lang", "de");
+                  handleLanguageChange("de", GermanFlag);
+                }}
+              >
+                <div className="w-full h-fit flex flex-row items-center justify-start">
+                  <Image
+                    src={GermanFlag}
+                    alt="german"
+                    className="h-6 w-6 mr-3 aspect-square"
+                  />
+                  <h5
+                    className={` text-xl text-white my-0`}
+                    style={secondFont.style}
+                  >
+                    GR
                   </h5>
                 </div>
               </MenuItem>
@@ -337,6 +360,26 @@ function GenericMobileNavbar() {
             </MenuItem>
             <MenuItem
               onClick={() => {
+                localStorage.setItem("lang", "de");
+                handleLanguageChange("de", GermanFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={GermanFlag}
+                  alt="german"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  GR
+                </h5>
+              </div>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
                 localStorage.setItem("lang", "es");
                 handleLanguageChange("es", SpanishFlag);
               }}
@@ -419,6 +462,7 @@ function GenericMobileNavbar() {
           <div className="flex flex-row items-center justify-center bg-[#ffe500] py-3 px-3 rounded-2xl">
             <LiaWalletSolid color="#000000" size={30} />
             <ConnectWallet
+            
               className=" bg-none p-0"
               style={{
                 fontFamily: "__thirdFont_3ea4f2, __thirdFont_Fallback_3ea4f2",

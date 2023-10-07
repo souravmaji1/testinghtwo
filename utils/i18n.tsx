@@ -9,6 +9,7 @@ import esTranslation from '../translations/sp.json';
 import itTranslation from '../translations/it.json';
 import arTranslation from '../translations/ar.json';
 import ruTranslation from '../translations/ru.json';
+import deTranslation from '../translations/de.json';
 
 i18n
   .use(initReactI18next) // Initialize react-i18next
@@ -20,6 +21,7 @@ i18n
       it: { translation: itTranslation }, // for italian
       ar: { translation: arTranslation },
       ru: { translation: ruTranslation },
+      de: { translation: deTranslation },
     },
     lng: 'en', // Set the default language
     fallbackLng: 'en', // Fallback language
