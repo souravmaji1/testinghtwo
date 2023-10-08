@@ -254,7 +254,7 @@ const HomepageBlack: NextPage = () => {
                   style={thirdFont.style}
                   className={styles.downloadWhitepaper}
                 >
-                  <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
+                  <a href="https://linktr.ee/coliseumcmax">
                     <h5 className="text-black text-base mb-0">
                       {t("downloadbutton")}
                     </h5>

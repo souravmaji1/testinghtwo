@@ -156,7 +156,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefithead")}</span>
               
@@ -169,7 +170,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitparagraphone")}</span>
               
@@ -185,7 +187,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitheadtwo")}</span>
               
@@ -198,7 +201,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitparagraphtwo")}</span>
             </h5>
@@ -216,7 +220,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitheadthree")}</span>
             </h5>
@@ -228,7 +233,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitparagraphthree")}</span>
               
@@ -244,7 +250,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitheadfour")}</span>
             </h5>
@@ -256,7 +263,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitparagraphfour")}</span>
             </h5>
@@ -273,7 +281,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitheadfive")}</span>
             </h5>
@@ -285,7 +294,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitparagraphfive")}</span>
             </h5>
@@ -300,7 +310,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitheadsix")}</span>
             </h5>
@@ -312,7 +323,8 @@ const HomeIPadPro1291: NextPage = () => {
               fontSize:
                 localStorage.getItem("lang") == "ru"
                   ? "1rem"
-                  
+                  : localStorage.getItem("lang") == "de" ? "1rem"
+                  : localStorage.getItem("lang") == "pr" ? "1rem"
                   : "1.4rem",
             }}>{t("benefitparagraphsix")}</span>
               
@@ -367,7 +379,7 @@ const HomeIPadPro1291: NextPage = () => {
               src={Downloadd}
             />
             <div style={thirdFont.style} className={styles.connectWallet}>
-              <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
+              <a href="https://linktr.ee/coliseumcmax">
                 <h5 className="text-black text-base mb-0">
                   {t("downloadbutton")}
                 </h5>

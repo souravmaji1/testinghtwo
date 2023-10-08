@@ -228,11 +228,24 @@ const HomeIPadPro1291: NextPage = () => {
             <img src={Frame.src} className="w-7/12 aspect-square" alt="" />
             <h5 style={myFont.style} className="text-2xll text-white text-center mb-5 ">Whitepaper</h5>
           </div>
-          <h5 style={secondFont.style} className="my-4 w-10/12 text-white text-xl text-center">📥 {t("downloadparagraph")} 🚀{" "}</h5>
+          <h5 className="my-4 w-10/12 text-white text-center"
+          style={{
+            fontSize:
+              localStorage.getItem("lang") == "ru"
+                ? "1.2rem"
+                : localStorage.getItem("lang") == "fr" ||
+                  localStorage.getItem("lang") == "ar" ||
+                  localStorage.getItem("lang") == "it"
+                ? "1.2rem"
+                : localStorage.getItem("lang") == "de" ? "1.1rem"
+                : "1.25",
+          }}
+          ><span style={secondFont.style}>📥 {t("downloadparagraph")} 🚀{" "}</span></h5>
          <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
          <div className="bg-[#FFE608] rounded-xl w-fit px-4 h-fit py-3 flex flex-row items-center justify-center gap-2 ">
             <img src={Download.src} className="w-1/12" alt="" />
-            <h5 style={thirdFont.style} className="text-xl text-black text-center mb-0">{t("downloadbutton")}</h5>
+            <a href="https://linktr.ee/coliseumcmax"><h5 style={thirdFont.style} className="text-xl text-black text-center mb-0">{t("downloadbutton")}</h5></a>
+            
           </div>
          </a>
         </div>

@@ -11,6 +11,7 @@ import arTranslation from '../translations/ar.json';
 import ruTranslation from '../translations/ru.json';
 import deTranslation from '../translations/de.json';
 import prTranslation from '../translations/pr.json';
+import zhTranslation from '../translations/zh.json';
 
 i18n
   .use(initReactI18next) // Initialize react-i18next
@@ -24,6 +25,7 @@ i18n
       ru: { translation: ruTranslation },
       de: { translation: deTranslation },
       pr: { translation: prTranslation },
+      zh: { translation: zhTranslation },
     },
     lng: 'en', // Set the default language
     fallbackLng: 'en', // Fallback language

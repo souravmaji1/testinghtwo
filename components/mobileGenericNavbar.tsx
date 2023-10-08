@@ -92,6 +92,8 @@ function GenericMobileNavbar() {
       handleLanguageChange("de", GermanFlag);
     } else if (localStorage.getItem("lang") == "pr") {
       handleLanguageChange("pr", PortugalFlag);
+    } else if (localStorage.getItem("lang") == "zh") {
+      handleLanguageChange("zh", ChineseFlag);
     }
   }, []);
   return (
@@ -119,6 +121,26 @@ function GenericMobileNavbar() {
               }
               transition
             >
+              <MenuItem
+                onClick={() => {
+                  localStorage.setItem("lang", "it");
+                  handleLanguageChange("it", ItalianFlag);
+                }}
+              >
+                <div className="w-full h-fit flex flex-row items-center justify-start">
+                  <Image
+                    src={ItalianFlag}
+                    alt="English"
+                    className="h-6 w-6 mr-3 aspect-square"
+                  />
+                  <h5
+                    className={` text-xl text-white my-0`}
+                    style={secondFont.style}
+                  >
+                    IT
+                  </h5>
+                </div>
+              </MenuItem>
               <MenuItem
                 onClick={() => {
                   localStorage.setItem("lang", "en");
@@ -219,26 +241,7 @@ function GenericMobileNavbar() {
                   </h5>
                 </div>
               </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  localStorage.setItem("lang", "it");
-                  handleLanguageChange("it", ItalianFlag);
-                }}
-              >
-                <div className="w-full h-fit flex flex-row items-center justify-start">
-                  <Image
-                    src={ItalianFlag}
-                    alt="English"
-                    className="h-6 w-6 mr-3 aspect-square"
-                  />
-                  <h5
-                    className={` text-xl text-white my-0`}
-                    style={secondFont.style}
-                  >
-                    IT
-                  </h5>
-                </div>
-              </MenuItem>
+              
               <MenuItem
                 onClick={() => {
                   localStorage.setItem("lang", "ru");
@@ -256,6 +259,26 @@ function GenericMobileNavbar() {
                     style={secondFont.style}
                   >
                     RU
+                  </h5>
+                </div>
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  localStorage.setItem("lang", "zh");
+                  handleLanguageChange("zh", ChineseFlag);
+                }}
+              >
+                <div className="w-full h-fit flex flex-row items-center justify-start">
+                  <Image
+                    src={ChineseFlag}
+                    alt="English"
+                    className="h-6 w-6 mr-3 aspect-square"
+                  />
+                  <h5
+                    className={` text-xl text-white my-0`}
+                    style={secondFont.style}
+                  >
+                    CN
                   </h5>
                 </div>
               </MenuItem>
@@ -342,6 +365,26 @@ function GenericMobileNavbar() {
             }
             transition
           >
+            <MenuItem
+              onClick={() => {
+                localStorage.setItem("lang", "it");
+                handleLanguageChange("it", ItalianFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={ItalianFlag}
+                  alt="English"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  IT
+                </h5>
+              </div>
+            </MenuItem>
             <MenuItem
               onClick={() => {
                 localStorage.setItem("lang", "en");
@@ -442,26 +485,7 @@ function GenericMobileNavbar() {
                 </h5>
               </div>
             </MenuItem>
-            <MenuItem
-              onClick={() => {
-                localStorage.setItem("lang", "it");
-                handleLanguageChange("it", ItalianFlag);
-              }}
-            >
-              <div className="w-full h-fit flex flex-row items-center justify-start">
-                <Image
-                  src={ItalianFlag}
-                  alt="English"
-                  className="h-6 w-6 mr-3 aspect-square"
-                />
-                <h5
-                  className={` text-xl text-white my-0`}
-                  style={secondFont.style}
-                >
-                  IT
-                </h5>
-              </div>
-            </MenuItem>
+            
             <MenuItem
               onClick={() => {
                 localStorage.setItem("lang", "ru");
@@ -479,6 +503,26 @@ function GenericMobileNavbar() {
                   style={secondFont.style}
                 >
                   RU
+                </h5>
+              </div>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
+                localStorage.setItem("lang", "zh");
+                handleLanguageChange("zh", ChineseFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={ChineseFlag}
+                  alt="English"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  CN
                 </h5>
               </div>
             </MenuItem>
@@ -576,6 +620,26 @@ function GenericMobileNavbar() {
           >
             <MenuItem
               onClick={() => {
+                localStorage.setItem("lang", "it");
+                handleLanguageChange("it", ItalianFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={ItalianFlag}
+                  alt="English"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  IT
+                </h5>
+              </div>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
                 localStorage.setItem("lang", "en");
                 handleLanguageChange("en", EnglishFlag);
               }}
@@ -616,6 +680,26 @@ function GenericMobileNavbar() {
             </MenuItem>
             <MenuItem
               onClick={() => {
+                localStorage.setItem("lang", "de");
+                handleLanguageChange("de", GermanFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={GermanFlag}
+                  alt="English"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  GR
+                </h5>
+              </div>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
                 localStorage.setItem("lang", "es");
                 handleLanguageChange("es", SpanishFlag);
               }}
@@ -636,13 +720,13 @@ function GenericMobileNavbar() {
             </MenuItem>
             <MenuItem
               onClick={() => {
-                localStorage.setItem("lang", "it");
-                handleLanguageChange("it", ItalianFlag);
+                localStorage.setItem("lang", "pr");
+                handleLanguageChange("pr", PortugalFlag);
               }}
             >
               <div className="w-full h-fit flex flex-row items-center justify-start">
                 <Image
-                  src={ItalianFlag}
+                  src={PortugalFlag}
                   alt="English"
                   className="h-6 w-6 mr-3 aspect-square"
                 />
@@ -650,10 +734,11 @@ function GenericMobileNavbar() {
                   className={` text-xl text-white my-0`}
                   style={secondFont.style}
                 >
-                  IT
+                  PR
                 </h5>
               </div>
             </MenuItem>
+            
             <MenuItem
               onClick={() => {
                 localStorage.setItem("lang", "ru");
@@ -671,6 +756,26 @@ function GenericMobileNavbar() {
                   style={secondFont.style}
                 >
                   RU
+                </h5>
+              </div>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
+                localStorage.setItem("lang", "zh");
+                handleLanguageChange("zh", ChineseFlag);
+              }}
+            >
+              <div className="w-full h-fit flex flex-row items-center justify-start">
+                <Image
+                  src={ChineseFlag}
+                  alt="English"
+                  className="h-6 w-6 mr-3 aspect-square"
+                />
+                <h5
+                  className={` text-xl text-white my-0`}
+                  style={secondFont.style}
+                >
+                  CN
                 </h5>
               </div>
             </MenuItem>
