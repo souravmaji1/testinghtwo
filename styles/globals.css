@@ -32,6 +32,18 @@ body {
   width: 50% !important;
 }
 
+.ipadRoadmapElementBG{
+  background: linear-gradient(180deg, rgba(71, 71, 71, 0.52), rgba(40, 39, 41, 0.52));
+  backdrop-filter: blur(45px);
+}
+
+.ipadRoadmapElementTitle{
+  background: linear-gradient(263.1deg, #bbfa09, #9efa09);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 a {
   color: white;

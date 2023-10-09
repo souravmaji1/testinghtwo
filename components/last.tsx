@@ -112,7 +112,9 @@ const AboutIPadPro1293: NextPage = () => {
                   className="text-[#A0FA09] text-xl mb-3"
                   style={myFont.style}
                 >
-                  Q1
+                  {
+                    t('q4')
+                  }
                 </h5>
                 <p
                   className="text-white text-sm leading-relaxed"
@@ -126,7 +128,25 @@ const AboutIPadPro1293: NextPage = () => {
                   className="text-[#A0FA09] text-xl mb-3"
                   style={myFont.style}
                 >
-                  Q2
+                  {
+                    t('q1')
+                  }
+                </h5>
+                <p
+                  className="text-white text-sm leading-relaxed"
+                  style={secondFont.style}
+                >
+                  {t("roadmaptwo")}
+                </p>
+              </div>
+              <div className="w-full h-fit p-4 mb-2 aboutGlassBox glassy">
+                <h5
+                  className="text-[#A0FA09] text-xl mb-3"
+                  style={myFont.style}
+                >
+                  {
+                    t('q2')
+                  }
                 </h5>
                 <p
                   className="text-white text-sm leading-relaxed"
@@ -140,7 +160,9 @@ const AboutIPadPro1293: NextPage = () => {
                   className="text-[#A0FA09] text-xl mb-3"
                   style={myFont.style}
                 >
-                  Q3
+                  {
+                    t('q3')
+                  }
                 </h5>
                 <p
                   className="text-white text-sm leading-relaxed"
@@ -154,13 +176,15 @@ const AboutIPadPro1293: NextPage = () => {
                   className="text-[#A0FA09] text-xl mb-3"
                   style={myFont.style}
                 >
-                  Q4
+                  {
+                    t('q5')
+                  }
                 </h5>
                 <p
                   className="text-white text-sm leading-relaxed"
                   style={secondFont.style}
                 >
-                  {t("roadmaptwo")}
+                  {t("roadmapfive")}
                 </p>
               </div>
             </div>

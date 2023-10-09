@@ -147,46 +147,67 @@ const HomepageAbout: NextPage = () => {
           <div className={styles.groupChild6} />
           <div className={styles.groupChild7} />
           <div className={styles.groupChild8} />
+          <div className={styles.groupChildMed1} />
           <div className={styles.groupChild9} />
           <div className={styles.groupChild10} />
           <div style={myFont.style} className={styles.q1}>
-            Q1
+            <span className="text-sm">
+              {t('q4')}
+            </span>
           </div>
           <div style={myFont.style} className={styles.q3}>
-            Q3
+          <span className="text-[.8rem] w-full">
+              {t('q2')}
+            </span>
+          </div>
+          <div style={myFont.style} className={styles.q5}>
+          <span className="text-[.8rem] w-full">
+              {t('q5')}
+            </span>
           </div>
           <div style={myFont.style} className={styles.q2}>
-            Q2
+          <span className="text-[.8rem] w-full">
+              {t('q1')}
+            </span>
           </div>
           <div style={myFont.style} className={styles.q4}>
-            Q4
+          <span className="text-[.8rem] w-full">
+              {t('q3')}
+            </span>
           </div>
           <div className={styles.distributionTokenCbcContainer}>
             <p style={fourthFont.style} className={styles.blankLine}>
-              {t("roadmapone")}{" "}
+            <span className="text-[0.8rem]">{t("roadmapone")}</span>
+              
             </p>
           </div>
           <div className={styles.distributionTokenCbcContainer1}>
             <p style={fourthFont.style} className={styles.blankLine}>
-              {" "}
-              {t("roadmapthree")}{" "}
+              <span className="text-[0.8rem]">{t("roadmapthree")}</span>
+              
             </p>
           </div>
           <div className={styles.distributionTokenCbcContainer2}>
             <p style={fourthFont.style} className={styles.blankLine}>
-              {" "}
-              {t("roadmaptwo")}{" "}
+            <span className="text-[0.8rem]">{t("roadmaptwo")}</span>
+              
             </p>
           </div>
           <div className={styles.distributionTokenCbcContainer3}>
             <p style={fourthFont.style} className={styles.blankLine}>
-              {" "}
-              {t("roadmapfour")}{" "}
+            <span className="text-[0.8rem]">{t("roadmapfour")}</span>
+              
+            </p>
+          </div>
+          <div className={styles.p5}>
+            <p style={fourthFont.style} className={styles.blankLine}>
+            <span className="text-[0.8rem]">{t("roadmapfive")}</span>
+              
             </p>
           </div>
         </div>
 
-        <div className="w-screen h-fit absolute top-[2500px] px-20">
+        <div className="w-screen h-fit absolute top-[2900px] px-20">
           <h5 style={myFont.style} className="text-6xl text-[#FFE925] mb-3">
             {t("audit")}
           </h5>
@@ -204,7 +225,7 @@ const HomepageAbout: NextPage = () => {
           </h5>
         </div>
       </div>
-      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
+      <section id="efe" className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
@@ -231,7 +252,7 @@ const HomepageAbout: NextPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#141315] h-fit w-screen hidden md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+      <section className="bg-[#141315] h-fit w-screen hidden landscape:lg:flex xl:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
         <a href="/">
           <img
             src={Headlogo.src}
