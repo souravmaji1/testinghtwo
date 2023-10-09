@@ -90,7 +90,7 @@ const AboutIPadPro1293: NextPage = () => {
   };
 
   return (
-    <div className={styles.aboutIpadPro1293}>
+    <div>
       <GenericMobileNavbar />
       <Image className={styles.aboutIpadPro1293Child} alt="" src={Rightone} />
       <div className={styles.aboutIpadPro1293Item} />
@@ -98,172 +98,241 @@ const AboutIPadPro1293: NextPage = () => {
 
       <img className={styles.unionIcon2} alt="" src="Union.png" />
       <img className={styles.unionIcon3} alt="" src="Union.png" />
-
-      <div style={myFont.style} className={styles.aboutUs}>
-        <h5 className="text-3xl capitalize">{t("about")}</h5>
-      </div>
-      <div style={thirdFont.style} className={styles.roadMap}>
-        <h5 className="text-3xl capitalize">{t("roadmap")}</h5>
-      </div>
-      <div style={thirdFont.style} className={styles.ourVision1}>
-        <h5 className="text-3xl capitalize">
-          {t('audit')}
+      <div className="h-fit w-screen mt-32 relative z-50">
+        <h5 className="text-2xl text-[#ffe500] mb-3 ml-5" style={myFont.style}>
+          {t("about")}
         </h5>
+        <h5 style={thirdFont.style} className="text-white text-xl w-10/12 ml-5">
+          {t("aboutparagraph")}
+        </h5>
+        <h5
+          className="text-2xl text-[#ffe500] mb-3 mt-5 ml-5"
+          style={myFont.style}
+        >
+          {t("roadmap")}
+        </h5>
+        <h5
+          style={thirdFont.style}
+          className="text-white text-xl w-10/12 mb-5 ml-5"
+        >
+          {t("roadmapparagraph")}
+        </h5>
+        <div className="w-full h-fit flex flex-col items-center justify-start">
+          <div className="w-11/12 h-fit mx-auto">
+            <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
+              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tl-[30px] rounded-bl-[30px] ">
+                <h5
+                  style={myFont.style}
+                  className="ipadRoadmapElementTitle text-sm mb-2"
+                >
+                  {t("q4")}
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-sm">
+                  {t("roadmapone")}
+                </h5>
+              </div>
+              <div className="w-1/2 h-fit"></div>
+            </div>
+            <div className="w-full h-fit flex flex-col items-center justify-normal mb-3">
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9662;</h5>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
+                <h5 style={myFont.style} className="text-lg text-black my-0">1</h5>
+              </div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500]"></div>
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
+            </div>
+            <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
+              <div className="w-1/2 h-fit"></div>
+              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tr-[30px] rounded-br-[30px] ">
+                <h5
+                  style={myFont.style}
+                  className="ipadRoadmapElementTitle text-sm mb-2"
+                >
+                  {t("q1")}
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-sm">
+                  {t("roadmaptwo")}
+                </h5>
+              </div>
+            </div>
+            <div className="w-full h-fit flex flex-col items-center justify-normal mb-3">
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9662;</h5>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
+                <h5 style={myFont.style} className="text-lg text-black my-0">2</h5>
+              </div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500]"></div>
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
+            </div>
+            <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
+              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tl-[30px] rounded-bl-[30px] ">
+                <h5
+                  style={myFont.style}
+                  className="ipadRoadmapElementTitle text-sm mb-2"
+                >
+                  {t("q2")}
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-sm">
+                  {t("roadmapthree")}
+                </h5>
+              </div>
+              <div className="w-1/2 h-fit"></div>
+            </div>
+            <div className="w-full h-fit flex flex-col items-center justify-normal mb-3">
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9662;</h5>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
+                <h5 style={myFont.style} className="text-lg text-black my-0">3</h5>
+              </div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500]"></div>
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
+            </div>
+            <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
+              <div className="w-1/2 h-fit"></div>
+              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tr-[30px] rounded-br-[30px] ">
+                <h5
+                  style={myFont.style}
+                  className="ipadRoadmapElementTitle text-sm mb-2"
+                >
+                  {t("q3")}
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-sm">
+                  {t("roadmapfour")}
+                </h5>
+              </div>
+            </div>
+            <div className="w-full h-fit flex flex-col items-center justify-normal mb-3">
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9662;</h5>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
+                <h5 style={myFont.style} className="text-lg text-black my-0">4</h5>
+              </div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
+              <div className="w-[1px] h-1 bg-[#ffe500]"></div>
+              <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
+            </div>
+            <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
+              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tl-[30px] rounded-bl-[30px] ">
+                <h5
+                  style={myFont.style}
+                  className="ipadRoadmapElementTitle text-sm mb-2"
+                >
+                  {t("q5")}
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-sm">
+                  {t("roadmapfive")}
+                </h5>
+              </div>
+              <div className="w-1/2 h-fit"></div>
+            </div>
+          </div>
+        </div>
+        <section className="h-fit relative w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat z-50 mt-16 mb-6 opacity-100">
+          <img
+            src={communityBg.src}
+            className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+            alt=""
+          />
+          <div className="mx-auto w-10/12">
+            <h5
+              className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-50"
+              style={thirdFont.style}
+            >
+              {t("communityhead")}
+            </h5>
+            <h5
+              className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+              style={secondFont.style}
+            >
+              {t("communityparagraph")}
+            </h5>
+            <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+              <BsGithub color="#ffffff" size={35} />
+              <FaXTwitter color="#ffffff" size={35} />
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+              <SiNotion color="#ffffff" size={35} />
+            </div>
+          </div>
+        </section>
+        <section className="bg-[#141315] h-fit w-screen sm:hidden md:flex lg:flex xl:hidden flex-col items-center justify-start pt-10 pb-24">
+          <a href="/">
+            <img
+              src={Headlogo.src}
+              className=" aspect-square w-20 mb-10"
+              alt=""
+            />
+          </a>
+          <div className="flex flex-row items-center justify-center gap-4 md:gap-10 px-6 flex-wrap w-full">
+            <a href="/">
+              <h5 className="text-white montreal text-2xl md:text-xl">Home</h5>
+            </a>
+            <a href="/trade">
+              <h5 className="text-white montreal text-2xl md:text-xl">Trade</h5>
+            </a>
+            <a href="/stake">
+              <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
+            </a>
+            <a href="/about">
+              <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+            </a>
+            <a href="/profile">
+              <h5 className="text-white montreal text-2xl md:text-xl">
+                Profile
+              </h5>
+            </a>
+          </div>
+          <h5 className="montreal text-gray-500 text-sm absolute bottom-8">
+            All Rights Reserved - © 2023 CMax
+          </h5>
+        </section>
       </div>
-      <div className={styles.loremIpsumDolorContainer}>
-        <p style={secondFont.style} className={styles.blankLine}>
-          {" "}
-          {t("aboutparagraph")}{" "}
-        </p>
-      </div>
-      <div className={styles.loremIpsumDolorContainer1}>
-        <p style={secondFont.style} className={styles.blankLine}>
-          {" "}
-          {t("roadmapparagraph")}{" "}
-        </p>
-      </div>
-      <div className={styles.loremIpsumDolorContainer2}>
-        <p style={secondFont.style} className={styles.blankLine}>
-          {" "}
-          {t("auditparagraph")}{" "}
-        </p>
-      </div>
+
       <div className={styles.vectorParent}>
-        <img className={styles.groupItem} alt="" src="Vector 19.png" />
         <div className={styles.groupInner} />
-        <div className={styles.ellipseDiv} />
-        <div className={styles.groupChild1} />
-        <div className={styles.groupChild2} />
-        <div className={styles.div}>1</div>
-        <div className={styles.div1}>2</div>
-        <div className={styles.div2}>3</div>
-        <div className={styles.div3}>4</div>
         <div className={styles.frameDiv} />
-        <div className={styles.groupChild3} />
-        <div className={styles.groupChild4} />
-        <div className={styles.groupChild5} />
-        <div className={styles.groupChild6} />
-        <div className={styles.rectangleDiv} />
-        <div className={styles.groupChild7} />
-        <div className={styles.groupChild8} />
-        <div className={styles.groupChild9} />
-        <div style={myFont.style} className={styles.q1}>
-          Q1
-        </div>
-        <div style={myFont.style} className={styles.q3}>
-          Q3
-        </div>
-        <div style={myFont.style} className={styles.q2}>
-          Q2
-        </div>
-        <div style={myFont.style} className={styles.q4}>
-          Q4
-        </div>
-        <div className={styles.distributionTokenCbcContainer}>
-          <p style={thirdFont.style} className={styles.blankLine}>
-          <span
-              style={{
-                fontSize:
-                  localStorage.getItem("lang") == "ru"
-                    ? "14px"
-                    : localStorage.getItem("lang") == "fr" ||
-                      localStorage.getItem("lang") == "ar" ||
-                      localStorage.getItem("lang") == "it"
-                    ? "14px"
-                    : "14px",
-              }}
-            >
-              {t("roadmapone")}
-            </span>
-          </p>
-        </div>
-        <div className={styles.distributionTokenCbcContainer1}>
-          <p style={thirdFont.style} className={styles.blankLine}>
-          <span
-              style={{
-                fontSize:
-                  localStorage.getItem("lang") == "ru"
-                    ? "14px"
-                    : localStorage.getItem("lang") == "fr" ||
-                      localStorage.getItem("lang") == "ar" ||
-                      localStorage.getItem("lang") == "it"
-                    ? "14px"
-                    : "14px",
-              }}
-            >
-              {t("roadmapfour")}
-            </span>
-          </p>
-        </div>
-        <div className={styles.distributionTokenCbcContainer2}>
-          <p style={thirdFont.style} className={styles.blankLine}>
-            <span
-              style={{
-                fontSize:
-                  localStorage.getItem("lang") == "ru"
-                    ? "14px"
-                    : localStorage.getItem("lang") == "fr" ||
-                      localStorage.getItem("lang") == "ar" ||
-                      localStorage.getItem("lang") == "it"
-                    ? "14px"
-                    : "14px",
-              }}
-            >
-              {t("roadmapthree")}
-            </span>
-          </p>
-        </div>
-        <div className={styles.distributionTokenCbcContainer3}>
-          <p
-            style={thirdFont.style}
-            className={`${styles.blankLine} text-base`}
-          >
-            <span
-              style={{
-                fontSize:
-                  localStorage.getItem("lang") == "ru"
-                    ? "12px"
-                    : localStorage.getItem("lang") == "fr" ||
-                      localStorage.getItem("lang") == "ar" ||
-                      localStorage.getItem("lang") == "it"
-                    ? "13px"
-                    : "13px",
-              }}
-            >
-              {t("roadmaptwo")}
-            </span>
-          </p>
-        </div>
       </div>
 
       <div className={styles.frameParent}></div>
-      <section id="comm" className="h-fit w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[9%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
-        <img
-          src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
-          alt=""
-        />
-        <div className="mx-auto w-10/12">
-          <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-50"
-            style={thirdFont.style}
-          >
-            {t("communityhead")}
-          </h5>
-          <h5
-            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
-            style={secondFont.style}
-          >
-            {t("communityparagraph")}
-          </h5>
-          <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
