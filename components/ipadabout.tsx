@@ -99,39 +99,38 @@ const AboutIPadPro1293: NextPage = () => {
       <img className={styles.unionIcon2} alt="" src="Union.png" />
       <img className={styles.unionIcon3} alt="" src="Union.png" />
       <div className="h-fit w-screen mt-32 relative z-50">
-        <h5 className="text-2xl text-[#ffe500] mb-3 ml-5" style={myFont.style}>
+        <h5 className="text-3xl text-[#ffe500] mb-3 ml-5" style={myFont.style}>
           {t("about")}
         </h5>
-        <h5 style={thirdFont.style} className="text-white text-xl w-10/12 ml-5">
+        <h5 style={thirdFont.style} className="text-white text-3xl w-10/12 ml-5">
           {t("aboutparagraph")}
         </h5>
         <h5
-          className="text-2xl text-[#ffe500] mb-3 mt-5 ml-5"
+          className="text-3xl text-[#ffe500] mb-3 mt-5 ml-5"
           style={myFont.style}
         >
           {t("roadmap")}
         </h5>
         <h5
           style={thirdFont.style}
-          className="text-white text-xl w-10/12 mb-5 ml-5"
+          className="text-white text-3xl w-10/12 mb-5 ml-5"
         >
           {t("roadmapparagraph")}
         </h5>
         <div className="w-full h-fit flex flex-col items-center justify-start">
           <div className="w-11/12 h-fit mx-auto">
             <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
-              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tl-[30px] rounded-bl-[30px] ">
+              <div className="w-full h-fit py-3 px-4 ipadRoadmapElementBG rounded-[30px] ">
                 <h5
                   style={myFont.style}
-                  className="ipadRoadmapElementTitle text-sm mb-2"
+                  className="ipadRoadmapElementTitle text-2xl mb-2"
                 >
                   {t("q4")}
                 </h5>
-                <h5 style={thirdFont.style} className="text-white text-sm">
+                <h5 style={thirdFont.style} className="text-white text-3xl">
                   {t("roadmapone")}
                 </h5>
               </div>
-              <div className="w-1/2 h-fit"></div>
             </div>
             <div className="w-full h-fit flex flex-col items-center justify-normal mb-3">
               <h5 className="text-lg text-[#ffe500] mb-0">&#9662;</h5>
@@ -142,7 +141,7 @@ const AboutIPadPro1293: NextPage = () => {
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
-                <h5 style={myFont.style} className="text-lg text-black my-0">1</h5>
+                <h5 style={myFont.style} className="text-2xl text-black my-0">1</h5>
               </div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
@@ -153,15 +152,15 @@ const AboutIPadPro1293: NextPage = () => {
               <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
             </div>
             <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
-              <div className="w-1/2 h-fit"></div>
-              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tr-[30px] rounded-br-[30px] ">
+              
+              <div className="w-full h-fit py-3 px-4 ipadRoadmapElementBG rounded-[30px] ">
                 <h5
                   style={myFont.style}
-                  className="ipadRoadmapElementTitle text-sm mb-2"
+                  className="ipadRoadmapElementTitle text-2xl mb-2"
                 >
                   {t("q1")}
                 </h5>
-                <h5 style={thirdFont.style} className="text-white text-sm">
+                <h5 style={thirdFont.style} className="text-white text-3xl">
                   {t("roadmaptwo")}
                 </h5>
               </div>
@@ -175,7 +174,7 @@ const AboutIPadPro1293: NextPage = () => {
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
-                <h5 style={myFont.style} className="text-lg text-black my-0">2</h5>
+                <h5 style={myFont.style} className="text-2xl text-black my-0">2</h5>
               </div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
@@ -186,18 +185,17 @@ const AboutIPadPro1293: NextPage = () => {
               <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
             </div>
             <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
-              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tl-[30px] rounded-bl-[30px] ">
+              <div className="w-full h-fit py-3 px-4 ipadRoadmapElementBG rounded-[30px] ">
                 <h5
                   style={myFont.style}
-                  className="ipadRoadmapElementTitle text-sm mb-2"
+                  className="ipadRoadmapElementTitle text-2xl mb-2"
                 >
                   {t("q2")}
                 </h5>
-                <h5 style={thirdFont.style} className="text-white text-sm">
+                <h5 style={thirdFont.style} className="text-white text-3xl">
                   {t("roadmapthree")}
                 </h5>
               </div>
-              <div className="w-1/2 h-fit"></div>
             </div>
             <div className="w-full h-fit flex flex-col items-center justify-normal mb-3">
               <h5 className="text-lg text-[#ffe500] mb-0">&#9662;</h5>
@@ -208,7 +206,7 @@ const AboutIPadPro1293: NextPage = () => {
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
-                <h5 style={myFont.style} className="text-lg text-black my-0">3</h5>
+                <h5 style={myFont.style} className="text-2xl text-black my-0">3</h5>
               </div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
@@ -219,15 +217,15 @@ const AboutIPadPro1293: NextPage = () => {
               <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
             </div>
             <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
-              <div className="w-1/2 h-fit"></div>
-              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tr-[30px] rounded-br-[30px] ">
+              
+              <div className="w-full h-fit py-3 px-4 ipadRoadmapElementBG rounded-[30px] ">
                 <h5
                   style={myFont.style}
-                  className="ipadRoadmapElementTitle text-sm mb-2"
+                  className="ipadRoadmapElementTitle text-2xl mb-2"
                 >
                   {t("q3")}
                 </h5>
-                <h5 style={thirdFont.style} className="text-white text-sm">
+                <h5 style={thirdFont.style} className="text-white text-3xl">
                   {t("roadmapfour")}
                 </h5>
               </div>
@@ -241,7 +239,7 @@ const AboutIPadPro1293: NextPage = () => {
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-fit aspect-square flex flex-row items-center justify-center bg-[#ffe500] rounded-full my-2">
-                <h5 style={myFont.style} className="text-lg text-black my-0">4</h5>
+                <h5 style={myFont.style} className="text-2xl text-black my-0">4</h5>
               </div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
               <div className="w-[1px] h-1 bg-[#ffe500] mb-[2px]"></div>
@@ -252,22 +250,21 @@ const AboutIPadPro1293: NextPage = () => {
               <h5 className="text-lg text-[#ffe500] mb-0">&#9652;</h5>
             </div>
             <div className="w-full h-fit flex flex-row items-center justify-start mb-3">
-              <div className="w-1/2 h-fit py-3 px-4 ipadRoadmapElementBG rounded-tl-[30px] rounded-bl-[30px] ">
+              <div className="w-full h-fit py-3 px-4 ipadRoadmapElementBG rounded-[30px] ">
                 <h5
                   style={myFont.style}
-                  className="ipadRoadmapElementTitle text-sm mb-2"
+                  className="ipadRoadmapElementTitle text-2xl mb-2"
                 >
                   {t("q5")}
                 </h5>
-                <h5 style={thirdFont.style} className="text-white text-sm">
+                <h5 style={thirdFont.style} className="text-white text-3xl">
                   {t("roadmapfive")}
                 </h5>
               </div>
-              <div className="w-1/2 h-fit"></div>
             </div>
           </div>
         </div>
-        <section className="h-fit relative w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat z-50 mt-16 mb-6 opacity-100">
+        <section className="h-fit relative w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat z-50 mt-20 mb-6 opacity-100">
           <img
             src={communityBg.src}
             className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"

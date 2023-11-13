@@ -777,7 +777,7 @@
 .div1 {
     position: absolute;
     top: 302px;
-    left: 440px;
+    left: 40%;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -791,7 +791,7 @@
 .div3 {
     position: absolute;
     top: 465px;
-    left: 440px;
+    left: 40%;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -947,7 +947,7 @@
 .div9 {
     position: absolute;
     top: 225px;
-    left: 440px;
+    left: 40%;
     line-height: 36px;
     text-transform: capitalize;
     color: #ffe500;
@@ -955,7 +955,7 @@
 .div11 {
     position: absolute;
     top: 379px;
-    left: 440px;
+    left: 40%;
     line-height: 36px;
     text-transform: capitalize;
 }

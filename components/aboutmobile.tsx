@@ -353,7 +353,7 @@ const ProfileIPadPro1294: NextPage = () => {
       )}
       <GenericMobileNavbar />
       <section
-          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
+          className="h-fit w-screen pt-12 bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}

@@ -116,7 +116,7 @@ const TradeIPadPro1292: NextPage = () => {
         </div>
 
         <section
-          className="h-fit w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[700px] z-50"
+          className="h-fit w-screen bg-center bg-cover pt-6 bg-no-repeat mt-0 absolute bottom-[700px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}

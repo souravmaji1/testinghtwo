@@ -198,7 +198,7 @@ const AboutIPadPro1293: NextPage = () => {
               {t("auditparagraph")}
             </h5>
             <div
-              className="h-fit w-full bg-center bg-cover bg-no-repeat z-50"
+              className="h-fit w-full pt-6 bg-center bg-cover bg-no-repeat z-50"
               style={{
                 backgroundImage: `url('${communityBg.src}')`,
               }}
