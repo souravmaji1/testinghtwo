@@ -5,6 +5,9 @@ import MenuIPadPro1291 from "../components/menumobile";
 import PortalPopup from "../components/portalpopup";
 
 import Flower from "../public/Group 1000000920.png";
+import Slider from "react-slick";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 import Wallet from "../public/mingcute_wallet-4-fill.svg";
 import User from "../public/Ellipse 59.svg";
@@ -80,7 +83,7 @@ import GenericMobileNavbar from "./mobileGenericNavbar";
 import { BsGithub } from "react-icons/bs";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaLinesLeaning, FaXTwitter } from "react-icons/fa6";
 
 const StakeIPadPro1292: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
@@ -129,18 +132,28 @@ const StakeIPadPro1292: NextPage = () => {
     // Add your code here
   }, []);
 
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
+
   return (
     <>
       <div className={styles.stakeIpadPro1292}>
         <div className={styles.stakeIpadPro1292Child} />
-        <div className={styles.ellipseParent}>
-          <div className={styles.frameChild} />
-          <div className={styles.frameItem} />
-          <div className={styles.frameChild} />
-          <div className={styles.ellipseDiv} />
-          <div className={styles.ellipseDiv} />
-          <div className={styles.ellipseDiv} />
-        </div>
 
         <div className={styles.mintcmax}>
           <Cmax />
@@ -187,6 +200,81 @@ const StakeIPadPro1292: NextPage = () => {
         <div style={secondFont.style} className={styles.stakingInBlockchain1}>
           {t("stakebenefitparagraph")}{" "}
         </div>
+        <div className={`${styles.frameParent}`}>
+          <Carousel
+            responsive={responsive}
+            className="h-full w-full pb-20"
+            showDots
+            swipeable
+            arrows={false}
+          >
+            <div className="w-full h-full flex flex-col items-center justify-start gap-10 ">
+              <div className="mb-20 w-fit mx-auto" onClick={openToolTip}>
+                <Image
+                  width={90}
+                  height={40}
+                  alt=""
+                  className="mx-auto"
+                  src={One}
+                />
+                <h5
+                  className="w-full text-center text-2xl"
+                  style={secondFont.style}
+                >
+                  {t("earningreward")}{" "}
+                </h5>
+              </div>
+              <div onClick={openToolTip}>
+                <Image
+                  width={90}
+                  height={30}
+                  alt=""
+                  src={Two}
+                  className="mx-auto"
+                />
+                <h5
+                  className="w-full text-center text-2xl"
+                  style={secondFont.style}
+                >
+                  {t("network")}{" "}
+                </h5>
+              </div>
+            </div>
+            <div className="w-full h-full flex flex-col items-center justify-start gap-10 ">
+              <div className="mb-20 w-fit mx-auto" onClick={openToolTip}>
+                <Image
+                  width={90}
+                  height={40}
+                  alt=""
+                  className="mx-auto"
+                  src={Three}
+                />
+                <h5
+                  className="w-full text-center text-2xl"
+                  style={secondFont.style}
+                >
+                  {t("earningreward")}{" "}
+                </h5>
+              </div>
+              <div onClick={openToolTip}>
+                <Image
+                  width={90}
+                  height={30}
+                  alt=""
+                  src={Fourth}
+                  className="mx-auto"
+                />
+                <h5
+                  className="w-full text-center text-2xl"
+                  style={secondFont.style}
+                >
+                  {t("network")}{" "}
+                </h5>
+              </div>
+            </div>
+          </Carousel>
+
+          {/* Here carousel <div>
         <div className={styles.frameParent}>
           <div className={styles.frameDiv} onClick={openToolTip}>
             <Image className={styles.groupIcon} alt="" src={One} />
@@ -204,6 +292,8 @@ const StakeIPadPro1292: NextPage = () => {
               {t("network")}{" "}
             </div>
           </div>
+        </div>
+        </div>*/}
         </div>
         <div className={styles.rectangleGroup} onClick={onGroupContainer6Click}>
           <div className={styles.rectangleDiv} />

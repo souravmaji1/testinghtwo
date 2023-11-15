@@ -10,7 +10,9 @@
 }
 
 
-
+.slick-slider{
+    background-color: green !important;
+}
 
 
 
@@ -379,6 +381,13 @@
     flex-shrink: 0;
 }
 
+.sliderDots{
+    margin-top: 20% !important;
+}
+
+.react-multi-carousel-dot-list{
+    margin-top: 20% !important;
+}
 .stakeParent {
     position: absolute;
     top: 30px;
@@ -446,7 +455,7 @@
 .frameParent {
     position: absolute;
     top: 526px;
-    left: 111px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1147,7 +1156,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 65px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1387,7 +1396,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 76px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1591,7 +1600,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 76px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1801,7 +1810,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 92px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2007,7 +2016,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 92px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2156,7 +2165,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 91px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2247,7 +2256,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 123px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2413,7 +2422,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 125px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2567,7 +2576,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 122px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2930,7 +2939,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 136px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -3263,7 +3272,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 136px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -3595,7 +3604,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 136px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -3929,7 +3938,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 136px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -4263,7 +4272,7 @@
     .frameParent {
         position: absolute;
         top: 526px;
-        left: 157px;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -43,7 +43,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-
+.react-multi-carousel-dot--active button{
+  border-color: greenyellow !important;
+  background-color: greenyellow !important;
+  transform: scale(1.3);
+}
 
 a {
   color: white;
