@@ -416,7 +416,6 @@ const StakeIPadPro1292: NextPage = () => {
               <div style={secondFont.style} className={styles.div7}>
                 2,337,786
               </div>
-              <img className={styles.frameChild12} alt="" src="Arrow 1.png" />
             </div>
             <div
               className={styles.rectangleContainer}
@@ -424,7 +423,6 @@ const StakeIPadPro1292: NextPage = () => {
             >
               <div className={styles.groupChild2} />
               <div className={styles.vectorContainer}>
-                <img className={styles.vectorIcon3} alt="" src="Vector.png" />
                 <div className={styles.g}>8%</div>
               </div>
               <Image className={styles.frameIcon3} alt="" src={Green} />
