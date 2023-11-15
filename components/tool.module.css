@@ -18,7 +18,9 @@
     padding: 2% 4%;
 }
 .toolTip {
-    position: relative;
+    position: absolute;
+    top: 10%;
+    left: 37%;
     width: 430px;
     height: 232px;
     overflow: hidden;

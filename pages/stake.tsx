@@ -344,16 +344,16 @@ const HomepageStake: NextPage = () => {
             <img className={styles.groupChild3} alt="" src="Vector 17.svg" />
             <img className={styles.groupChild4} alt="" src="Vector 18.svg" />
             <div style={secondFont.style} className={styles.div}>
-              2,337,786
+             
             </div>
             <div style={secondFont.style} className={styles.div1}>
-              2,337,786
+              
             </div>
             <div style={secondFont.style} className={styles.div2}>
-              2,337,786
+              
             </div>
             <div style={secondFont.style} className={styles.div3}>
-              2,337,786
+             
             </div>
             <div
               className={styles.rectangleParent}

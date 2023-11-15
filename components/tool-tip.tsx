@@ -11,7 +11,7 @@ const ToolTip:NextPage<ToolTipType> = ({ onClose }) => {
 	const { t, i18n } = useTranslation();
   	
   	return (
-    		<div className={styles.toolTip}>
+    		<div className={styles.toolTip} onClick={onClose}>
       			<div className={styles.toolTipChild} />
       			<div className={styles.loremIpsumDolor1}>
 					<h5 className='z-50 text-center text-xl' style={{
