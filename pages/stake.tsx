@@ -95,6 +95,7 @@ const HomepageStake: NextPage = () => {
   }, []);
 
   const openToolTip = useCallback(() => {
+    document.body.style.overflow = "hidden"
     setToolTipOpen(true);
   }, []);
 
@@ -103,6 +104,7 @@ const HomepageStake: NextPage = () => {
   }, []);
 
   const openToolTip1 = useCallback(() => {
+    document.body.style.overflow = "hidden"
     setToolTip1Open(true);
   }, []);
 
@@ -111,6 +113,7 @@ const HomepageStake: NextPage = () => {
   }, []);
 
   const openToolTip2 = useCallback(() => {
+    document.body.style.overflow = "hidden"
     setToolTip2Open(true);
   }, []);
 

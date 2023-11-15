@@ -16,21 +16,38 @@
     align-items: center;
     justify-content: center;
     padding: 2% 4%;
+    position: relative;
+    z-index: 999;
 }
 .toolTip {
-    position: absolute;
-    top: 10%;
-    left: 37%;
-    width: 430px;
-    height: 232px;
+    position: absolute !important;
+    top: 50vh;
+    left: 50%;
+  transform: translate(-50%, -50%);
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
     overflow: hidden;
-    max-width: 100%;
-    max-height: 100%;
     text-align: left;
     font-size: 22px;
     color: #fff;
     font-family: 'Neue Montreal';
+    background: linear-gradient(180deg, rgba(71, 71, 71, 0.4), rgba(40, 39, 41, 0.4));
+    backdrop-filter: blur(46px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 4%;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-
+@media only screen and (max-width: 600px) {
+    .toolTip{
+        width: 90%;
+        padding: 5% 4%;
+    }
+  }
 

@@ -12,14 +12,11 @@ const ToolTip:NextPage<ToolTipType> = ({ onClose }) => {
   	
   	return (
     		<div className={styles.toolTip} onClick={onClose}>
-      			<div className={styles.toolTipChild} />
-      			<div className={styles.loremIpsumDolor1}>
-					<h5 className='z-50 text-center text-xl' style={{
+      			<h5 className='z-50 text-center text-2xl' style={{
 						fontFamily: "__secondFont_72e69f, __secondFont_Fallback_72e69f"
 					}}>{
 						t('tooltipText')
 					}</h5>
-				</div>
     		</div>);
 };
 
