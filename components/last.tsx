@@ -92,16 +92,16 @@ const AboutIPadPro1293: NextPage = () => {
               {t("about")}
             </h5>
             <h5
-              className="text-sm text-white capitalize mb-5 leading-relaxed"
+              className="text-sm text-white mb-5 leading-relaxed"
               style={secondFont.style}
             >
               {t("aboutparagraph")}
             </h5>
-            <h5 className="text-3xl capitalize mb-3" style={myFont.style}>
+            <h5 className="text-3xl mb-3" style={myFont.style}>
               {t("roadmap")}
             </h5>
             <h5
-              className="text-sm text-white capitalize leading-relaxed"
+              className="text-sm text-white leading-relaxed"
               style={secondFont.style}
             >
               {t("roadmapparagraph")}
@@ -192,7 +192,7 @@ const AboutIPadPro1293: NextPage = () => {
               {t("audit")}
             </h5>
             <h5
-              className="text-sm text-white capitalize mb-20  leading-relaxed"
+              className="text-sm text-white mb-20  leading-relaxed"
               style={secondFont.style}
             >
               {t("auditparagraph")}
