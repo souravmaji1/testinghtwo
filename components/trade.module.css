@@ -36,7 +36,7 @@
     margin-left: auto;
     margin-right: auto;
     font-size: 28px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -52,7 +52,7 @@
     position: absolute;
     bottom: 150px;
     left: 5px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 332px;
@@ -140,7 +140,7 @@
     position: absolute;
     bottom: 281px;
     left: 69px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .diveIntoA1 {
@@ -193,7 +193,7 @@
     position: absolute;
     bottom: 75px;
     left: 0px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 321px;
     opacity: 0.5;
@@ -202,7 +202,7 @@
     position: absolute;
     bottom: 0px;
     left: 23px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 274px;
     opacity: 0.5;
@@ -216,7 +216,7 @@
 }
 .trade {
     position: relative;
-    text-transform: capitalize;
+     
 }
 .tradeParent {
     position: absolute;
@@ -449,7 +449,7 @@
 }
 .unfold10Result1 {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .fearrowDownIcon1 {
@@ -477,7 +477,7 @@
     position: absolute;
     top: 25px;
     left: 32.02px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 8.46px;
 }
@@ -492,7 +492,7 @@
     position: relative;
     line-height: 36px;
     font-weight: bold;
-    text-transform: capitalize;
+     
 }
 .ellipseParent {
     position: absolute;
@@ -689,7 +689,7 @@
     position: absolute;
     bottom: 0px;
     left: 13px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 274px;
     opacity: 0.5;
@@ -1689,7 +1689,7 @@
         position: absolute;
     bottom: 0px;
     left: 27px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 274px;
     opacity: 0.5;
@@ -1837,7 +1837,7 @@
         position: absolute;
     bottom: 0px;
     left: 59px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 274px;
     opacity: 0.5;
@@ -1994,7 +1994,7 @@
         position: absolute;
     bottom: 0px;
     left: 59px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 274px;
     opacity: 0.5;
@@ -2151,7 +2151,7 @@
         position: absolute;
         bottom: 0px;
         left: 88px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;

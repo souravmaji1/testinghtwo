@@ -135,7 +135,7 @@
     bottom: 1439px;
     left: calc(50% - 459px);
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
     text-align: center;
@@ -213,7 +213,7 @@
     position: absolute;
     bottom: 219px;
     left: calc(50% - 458.5px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 917px;
@@ -330,7 +330,7 @@
 }
 .search {
     position: relative;
-    text-transform: capitalize;
+     
 }
 .vectorParent {
     position: absolute;
@@ -348,7 +348,7 @@
     top: 308px;
     left: 3%;
     font-size: 55px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -412,7 +412,7 @@
 .networkSecurity {
     position: relative;
     font-size: 28px;
-    text-transform: capitalize;
+     
     text-align: center;
 }
 .frameGroup {
@@ -490,7 +490,7 @@
     top: 996px;
     left: 3%;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -582,7 +582,7 @@
     position: absolute;
     top: 91px;
     left: 65%;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .totalAmountStake1 {
@@ -590,13 +590,13 @@
     top: 86px;
     font-size: 22px;
     left: 5%;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .apr {
     position: relative;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .aprWrapper {
     position: absolute;
@@ -718,7 +718,7 @@
     top: 0px;
     left: 1px;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -737,13 +737,13 @@
     left: 0px;
     font-size: 30px;
     width: 45%;
-    text-transform: capitalize;
+     
 }
 .text28 {
     position: absolute;
     top: 469px;
     left: 243px;
-    text-transform: capitalize;
+     
 }
 .groupChild2 {
     position: absolute;
@@ -770,7 +770,7 @@
     position: absolute;
     top: 225px;
     left: 440px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -778,21 +778,21 @@
     position: absolute;
     top: 302px;
     left: 40%;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .div2 {
     position: absolute;
     top: 379px;
     left: 440px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .div3 {
     position: absolute;
     top: 465px;
     left: 40%;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .groupChild5 {
@@ -832,7 +832,7 @@
     text-transform: uppercase;
 }
 .price {
-    text-transform: capitalize;
+     
 }
 .cmaxPrice {
     position: absolute;
@@ -867,7 +867,7 @@
 .div5 {
     position: relative;
     font-size: 22px;
-    text-transform: capitalize;
+     
     color: #fff;
 }
 .frameParent2 {
@@ -894,7 +894,7 @@
 .div6 {
     position: relative;
     font-size: 22px;
-    text-transform: capitalize;
+     
 }
 .frameParent3 {
     position: absolute;
@@ -949,7 +949,7 @@
     top: 225px;
     left: 40%;
     line-height: 36px;
-    text-transform: capitalize;
+     
     color: #ffe500;
 }
 .div11 {
@@ -957,7 +957,7 @@
     top: 379px;
     left: 40%;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .cmaxPrice1 {
     position: absolute;
@@ -975,14 +975,14 @@
     position: relative;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     color: #fff;
 }
 .div15 {
     position: relative;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .homepageStake {
     position: relative;
@@ -1036,7 +1036,7 @@
     font-size: 66px;
     left: 0;
         width: auto;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -1151,7 +1151,7 @@ left: 0;
 top: 1342px;
 text-align: center;
 font-size: 43px;
-text-transform: capitalize;
+ 
 font-weight: 500;
 color: #ffe500;
 display: flex;
@@ -1201,7 +1201,7 @@ left: 0;
         top: 264px;
         text-align: center;
         font-size: 34px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #f3f3f0;
         display: flex;
@@ -1261,7 +1261,7 @@ left: 0;
     .claimRewards{
         position: absolute;
     top: 594px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     left: 16px;
 }
@@ -1287,7 +1287,7 @@ left: 0;
     top: 0px;
     left: -32px;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     }
@@ -1305,7 +1305,7 @@ left: 0;
         top: 130px;
         left: 34px;
         font-size: 30px;
-        text-transform: capitalize;
+         
     }
   .rectangleParent{
     position: absolute;
@@ -1368,7 +1368,7 @@ left: 0;
         font-size: 66px;
         left: 0;
         width: auto;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1461,7 +1461,7 @@ left: 0;
     top: 1210px;
     text-align: center;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: flex;

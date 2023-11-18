@@ -84,7 +84,7 @@
 }
 .max {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .antDesignswapOutlined {
@@ -108,7 +108,7 @@
     position: absolute;
     top: 125.94px;
     left: 79.11px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -116,7 +116,7 @@
     position: absolute;
     top: 125.94px;
     left: 212.84px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     opacity: 0.7;
 }
@@ -134,7 +134,7 @@
     top: 40.51px;
     left: 87.11px;
     font-size: 20px;
-    text-transform: capitalize;
+     
     opacity: 0.79;
 }
 .mintburn {
@@ -142,7 +142,7 @@
     top: 41.51px;
     left: 174.99px;
     font-size: 20px;
-    text-transform: capitalize;
+     
     color: #000;
 }
 .youPay {
@@ -150,14 +150,14 @@
     top: 194.95px;
     left: 47px;
     font-size: 14px;
-    text-transform: capitalize;
+     
 }
 .totalCost {
     position: absolute;
     top: 384.95px;
     left: 47px;
     font-size: 10px;
-    text-transform: capitalize;
+     
     color: #676767;
 }
 .div {
@@ -165,7 +165,7 @@
     top: 384.95px;
     left: 246px;
     font-size: 11px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .expectedTokensMinted1 {
@@ -173,7 +173,7 @@
     top: 415.95px;
     left: 47px;
     font-size: 10px;
-    text-transform: capitalize;
+     
     color: #676767;
 }
 .div1 {
@@ -181,7 +181,7 @@
     top: 415.95px;
     left: 247px;
     font-size: 11px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .expectedEquivalentExpousure1 {
@@ -189,7 +189,7 @@
     top: 446.95px;
     left: 47px;
     font-size: 10px;
-    text-transform: capitalize;
+     
     color: #676767;
 }
 .div2 {
@@ -197,7 +197,7 @@
     top: 446.95px;
     left: 252px;
     font-size: 11px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .frameDiv {
@@ -210,7 +210,7 @@
     top: 194.95px;
     left: 163px;
     font-size: 14px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .expectedPrice124681 {
@@ -218,7 +218,7 @@
     top: 293.95px;
     left: 48px;
     font-size: 14px;
-    text-transform: capitalize;
+     
     color: #676767;
     text-align: right;
 }
@@ -239,7 +239,7 @@
     object-fit: cover;
 }
 .span {
-    text-transform: capitalize;
+     
 }
 .div3 {
     position: absolute;
@@ -311,16 +311,16 @@
 }
 .home {
     position: relative;
-    text-transform: capitalize;
+     
 }
 .trade {
     position: relative;
-    text-transform: capitalize;
+     
     cursor: pointer;
 }
 .stake {
     position: relative;
-    text-transform: capitalize;
+     
     color: #ffe500;
     cursor: pointer;
 }
@@ -399,7 +399,7 @@
 }
 .mediaInquiresFor1 {
     position: relative;
-    text-transform: capitalize;
+     
     opacity: 0.5;
 }
 .mediaInquiresForCmaxContParent {
@@ -444,7 +444,7 @@
     top: 2611px;
     left: 312px;
     font-size: 22px;
-    text-transform: capitalize;
+     
 }
 .tradeSubpageIpadPro129Inner {
     position: absolute;
@@ -557,7 +557,7 @@
     left: 545px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .vectorIcon1 {
     position: relative;

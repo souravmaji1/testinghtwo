@@ -23,7 +23,7 @@
     position: absolute;
     bottom: 209px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 917px;
@@ -77,16 +77,16 @@
 }
 .home {
     position: relative;
-    text-transform: capitalize;
+     
 }
 .trade {
     position: relative;
-    text-transform: capitalize;
+     
     cursor: pointer;
 }
 .stake {
     position: relative;
-    text-transform: capitalize;
+     
     color: #ffe500;
     cursor: pointer;
 }
@@ -167,7 +167,7 @@
     position: absolute;
     bottom: 362px;
     left: 696px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .fuelingInnovationThrough1 {
@@ -272,7 +272,7 @@
 }
 .mediaInquiresFor1 {
     position: relative;
-    text-transform: capitalize;
+     
     opacity: 0.5;
 }
 .mediaInquiresForCmaxContParent {
@@ -317,7 +317,7 @@
     top: 257px;
     left: calc(50% - 437px);
     font-size: 50px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -409,7 +409,7 @@
 .networkSecurity {
     position: relative;
     font-size: 20px;
-    text-transform: capitalize;
+     
     text-align: center;
 }
 .frameGroup {
@@ -484,7 +484,7 @@
     position: absolute;
     top: 879px;
     left: 75px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -612,7 +612,7 @@
     position: absolute;
     top: 64.71px;
     left: 678px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .totalAmountStake1 {
@@ -621,7 +621,7 @@
     left: 100.27px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -629,7 +629,7 @@
 }
 .apr {
     position: relative;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 70px;
     flex-shrink: 0;
@@ -711,13 +711,13 @@
     top: 2611px;
     left: 312px;
     font-size: 22px;
-    text-transform: capitalize;
+     
 }
 .stakingStats {
     position: absolute;
     top: 0px;
     left: 6px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .frameChild8 {
@@ -768,7 +768,7 @@
     top: 49px;
     left: calc(50% - 77.5px);
     font-size: 30px;
-    text-transform: capitalize;
+     
 }
 .wrapper {
     border-radius: 50px;
@@ -783,7 +783,7 @@
     position: relative;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     color: #fff;
 }
 .frameParent3 {
@@ -810,7 +810,7 @@
     position: relative;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .frameParent4 {
     position: absolute;
@@ -848,7 +848,7 @@
     right: 29px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     color: #ffe500;
 }
 .div5 {
@@ -856,7 +856,7 @@
     top: 220px;
     right: 27px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .div6 {
@@ -865,14 +865,14 @@
     right: 29px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .div7 {
     position: absolute;
     top: 383px;
     right: 27px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .frameChild12 {
@@ -982,7 +982,7 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -1079,7 +1079,7 @@
     left: 25.27px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -1089,7 +1089,7 @@
         position: absolute;
         top: 64.71px;
         left: 352px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .antDesigndollarOutlinedParent{
@@ -1254,7 +1254,7 @@
         position: absolute;
         top: 879px;
         padding: 0 0 0 20px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         left:  0;
@@ -1280,7 +1280,7 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -1401,7 +1401,7 @@
     left: 25.27px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -1411,7 +1411,7 @@
         position: absolute;
         top: 64.71px;
         left: 352px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .antDesigndollarOutlinedParent{
@@ -1576,7 +1576,7 @@
         position: absolute;
         top: 879px;
         padding: 0 0 0 20px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         left:  0;
@@ -1604,7 +1604,7 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -1724,7 +1724,7 @@
     left: 25.27px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -1734,7 +1734,7 @@
         position: absolute;
         top: 64.71px;
         left: 352px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .antDesigndollarOutlinedParent{
@@ -1900,7 +1900,7 @@
         position: absolute;
         top: 879px;
         padding: 0 0 0 20px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         left:  0;
@@ -1964,7 +1964,7 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -2085,7 +2085,7 @@
     left: 25.27px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -2095,7 +2095,7 @@
         position: absolute;
         top: 64.71px;
         left: 352px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .antDesigndollarOutlinedParent{
@@ -2261,7 +2261,7 @@
         position: absolute;
         top: 879px;
         padding: 0 0 0 20px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         left:  0;
@@ -2324,7 +2324,7 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -2445,7 +2445,7 @@
     left: 25.27px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -2455,7 +2455,7 @@
         position: absolute;
         top: 64.71px;
         left: 352px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .antDesigndollarOutlinedParent{
@@ -2628,7 +2628,7 @@
         position: absolute;
         top: 879px;
         padding: 0 0 0 20px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         left:  0;
@@ -2652,7 +2652,7 @@
         position: absolute;
     top: 0px;
     left: 28px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 
     }
@@ -2825,7 +2825,7 @@
         position: absolute;
         top: 58.71px;
         left: 554px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .maskGroupParent{
@@ -2921,7 +2921,7 @@
         position: absolute;
     top: 879px;
     left: 29px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -2965,7 +2965,7 @@
     top: 257px;
     left: calc(58% - 437px);
     font-size: 50px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3052,7 +3052,7 @@
         position: absolute;
         top: 58.71px;
         left: 554px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .maskGroupParent{
@@ -3148,7 +3148,7 @@
         position: absolute;
     top: 879px;
     left: 29px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3206,7 +3206,7 @@
     top: 257px;
     left: calc(58% - 437px);
     font-size: 50px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3297,7 +3297,7 @@
         position: absolute;
         top: 58.71px;
         left: 554px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .maskGroupParent{
@@ -3397,7 +3397,7 @@
         position: absolute;
     top: 879px;
     left: 29px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3456,7 +3456,7 @@
     top: 257px;
     left: calc(58% - 437px);
     font-size: 50px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3551,7 +3551,7 @@
         position: absolute;
         top: 58.71px;
         left: 554px;
-        text-transform: capitalize;
+         
         font-weight: 500;
     }
     .maskGroupParent{
@@ -3651,7 +3651,7 @@
         position: absolute;
     top: 879px;
     left: 29px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3710,7 +3710,7 @@
     top: 257px;
     left: calc(58% - 437px);
     font-size: 50px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;

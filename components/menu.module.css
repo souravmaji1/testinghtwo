@@ -20,7 +20,7 @@
     top: 20px;
     left: calc(50% - 190px);
     line-height: 108px;
-    text-transform: capitalize;
+     
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -33,7 +33,7 @@
     top: 65px;
     left: calc(50% - 190px);
     line-height: 108px;
-    text-transform: capitalize;
+     
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,7 +46,7 @@
     top: 110px;
     left: calc(50% - 190px);
     line-height: 108px;
-    text-transform: capitalize;
+     
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,7 +59,7 @@
     top: 160px;
     left: calc(50% - 190px);
     line-height: 108px;
-    text-transform: capitalize;
+     
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -72,7 +72,7 @@
     top: 210px;
     left: calc(50% - 190px);
     line-height: 108px;
-    text-transform: capitalize;
+     
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

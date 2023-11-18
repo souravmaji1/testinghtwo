@@ -53,7 +53,7 @@
 .div {
     position: relative;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .wrapper {
     position: absolute;
@@ -109,7 +109,7 @@
     left: 27%;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .vectorIcon1 {
     position: relative;
@@ -326,7 +326,7 @@
 }
 .max1 {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .antDesignswapOutlined {
@@ -388,14 +388,14 @@
     top: 194.95px;
     left: 47px;
     font-size: 14px;
-    text-transform: capitalize;
+     
 }
 .totalCost {
     position: absolute;
     top: 384.95px;
     left: 47px;
     font-size: 10px;
-    text-transform: capitalize;
+     
     color: #676767;
 }
 .div2 {
@@ -403,7 +403,7 @@
     top: 384.95px;
     left: 289px;
     font-size: 11px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .expectedTokensMinted1 {
@@ -411,7 +411,7 @@
     top: 415.95px;
     left: 47px;
     font-size: 10px;
-    text-transform: capitalize;
+     
     color: #676767;
 }
 .div3 {
@@ -419,7 +419,7 @@
     top: 415.95px;
     left: 290px;
     font-size: 11px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .expectedEquivalentExpousure1 {
@@ -427,7 +427,7 @@
     top: 446.95px;
     left: 47px;
     font-size: 10px;
-    text-transform: capitalize;
+     
     color: #676767;
 }
 .div4 {
@@ -435,7 +435,7 @@
     top: 446.95px;
     left: 295px;
     font-size: 11px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .frameDiv {
@@ -448,7 +448,7 @@
     top: 194.95px;
     left: 204px;
     font-size: 14px;
-    text-transform: capitalize;
+     
     text-align: right;
 }
 .expectedPrice124681 {
@@ -456,7 +456,7 @@
     top: 293.95px;
     left: 48px;
     font-size: 14px;
-    text-transform: capitalize;
+     
     color: #676767;
     text-align: right;
 }
@@ -475,7 +475,7 @@
     height: 1px;
 }
 .span1 {
-    text-transform: capitalize;
+     
 }
 .div5 {
     position: absolute;
@@ -751,7 +751,7 @@
         left: 310px;
         font-size: 15px;
         line-height: 36px;
-        text-transform: capitalize;
+         
       }
       .frame1{
         position: absolute;

@@ -25,7 +25,7 @@
   position: absolute;
   bottom: 209px;
   left: 0px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   display: inline-block;
   width: 917px;
@@ -146,13 +146,13 @@
 
 .home {
   position: relative;
-  text-transform: capitalize;
+   
   color: #ffe500;
 }
 
 .trade {
   position: relative;
-  text-transform: capitalize;
+   
   cursor: pointer;
 }
 
@@ -289,7 +289,7 @@
 
 .watchTutorial {
   position: relative;
-  text-transform: capitalize;
+   
   font-weight: 500;
 }
 
@@ -329,7 +329,7 @@
   top: 0px;
   left: 0px;
   font-size: 28px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   display: inline-block;
   width: 436px;
@@ -509,7 +509,7 @@
   position: absolute;
   top: 1557px;
   left: 292px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   color: #ffe500;
   text-align: center;
@@ -554,7 +554,7 @@
   top: 5px;
   left: 0px;
   line-height: 36px;
-  text-transform: capitalize;
+   
 }
 
 .cmax24 {
@@ -562,7 +562,7 @@
   top: 38px;
   left: 0px;
   font-size: 32px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   color: #0ce770;
   display: inline-block;
@@ -592,7 +592,7 @@
   top: 38px;
   left: 0px;
   font-size: 32px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   color: #ffe500;
   display: inline-block;
@@ -621,7 +621,7 @@
   position: absolute;
   top: 103.67px;
   left: 33.44px;
-  text-transform: capitalize;
+   
   font-weight: 500;
 }
 
@@ -630,7 +630,7 @@
   top: 158px;
   left: 36px;
   font-size: 40px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   color: #fff931;
 }
@@ -639,7 +639,7 @@
   position: absolute;
   top: 35.11px;
   font-size: 36px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   display: inline-block;
   width: 174.79px;
@@ -650,7 +650,7 @@
   position: absolute;
   top: 205.67px;
   left: 33.44px;
-  text-transform: capitalize;
+   
   font-weight: 500;
 }
 
@@ -712,7 +712,7 @@
   top: 0px;
   left: 296px;
   font-size: 36px;
-  text-transform: capitalize;
+   
   font-weight: 500;
   color: #ffe500;
   text-align: center;
@@ -1015,7 +1015,7 @@
   position: absolute;
   bottom: 362px;
   left: 696px;
-  text-transform: capitalize;
+   
   font-weight: 500;
 }
 
@@ -1134,7 +1134,7 @@
 
 .mediaInquiresFor1 {
   position: relative;
-  text-transform: capitalize;
+   
   opacity: 0.5;
 }
 
@@ -1157,7 +1157,7 @@
 
 .contactUs {
   position: relative;
-  text-transform: capitalize;
+   
 }
 
 .tradeParent {
@@ -1195,7 +1195,7 @@
   top: 196px;
   left: calc(50% - 438px);
   font-size: 30px;
-  text-transform: capitalize;
+   
   font-weight: 500;
 }
 
@@ -1204,7 +1204,7 @@
   top: 262px;
   left: calc(50% - 438px);
   font-size: 33px;
-  text-transform: capitalize;
+   
   font-family: 'Monument Extended';
   background: linear-gradient(180deg, #ffe500, #fff492);
   -webkit-background-clip: text;
@@ -1279,7 +1279,7 @@
     top: 262px;
     left: calc(62% - 438px);
     font-size: 33px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -1500,7 +1500,7 @@
     top: 0px;
     left: 180px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -1554,7 +1554,7 @@
     top: 1557px;
     font-size: 30px;
     left: 183px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -1577,7 +1577,7 @@
     top: 0px;
     left: 0px;
     font-size: 26px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 436px;
@@ -1600,7 +1600,7 @@
     top: 196px;
     left: calc(62% - 438px);
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -1630,7 +1630,7 @@
     top: 262px;
     left: calc(62% - 438px);
     font-size: 33px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -1865,7 +1865,7 @@
     top: 0px;
     left: 180px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -1954,7 +1954,7 @@
     position: absolute;
     top: 1557px;
     left: 183px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -1977,7 +1977,7 @@
     top: 0px;
     left: 0px;
     font-size: 26px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 436px;
@@ -2001,7 +2001,7 @@
     top: 196px;
     left: calc(62% - 438px);
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -2046,7 +2046,7 @@
     top: 262px;
     left: calc(62% - 438px);
     font-size: 33px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -2281,7 +2281,7 @@
     top: 0px;
     left: 180px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -2355,7 +2355,7 @@
     position: absolute;
     top: 1557px;
     left: 183px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -2378,7 +2378,7 @@
     top: 0px;
     left: 0px;
     font-size: 26px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 436px;
@@ -2401,7 +2401,7 @@
     top: 196px;
     left: calc(62% - 438px);
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -2445,7 +2445,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -2535,7 +2535,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -2557,7 +2557,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -2565,7 +2565,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -2579,7 +2579,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -2655,7 +2655,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -2685,7 +2685,7 @@
     position: absolute;
     top: 1547px;
     left: 83px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -2717,7 +2717,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -2726,7 +2726,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -2737,7 +2737,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -2819,7 +2819,7 @@
     top: 0px;
     font-size: 26px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 338px;
@@ -2857,7 +2857,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -2947,7 +2947,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -2969,7 +2969,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -2977,7 +2977,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -2991,7 +2991,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -3067,7 +3067,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3098,7 +3098,7 @@
     top: 1531px;
     font-size: 32px;
     left: 83px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3131,7 +3131,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -3140,7 +3140,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -3151,7 +3151,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -3235,7 +3235,7 @@
     top: 0px;
     font-size: 22px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 321px;
@@ -3271,7 +3271,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3361,7 +3361,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -3383,7 +3383,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -3391,7 +3391,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -3405,7 +3405,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -3481,7 +3481,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3511,7 +3511,7 @@
     position: absolute;
     top: 1547px;
     left: 83px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3543,7 +3543,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -3552,7 +3552,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -3563,7 +3563,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -3645,7 +3645,7 @@
     top: 0px;
     font-size: 26px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 338px;
@@ -3682,7 +3682,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3796,7 +3796,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -3818,7 +3818,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -3826,7 +3826,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -3840,7 +3840,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -3916,7 +3916,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3947,7 +3947,7 @@
     top: 1547px;
     font-size: 28px;
     left: 83px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -3979,7 +3979,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -3988,7 +3988,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -3999,7 +3999,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -4082,7 +4082,7 @@
     top: 0px;
     font-size: 21px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 338px;
@@ -4143,7 +4143,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -4258,7 +4258,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -4280,7 +4280,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -4288,7 +4288,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -4302,7 +4302,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -4380,7 +4380,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -4420,7 +4420,7 @@
     top: 1547px;
     left: 108px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -4452,7 +4452,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -4461,7 +4461,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -4472,7 +4472,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -4544,7 +4544,7 @@
     top: 0px;
     font-size: 21px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 338px;
@@ -4603,7 +4603,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -4703,7 +4703,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -4725,7 +4725,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -4733,7 +4733,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -4747,7 +4747,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -4825,7 +4825,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -4865,7 +4865,7 @@
     top: 1547px;
     left: 108px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -4897,7 +4897,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -4906,7 +4906,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -4917,7 +4917,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -5004,7 +5004,7 @@
     top: 0px;
     font-size: 21px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 338px;
@@ -5064,7 +5064,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -5178,7 +5178,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -5200,7 +5200,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -5208,7 +5208,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -5222,7 +5222,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -5302,7 +5302,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -5341,7 +5341,7 @@
     position: absolute;
     top: 1547px;
     left: 126px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -5373,7 +5373,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -5382,7 +5382,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -5393,7 +5393,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -5466,7 +5466,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 320px;
@@ -5528,7 +5528,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -5628,7 +5628,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -5665,7 +5665,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -5673,7 +5673,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -5687,7 +5687,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -5767,7 +5767,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -5805,7 +5805,7 @@
   .treasuryTokens1 {
     position: sticky;
     top: 1547px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     left: 0;
@@ -5842,7 +5842,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -5851,7 +5851,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -5862,7 +5862,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -5948,7 +5948,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 338px;
@@ -6007,7 +6007,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -6121,7 +6121,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -6157,7 +6157,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -6165,7 +6165,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -6179,7 +6179,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -6259,7 +6259,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -6299,7 +6299,7 @@
     top: 1547px;
     left: 0;
     text-align: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -6332,7 +6332,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -6341,7 +6341,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -6352,7 +6352,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -6426,7 +6426,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 328px;
@@ -6485,7 +6485,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -6600,7 +6600,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -6636,7 +6636,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -6644,7 +6644,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -6658,7 +6658,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -6738,7 +6738,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -6778,7 +6778,7 @@
     top: 1547px;
     left: 0;
     text-align: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -6811,7 +6811,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -6820,7 +6820,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -6831,7 +6831,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -6903,7 +6903,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 328px;
@@ -6964,7 +6964,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -7078,7 +7078,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -7114,7 +7114,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -7122,7 +7122,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -7136,7 +7136,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -7216,7 +7216,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -7256,7 +7256,7 @@
     top: 1547px;
     left: 0;
     text-align: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -7289,7 +7289,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -7298,7 +7298,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -7309,7 +7309,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -7381,7 +7381,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 328px;
@@ -7442,7 +7442,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -7542,7 +7542,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -7578,7 +7578,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -7586,7 +7586,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -7600,7 +7600,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -7680,7 +7680,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -7720,7 +7720,7 @@
     top: 1547px;
     left: 0;
     text-align: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -7753,7 +7753,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -7762,7 +7762,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -7773,7 +7773,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -7845,7 +7845,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 328px;
@@ -7906,7 +7906,7 @@
     position: sticky;
     top: 262px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -8006,7 +8006,7 @@
     display: flex;
     left: 0;
     font-size: 30px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     align-items: center;
     justify-content: center;
@@ -8042,7 +8042,7 @@
     font-size: 15px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
   }
 
   .tita24 {
@@ -8050,7 +8050,7 @@
     top: 38px;
     left: 0px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -8064,7 +8064,7 @@
     top: 38px;
     left: 0px;
     font-size: 21px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
     display: inline-block;
@@ -8144,7 +8144,7 @@
     top: 0px;
     left: 136px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -8184,7 +8184,7 @@
     top: 1547px;
     left: 0;
     text-align: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -8217,7 +8217,7 @@
     top: 205.67px;
     left: -83.56px;
     font-size: 31px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -8226,7 +8226,7 @@
     top: 148px;
     left: -77px;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 
@@ -8237,7 +8237,7 @@
     top: 103.67px;
     left: -84.56px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
   }
 
@@ -8323,7 +8323,7 @@
     top: 0px;
     font-size: 23px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 328px;

@@ -128,7 +128,7 @@
     position: absolute;
     top: 236px;
     left: calc(50% - 585px);
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .discoverTheRwfa {
@@ -136,7 +136,7 @@
     top: 308px;
     left: calc(50% - 585px);
     font-size: 44px;
-    text-transform: capitalize;
+     
     font-family: 'MonumentExtended-Regular';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -246,7 +246,7 @@
     top: 0px;
     font-size: 37px;
     left: 0px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 527px;
@@ -362,7 +362,7 @@
     position: absolute;
     bottom: 2555px;
     left: calc(50% - 459px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
     text-align: center;
@@ -533,7 +533,7 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -545,7 +545,7 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -556,7 +556,7 @@
     left: 162px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     font-weight: bold;
     display: inline-block;
     width: 300px;
@@ -568,7 +568,7 @@
     left: 961px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     font-weight: bold;
     display: inline-block;
     width: 300px;
@@ -581,7 +581,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -593,7 +593,7 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -706,7 +706,7 @@
     position: absolute;
     bottom: 1439px;
     left: calc(50% - 459px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
     text-align: center;
@@ -786,7 +786,7 @@
     position: absolute;
     bottom: 226px;
     left: calc(50% - 458.5px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 917px;
@@ -955,7 +955,7 @@
     position: absolute;
     top: 1665px;
     left: calc(50% - 459px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -1007,7 +1007,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .homepageBlackChild21 {
     position: absolute;
@@ -1031,7 +1031,7 @@
     position: absolute;
     top: 2023px;
     left: 857px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
 }
@@ -1042,13 +1042,13 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .tita24 {
     position: absolute;
     top: 2225px;
     left: 857px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -1057,14 +1057,14 @@
     top: 2065px;
     left: 219px;
     font-size: 58px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .treasury {
     position: absolute;
     top: 1983px;
     left: 219px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .rsc {
@@ -1072,7 +1072,7 @@
     top: 2187px;
     left: 219px;
     font-size: 58px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .div1 {
@@ -1080,7 +1080,7 @@
     top: 2135px;
     left: 219px;
     font-size: 42px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
 }
@@ -1119,7 +1119,7 @@
         display: flex;
         text-align: center;
         font-size: 40px;
-        text-transform: capitalize;
+         
         font-family: 'MonumentExtended-Regular';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1165,7 +1165,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -1180,7 +1180,7 @@
             position: absolute;
     bottom: 1490px;
     left: calc(50% - 459px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
     text-align: center;
@@ -1272,7 +1272,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: auto;
     height: 213px;
@@ -1304,7 +1304,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: auto;
     height: 213px;
@@ -1366,7 +1366,7 @@
                 position: sticky;
                 top: 0px;
                 left: 0px;
-                text-transform: capitalize;
+                 
                 font-weight: 500;
                 padding-left: 157px;
                 padding-right: 146px;
@@ -1406,7 +1406,7 @@
             top: 2802px;
             text-align: center;
             left: auto;
-            text-transform: capitalize;
+             
             font-weight: 500;
         }
         .div{
@@ -1414,7 +1414,7 @@
     top: 2875px;
     text-align: center;
     font-size: 40px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -1437,7 +1437,7 @@
     top: 2906px;
     margin: auto;
     font-size: 42px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
     display: flex;
@@ -1459,7 +1459,7 @@
         .treasuryTokens1{
             position: sticky;
     top: 2446px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     align-items: center;
@@ -1485,7 +1485,7 @@
             font-size: 22px;
             text-align: center;
             line-height: 36px;
-            text-transform: capitalize;
+             
             left: 0;
             display: flex;
             align-items: center;
@@ -1495,7 +1495,7 @@
         .tita24{
             position: sticky;
             top: 3360px;
-            text-transform: capitalize;
+             
             font-weight: 500;
             color: #0ce770;
             text-align: center;
@@ -1512,7 +1512,7 @@
         .discoverOurBenefits1{
             position: sticky;
     top: 4300px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     align-items: center;
@@ -1546,7 +1546,7 @@
             position: absolute;
     bottom: 219px;
     left: calc(50% - 459px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     font-size: 37px;
     color: #fff931;
@@ -1584,7 +1584,7 @@
             font-size: 22px;
             text-align: center;
             line-height: 36px;
-            text-transform: capitalize;
+             
             left: 0;
             display: flex;
             align-items: center;
@@ -1594,7 +1594,7 @@
         .cmax24{
             position: sticky;
             top: 3123px;
-            text-transform: capitalize;
+             
             font-weight: 500;
             color: #0ce770;
             text-align: center;
@@ -1693,7 +1693,7 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -1717,7 +1717,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: auto;
     height: 213px;
@@ -1730,7 +1730,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: auto;
     height: 213px;
@@ -1778,7 +1778,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: auto;
     height: 213px;
@@ -1791,7 +1791,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: auto;
     height: 213px;
@@ -1852,7 +1852,7 @@
         top: 308px;
         left: auto;
         font-size: 66px;
-        text-transform: capitalize;
+         
         font-family: 'MonumentExtended-Regular';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1931,7 +1931,7 @@ width: 670px;
         position: sticky;
     top: 236px;
     text-align: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
     }
     .frameParent{
@@ -1950,7 +1950,7 @@ width: 670px;
         position: sticky;
         top: 0px;
         left: 0px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         padding-left: 157px;
         padding-right: 146px;
@@ -2184,7 +2184,7 @@ width: 670px;
     top: 308px;
     left: calc(58% - 585px);
     font-size: 44px;
-    text-transform: capitalize;
+     
     font-family: 'MonumentExtended-Regular';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -2196,7 +2196,7 @@ width: 670px;
     position: absolute;
     top: 236px;
     left: calc(58% - 585px);
-    text-transform: capitalize;
+     
     font-weight: 500;
    }
    .btnParent{
@@ -2263,7 +2263,7 @@ width: 670px;
     display: none;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     font-weight: bold;
     display: none;
     width: 300px;
@@ -2312,7 +2312,7 @@ width: 670px;
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: none;
     width: 300px;
     height: 213px;
@@ -2346,7 +2346,7 @@ width: 670px;
     top: 2065px;
     left: 132px;
     font-size: 58px;
-    text-transform: capitalize;
+     
     font-weight: 500;
    }
    .homepageBlackChild20{
@@ -2378,7 +2378,7 @@ width: 670px;
     left: 748px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
    }
    .totalTradingVolume2{
     position: absolute;
@@ -2386,14 +2386,14 @@ width: 670px;
     left: 747px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
    }
    .tita24{
     position: absolute;
     top: 2225px;
     font-size: 33px;
     left: 749px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
    }
@@ -2402,7 +2402,7 @@ width: 670px;
     top: 2023px;
     left: 745px;
     font-size: 33px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #0ce770;
    }
@@ -2414,7 +2414,7 @@ width: 670px;
     top: 2135px;
     left: 151px;
     font-size: 42px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
    }
@@ -2423,14 +2423,14 @@ width: 670px;
     top: 2187px;
     left: 129px;
     font-size: 58px;
-    text-transform: capitalize;
+     
     font-weight: 500;
    }
    .treasury{
     position: absolute;
     top: 1983px;
     left: 131px;
-    text-transform: capitalize;
+     
     font-weight: 500;
    }
    .maskGroupIcon6{
@@ -2566,7 +2566,7 @@ width: 670px;
      top: 308px;
      left: calc(58% - 585px);
      font-size: 44px;
-     text-transform: capitalize;
+      
      font-family: 'MonumentExtended-Regular';
      background: linear-gradient(180deg, #ffe500, #fff492);
      -webkit-background-clip: text;
@@ -2578,7 +2578,7 @@ width: 670px;
      position: absolute;
      top: 236px;
      left: calc(58% - 585px);
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .btnParent{
@@ -2645,7 +2645,7 @@ width: 670px;
      display: none;
      font-size: 22px;
      line-height: 36px;
-     text-transform: capitalize;
+      
      font-weight: bold;
      display: none;
      width: 300px;
@@ -2694,7 +2694,7 @@ width: 670px;
      font-size: 22px;
      font-weight: bold;
      line-height: 36px;
-     text-transform: capitalize;
+      
      display: none;
      width: 300px;
      height: 213px;
@@ -2772,7 +2772,7 @@ width: 670px;
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -2785,7 +2785,7 @@ width: 670px;
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -2814,7 +2814,7 @@ width: 670px;
      top: 2065px;
      left: 132px;
      font-size: 58px;
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .homepageBlackChild20{
@@ -2846,7 +2846,7 @@ width: 670px;
      left: 748px;
      font-size: 22px;
      line-height: 36px;
-     text-transform: capitalize;
+      
     }
     .totalTradingVolume2{
      position: absolute;
@@ -2854,14 +2854,14 @@ width: 670px;
      left: 747px;
      font-size: 22px;
      line-height: 36px;
-     text-transform: capitalize;
+      
     }
     .tita24{
      position: absolute;
      top: 2225px;
      font-size: 33px;
      left: 749px;
-     text-transform: capitalize;
+      
      font-weight: 500;
      color: #ffe500;
     }
@@ -2870,7 +2870,7 @@ width: 670px;
      top: 2023px;
      left: 745px;
      font-size: 33px;
-     text-transform: capitalize;
+      
      font-weight: 500;
      color: #0ce770;
     }
@@ -2882,7 +2882,7 @@ width: 670px;
      top: 2135px;
      left: 151px;
      font-size: 42px;
-     text-transform: capitalize;
+      
      font-weight: 500;
      color: #fff931;
     }
@@ -2891,14 +2891,14 @@ width: 670px;
      top: 2187px;
      left: 129px;
      font-size: 58px;
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .treasury{
      position: absolute;
      top: 1983px;
      left: 131px;
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .maskGroupIcon6{
@@ -3034,7 +3034,7 @@ width: 670px;
      top: 308px;
      left: calc(58% - 585px);
      font-size: 44px;
-     text-transform: capitalize;
+      
      font-family: 'MonumentExtended-Regular';
      background: linear-gradient(180deg, #ffe500, #fff492);
      -webkit-background-clip: text;
@@ -3049,7 +3049,7 @@ width: 670px;
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -3077,7 +3077,7 @@ width: 670px;
      position: absolute;
      top: 236px;
      left: calc(58% - 585px);
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .btnParent{
@@ -3152,7 +3152,7 @@ width: 670px;
     left: 218px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     font-weight: bold;
     display: inline-block;
     width: 300px;
@@ -3199,7 +3199,7 @@ width: 670px;
      display: none;
      font-size: 22px;
      line-height: 36px;
-     text-transform: capitalize;
+      
      font-weight: bold;
      display: none;
      width: 300px;
@@ -3248,7 +3248,7 @@ width: 670px;
      font-size: 22px;
      font-weight: bold;
      line-height: 36px;
-     text-transform: capitalize;
+      
      display: none;
      width: 300px;
      height: 213px;
@@ -3326,7 +3326,7 @@ width: 670px;
     font-size: 22px;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -3339,7 +3339,7 @@ width: 670px;
     font-weight: bold;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 300px;
     height: 213px;
@@ -3368,7 +3368,7 @@ width: 670px;
      top: 2065px;
      left: 132px;
      font-size: 58px;
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .homepageBlackChild20{
@@ -3401,7 +3401,7 @@ width: 670px;
         left: 795px;
         font-size: 22px;
         line-height: 36px;
-        text-transform: capitalize;
+         
     }
     .totalTradingVolume2{
         position: absolute;
@@ -3409,14 +3409,14 @@ width: 670px;
         left: 786px;
         font-size: 22px;
         line-height: 36px;
-        text-transform: capitalize;
+         
     }
     .tita24{
         position: absolute;
     top: 2225px;
     font-size: 33px;
     left: 815px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 
@@ -3426,7 +3426,7 @@ width: 670px;
         top: 2023px;
         left: 795px;
         font-size: 33px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #0ce770;
     }
@@ -3438,7 +3438,7 @@ width: 670px;
      top: 2135px;
      left: 151px;
      font-size: 42px;
-     text-transform: capitalize;
+      
      font-weight: 500;
      color: #fff931;
     }
@@ -3447,14 +3447,14 @@ width: 670px;
      top: 2187px;
      left: 129px;
      font-size: 58px;
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .treasury{
      position: absolute;
      top: 1983px;
      left: 131px;
-     text-transform: capitalize;
+      
      font-weight: 500;
     }
     .maskGroupIcon6{

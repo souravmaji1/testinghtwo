@@ -187,7 +187,7 @@
     top: 367px;
     left: calc(50% - 285px);
     font-size: 52px;
-    text-transform: capitalize;
+     
     font-family: 'MonumentExtended-Regular';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -198,7 +198,7 @@
 	top: 42%;
 	left: 5%;
 	font-size: 43px;
-	text-transform: capitalize;
+	 
 	font-weight: 500;
 	color: #ffe500;
 }
@@ -207,7 +207,7 @@
 	top: 542px;
 	left: 435px;
 	font-size: 43px;
-	text-transform: capitalize;
+	 
 	font-weight: 500;
 	color: #ffe500;
 }
@@ -217,7 +217,7 @@
 	left: 435px;
 	font-size: 58px;
 	line-height: 44px;
-	text-transform: capitalize;
+	 
 }
 .rectangleDiv {
 	position: absolute;
@@ -234,7 +234,7 @@
 	top: 19%;
 	left: 5%;
 	font-size: 43px;
-	text-transform: capitalize;
+	 
 	font-weight: 500;
 	color: #ffe500;
 }
@@ -423,7 +423,7 @@
 }
 .div2 {
 	position: relative;
-	text-transform: capitalize;
+	 
 	font-size: 28px;
 }
 .polygonParent {
@@ -497,7 +497,7 @@
 	top: 295px;
 	left: 435px;
 	font-size: 46px;
-	text-transform: capitalize;
+	 
 	font-family: 'MonumentExtended-Regular';
 }
 .mdilocationIcon1 {
@@ -509,7 +509,7 @@
 }
 .nwBobcatLane {
 	position: relative;
-	text-transform: capitalize;
+	 
 	font-weight: 500;
 }
 .mdilocationParent {
@@ -535,14 +535,14 @@
 	top: 2329px;
 	left: 636px;
 	font-size: 28px;
-	text-transform: capitalize;
+	 
 }
 .text11 {
 	position: absolute;
 	top: 1758px;
 	left: 893px;
 	font-size: 28px;
-	text-transform: capitalize;
+	 
 }
 .walletWrapper {
 	width: 96px;
@@ -554,7 +554,7 @@
 .b4 {
 	position: relative;
 	font-size: 28px;
-	text-transform: capitalize;
+	 
 }
 .eth47c40f70Group {
 	position: absolute;
@@ -668,7 +668,7 @@
     top: 926px;
     left: 114px;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
   }
@@ -778,7 +778,7 @@
     top: 583px;
     text-align: center;
     font-size: 33px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 	left: 0;
@@ -788,7 +788,7 @@
 top: 488px;
 text-align: center;
 font-size: 38px;
-text-transform: capitalize;
+ 
 font-family: 'MonumentExtended-Regular';
 background: linear-gradient(180deg, #ffe500, #fff492);
 -webkit-background-clip: text;
@@ -860,14 +860,14 @@ left: 0;
     text-align: center;
     font-size: 42px;
     line-height: 44px;
-    text-transform: capitalize;
+     
   }
   .hi{
 	position: absolute;
     top: 428px;
     left: 32px;
     font-size: 46px;
-    text-transform: capitalize;
+     
     font-family: 'MonumentExtended-Regular';
   }
 
@@ -918,7 +918,7 @@ left: 0;
 	  }
 	  .nwBobcatLane{
 		position: sticky;
-    text-transform: capitalize;
+     
     display: flex;
     font-weight: 500;
     top: 76px;
@@ -933,7 +933,7 @@ left: 0;
 		top: 583px;
 		text-align: center;
 		font-size: 33px;
-		text-transform: capitalize;
+		 
 		font-weight: 500;
 		color: #ffe500;
 		left: 0;
@@ -943,7 +943,7 @@ left: 0;
     top: 488px;
     text-align: center;
     font-size: 38px;
-    text-transform: capitalize;
+     
     font-family: 'MonumentExtended-Regular';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -972,7 +972,7 @@ left: 0;
     top: 1689px;
     text-align: center;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 	  }

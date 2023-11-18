@@ -110,7 +110,7 @@
     top: 1150px;
     left: calc(50% - 73px);
     font-size: 28px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -122,7 +122,7 @@
     margin: auto;
     display: flex;
     font-size: 27px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     text-align: center;
@@ -143,7 +143,7 @@
     position: absolute;
     bottom: 150px;
     left: 5px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 332px;
@@ -243,7 +243,7 @@
     position: absolute;
     bottom: 281px;
     left: 69px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 
@@ -302,7 +302,7 @@
     position: absolute;
     bottom: 75px;
     left: 0px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 321px;
     opacity: 0.5;
@@ -312,7 +312,7 @@
     position: absolute;
     bottom: 0px;
     left: 23px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 274px;
     opacity: 0.5;
@@ -328,7 +328,7 @@
 
 .trade {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: bold;
 }
 
@@ -406,7 +406,7 @@
     top: 208px;
     left: calc(50% - 196px);
     font-size: 35px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -498,7 +498,7 @@
 .networkSecurity {
     position: relative;
     font-size: 20px;
-    text-transform: capitalize;
+     
     text-align: center;
     font-weight: bold;
 }
@@ -672,7 +672,7 @@
     top: 2px;
     left: 0px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: flex;
     align-items: center;
     width: 192px;
@@ -681,7 +681,7 @@
 
 .apr {
     position: relative;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 70px;
     flex-shrink: 0;
@@ -738,7 +738,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 
@@ -864,7 +864,7 @@
     top: 49px;
     left: calc(50% - 78px);
     font-size: 30px;
-    text-transform: capitalize;
+     
 }
 
 .wrapper {
@@ -881,7 +881,7 @@
     position: relative;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     color: #fff;
 }
 
@@ -911,7 +911,7 @@
     position: relative;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .frameParent22 {
@@ -966,7 +966,7 @@
     right: 29px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     color: #ffe500;
 }
 
@@ -975,7 +975,7 @@
     top: 220px;
     right: 27px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 
@@ -985,7 +985,7 @@
     right: 29px;
     font-size: 22px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .div8 {
@@ -993,7 +993,7 @@
     top: 383px;
     right: 27px;
     font-size: 22px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 
@@ -1119,7 +1119,7 @@
         top: 208px;
         left: calc(65% - 196px);
         font-size: 34px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1309,7 +1309,7 @@
         position: absolute;
         bottom: 0px;
         left: 7px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -1360,7 +1360,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 34px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1563,7 +1563,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 34px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1774,7 +1774,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1980,7 +1980,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2220,7 +2220,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2462,7 +2462,7 @@
         position: absolute;
         bottom: 0px;
         left: 42px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -2539,7 +2539,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2616,7 +2616,7 @@
         position: absolute;
         bottom: 0px;
         left: 36px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -2842,7 +2842,7 @@
         position: absolute;
         bottom: 0px;
         left: 40px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -2889,7 +2889,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3170,7 +3170,7 @@
         position: absolute;
         bottom: 0px;
         left: 65px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -3221,7 +3221,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3502,7 +3502,7 @@
         position: absolute;
         bottom: 0px;
         left: 75px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -3553,7 +3553,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3836,7 +3836,7 @@
         position: absolute;
         bottom: 0px;
         left: 89px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -3887,7 +3887,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -4169,7 +4169,7 @@
         position: absolute;
         bottom: 0px;
         left: 89px;
-        text-transform: capitalize;
+         
         display: inline-block;
         width: 274px;
         opacity: 0.5;
@@ -4220,7 +4220,7 @@
         top: 208px;
         left: calc(59% - 196px);
         font-size: 35px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;

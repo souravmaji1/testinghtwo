@@ -59,25 +59,25 @@
     position: absolute;
     top: 127.92px;
     left: 26.47px;
-    text-transform: capitalize;
+     
 }
 .youReceive {
     position: absolute;
     top: 338.25px;
     left: 26.47px;
-    text-transform: capitalize;
+     
 }
 .balance323400 {
     position: absolute;
     top: 127.92px;
     left: 228.24px;
-    text-transform: capitalize;
+     
 }
 .div {
     position: absolute;
     top: 221.2px;
     left: 26.47px;
-    text-transform: capitalize;
+     
     color: #676767;
     text-align: right;
 }
@@ -85,7 +85,7 @@
     position: absolute;
     top: 431.25px;
     left: 26.47px;
-    text-transform: capitalize;
+     
     color: #676767;
     text-align: right;
 }
@@ -113,7 +113,7 @@
     top: 40.51px;
     left: 87.11px;
     font-size: 20px;
-    text-transform: capitalize;
+     
     color: #000;
 }
 .mintburn {
@@ -121,7 +121,7 @@
     top: 39.17px;
     left: 214.99px;
     font-size: 20px;
-    text-transform: capitalize;
+     
     opacity: 0.79;
 }
 .frameDiv {
@@ -137,14 +137,14 @@
     top: 171px;
     left: 27px;
     font-size: 30px;
-    text-transform: capitalize;
+     
 }
 .div3 {
     position: absolute;
     top: 375.25px;
     left: 27px;
     font-size: 30px;
-    text-transform: capitalize;
+     
 }
 .frameChild {
     position: relative;
@@ -237,7 +237,7 @@
 }
 .max {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .antDesignswapOutlined1 {

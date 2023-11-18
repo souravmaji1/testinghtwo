@@ -365,7 +365,7 @@ const HomeIPadPro1291: NextPage = () => {
                         alt=""
                       />
                       <h5
-                        className="text-2xl text-[#FFE925] text-left mb-4"
+                        className="text-xxl text-[#FFE925] text-left mb-4"
                         style={myFont.style}
                       >
                         {item.top.title}
@@ -384,7 +384,7 @@ const HomeIPadPro1291: NextPage = () => {
                         alt=""
                       />
                       <h5
-                        className="monument text-2xl text-[#FFE925] text-left mb-4"
+                        className="monument text-xl text-[#FFE925] text-left mb-4"
                         style={myFont.style}
                       >
                         {item.bottom.title}

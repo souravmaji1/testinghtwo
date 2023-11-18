@@ -38,11 +38,11 @@
 }
 .home {
     position: relative;
-    text-transform: capitalize;
+     
 }
 .trade {
     position: relative;
-    text-transform: capitalize;
+     
     cursor: pointer;
 }
 .homeParent {
@@ -124,7 +124,7 @@
 }
 .mediaInquiresFor1 {
     position: relative;
-    text-transform: capitalize;
+     
     opacity: 0.5;
 }
 .mediaInquiresForCmaxContParent {
@@ -179,7 +179,7 @@
     left: 338px;
     font-size: 47px;
     letter-spacing: -0.03em;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -190,7 +190,7 @@
     top: 411.4px;
     left: 338px;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -200,14 +200,14 @@
     left: 338px;
     font-size: 48px;
     line-height: 44px;
-    text-transform: capitalize;
+     
 }
 .hi {
     position: absolute;
     top: 197.4px;
     left: 338px;
     font-size: 42px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
 }
 .mdilocationIcon1 {
@@ -384,7 +384,7 @@
     top: 714px;
     left: 5%;
     font-size: 32px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -413,7 +413,7 @@
     top: 1551px;
     left: 79px;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -432,7 +432,7 @@
     position: absolute;
     top: 1813.98px;
     left: 132px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -446,7 +446,7 @@
 }
 .polygon {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: 500;
     white-space: nowrap !important;
 }
@@ -459,7 +459,7 @@
 }
 .div2 {
     position: relative;
-    text-transform: capitalize;
+     
     font-size: 28px;
 }
 .polygonParent {
@@ -521,7 +521,7 @@
     top: 1619.98px;
     left: 837px;
     font-size: 28px;
-    text-transform: capitalize;
+     
 }
 .walletWrapper {
     width: 96px;
@@ -533,7 +533,7 @@
 .b3 {
     position: relative;
     font-size: 28px;
-    text-transform: capitalize;
+     
 }
 .eth47c40f70Group {
     position: absolute;

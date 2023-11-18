@@ -42,18 +42,16 @@
 
 .home {
     position: relative;
-    text-transform: capitalize;
 }
 
 .trade {
     position: relative;
-    text-transform: capitalize;
     cursor: pointer;
 }
 
 .about {
     position: relative;
-    text-transform: capitalize;
+     
     color: #ffe500;
     cursor: pointer;
 }
@@ -148,7 +146,7 @@
 
 .mediaInquiresFor1 {
     position: relative;
-    text-transform: capitalize;
+     
     opacity: 0.5;
 }
 
@@ -198,7 +196,7 @@
     top: 257px;
     left: calc(50% - 437px);
     font-size: 50px;
-    text-transform: capitalize;
+     
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -212,7 +210,7 @@
     top: 617.55px;
     left: calc(50% - 437px);
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
     display: inline-block;
@@ -224,7 +222,7 @@
     bottom: 715.15px;
     left: calc(50% - 437px);
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -324,7 +322,7 @@
     top: 0px;
     left: 387px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .div1 {
@@ -332,7 +330,7 @@
     top: 268px;
     left: 385px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .div2 {
@@ -340,7 +338,7 @@
     top: 539px;
     left: 385px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .div3 {
@@ -348,7 +346,7 @@
     top: 811px;
     left: 385px;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .frameDiv {
@@ -495,7 +493,7 @@
     top: 137px;
     left: 398px;
     font-size: 16px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff;
 }
@@ -505,7 +503,7 @@
     top: 679px;
     left: 398px;
     font-size: 16px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff;
 }
@@ -515,7 +513,7 @@
     top: 403px;
     left: 223px;
     font-size: 16px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff;
     text-align: right;
@@ -526,7 +524,7 @@
     top: 947px;
     left: 223px;
     font-size: 16px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff;
     text-align: right;
@@ -547,7 +545,7 @@
     bottom: 1110px;
     left: 79px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -624,7 +622,7 @@
     position: absolute;
     bottom: -277.69px;
     left: 69.5px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -663,7 +661,7 @@
     bottom: 73px;
     left: 0px;
     line-height: 30px;
-    text-transform: capitalize;
+     
     background: linear-gradient(263.1deg, #bbfa09, #9efa09);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -674,7 +672,7 @@
     bottom: 73px;
     left: 306px;
     line-height: 30px;
-    text-transform: capitalize;
+     
     background: linear-gradient(263.1deg, #bbfa09, #9efa09);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -685,7 +683,7 @@
     bottom: 73px;
     left: 603px;
     line-height: 30px;
-    text-transform: capitalize;
+     
     background: linear-gradient(263.1deg, #bbfa09, #9efa09);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -697,7 +695,7 @@
     left: 16px;
     font-size: 16px;
     line-height: 30px;
-    text-transform: capitalize;
+     
 }
 
 .ceoAndCoFounder1 {
@@ -706,7 +704,7 @@
     left: 322px;
     font-size: 16px;
     line-height: 30px;
-    text-transform: capitalize;
+     
 }
 
 .ceoAndCoFounder2 {
@@ -715,7 +713,7 @@
     left: 619px;
     font-size: 16px;
     line-height: 30px;
-    text-transform: capitalize;
+     
 }
 
 .mingcutewallet4FillLang {
@@ -789,7 +787,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -805,7 +803,7 @@
         left: 0;
         right: 394px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -889,7 +887,7 @@
         left: 0;
         right: 394px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -915,7 +913,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -950,7 +948,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -1071,7 +1069,7 @@
         bottom: 715.15px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1087,7 +1085,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -1272,7 +1270,7 @@
         bottom: 715.15px;
         left: calc(57% - 437px);
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1309,7 +1307,7 @@
         top: 617.55px;
         left: calc(57% - 437px);
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -1321,7 +1319,7 @@
         top: 257px;
         left: calc(56% - 437px);
         font-size: 50px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1339,7 +1337,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1354,7 +1352,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -1437,7 +1435,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -1463,7 +1461,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -1498,7 +1496,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -1619,7 +1617,7 @@
         bottom: 715.15px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1635,7 +1633,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -1660,7 +1658,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1676,7 +1674,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -1760,7 +1758,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -1786,7 +1784,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -1821,7 +1819,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -1943,7 +1941,7 @@
         bottom: 715.15px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -1959,7 +1957,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -1987,7 +1985,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2002,7 +2000,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -2085,7 +2083,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -2111,7 +2109,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -2146,7 +2144,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -2269,7 +2267,7 @@
         bottom: 715.15px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2285,7 +2283,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -2312,7 +2310,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2328,7 +2326,7 @@
         left: 0;
         right: 394px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -2412,7 +2410,7 @@
         left: 0;
         right: 394px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -2438,7 +2436,7 @@
         left: 304px;
         padding: 0 20px 0 13%;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -2473,7 +2471,7 @@
         padding: 0 20px 0 13%;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -2616,7 +2614,7 @@
         bottom: 1080px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2632,7 +2630,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -2658,7 +2656,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2673,7 +2671,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -2756,7 +2754,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -2783,7 +2781,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -2818,7 +2816,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -2959,7 +2957,7 @@
         bottom: 1050px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -2975,7 +2973,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -3001,7 +2999,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3017,7 +3015,7 @@
         left: 0;
         right: 394px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -3102,7 +3100,7 @@
         left: 0;
         right: 394px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -3128,7 +3126,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -3163,7 +3161,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -3304,7 +3302,7 @@
         bottom: 1100px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3320,7 +3318,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;
@@ -3345,7 +3343,7 @@
         top: 257px;
         left: 0;
         font-size: 46px;
-        text-transform: capitalize;
+         
         font-family: 'Monument Extended';
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3360,7 +3358,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -3443,7 +3441,7 @@
         left: 0;
         right: 394px;
         font-size: 15px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
         text-align: right;
@@ -3469,7 +3467,7 @@
         left: 304px;
         padding: 0 100px;
         font-size: 14px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -3504,7 +3502,7 @@
         padding: 0 91px;
         left: 306px;
         font-size: 16px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #fff;
     }
@@ -3656,7 +3654,7 @@
         bottom: 715.15px;
         padding: 0 0 0 20px;
         font-size: 43px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         background: linear-gradient(180deg, #ffe500, #fff492);
         -webkit-background-clip: text;
@@ -3672,7 +3670,7 @@
         left: 0;
         padding: 0 0 0 20px;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
         display: inline-block;

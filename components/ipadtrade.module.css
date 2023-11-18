@@ -33,7 +33,7 @@
 .joinOurCommunity1 {
     position: absolute;
     bottom: 209px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 917px;
@@ -85,13 +85,13 @@
 
 .home {
     position: relative;
-    text-transform: capitalize;
+     
     cursor: pointer;
 }
 
 .trade {
     position: relative;
-    text-transform: capitalize;
+     
     color: #ffe500;
     text-decoration: none;
 }
@@ -194,7 +194,7 @@
     position: absolute;
     bottom: 362px;
     left: 696px;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 
@@ -314,7 +314,7 @@
 
 .mediaInquiresFor1 {
     position: relative;
-    text-transform: capitalize;
+     
     opacity: 0.5;
 }
 
@@ -331,7 +331,7 @@
 
 .contactUs {
     position: relative;
-    text-transform: capitalize;
+     
 }
 
 .tradeParent {
@@ -622,7 +622,7 @@
     position: absolute;
     top: 25px;
     left: 32.02px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 8.46px;
 }
@@ -639,7 +639,7 @@
     position: relative;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 
 .ellipseParent {
@@ -756,7 +756,7 @@
     top: 953px;
     left: 72px;
     font-size: 36px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -1483,7 +1483,7 @@
         padding: 0 0 0 20px;
         left: 0;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
     }
@@ -1693,7 +1693,7 @@
         padding: 0 0 0 20px;
         left: 0;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
     }
@@ -1906,7 +1906,7 @@
         padding: 0 0 0 20px;
         left: 0;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
     }
@@ -2124,7 +2124,7 @@
         padding: 0 0 0 20px;
         left: 0;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
     }
@@ -2343,7 +2343,7 @@
         padding: 0 0 0 20px;
         left: 0;
         font-size: 36px;
-        text-transform: capitalize;
+         
         font-weight: 500;
         color: #ffe500;
     }

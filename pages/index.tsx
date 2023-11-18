@@ -174,10 +174,9 @@ const HomepageBlack: NextPage = () => {
 
       <div className={`${styles.homepageBlack} h-[4730px]`}>
         <GenericMobileNavbar />
-        <div className={styles.homepageBlackItem}></div>
+        
         <div className={styles.homepageBlackInner}></div>
-        <div className={styles.ellipseDiv} />
-        <div className={styles.ellipseDivtwo} />
+       
         <div className={styles.homepageBlackChild1} />
         <div className={styles.homepageBlackChild2} />
         <Image className={styles.homepageBlackChild3} alt="" src={Circ} />

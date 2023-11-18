@@ -98,7 +98,7 @@ function GenericMobileNavbar() {
   }, []);
   return (
     <>
-      <section className="md:hidden absolute top-0 left-0 h-fit w-screen flex flex-row items-center justify-between p-2">
+      <section className="md:hidden bg-[#201D26] z-[9999] fixed top-0 left-0 h-fit w-screen flex flex-row items-center justify-between p-2">
         <a href="/">
           <img src={logo.src} className="h-16 aspect-square" alt="" />
         </a>

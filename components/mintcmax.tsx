@@ -166,14 +166,16 @@ export default function Minting() {
         <TabPanel>
           <div className={styles.swapMintburnInner} />
           <div className={styles.swapMintburnChild1} />
+          {/*
           <div className={styles.antDesignswapOutlined}>
             <div
               style={{ fontFamily: "__fourthFont_9c16a8" }}
               className={styles.max1}
             >
-              max
+              Max
             </div>
           </div>
+           */}
 
           <div className={styles.credit}>
             <Image

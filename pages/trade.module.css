@@ -117,7 +117,7 @@
     bottom: 1439px;
     left: calc(50% - 459px);
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #fff931;
     text-align: center;
@@ -194,7 +194,7 @@
     position: absolute;
     bottom: 120px;
     left: calc(50% - 458.5px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     display: inline-block;
     width: 917px;
@@ -566,7 +566,7 @@
     top: 0px;
     left: 0px;
     font-size: 43px;
-    text-transform: capitalize;
+     
     font-weight: 500;
     color: #ffe500;
 }
@@ -576,7 +576,7 @@
     left: 8%;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 136.08px;
 }
@@ -586,7 +586,7 @@
     left: 3%;
     line-height: 36px;
     font-weight: bold;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 136.08px;
 }
@@ -596,7 +596,7 @@
     left: 3%;
     line-height: 36px;
     font-weight: bold;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 136.08px;
 }
@@ -606,7 +606,7 @@
     font-weight: bold;
     left: 55%;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .shibaInu {
     position: absolute;
@@ -614,7 +614,7 @@
     left: 55%;
     font-weight: bold;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .worldcoin {
     position: absolute;
@@ -622,13 +622,13 @@
     font-weight: bold;
     left: 55%;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .div3 {
     position: absolute;
     top: 117.31px;
     left: 37.02px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 8.46px;
 }
@@ -636,7 +636,7 @@
     position: absolute;
     top: 217.62px;
     left: 37.02px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 13.75px;
 }
@@ -644,7 +644,7 @@
     position: absolute;
     top: 317.92px;
     left: 37.02px;
-    text-transform: capitalize;
+     
     display: inline-block;
     width: 13.75px;
 }
@@ -652,19 +652,19 @@
     position: absolute;
     top: 117.31px;
     left: 633.82px;
-    text-transform: capitalize;
+     
 }
 .div7 {
     position: absolute;
     top: 217.62px;
     left: 633.82px;
-    text-transform: capitalize;
+     
 }
 .div8 {
     position: absolute;
     top: 317.92px;
     left: 633.82px;
-    text-transform: capitalize;
+     
 }
 .groupChild8 {
     position: absolute;
@@ -729,7 +729,7 @@
 .div9 {
     position: relative;
     line-height: 36px;
-    text-transform: capitalize;
+     
 }
 .polygonParent {
     position: absolute;
@@ -810,7 +810,7 @@
 }
 .search {
     position: relative;
-    text-transform: capitalize;
+     
     font-weight: 500;
 }
 .vectorParent1 {
@@ -1115,21 +1115,21 @@ object-fit: cover;
     position: absolute;
 top: 417.31px;
 left: 37px;
-text-transform: capitalize;
+ 
 
    }
    .div7{
     position: absolute;
 top: 517.31px;
 left: 37px;
-text-transform: capitalize;
+ 
 
    }
    .div8{
     position: absolute;
 top: 617.31px;
 left: 37px;
-text-transform: capitalize;
+ 
 
    }
    .pepe{
@@ -1137,28 +1137,28 @@ text-transform: capitalize;
 top: 417.31px;
 left: 135.47px;
 line-height: 36px;
-text-transform: capitalize;
+ 
    }
    .shibaInu{
     position: absolute;
     top: 517.31px;
     left: 135.47px;
     line-height: 36px;
-    text-transform: capitalize;
+     
    }
    .worldcoin{
     position: absolute;
     top: 617.31px;
     left: 135.47px;
     line-height: 36px;
-    text-transform: capitalize;
+     
    }
    .frameDiv{
     position: absolute;
     top: 401.62px;
     left: 495.35px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
    }
    .polygonParent1{
@@ -1166,7 +1166,7 @@ text-transform: capitalize;
     top: 501.62px;
     left: 495.35px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
    }
    .polygonContainer{
@@ -1175,7 +1175,7 @@ text-transform: capitalize;
     top: 601.62px;
     left: 297.35px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
        
    }
@@ -1183,7 +1183,7 @@ text-transform: capitalize;
     position: absolute;
     bottom: 219px;
     left: calc(50% - 458.5px);
-    text-transform: capitalize;
+     
     font-weight: 500;
     font-size: 34px;
     display: inline-block;
@@ -1315,7 +1315,7 @@ text-transform: capitalize;
     top: 401.62px;
     left: 297px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
    }
    .polygonParent1{
@@ -1323,7 +1323,7 @@ text-transform: capitalize;
     top: 501.62px;
     left: 298px;
     line-height: 36px;
-    text-transform: capitalize;
+     
     display: inline-block;
 
    }
@@ -1509,21 +1509,21 @@ font-family: 'NeueMontreal-Light';
         position: absolute;
     top: 417.31px;
     left: 37px;
-    text-transform: capitalize;
+     
 
        }
        .div7{
         position: absolute;
     top: 517.31px;
     left: 37px;
-    text-transform: capitalize;
+     
 
        }
        .div8{
         position: absolute;
     top: 617.31px;
     left: 37px;
-    text-transform: capitalize;
+     
 
        }
        .pepe{
@@ -1531,28 +1531,28 @@ font-family: 'NeueMontreal-Light';
     top: 417.31px;
     left: 135.47px;
     line-height: 36px;
-    text-transform: capitalize;
+     
        }
        .shibaInu{
         position: absolute;
         top: 517.31px;
         left: 135.47px;
         line-height: 36px;
-        text-transform: capitalize;
+         
        }
        .worldcoin{
         position: absolute;
         top: 617.31px;
         left: 135.47px;
         line-height: 36px;
-        text-transform: capitalize;
+         
        }
        .frameDiv{
         position: absolute;
         top: 401.62px;
         left: 495.35px;
         line-height: 36px;
-        text-transform: capitalize;
+         
         display: inline-block;
        }
        .polygonParent1{
@@ -1560,7 +1560,7 @@ font-family: 'NeueMontreal-Light';
         top: 501.62px;
         left: 495.35px;
         line-height: 36px;
-        text-transform: capitalize;
+         
         display: inline-block;
        }
        .polygonContainer{
@@ -1569,7 +1569,7 @@ font-family: 'NeueMontreal-Light';
             top: 601.62px;
             left: 495.35px;
             line-height: 36px;
-            text-transform: capitalize;
+             
             display: inline-block;
            
        }

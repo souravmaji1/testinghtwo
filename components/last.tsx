@@ -88,7 +88,7 @@ const AboutIPadPro1293: NextPage = () => {
     <div className="w-screen gradBlueBG">
       <section className="w-screen h-fit absolute top-0 pt-40 gradBlueBG">
           <section className="w-screen h-fit px-3">
-            <h5 className="text-3xl capitalize mb-3" style={myFont.style}>
+            <h5 className="text-3xl mb-3" style={myFont.style}>
               {t("about")}
             </h5>
             <h5
@@ -188,7 +188,7 @@ const AboutIPadPro1293: NextPage = () => {
                 </p>
               </div>
             </div>
-            <h5 className="text-3xl capitalize mb-3 mt-5" style={myFont.style}>
+            <h5 className="text-3xl mb-3 mt-5" style={myFont.style}>
               {t("audit")}
             </h5>
             <h5
