@@ -287,27 +287,27 @@ export default function Minting() {
                     <div className={styles.swapMintburnChild2} />
 
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.youPay}
                     >
-                      you pay
+                      You pay
                     </div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.totalCost}
                     >
                       Total cost
                     </div>
                     <div className={styles.div2}>{amount}</div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.expectedTokensMinted1}
                     >
                       Expected Tokens Minted
                     </div>
                     <div className={styles.div3}>{totalAmount}</div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.expectedEquivalentExpousure1}
                     >
                       Expected Platform Fees
@@ -315,13 +315,13 @@ export default function Minting() {
                     <div className={styles.div4}>0.2%</div>
                     <div className={styles.frameDiv} />
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.balance323400}
                     >
-                      balance: $0
+                      Balance: $0
                     </div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.expectedPrice124681}
                     >
                       Expected Price: $124.68
@@ -356,7 +356,7 @@ export default function Minting() {
                     <div className={styles.frameGroup}>
                       <div className={styles.ellipseParent}>
                         <div
-                          style={{ fontFamily: "Inter" }}
+                          style={secondFont.style}
                           className={styles.g}
                         >
                           usdc
@@ -390,46 +390,46 @@ export default function Minting() {
                     <div className={styles.swapMintburnChild2} />
 
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.youPay}
                     >
-                      you pay
+                      You pay
                     </div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.totalCost}
                     >
                       Total cost
                     </div>
                     <div className={styles.div2}>{burnamount}</div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.expectedTokensMinted1}
                     >
                       Expected Tokens Minted
                     </div>
                     <div className={styles.div3}>{totalBurnAmount}</div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.expectedEquivalentExpousure1}
                     >
                       Expected Platform Fees
                     </div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.div4}
                     >
                       0.2%
                     </div>
                     <div className={styles.frameDiv} />
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.balance323400}
                     >
-                      balance: $0
+                      Balance: $0
                     </div>
                     <div
-                      style={{ fontFamily: "Inter" }}
+                      style={secondFont.style}
                       className={styles.expectedPrice124681}
                     >
                       Expected Price: $124.68
@@ -464,7 +464,7 @@ export default function Minting() {
                     <div className={styles.frameGroup}>
                       <div className={styles.ellipseParent}>
                         <div
-                          style={{ fontFamily: "Inter" }}
+                          style={secondFont.style}
                           className={styles.g}
                         >
                           tita

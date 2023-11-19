@@ -232,21 +232,21 @@ export default function Minting() {
           <div className={styles.swapMintburnChild2} />
 
           <div
-            style={{ fontFamily: "__secondFont_72e69f" }}
+            style={secondFont.style}
             className={styles.youPay}
           >
-            you pay
+            You pay
           </div>
 
           <div className={styles.frameDiv} />
           <div
-            style={{ fontFamily: "__secondFont_72e69f" }}
+            style={secondFont.style}
             className={styles.balance323400}
           >
-            balance: $0
+            Balance: $0
           </div>
           <div
-            style={{ fontFamily: "__secondFont_72e69f" }}
+            style={secondFont.style}
             className={styles.expectedPrice124681}
           >
             Expected Price: $124.68
@@ -262,7 +262,7 @@ export default function Minting() {
             src="Vector 13.svg"
           />
           <div
-            style={{ fontFamily: "__secondFont_72e69f" }}
+            style={secondFont.style}
             className={styles.div5}
           >
             <input
@@ -284,7 +284,7 @@ export default function Minting() {
           <div className={styles.frameGroup}>
             <div className={styles.ellipseParent}>
               <div
-                style={{ fontFamily: "__secondFont_72e69f",  }}
+                style={secondFont.style}
                 className={styles.g}
               >
                 <h5 className="mb-0">USDC</h5>

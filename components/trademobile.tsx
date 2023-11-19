@@ -122,10 +122,10 @@ const TradeIPadPro1292: NextPage = () => {
             backgroundImage: `url('${communityBg.src}')`,
           }}
         >
-          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10">
+          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10" style={thirdFont.style}>
             {t("communityhead")}
           </h5>
-          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5">
+          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5" style={secondFont.style}>
             {t("communityparagraph")}
           </h5>
           <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">

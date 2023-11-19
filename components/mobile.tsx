@@ -226,7 +226,7 @@ const HomeIPadPro1291: NextPage = () => {
           </h5>
           <div className="w-10/12 h-fit homeGlass rounded-2xl flex flex-col items-center justify-center gap-2">
             <img src={Frame.src} className="w-7/12 aspect-square" alt="" />
-            <h5 style={myFont.style} className="text-2xll text-white text-center mb-5 ">Whitepaper</h5>
+            <h5 style={thirdFont.style} className="text-2xll text-white text-center mb-5 ">Whitepaper</h5>
           </div>
           <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
          <div className="bg-[#FFE608] rounded-xl w-fit px-4 h-fit py-3 flex flex-row items-center justify-center gap-2 mt-6">
