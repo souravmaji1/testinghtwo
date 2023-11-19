@@ -10,11 +10,18 @@ import ItalianFlag from '../public/italian.png';
 import RussanFlag from '../public/russain.png';
 import ArbaianFlag from '../public/arabian.png';
 
-const myFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf"});
-const secondFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf"});
-const thirdFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf"});
-const fourthFont = localFont({src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf"});
-
+const myFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
+const secondFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
+});
+const thirdFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
+});
+const fourthFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
 const LanguageSelector: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<{
     name: string;

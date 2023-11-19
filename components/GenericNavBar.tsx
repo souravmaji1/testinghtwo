@@ -4,17 +4,17 @@ import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 import { useCallback, useState, useEffect } from 'react';
 
 const myFont = localFont({
-    src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
-  });
-  const secondFont = localFont({
-    src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
-  });
-  const thirdFont = localFont({
-    src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
-  });
-  const fourthFont = localFont({
-    src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
-  });
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
+const secondFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
+});
+const thirdFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
+});
+const fourthFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
 
 function GenericNavbar(){
     

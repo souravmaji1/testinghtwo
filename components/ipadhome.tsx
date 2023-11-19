@@ -46,17 +46,18 @@ import { Download } from "@mui/icons-material";
 import Downloadd from "../public/download.png";
 
 const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
+
 
 import Tradei from "../public/montra.png";
 import Stakei from "../public/mobst.png";
@@ -132,7 +133,7 @@ const HomeIPadPro1291: NextPage = () => {
   };
 
   return (
-    <div className={`${styles.homeIpadPro1291} h-[4700px] landscape:h-[4250px]`}>
+    <div className={`${styles.homeIpadPro1291} md:h-[4400px] lg:h-[4950px] landscape:lg:h-[4200px]`}>
       <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <div className="w-screen h-fit absolute top-[2200px] flex flex-col items-center justify-start pt-10">
@@ -462,7 +463,7 @@ const HomeIPadPro1291: NextPage = () => {
         {t("secondhead")}{" "}
       </div>
 
-      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[6.5%] landscape:bottom-[7%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100">
+      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[6.5%] landscape:bottom-[7%] landscape:lg:bottom-[350px] landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square z-10"

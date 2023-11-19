@@ -54,17 +54,18 @@ import Comingsoon from "../public/Coming Soon.png";
 import LanguageSelector from "./mobilelang";
 
 const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
+
 import { useTranslation } from "react-i18next";
 import GenericMobileNavbar from "./mobileGenericNavbar";
 import { BsGithub } from "react-icons/bs";

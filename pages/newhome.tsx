@@ -83,13 +83,13 @@ import GenericMobileNavbar from "@/components/mobileGenericNavbar";
 import { useTranslation } from "react-i18next"; // important for translation. import in every page or component
 
 const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",

@@ -41,14 +41,14 @@ import Navbar from "../components/tradenav";
 import Footer from "../components/footer";
 import communityBg from "../public/back.png";
 
+const myFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
-const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
-});
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",

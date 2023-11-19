@@ -83,13 +83,13 @@ import GenericMobileNavbar from "@/components/mobileGenericNavbar";
 import { useTranslation } from "react-i18next"; // important for translation. import in every page or component
 
 const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
@@ -391,7 +391,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section className="h-fit md:scale-125 lg:scale-125 xl:scale-125 w-screen mt bg-center bg-cover hidden lg:flex landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[500px] landscape:xl:bottom-[500px] z-50 opacity-100">
+      <section id="commu" className="h-fit w-screen mt bg-center bg-cover hidden  xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[500px] landscape:xl:bottom-[500px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"

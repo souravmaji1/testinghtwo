@@ -204,10 +204,8 @@
     font-family: 'Neue Montreal';
 }
 .menuIpadPro1291 {
-    position: absolute;
-    top: 5%;
     background: linear-gradient(180deg, #201d26, #1d1b20);
-    width: 90%;
+    width: 100%;
     height: fit-content;
     overflow-x: hidden;
     border-radius: 10px;

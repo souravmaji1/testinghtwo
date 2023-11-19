@@ -60,13 +60,13 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 
 const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
@@ -228,6 +228,13 @@ const HomeIPadPro1291: NextPage = () => {
             <img src={Frame.src} className="w-7/12 aspect-square" alt="" />
             <h5 style={myFont.style} className="text-2xll text-white text-center mb-5 ">Whitepaper</h5>
           </div>
+          <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
+         <div className="bg-[#FFE608] rounded-xl w-fit px-4 h-fit py-3 flex flex-row items-center justify-center gap-2 mt-6">
+            <img src={Download.src} className="w-1/12" alt="" />
+            <a href="https://linktr.ee/coliseumcmax"><h5 style={thirdFont.style} className="text-xl text-black text-center mb-0">{t("downloadbutton")}</h5></a>
+            
+          </div>
+         </a>
           <h5 className="my-4 w-10/12 text-white text-center"
           style={{
             fontSize:
@@ -241,13 +248,7 @@ const HomeIPadPro1291: NextPage = () => {
                 : "1.25",
           }}
           ><span style={secondFont.style}>📥 {t("downloadparagraph")} 🚀{" "}</span></h5>
-         <a href="https://moodglobalservices.notion.site/Coliseum-White-Paper-fa2c3eb3583b454a8a4d7ad8d4360391?pvs=4">
-         <div className="bg-[#FFE608] rounded-xl w-fit px-4 h-fit py-3 flex flex-row items-center justify-center gap-2 ">
-            <img src={Download.src} className="w-1/12" alt="" />
-            <a href="https://linktr.ee/coliseumcmax"><h5 style={thirdFont.style} className="text-xl text-black text-center mb-0">{t("downloadbutton")}</h5></a>
-            
-          </div>
-         </a>
+         
         </div>
        
 
@@ -401,10 +402,8 @@ const HomeIPadPro1291: NextPage = () => {
               })}
             </Carousel>
           </div>
-        </section>
-
-        <section
-          className="h-fit pt-10 w-screen bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
+          <section
+          className="h-fit pt-16 w-screen bg-center bg-cover bg-no-repeat mt-10 z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}
@@ -427,7 +426,11 @@ const HomeIPadPro1291: NextPage = () => {
             <TiSocialLinkedinCircular color="#ffffff" size={45} />
             <SiNotion color="#ffffff" size={35} />
           </div>
+          <div className="w-full h-10"></div>
         </section>
+        </section>
+
+        
       </div>
       {isMenuIPadPro1291Open && (
         <PortalPopup

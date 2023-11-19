@@ -59,14 +59,14 @@ import Claimre from "../public/claim rewards.png";
 import Usos from "../public/uso.png";
 import Languageswitch from "../components/desktop";
 
+const myFont = localFont({
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
+});
 const secondFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Light.otf",
 });
-const myFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf",
-});
 const thirdFont = localFont({
-  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Medium.otf",
+  src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Bold.otf",
 });
 const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
@@ -158,7 +158,7 @@ const StakeIPadPro1292: NextPage = () => {
         <div className={styles.stakeIpadPro1292Child} />
         <section
           id="comm"
-          className="h-fit w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+          className="h-fit lg:scale-125 md:scale-125 lg:landscape:hidden w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] md:bottom-[10%] lg:bottom-[10%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
         >
           <img
             src={communityBg.src}
@@ -167,7 +167,7 @@ const StakeIPadPro1292: NextPage = () => {
           />
           <div className="mx-auto w-10/12">
             <h5
-              className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+              className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-[999]"
               style={thirdFont.style}
             >
               {t("communityhead")}
