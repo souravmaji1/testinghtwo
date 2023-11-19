@@ -177,7 +177,7 @@ const HomeIPadPro1291: NextPage = () => {
         <GenericMobileNavbar />
 
         <div
-          style={myFont.style}
+          style={thirdFont.style}
           className={`${styles.discoverTheRwfa} text-4xl`}
         >
           {" "}
@@ -190,8 +190,8 @@ const HomeIPadPro1291: NextPage = () => {
                   : localStorage.getItem("lang") == "fr" ||
                     localStorage.getItem("lang") == "ar" ||
                     localStorage.getItem("lang") == "it"
-                  ? "22px"
-                  : "24px",
+                  ? "26px"
+                  : "26px",
             }}
           >
             {t("secondhead")}{" "}

@@ -186,14 +186,14 @@ const HomepageBlack: NextPage = () => {
         <Image className={styles.homepageBlackChild7} alt="" src={Circles} />
         <div className={styles.rwfa}>RWFA</div>
 
-        <div style={fourthFont.style} className={styles.unveilingANew1}>
+        <div style={thirdFont.style} className={styles.unveilingANew1}>
           {t("firsthead")}
           {/*
 			This is how you implement the translation text : t('_key'). 
 			The key of every entry is in the translation file (firsthead, secondhead, tradingbutton ... etc)
 			*/}
         </div>
-        <div style={myFont.style} className={styles.discoverTheRwfa}>
+        <div style={thirdFont.style} className={styles.discoverTheRwfa}>
           {t("secondhead")}
         </div>
         <div className={styles.btnParent}>

@@ -458,7 +458,7 @@ const HomeIPadPro1291: NextPage = () => {
         {" "}
         {t("firsthead")}{" "}
       </div>
-      <div style={myFont.style} className={styles.discoverTheRwfa}>
+      <div style={thirdFont.style} className={styles.discoverTheRwfa}>
         {" "}
         {t("secondhead")}{" "}
       </div>
