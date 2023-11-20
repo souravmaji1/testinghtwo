@@ -287,13 +287,13 @@ const HomepageTrade: NextPage = () => {
           />
           <div>
             <h5
-              className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
+              className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:mt-16 mx-auto mt-10"
               style={thirdFont.style}
             >
               {t("communityhead")}
             </h5>
             <h5
-              className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+              className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-4/12 text-center mx-auto mt-5 mb-5"
               style={secondFont.style}
             >
               {t("communityparagraph")}

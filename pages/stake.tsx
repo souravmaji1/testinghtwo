@@ -499,18 +499,18 @@ const HomepageStake: NextPage = () => {
         <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[500px] landscape:lg:bottom-[400px] landscape:xl:bottom-[400px] z-50 opacity-100">
         <img
           src={communityBg.src}
-          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
+          className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-5/12 mx-auto aspect-square"
           alt=""
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:my-16 mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:mt-16 mx-auto mt-10"
             style={thirdFont.style}
           >
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-3/12 text-center mx-auto mt-3 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}
