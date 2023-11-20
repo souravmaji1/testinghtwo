@@ -75,12 +75,13 @@ const fourthFont = localFont({
 import { useTranslation } from "react-i18next";
 
 import { BsGithub } from "react-icons/bs";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 import communityBg from "../public/back.png";
 
 import GenericMobileNavbar from "./mobileGenericNavbar";
+import Link from "next/link";
 
 const StakeIPadPro1292: NextPage = () => {
   const [isToolTipOpen, setToolTipOpen] = useState(false);
@@ -179,10 +180,18 @@ const StakeIPadPro1292: NextPage = () => {
               {t("communityparagraph")}
             </h5>
             <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
-              <BsGithub color="#ffffff" size={35} />
-              <FaXTwitter color="#ffffff" size={35} />
+            <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+              <FaFacebook color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.instagram.com/cmax_official/">
+              <FaInstagram color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
               <TiSocialLinkedinCircular color="#ffffff" size={45} />
-              <SiNotion color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://twitter.com/CMAX_official">
+              <FaXTwitter color="#ffffff" size={30} />
+            </Link>
             </div>
           </div>
         </section>
@@ -206,43 +215,33 @@ const StakeIPadPro1292: NextPage = () => {
 
         <div className={styles.rectangleDiv} />
         <div className={styles.frameParent}>
-          <div className={styles.groupParent} onClick={openToolTip}>
+          <div className={styles.groupParent} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText'));openToolTip()}}>
             <Image className={styles.frameChild} alt="" src={One} />
             <div style={secondFont.style} className={styles.home}>
               {" "}
               {t("earningreward")}{" "}
             </div>
           </div>
-          <div className={styles.frameGroup} onClick={openToolTip1}>
+          <div className={styles.frameGroup}>
             <div className={styles.frame4}>
-              <Image className={styles.groupIcon} alt="" src={Two} />
-              <div style={secondFont.style} className={styles.loremIpsumDolor1}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum sagittis dolor mauris, at luctus turpis hendrerit
-                non. Praesent sit amet ligula id orci venenatis auctor.
-                Phasellus porttitor, metus non tincidunt dapibus, orci pede
-                pretium neque, sit amet adipiscing ipsum lectus et libero.
-                Aenean bibendum. Curabitur mattis quam id urna. Vivamus dui.
-                Donec nonummy lacinia lorem. Cras risus arcu, sodales ac,
-                ultrices ac, mollis quis, justo. Sed a libero. Quisque risus
-                erat, posuere at, tristique non,
-              </div>
+              <Image className={styles.groupIcon} alt="" src={Two} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText2'));openToolTip()}}/>
+              
             </div>
-            <div style={secondFont.style} className={styles.networkSecurity}>
+            <div style={secondFont.style} className={styles.networkSecurity} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText2'));openToolTip()}}>
               {" "}
               {t("network")}{" "}
             </div>
           </div>
-          <div className={styles.groupParent} onClick={openToolTip2}>
-            <Image className={styles.frameIcon2} alt="" src={Three} />
-            <div style={secondFont.style} className={styles.home}>
+          <div className={styles.groupParent}>
+            <Image className={styles.frameIcon2} alt="" src={Three} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText3'));openToolTip()}}/>
+            <div style={secondFont.style} className={styles.home} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText3'));openToolTip()}}>
               {" "}
               {t("token")}{" "}
             </div>
           </div>
-          <div className={styles.groupParent} onClick={openToolTip3}>
-            <Image className={styles.groupIcon1} alt="" src={Fourth} />
-            <div style={secondFont.style} className={styles.home}>
+          <div className={styles.groupParent} >
+            <Image className={styles.groupIcon1} alt="" src={Fourth} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText4'));openToolTip()}}/>
+            <div style={secondFont.style} className={styles.home} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText4'));openToolTip()}}>
               {" "}
               {t("liquidity")}{" "}
             </div>

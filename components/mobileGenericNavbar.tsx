@@ -551,12 +551,8 @@ function GenericMobileNavbar() {
             <LiaWalletSolid color="#000000" size={30} />
             <ConnectWallet
             
-              className=" bg-none p-0"
-              style={{
-                fontFamily: "__thirdFont_3ea4f2, __thirdFont_Fallback_3ea4f2",
-                background: "none",
-                padding: "0px",
-              }}
+              className=" bg-transparent p-0"
+              style={thirdFont.style}
             />
           </div>
         </div>
@@ -803,13 +799,8 @@ function GenericMobileNavbar() {
           <div className="flex flex-row items-center justify-center bg-[#ffe500] py-2 px-3 rounded-2xl">
             <LiaWalletSolid color="#000000" size={30} />
             <ConnectWallet
-              className=" bg-none p-0"
-              style={{
-                fontFamily: "__thirdFont_3ea4f2, __thirdFont_Fallback_3ea4f2",
-                background: "none",
-                padding: "0px",
-                fontSize: "14px"
-              }}
+              className=" bg-none p-0 text-2xl"
+              style={thirdFont.style}
             />
           </div>
         </div>

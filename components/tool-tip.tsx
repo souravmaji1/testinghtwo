@@ -15,7 +15,7 @@ const ToolTip:NextPage<ToolTipType> = ({ onClose }) => {
       			<h5 className='z-50 text-center text-2xl' style={{
 						fontFamily: "__secondFont_72e69f, __secondFont_Fallback_72e69f"
 					}}>{
-						t('tooltipText')
+						localStorage.getItem('tooltipText')
 					}</h5>
     		</div>);
 };

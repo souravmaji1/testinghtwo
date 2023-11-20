@@ -13,12 +13,15 @@
     "network": "Segurança de rede",
     "comingsoon": "Em breve",
     "tooltipText": "Bloquear sua criptografia para piquetagem é totalmente seguro. Além disso, o staking pode gerar recompensas interessantes",
-
+    "tooltipText2": "A descentralização e a criptografia forte protegem as transações, garantindo segurança contra acesso e manipulação não autorizados",
+    "tooltipText3": "Investir em tokens pode gerar retornos significativos, tornando-se uma oportunidade financeira gratificante.",
+    "tooltipText4": "Garantindo compra e venda fáceis, melhorando a acessibilidade e a flexibilidade para transações e negociações perfeitas.",
+    
     "earningreward": "Ganhando recompensas",
     "whitepaper": "Whitepaper",
     "downloadhead": "Baixe nosso white paper para obter insights aprofundados",
     "downloadparagraph": "Mergulhe nos detalhes abrangentes do Coliseum DApp baixando nosso white paper. Obtenha uma compreensão mais profunda dos recursos revolucionários, das funcionalidades inovadoras e da visão que impulsiona nosso projeto. Fique à frente da curva e explore o potencial que o espera. Baixe agora e embarque em uma jornada de conhecimento e inovação.",
-    "downloadbutton": "Documents",
+    "downloadbutton": "Download",
     "treasuryhead": "Ecossistema de tesouro e tokens",
     "treasuryparagraph": "Mergulhe em um tour visual dinâmico que mostra os recursos transformadores do Coliseum DApp, desde transações seguras até capacitação descentralizada.",
     "totaltrading": "Volume total de negociação",

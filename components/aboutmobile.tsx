@@ -61,7 +61,7 @@ import Copyright from "../public/Copy Right 2023 - CMax. All Rights Reserved.png
 import LanguageSelector from "./mobilelang";
 import GenericMobileNavbar from "./mobileGenericNavbar";
 import { BsGithub } from "react-icons/bs";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 import communityBg from "../public/back.png";
@@ -371,10 +371,18 @@ const ProfileIPadPro1294: NextPage = () => {
             {t("communityparagraph")}
           </h5>
           <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
+          <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+              <FaFacebook color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.instagram.com/cmax_official/">
+              <FaInstagram color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            </Link>
+            <Link href="https://twitter.com/CMAX_official">
+              <FaXTwitter color="#ffffff" size={30} />
+            </Link>
           </div>
         </section>
       <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">

@@ -53,12 +53,15 @@ const fourthFont = localFont({
 
 import { BsGithub } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 import GenericMobileNavbar from "@/components/mobileGenericNavbar";
 import communityBg from "../public/back.png";
 import { MdOutlineLocationOn } from "react-icons/md";
-import { BsChevronDown } from 'react-icons/bs'
+import { BsChevronDown } from "react-icons/bs";
+import Link from "next/link";
 
 const HomepageProfile: NextPage = () => {
   const onHomeTextClick = useCallback(() => {
@@ -119,17 +122,20 @@ const HomepageProfile: NextPage = () => {
               />
             </div>
             <div className="w-7/12 h-fit flex flex-col items-start justify-between">
-              <h5 className="text-[#FFE500] text-5xl mb-5" style={myFont.style}>
+              <h5
+                className="text-[#FFE500] text-5xl mb-5"
+                style={thirdFont.style}
+              >
                 Hi,
               </h5>
-              <h5 className="text-white text-5xl mb-3" style={myFont.style}>
+              <h5 className="text-white text-5xl mb-3" style={thirdFont.style}>
                 Test User
               </h5>
               <div className="flex flex-row items-center justify-start mb-3">
                 <MdOutlineLocationOn color="#FFE500" size={40} />
                 <h5
                   className="text-white text-3xl mb-0 ml-2"
-                  style={secondFont.style}
+                  style={thirdFont.style}
                 >
                   Test
                 </h5>
@@ -137,13 +143,13 @@ const HomepageProfile: NextPage = () => {
               <div className="flex flex-row items-center justify-start">
                 <h5
                   className="text-[#FFE500] text-2xl my-0"
-                  style={fourthFont.style}
+                  style={thirdFont.style}
                 >
                   Net Worth:
                 </h5>
                 <h5
                   className="text-white text-2xl my-0 ml-2"
-                  style={secondFont.style}
+                  style={thirdFont.style}
                 >
                   $0
                 </h5>
@@ -215,61 +221,126 @@ const HomepageProfile: NextPage = () => {
         <div className={styles.frame}>
           <Chart />
         </div>
-        <div className={`${styles.homepageProfileChild3} h-fit flex flex-col items-center justify-center px-20 py-10`}>
+        <div
+          className={`${styles.homepageProfileChild3} h-fit flex flex-col items-center justify-center px-20 py-10`}
+        >
           <div className="flex flex-row items-center justify-between w-11/12 h-fit gap-1">
             <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
               <img src={Eth.src} alt="" />
               <div>
-                <h5 style={secondFont.style} className="text-white text-xl mb-0">Ethereum</h5>
-                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
+                <h5
+                  style={secondFont.style}
+                  className="text-white text-xl mb-0"
+                >
+                  Ethereum
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">
+                  $83{" "}
+                  <span className="text-base" style={secondFont.style}>
+                    4%
+                  </span>
+                </h5>
               </div>
             </div>
             <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
               <img src={Mantle.src} alt="" />
               <div>
-                <h5 style={secondFont.style} className="text-white text-xl mb-0">Mantle</h5>
-                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
+                <h5
+                  style={secondFont.style}
+                  className="text-white text-xl mb-0"
+                >
+                  Mantle
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">
+                  $83{" "}
+                  <span className="text-base" style={secondFont.style}>
+                    4%
+                  </span>
+                </h5>
               </div>
             </div>
             <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
               <img src={Polygon.src} alt="" />
               <div>
-                <h5 style={secondFont.style} className="text-white text-xl mb-0">Polygon</h5>
-                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
+                <h5
+                  style={secondFont.style}
+                  className="text-white text-xl mb-0"
+                >
+                  Polygon
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">
+                  $83{" "}
+                  <span className="text-base" style={secondFont.style}>
+                    4%
+                  </span>
+                </h5>
               </div>
             </div>
             <div className="h-fit w-1/4 flex flex-row items-start justify-around py-3 rounded-xl border border-white">
               <img src={Bnb.src} alt="" />
               <div>
-                <h5 style={secondFont.style} className="text-white text-xl mb-0">BNB COIN</h5>
-                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$83 <span className="text-base" style={secondFont.style}>4%</span></h5>
+                <h5
+                  style={secondFont.style}
+                  className="text-white text-xl mb-0"
+                >
+                  BNB COIN
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">
+                  $83{" "}
+                  <span className="text-base" style={secondFont.style}>
+                    4%
+                  </span>
+                </h5>
               </div>
             </div>
           </div>
           <h5 style={thirdFont.style} className="text-xl text-[#FFE500] mt-10">
-            {t('more')}
+            {t("more")}
           </h5>
-          <BsChevronDown color="#FFE500" size={30} className="mb-10"></BsChevronDown>
+          <BsChevronDown
+            color="#FFE500"
+            size={30}
+            className="mb-10"
+          ></BsChevronDown>
           <div className="flex flex-row items-center justify-center w-10/12 h-fit gap-5">
             <div className="h-fit gradGrey w-1/4 flex flex-row items-start justify-between py-3 px-10 rounded-xl border border-white">
               <img src={Wallet.src} alt="" />
               <div>
-                <h5 style={secondFont.style} className="text-white text-xl mb-0">Wallet</h5>
-                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$183 <span className="text-base" style={secondFont.style}>4%</span></h5>
+                <h5
+                  style={secondFont.style}
+                  className="text-white text-xl mb-0"
+                >
+                  Wallet
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">
+                  $183{" "}
+                  <span className="text-base" style={secondFont.style}>
+                    4%
+                  </span>
+                </h5>
               </div>
             </div>
             <div className="h-fit gradGrey w-1/4 flex flex-row items-start justify-between py-3 px-10 rounded-xl border border-white">
               <img src={Pool.src} alt="" />
               <div>
-                <h5 style={secondFont.style} className="text-white text-xl mb-0">Pool Together</h5>
-                <h5 style={thirdFont.style} className="text-white text-xl mb-0">$0<span className="text-base" style={secondFont.style}>4%</span></h5>
+                <h5
+                  style={secondFont.style}
+                  className="text-white text-xl mb-0"
+                >
+                  Pool Together
+                </h5>
+                <h5 style={thirdFont.style} className="text-white text-xl mb-0">
+                  $0
+                  <span className="text-base" style={secondFont.style}>
+                    4%
+                  </span>
+                </h5>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
-      <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
+      <section className="h-fit w-screen mt-10 bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[31vh] landscape:lg:bottom-[400px] landscape:xl:bottom-[450px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
@@ -283,20 +354,28 @@ const HomepageProfile: NextPage = () => {
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-4/12 text-center mx-auto mt-3 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}
           </h5>
           <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
+            <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+              <FaFacebook color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.instagram.com/cmax_official/">
+              <FaInstagram color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            </Link>
+            <Link href="https://twitter.com/CMAX_official">
+              <FaXTwitter color="#ffffff" size={30} />
+            </Link>
           </div>
         </div>
       </section>
-      <section className="bg-[#141315] h-fit w-screen hidden md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+      <section className="bg-[#141315] h-[30vh] w-screen hidden md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
         <a href="/">
           <img
             src={Headlogo.src}

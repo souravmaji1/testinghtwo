@@ -13,11 +13,14 @@
     "treasury": "Tresoria",
     "trade": "Trade",
     "tooltipText": "Bloquear su criptografía para apostar es totalmente seguro. Además, apostar puede generar recompensas interesantes.",
-
+    "tooltipText2": "La descentralización y una criptografía sólida protegen las transacciones, garantizando la seguridad contra el acceso y la manipulación no autorizados.",
+    "tooltipText3": "Invertir en tokens puede generar retornos significativos, lo que la convierte en una oportunidad financiera gratificante.",
+    "tooltipText4": "Garantizar una compra y venta sencillas, mejorar la accesibilidad y la flexibilidad para transacciones y transacciones fluidas.",
+    
     "profile": "Perfil",
     "downloadhead": "Descarga nuestro Libro Blanco para obtener conocimientos en profundidad",
     "downloadparagraph": "Sumérgete en los detalles completos de la aplicación Coliseum descargando nuestro Libro Blanco. Obtén una comprensión más profunda de las características revolucionarias, las funcionalidades innovadoras y la visión que impulsa nuestro proyecto. Mantente a la vanguardia y explora el potencial que te espera. Descárgalo ahora y emprende un viaje de conocimiento e innovación.",
-    "downloadbutton": "Documentos",
+    "downloadbutton": "Descargar",
     "treasuryhead": "Tesorería y ecosistema de tokens",
     "treasuryparagraph": "Sumérgete en un recorrido visual dinámico que muestra las capacidades transformadoras de la aplicación Coliseum, desde transacciones seguras hasta empoderamiento descentralizado.",
     "totaltrading": "Volumen total de operaciones",

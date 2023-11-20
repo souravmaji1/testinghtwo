@@ -83,7 +83,8 @@ import GenericMobileNavbar from "./mobileGenericNavbar";
 import { BsGithub } from "react-icons/bs";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
-import { FaLinesLeaning, FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaLinesLeaning, FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 const StakeIPadPro1292: NextPage = () => {
   const [isMenuIPadPro1291Open, setMenuIPadPro1291Open] = useState(false);
@@ -187,10 +188,18 @@ const StakeIPadPro1292: NextPage = () => {
             {t("communityparagraph")}
           </h5>
           <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
+          <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+              <FaFacebook color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.instagram.com/cmax_official/">
+              <FaInstagram color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            </Link>
+            <Link href="https://twitter.com/CMAX_official">
+              <FaXTwitter color="#ffffff" size={30} />
+            </Link>
           </div>
         </section>
 
@@ -209,7 +218,7 @@ const StakeIPadPro1292: NextPage = () => {
             arrows={false}
           >
             <div className="w-full h-full flex flex-col items-center justify-start gap-10 ">
-              <div className="mb-20 w-fit mx-auto" onClick={openToolTip}>
+              <div className="mb-20 w-fit mx-auto" onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText'));openToolTip()}}>
                 <Image
                   width={90}
                   height={40}
@@ -224,7 +233,7 @@ const StakeIPadPro1292: NextPage = () => {
                   {t("earningreward")}{" "}
                 </h5>
               </div>
-              <div onClick={openToolTip}>
+              <div onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText2'));openToolTip()}}>
                 <Image
                   width={90}
                   height={30}
@@ -241,7 +250,7 @@ const StakeIPadPro1292: NextPage = () => {
               </div>
             </div>
             <div className="w-full h-full flex flex-col items-center justify-start gap-10 ">
-              <div className="mb-20 w-fit mx-auto" onClick={openToolTip}>
+              <div className="mb-20 w-fit mx-auto" onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText3'));openToolTip()}}>
                 <Image
                   width={90}
                   height={40}
@@ -253,10 +262,10 @@ const StakeIPadPro1292: NextPage = () => {
                   className="w-full text-center text-2xl"
                   style={secondFont.style}
                 >
-                  {t("earningreward")}{" "}
+                  {t("token")}{" "}
                 </h5>
               </div>
-              <div onClick={openToolTip}>
+              <div onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText4'));openToolTip()}}>
                 <Image
                   width={90}
                   height={30}
@@ -268,7 +277,7 @@ const StakeIPadPro1292: NextPage = () => {
                   className="w-full text-center text-2xl"
                   style={secondFont.style}
                 >
-                  {t("network")}{" "}
+                  {t("liquidity")}{" "}
                 </h5>
               </div>
             </div>

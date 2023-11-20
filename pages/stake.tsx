@@ -55,7 +55,7 @@ import Languageswitch from "../components/desktop";
 import communityBg from "../public/back.png";
 import GenericMobileNavbar from "@/components/mobileGenericNavbar";
 import { BsGithub } from "react-icons/bs";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { SiNotion } from "react-icons/si";
 
@@ -72,6 +72,7 @@ const fourthFont = localFont({
   src: "../public/font/MonumentExtended-FreeForPersonalUse/NeueMontreal-Regular.otf",
 });
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 const HomepageStake: NextPage = () => {
   const [isToolTipOpen, setToolTipOpen] = useState(false);
@@ -188,13 +189,13 @@ const HomepageStake: NextPage = () => {
           <div className={styles.homepageStakeChild4} />
 
           <div className={styles.frameParent}>
-            <div className={styles.groupParent} onClick={openToolTip}>
+            <div className={styles.groupParent} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText'));openToolTip()}}>
               <Image className={styles.frameChild} alt="" src={One} />
               <div style={secondFont.style} className={styles.search}>
-                {t("earningrewards")}{" "}
+                {t("earningreward")}
               </div>
             </div>
-            <div className={styles.frameGroup} onClick={openToolTip1}>
+            <div className={styles.frameGroup} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText2'));openToolTip()}}>
               <div className={styles.frame5}>
                 <Image className={styles.groupIcon1} alt="" src={Two} />
                 <div
@@ -216,13 +217,13 @@ const HomepageStake: NextPage = () => {
                 {t("network")}{" "}
               </div>
             </div>
-            <div className={styles.frameDiv} onClick={openToolTip2}>
+            <div className={styles.frameDiv} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText3'));openToolTip()}}>
               <Image className={styles.frameIcon2} alt="" src={Three} />
               <div style={secondFont.style} className={styles.search}>
                 {t("token")}{" "}
               </div>
             </div>
-            <div className={styles.groupGroup}>
+            <div className={styles.groupGroup} onClick={()=>{localStorage.setItem('tooltipText', t('tooltipText4'));openToolTip()}}>
               <Image className={styles.groupIcon2} alt="" src={Fourth} />
               <div style={secondFont.style} className={styles.search}>
                 {t("liquidity")}{" "}
@@ -515,10 +516,18 @@ const HomepageStake: NextPage = () => {
             {t("communityparagraph")}
           </h5>
           <div className="flex flex-row items-center justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
-            <BsGithub color="#ffffff" size={35} />
-            <FaXTwitter color="#ffffff" size={35} />
-            <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            <SiNotion color="#ffffff" size={35} />
+          <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+              <FaFacebook color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.instagram.com/cmax_official/">
+              <FaInstagram color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            </Link>
+            <Link href="https://twitter.com/CMAX_official">
+              <FaXTwitter color="#ffffff" size={30} />
+            </Link>
           </div>
         </div>
       </section>
