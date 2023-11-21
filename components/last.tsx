@@ -88,26 +88,26 @@ const AboutIPadPro1293: NextPage = () => {
   return (
     <div className="w-screen gradBlueBG">
       <section className="w-screen h-fit absolute top-0 pt-40 gradBlueBG">
-          <section className="w-screen h-fit px-3">
-            <h5 className="text-3xl mb-3" style={myFont.style}>
+          <section className="w-screen h-fit">
+            <h5 className="text-3xl mb-3 px-3" style={myFont.style}>
               {t("about")}
             </h5>
             <h5
-              className="text-sm text-white mb-5 leading-relaxed"
+              className="text-sm px-3 text-white mb-5 leading-relaxed"
               style={secondFont.style}
             >
               {t("aboutparagraph")}
             </h5>
-            <h5 className="text-3xl mb-3" style={myFont.style}>
+            <h5 className="text-3xl px-3 mb-3" style={myFont.style}>
               {t("roadmap")}
             </h5>
             <h5
-              className="text-sm text-white leading-relaxed"
+              className="text-sm px-3 text-white leading-relaxed"
               style={secondFont.style}
             >
               {t("roadmapparagraph")}
             </h5>
-            <div className="flex flex-col items-start justify-start mt-5">
+            <div className="flex flex-col items-start justify-start mt-5 px-3">
               <div className="w-full h-fit p-4 mb-2 aboutGlassBox">
                 <h5
                   className="text-[#A0FA09] text-xl mb-3"
@@ -189,23 +189,23 @@ const AboutIPadPro1293: NextPage = () => {
                 </p>
               </div>
             </div>
-            <h5 className="text-3xl mb-3 mt-5" style={myFont.style}>
+            <h5 className="text-3xl px-3 mb-3 mt-5" style={myFont.style}>
               {t("audit")}
             </h5>
             <h5
-              className="text-sm text-white mb-20  leading-relaxed"
+              className="text-sm px-3 text-white mb-20  leading-relaxed"
               style={secondFont.style}
             >
               {t("auditparagraph")}
             </h5>
             <div
-              className="h-fit w-full pt-6 bg-center bg-cover bg-no-repeat z-50"
+              className="h-fit w-full pt-10 bg-center bg-cover bg-no-repeat z-50"
               style={{
                 backgroundImage: `url('${communityBg.src}')`,
               }}
             >
               <h5
-                className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10"
+                className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto mt-20 mb-10"
                 style={thirdFont.style}
               >
                 {t("communityhead")}

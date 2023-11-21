@@ -170,13 +170,13 @@ const StakeIPadPro1292: NextPage = () => {
         </div>
 
         <section
-          className="h-fit w-screen bg-center pt-10 bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
+          className="h-fit w-screen bg-center pt-10 bg-cover bg-no-repeat mt-0 absolute bottom-[550px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}
         >
           <h5
-            className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto mt-20 mb-10"
             style={thirdFont.style}
           >
             {t("communityhead")}

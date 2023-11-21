@@ -117,15 +117,15 @@ const TradeIPadPro1292: NextPage = () => {
         </div>
 
         <section
-          className="h-fit w-screen bg-center bg-cover pt-6 bg-no-repeat mt-0 absolute bottom-[700px] z-50"
+          className="h-fit w-screen bg-center bg-cover pt-6 bg-no-repeat mt-0 absolute bottom-[600px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}
         >
-          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto my-10" style={thirdFont.style}>
+          <h5 className="block montrealMedium text-[#FFE925] text-center text-3xl mx-auto mt-24 mb-10" style={thirdFont.style}>
             {t("communityhead")}
           </h5>
-          <h5 className="block text-white text-xl w-10/12 montreal text-center mx-auto mt-3 mb-5" style={secondFont.style}>
+          <h5 className="block text-white text-xl w-9/12 montreal text-center mx-auto mt-3 mb-5" style={secondFont.style}>
             {t("communityparagraph")}
           </h5>
           <div className="flex md:hidden flex-row items-center justify-around my-10 px-10">

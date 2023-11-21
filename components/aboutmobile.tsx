@@ -353,13 +353,13 @@ const ProfileIPadPro1294: NextPage = () => {
       )}
       <GenericMobileNavbar />
       <section
-          className="h-fit w-screen pt-12 bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[600px] z-50"
+          className="h-fit w-screen pt-12 bg-center bg-cover bg-no-repeat mt-0 absolute bottom-[570px] z-50"
           style={{
             backgroundImage: `url('${communityBg.src}')`,
           }}
         >
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl mx-auto mt-20 mb-10"
             style={thirdFont.style}
           >
             {t("communityhead")}

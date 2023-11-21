@@ -450,11 +450,11 @@ const HomeIPadPro1291: NextPage = () => {
           <MenuIPadPro1291 />
         </PortalPopup>
       )}
-      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
+      <section className="bg-[#141315] h-fit w-screen flex flex-col items-center justify-start absolute bottom-0 pb-24">
         <a href="/">
           <img
             src={Headlogo.src}
-            className=" aspect-square w-20 md:w-36 my-10 md:my-16"
+            className=" aspect-square w-20 md:w-36 my-4 md:my-16"
             alt=""
           />
         </a>
