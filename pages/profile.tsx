@@ -394,7 +394,7 @@ const HomepageProfile: NextPage = () => {
             <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
           </a>
           <a href="/about">
-            <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+            <h5 className="text-white montreal text-2xl md:text-xl">{t('about')}</h5>
           </a>
           <a href="/profile">
             <h5 className="text-white montreal text-2xl md:text-xl">Profile</h5>

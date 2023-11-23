@@ -265,7 +265,7 @@ const AboutIPadPro1293: NextPage = () => {
             </div>
           </div>
         </div>
-        <section className="h-fit relative w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat z-50 mt-6 mb-6 opacity-100">
+        <section className="h-fit relative w-screen mx-auto bg-center bg-cover lg:landscape:hidden flex flex-col items-center justify-center bg-no-repeat z-50 mt-6 mb-6 opacity-100">
           <img
             src={communityBg.src}
             className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"

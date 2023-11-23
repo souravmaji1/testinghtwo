@@ -302,6 +302,12 @@
     width: 775px;
     height: 1069px;
 }
+.groupItem2 {
+    position: absolute;
+    top: 1270px;
+    left: -0.5px;
+    border-radius: 220px;
+}
 .groupItemMed {
     position: absolute;
     top: 1000px;

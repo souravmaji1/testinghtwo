@@ -496,7 +496,7 @@ const HomepageStake: NextPage = () => {
             </div>
           </div>
         </div>
-        <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[500px] landscape:lg:bottom-[400px] landscape:xl:bottom-[400px] z-50 opacity-100">
+        <section className="h-fit w-screen mt bg-center bg-cover hidden landscape:lg:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[500px] landscape:lg:bottom-[7%] landscape:xl:bottom-[400px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-5/12 mx-auto aspect-square"
@@ -504,7 +504,7 @@ const HomepageStake: NextPage = () => {
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:mt-16 mx-auto mt-10"
+            className="block text-[#FFE925] text-center text-3xl landscape:lg:text-3xl landscape:lg:mt-36 mx-auto mt-10"
             style={thirdFont.style}
           >
             {t("communityhead")}
@@ -550,7 +550,7 @@ const HomepageStake: NextPage = () => {
             <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
           </a>
           <a href="/about">
-            <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+            <h5 className="text-white montreal text-2xl md:text-xl">{t('about')}</h5>
           </a>
           <a href="/profile">
             <h5 className="text-white montreal text-2xl md:text-xl">Profile</h5>

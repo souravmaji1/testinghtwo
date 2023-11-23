@@ -393,7 +393,7 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section id="commu" className="h-fit w-screen mt bg-center bg-cover hidden  xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[500px] landscape:xl:bottom-[500px] z-50 opacity-100">
+      <section id="commu" className="h-fit w-screen mt bg-center bg-cover hidden lg:landscape:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[9%] landscape:xl:bottom-[500px] z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
@@ -401,13 +401,13 @@ const HomepageBlack: NextPage = () => {
         />
         <div>
           <h5
-            className="block z-50 text-[#FFE925] text-center text-3xl landscape:lg:text-4xl landscape:lg:mt-16 mx-auto mt-10"
+            className="block z-50 text-[#FFE925] text-center text-3xl landscape:lg:text-3xl landscape:lg:mt-16 mx-auto mt-10"
             style={thirdFont.style}
           >
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white leading-relaxed landscape:lg:text-2xl text-xl w-4/12 text-center mx-auto mt-5 mb-5"
+            className="block text-white leading-relaxed landscape:lg:text-xl text-xl w-4/12 text-center mx-auto mt-5 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}

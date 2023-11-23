@@ -7,6 +7,7 @@ import Wallet from "../public/mingcute_wallet-4-fill.svg";
 import User from "../public/Ellipse 59.svg";
 import Circles from "../public/Group 6.png";
 import Snake from "../public/Vector 19.png";
+import Snake2 from "../public/Vector 1900.png";
 import Image from "next/image";
 import Sidecircle from "../public/Group 8.png";
 import Head from "next/head";
@@ -140,6 +141,7 @@ const HomepageAbout: NextPage = () => {
 
         <div className={styles.vectorParent} style={{ top: "1100px" }}>
           <Image className={styles.groupItem} alt="" src={Snake} />
+          <Image className={styles.groupItem2} alt="" src={Snake2} />
 
           <div className={styles.frameDiv} />
           <div className={styles.groupChild3} />
@@ -280,7 +282,7 @@ const HomepageAbout: NextPage = () => {
             <h5 className="text-white montreal text-2xl md:text-xl">Stake</h5>
           </a>
           <a href="/about">
-            <h5 className="text-white montreal text-2xl md:text-xl">About</h5>
+            <h5 className="text-white montreal text-2xl md:text-xl">{t('about')}</h5>
           </a>
           <a href="/profile">
             <h5 className="text-white montreal text-2xl md:text-xl">Profile</h5>

@@ -258,7 +258,7 @@ const TradeIPadPro1292: NextPage = () => {
       </div>
       <section
           id="comm"
-          className="h-fit lg:scale-125 md:scale-125 lg:landscape:hidden w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] md:bottom-[19%] lg:bottom-[17%] landscape:bottom-[17%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+          className="h-fit lg:scale-125 md:scale-125 w-screen mx-auto bg-center bg-cover lg:landscape:flex xl:flex flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] md:bottom-[19%] lg:bottom-[17%] landscape:bottom-[17%] landscape:lg:bottom-[16%] landscape:lg:absolute z-50 opacity-100"
         >
           <img
             src={communityBg.src}

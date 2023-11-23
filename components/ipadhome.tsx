@@ -42,7 +42,8 @@ import Mobile from "../components/mobile";
 import Ipad from "../components/ipadhome";
 import Btx from "../public/btx.png";
 import { graphql } from "msw";
-import { Download, Link } from "@mui/icons-material";
+import { Download } from "@mui/icons-material";
+import Link from "next/link";
 import Downloadd from "../public/download.png";
 
 const myFont = localFont({
@@ -133,7 +134,7 @@ const HomeIPadPro1291: NextPage = () => {
   };
 
   return (
-    <div className={`${styles.homeIpadPro1291} md:h-[4400px] lg:h-[4950px] landscape:lg:h-[4200px]`}>
+    <div className={`${styles.homeIpadPro1291} md:h-[4500px] lg:h-[5050px] landscape:lg:h-[4200px]`}>
       <GenericMobileNavbar />
       <div className={styles.homeIpadPro1291Child} />
       <div className="w-screen h-fit absolute top-[2200px] flex flex-col items-center justify-start pt-10">
@@ -463,7 +464,7 @@ const HomeIPadPro1291: NextPage = () => {
         {t("secondhead")}{" "}
       </div>
 
-      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[5.5%] md:bottom-[6%] lg:bottom-[5.5%] landscape:bottom-[7%] landscape:lg:bottom-[350px] landscape:lg:absolute z-50 opacity-100">
+      <section id="comm" className="h-fit lg:landscape:hidden w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[5.5%] md:bottom-[6.5%] lg:bottom-[6%] landscape:bottom-[7%] landscape:lg:bottom-[350px] landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square z-10"
@@ -471,7 +472,7 @@ const HomeIPadPro1291: NextPage = () => {
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto mt-44 relative z-50"
+            className="block text-[#FFE925] text-center text-3xl lg:landscape:bg-red-400 mx-auto mt-44 md:mt-64 lg:mt-44  relative z-50"
             style={thirdFont.style}
           >
             {t("communityhead")}
