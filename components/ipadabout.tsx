@@ -268,12 +268,12 @@ const AboutIPadPro1293: NextPage = () => {
         <section className="h-fit relative w-screen mx-auto bg-center bg-cover lg:landscape:hidden flex flex-col items-center justify-center bg-no-repeat z-50 mt-6 mb-6 opacity-100">
           <img
             src={communityBg.src}
-            className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+            className=" absolute mt-[10%] w-6/12 md:w-7/12 lg:w-6/12 mx-auto aspect-square"
             alt=""
           />
           <div className="mx-auto w-10/12">
             <h5
-              className="block text-[#FFE925] text-center text-3xl mx-auto mt-44 relative z-50"
+              className="block text-[#FFE925] text-center text-3xl mx-auto mt-44 md:mt-64 lg:mt-44 relative z-50"
               style={thirdFont.style}
             >
               {t("communityhead")}
@@ -284,19 +284,19 @@ const AboutIPadPro1293: NextPage = () => {
             >
               {t("communityparagraph")}
             </h5>
-            <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
-            <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+            <div className="flex flex-row relative z-[9999]  items-center justify-center gap-5 my-10 px-10">
+            <a href="https://www.facebook.com/profile.php?id=61551673333367">
               <FaFacebook color="#ffffff" size={35} />
-            </Link>
-            <Link href="https://www.instagram.com/cmax_official/">
+            </a>
+            <a href="https://www.instagram.com/cmax_official/">
               <FaInstagram color="#ffffff" size={35} />
-            </Link>
-            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
+            </a>
+            <a href="https://www.linkedin.com/company/coliseum-cmax/">
               <TiSocialLinkedinCircular color="#ffffff" size={45} />
-            </Link>
-            <Link href="https://twitter.com/CMAX_official">
+            </a>
+            <a href="https://twitter.com/CMAX_official">
               <FaXTwitter color="#ffffff" size={30} />
-            </Link>
+            </a>
             </div>
           </div>
         </section>
