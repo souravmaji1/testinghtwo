@@ -278,7 +278,7 @@ const ProfileIPadPro1294: NextPage = () => {
       </div>
       <section
         id="comm"
-        className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] landscape:bottom-[12%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+        className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[14.5%] landscape:bottom-[12%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
       >
         <img
           src={communityBg.src}
@@ -287,13 +287,13 @@ const ProfileIPadPro1294: NextPage = () => {
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10"
+            className="block text-[#FFE925] text-center text-3xl mx-auto mt-36"
             style={thirdFont.style}
           >
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            className="block text-white text-xl w-4/12 text-center mx-auto mt-3 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}

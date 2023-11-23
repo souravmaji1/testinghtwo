@@ -24,7 +24,8 @@
 .tradeIpadPro1292Item {
     position: absolute;
     bottom: 103px;
-    left: 126px;
+    margin-left: auto;
+    margin-right: auto;
     width: 834px;
     height: 834px;
     object-fit: cover;
@@ -66,9 +67,12 @@
 .joinOurCommunityParent {
     position: absolute;
     bottom: 462px;
-    left: 84px;
-    width: 917px;
-    height: 252px;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 36px;
     color: #ffe500;
@@ -836,27 +840,9 @@
         height: 249px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: -28px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
-    }
+    
+    
 
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: 21px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-
-    }
 
     .parent4 {
         position: absolute;
@@ -1009,31 +995,9 @@
         height: 249px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: 0px;
-        width: 100vw;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+   
 
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: 21px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-
-    }
+    
 
     .parent4 {
         position: absolute;
@@ -1199,27 +1163,9 @@
         height: 249px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: 15px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
-    }
+   
 
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: 59px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-
-    }
+   
 
     .parent4 {
         position: absolute;
@@ -1411,26 +1357,9 @@
         width: 555px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: -155px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
-    }
+    
 
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: -3px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+   
 
     .parent4 {
         display: none;
@@ -1620,27 +1549,9 @@
         width: 555px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: -147px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
+    
 
-    }
-
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: -3px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+   
 
     .parent4 {
         display: none;
@@ -1833,27 +1744,9 @@
         width: 555px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: -133px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
+    
 
-    }
-
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: -3px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+   
 
     .parent4 {
         display: none;
@@ -2051,27 +1944,9 @@
         width: 555px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: -106px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
+    
 
-    }
-
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: -3px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+    
 
     .parent4 {
         display: none;
@@ -2270,27 +2145,9 @@
         width: 555px;
     }
 
-    .joinOurCommunityParent {
-        position: absolute;
-        bottom: 462px;
-        left: -81px;
-        width: 917px;
-        height: 252px;
-        text-align: center;
-        font-size: 36px;
-        color: #ffe500;
+    
 
-    }
-
-    .tradeIpadPro1292Item {
-        position: absolute;
-        bottom: 103px;
-        left: -3px;
-        width: 834px;
-        height: 834px;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
+    
 
     .parent4 {
         display: none;

@@ -463,7 +463,7 @@ const HomeIPadPro1291: NextPage = () => {
         {t("secondhead")}{" "}
       </div>
 
-      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[6.5%] landscape:bottom-[7%] landscape:lg:bottom-[350px] landscape:lg:absolute z-50 opacity-100">
+      <section id="comm" className="h-fit w-screen bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[5.5%] md:bottom-[6%] lg:bottom-[5.5%] landscape:bottom-[7%] landscape:lg:bottom-[350px] landscape:lg:absolute z-50 opacity-100">
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 mx-auto aspect-square z-10"
@@ -471,13 +471,13 @@ const HomeIPadPro1291: NextPage = () => {
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-50"
+            className="block text-[#FFE925] text-center text-3xl mx-auto mt-44 relative z-50"
             style={thirdFont.style}
           >
             {t("communityhead")}
           </h5>
           <h5
-            className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+            className="block text-white text-xl w-4/12 text-center mx-auto mt-3 mb-5"
             style={secondFont.style}
           >
             {t("communityparagraph")}

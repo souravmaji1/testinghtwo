@@ -26,6 +26,7 @@ import Github from "../public/mdi_github.svg";
 import Twitter from "../public/mdi_twitter.svg";
 import Linkedin from "../public/entypo-social_linkedin-with-circle.svg";
 import Notion from "../public/mingcute_notion-fill.svg";
+import communityBg from "../public/back.png";
 import Sliders from "../components/slider";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -67,6 +68,8 @@ import { useTranslation } from "react-i18next";
 
 import Joins from "../public/jocs.png";
 import Homer from "../public/hsss.png";
+import { FaFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 const TradeIPadPro1292: NextPage = () => {
   const onHomeTextClick = useCallback(() => {
@@ -116,21 +119,8 @@ const TradeIPadPro1292: NextPage = () => {
 		<GenericMobileNavbar />
       <Image className={styles.circleBgIcon} alt="" src={Circles} />
       <div className={styles.tradeIpadPro1292Child} />
-      <img
-        className={styles.tradeIpadPro1292Item}
-        alt=""
-        src="Group 1000000920.png"
-      />
-      <div className={`${styles.joinOurCommunityParent} mx-auto`}>
-        <div style={thirdFont.style} className={`${styles.joinOurCommunity1} mx-auto w-full`}>
-          <Image style={{ margin: "auto" }} src={Joins} alt="" />
-        </div>
-        <div style={secondFont.style} className={`${styles.diveIntoA1} mx-auto w-10/12`}>
-          {" "}
-          {t("communityparagraph")}{" "}
-        </div>
-        <img className={styles.groupChild} alt="" src="Group 2.png" />
-      </div>
+      
+      
       
 
       
@@ -266,6 +256,44 @@ const TradeIPadPro1292: NextPage = () => {
       <div style={thirdFont.style} className={styles.trendingProducts}>
         <Image src={Trending} alt="" />
       </div>
+      <section
+          id="comm"
+          className="h-fit lg:scale-125 md:scale-125 lg:landscape:hidden w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[12%] md:bottom-[19%] lg:bottom-[17%] landscape:bottom-[17%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+        >
+          <img
+            src={communityBg.src}
+            className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
+            alt=""
+          />
+          <div className="mx-auto w-10/12">
+            <h5
+              className="block text-[#FFE925] text-center text-3xl mx-auto mt-40 md:mt-60 md:w-4/12 lg:w-full lg:mt-52 relative z-[999]"
+              style={thirdFont.style}
+            >
+              {t("communityhead")}
+            </h5>
+            <h5
+              className="block text-white text-xl w-5/12 text-center mx-auto mt-3 mb-5"
+              style={secondFont.style}
+            >
+              {t("communityparagraph")}
+            </h5>
+            <div className="flex flex-row items-center justify-center gap-5 my-10 px-10">
+            <Link href="https://www.facebook.com/profile.php?id=61551673333367">
+              <FaFacebook color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.instagram.com/cmax_official/">
+              <FaInstagram color="#ffffff" size={35} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/coliseum-cmax/">
+              <TiSocialLinkedinCircular color="#ffffff" size={45} />
+            </Link>
+            <Link href="https://twitter.com/CMAX_official">
+              <FaXTwitter color="#ffffff" size={30} />
+            </Link>
+            </div>
+          </div>
+        </section>
       <section className="bg-[#141315] hidden h-fit w-screen md:flex flex-col items-center justify-start absolute bottom-0 pt-10 pb-24">
           <a href="/">
             <img

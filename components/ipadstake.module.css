@@ -315,9 +315,8 @@
 .stakingBenefits {
     position: absolute;
     top: 257px;
-    left: calc(50% - 437px);
     font-size: 50px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -982,14 +981,14 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     width: 900px;
-    left: 0;
+    
     }
     .stakeIpadPro1292 {
         position: relative;
@@ -1287,7 +1286,7 @@
     -webkit-text-fill-color: transparent;
     display: inline-block;
     width: 900px;
-    left: 0;
+    left: 3%;
     }
     .stakeIpadPro1292 {
         position: relative;
@@ -1604,14 +1603,13 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     width: 900px;
-    left: 0;
     }
     .stakeIpadPro1292 {
         position: relative;
@@ -1964,14 +1962,13 @@
     top: 257px;
     padding: 0 0 0 10px;
     font-size: 37px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
     width: 900px;
-    left: 0;
     }
     .stakeIpadPro1292 {
         position: relative;
@@ -2331,7 +2328,7 @@
     -webkit-text-fill-color: transparent;
     display: inline-block;
     width: 900px;
-    left: 0;
+    left: 3%;
     }
     .stakeIpadPro1292 {
         position: relative;
@@ -2963,9 +2960,8 @@
     .stakingBenefits{
         position: absolute;
     top: 257px;
-    left: calc(58% - 437px);
     font-size: 50px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3204,9 +3200,8 @@
     .stakingBenefits{
         position: absolute;
     top: 257px;
-    left: calc(58% - 437px);
     font-size: 50px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3454,9 +3449,8 @@
     .stakingBenefits{
         position: absolute;
     top: 257px;
-    left: calc(58% - 437px);
     font-size: 50px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;
@@ -3708,9 +3702,8 @@
     .stakingBenefits{
         position: absolute;
     top: 257px;
-    left: calc(58% - 437px);
     font-size: 50px;
-     
+    left: 3%;
     font-family: 'Monument Extended';
     background: linear-gradient(180deg, #ffe500, #fff492);
     -webkit-background-clip: text;

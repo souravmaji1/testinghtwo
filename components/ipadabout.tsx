@@ -265,7 +265,7 @@ const AboutIPadPro1293: NextPage = () => {
             </div>
           </div>
         </div>
-        <section className="h-fit relative w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat z-50 mt-20 mb-6 opacity-100">
+        <section className="h-fit relative w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat z-50 mt-6 mb-6 opacity-100">
           <img
             src={communityBg.src}
             className=" absolute mt-[10%] w-6/12 mx-auto aspect-square"
@@ -273,13 +273,13 @@ const AboutIPadPro1293: NextPage = () => {
           />
           <div className="mx-auto w-10/12">
             <h5
-              className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-50"
+              className="block text-[#FFE925] text-center text-3xl mx-auto mt-44 relative z-50"
               style={thirdFont.style}
             >
               {t("communityhead")}
             </h5>
             <h5
-              className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+              className="block text-white text-xl w-5/12 text-center mx-auto mt-3 mb-5"
               style={secondFont.style}
             >
               {t("communityparagraph")}

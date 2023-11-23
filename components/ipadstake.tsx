@@ -159,7 +159,7 @@ const StakeIPadPro1292: NextPage = () => {
         <div className={styles.stakeIpadPro1292Child} />
         <section
           id="comm"
-          className="h-fit lg:scale-125 md:scale-125 lg:landscape:hidden w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] md:bottom-[10%] lg:bottom-[10%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
+          className="h-fit lg:scale-125 md:scale-125 lg:landscape:hidden w-screen mx-auto bg-center bg-cover flex flex-col items-center justify-center bg-no-repeat absolute bottom-[9%] md:bottom-[9%] lg:bottom-[9%] landscape:bottom-[10%] landscape:lg:bottom-0 landscape:lg:absolute z-50 opacity-100"
         >
           <img
             src={communityBg.src}
@@ -168,13 +168,13 @@ const StakeIPadPro1292: NextPage = () => {
           />
           <div className="mx-auto w-10/12">
             <h5
-              className="block text-[#FFE925] text-center text-3xl mx-auto my-10 relative z-[999]"
+              className="block text-[#FFE925] text-center text-3xl mx-auto mt-40 md:mt-56 md:w-4/12 lg:w-full lg:mt-40 relative z-[999]"
               style={thirdFont.style}
             >
               {t("communityhead")}
             </h5>
             <h5
-              className="block text-white text-xl w-8/12 text-center mx-auto mt-3 mb-5"
+              className="block text-white text-xl w-5/12 text-center mx-auto mt-3 mb-5"
               style={secondFont.style}
             >
               {t("communityparagraph")}
@@ -205,8 +205,8 @@ const StakeIPadPro1292: NextPage = () => {
           <Cmax />
         </div>
 
-        <div style={myFont.style} className={styles.stakingBenefits}>
-          <Image src={StakingBene} alt="" />
+        <div style={thirdFont.style} className={styles.stakingBenefits}>
+        <h5 className="text-6xl text-[#FFE500]">Staking Benefits</h5>
         </div>
         <div style={secondFont.style} className={styles.stakingInBlockchain1}>
           {" "}
