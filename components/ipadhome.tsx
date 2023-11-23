@@ -472,7 +472,7 @@ const HomeIPadPro1291: NextPage = () => {
         />
         <div>
           <h5
-            className="block text-[#FFE925] text-center text-3xl lg:landscape:bg-red-400 mx-auto mt-44 md:mt-64 lg:mt-44  relative z-50"
+            className="block text-[#FFE925] text-center text-3xl lg:landscape:bg-red-400 mx-auto mt-52 md:mt-64 lg:mt-52  relative z-50"
             style={thirdFont.style}
           >
             {t("communityhead")}
