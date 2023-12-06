@@ -208,16 +208,28 @@ const HomeIPadPro1291: NextPage = () => {
               </a>
             </div>
           </div>
-          <div className={styles.carbonplayFilledParent}>
+          <Link
+          href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+          target="_blank"
+          >
+            <div className={styles.carbonplayFilledParent}>
             <Image
               className={styles.carbonplayFilledIcon1}
               alt=""
               src={Video}
             />
-            <div style={fourthFont.style} className={styles.watchTutorial}>
+            <Link
+            href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+            target="_blank"
+            >
+              <div style={fourthFont.style} className={styles.watchTutorial}>
               <h5 className="text-white text-lg mb-0">{t("watch")}</h5>
             </div>
+            </Link>
+            
           </div>
+          </Link>
+          
         </div>
 
         <div className={styles.homeIpadPro1291Child1} />

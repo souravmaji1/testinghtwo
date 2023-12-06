@@ -175,9 +175,9 @@ const HomepageBlack: NextPage = () => {
 
       <div className={`${styles.homepageBlack} h-[4730px]`}>
         <GenericMobileNavbar />
-        
+
         <div className={styles.homepageBlackInner}></div>
-       
+
         <div className={styles.homepageBlackChild1} />
         <div className={styles.homepageBlackChild2} />
         <Image className={styles.homepageBlackChild3} alt="" src={Circ} />
@@ -210,16 +210,33 @@ const HomepageBlack: NextPage = () => {
               </a>
             </div>
           </div>
-          <div className={styles.carbonplayFilledParent}>
+          <Link
+          href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+          target="_blank"
+          >
+            <div className={styles.carbonplayFilledParent}>
             <Image
               className={styles.carbonplayFilledIcon1}
               alt=""
               src={Video}
             />
-            <div style={fourthFont.style} className={styles.watchTutorial}>
-              <h5 className="text-white text-lg mb-0">{t("watch")}</h5>
-            </div>
+            <Link
+              href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+              target="_blank"
+            >
+              <div style={fourthFont.style} className={styles.watchTutorial}>
+                <Link
+                  href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+                  target="_blank"
+                >
+                  <h5 className="text-white text-lg mb-0 z-50 cursor-pointer">{t("watch")}</h5>
+                </Link>
+                
+              </div>
+            </Link>
           </div>
+          </Link>
+          
         </div>
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
@@ -291,7 +308,6 @@ const HomepageBlack: NextPage = () => {
             }}
           >
             <span style={secondFont.style}>{t("discoverparagraph")}</span>
-            
           </h5>
           <div className="w-full h-fit grid grid-cols-3 grid-rows-2 gap-3">
             {discoverItem.map((item, index) => {
@@ -393,7 +409,10 @@ const HomepageBlack: NextPage = () => {
         </div>
         <div className={styles.div1}>=</div>
       </div>
-      <section id="commu" className="h-fit w-screen mt bg-center bg-cover hidden lg:landscape:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[9%] landscape:xl:bottom-[500px] z-50 opacity-100">
+      <section
+        id="commu"
+        className="h-fit w-screen mt bg-center bg-cover hidden lg:landscape:flex xl:flex flex-col items-center justify-center bg-no-repeat absolute bottom-[600px] md:bottom-[400px] landscape:lg:bottom-[9%] landscape:xl:bottom-[500px] z-50 opacity-100"
+      >
         <img
           src={communityBg.src}
           className=" absolute mt-[10%] w-6/12 landscape:lg:w-8/12 landscape:xl:w-6/12 mx-auto aspect-square"
@@ -413,7 +432,7 @@ const HomepageBlack: NextPage = () => {
             {t("communityparagraph")}
           </h5>
           <div className="flex flex-row items-center relative z-[9999]  justify-center gap-5 my-10 landscape:lg:mt-16 px-10">
-          <a href="https://www.facebook.com/profile.php?id=61551673333367">
+            <a href="https://www.facebook.com/profile.php?id=61551673333367">
               <FaFacebook color="#ffffff" size={35} />
             </a>
             <a href="https://www.instagram.com/cmax_official/">
