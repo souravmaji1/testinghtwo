@@ -211,32 +211,33 @@ const HomepageBlack: NextPage = () => {
             </div>
           </div>
           <Link
-          href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
-          target="_blank"
+            href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+            target="_blank"
+            className=" bg-gradient-to-br from-violet-900 to-[#2D2833] px-2 py-[2%] rounded-xl w-fit h-fit cursor-pointer"
           >
             <div className={styles.carbonplayFilledParent}>
-            <Image
-              className={styles.carbonplayFilledIcon1}
-              alt=""
-              src={Video}
-            />
-            <Link
-              href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
-              target="_blank"
-            >
-              <div style={fourthFont.style} className={styles.watchTutorial}>
-                <Link
-                  href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
-                  target="_blank"
-                >
-                  <h5 className="text-white text-lg mb-0 z-50 cursor-pointer">{t("watch")}</h5>
-                </Link>
-                
-              </div>
-            </Link>
-          </div>
+              <Image
+                className={styles.carbonplayFilledIcon1}
+                alt=""
+                src={Video}
+              />
+              <Link
+                href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+                target="_blank"
+              >
+                <div style={fourthFont.style} className={styles.watchTutorial}>
+                  <Link
+                    href="https://www.dropbox.com/scl/fi/m9f30jfzlspuduiqxrpr5/VIDEO-2023-11-27-16-49-32.mp4?rlkey=l9ioyqh06f7k3plqvifhqgoo0&dl=0"
+                    target="_blank"
+                  >
+                    <h5 className="text-white text-lg mb-0 cursor-pointer">
+                      {t("watch")}
+                    </h5>
+                  </Link>
+                </div>
+              </Link>
+            </div>
           </Link>
-          
         </div>
         <div className={styles.rectangleDiv} />
         <div className={styles.text3}>{` `}</div>
